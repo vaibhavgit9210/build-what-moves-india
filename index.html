@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avsar — every Indian exam, scholarship & job door in one list</title>
+<meta name="description" content="Find every exam, scholarship, government job, private route and study-abroad door you are eligible for. Honest filters: age, education, fee, timing. No login, no ads.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2410c'/%3E%3Cpath d='M16 6l3.2 6.9 7.3.9-5.4 5 1.4 7.2L16 22.4 9.5 26l1.4-7.2-5.4-5 7.3-.9z' fill='%23fff7ed'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#faf7f1; --panel:#ffffff; --ink:#221f1a; --muted:#6b6459; --line:#e6dfd2;
+  --accent:#b3450e; --accent-ink:#fff;
+  --chipbg:#f3eee3; --warn:#9a3412;
+  --c-college:#2456b8; --c-gov-job:#0f766e; --c-scholarship:#815003;
+  --c-abroad:#be2f6c; --c-private-job:#14652c; --c-resource:#57606a;
+  --shadow:0 1px 2px rgba(35,25,10,.06),0 4px 16px rgba(35,25,10,.05);
+  color-scheme: light;
+}
+html.dark{
+  --bg:#0f1115; --panel:#171a21; --ink:#e9e5dc; --muted:#9a948a; --line:#2a2e38;
+  --accent:#e8833f; --accent-ink:#16100a;
+  --chipbg:#20242e; --warn:#f5a97f;
+  --c-college:#7da5f0; --c-gov-job:#5fc6bb; --c-scholarship:#dcb45e;
+  --c-abroad:#ef8ab5; --c-private-job:#77c98b; --c-resource:#9aa4b2;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 20px rgba(0,0,0,.3);
+  color-scheme: dark;
+}
+/* colorblind mode: Okabe–Ito palette; glyph shapes are always on, so color is never the only signal */
+html.cb{
+  --c-college:#00669e; --c-gov-job:#007454; --c-scholarship:#875e00;
+  --c-abroad:#aa4900; --c-private-job:#9d4c77; --c-resource:#5f6670; --accent:#00669e; --accent-ink:#fff;
+}
+html.cb.dark{
+  --c-college:#56B4E9; --c-gov-job:#3FD0A4; --c-scholarship:#F5C15C;
+  --c-abroad:#F08A47; --c-private-job:#9AD3F5; --c-resource:#a8a8a8; --accent:#56B4E9; --accent-ink:#101418;
+}
+html.cb a{text-decoration:underline}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+a{color:var(--accent)}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+header h1{font-size:20px;margin:0;letter-spacing:.2px}
+header h1 .hi{color:var(--accent);font-weight:700}
+header .tag{color:var(--muted);font-size:13px;flex:1;min-width:200px}
+.modes{display:flex;gap:6px;align-items:center}
+.modes button{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:4px 10px;font-size:13px;cursor:pointer}
+.modes button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+main{max-width:1180px;margin:0 auto;padding:16px;display:grid;grid-template-columns:280px minmax(0,1fr);gap:20px;align-items:start}
+main>section{min-width:0}
+@media (max-width:880px){main{grid-template-columns:minmax(0,1fr)}}
+#filters{position:sticky;top:58px;background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+@media (max-width:880px){#filters{position:static}}
+#filters summary{cursor:pointer;padding:12px 14px;font-weight:600;list-style:none;display:flex;justify-content:space-between;align-items:center}
+#filters summary::-webkit-details-marker{display:none}
+#filters summary::after{content:"▾";color:var(--muted)}
+#filters[open] summary::after{content:"▴"}
+.fbody{padding:0 14px 14px;display:flex;flex-direction:column;gap:14px}
+.f label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:5px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.f input[type=number],.f input[type=search],.f select{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--chipbg);color:var(--ink);border-radius:999px;padding:4px 10px;font-size:13px;cursor:pointer}
+.chips button .g{font-size:11px}
+.chips button .n{color:var(--muted);font-size:11px}
+.chips button[aria-pressed="true"]{border-color:currentColor;background:var(--panel);box-shadow:inset 0 0 0 1px currentColor}
+.chips button[aria-pressed="true"] .lbl{font-weight:650}
+.check{display:flex;gap:8px;align-items:center;font-size:14px}
+.check input{width:16px;height:16px;accent-color:var(--accent)}
+#reset{align-self:flex-start;border:none;background:none;color:var(--accent);cursor:pointer;font:inherit;font-size:13px;padding:0;text-decoration:underline}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+#count{font-size:13px;color:var(--muted)}
+#count b{color:var(--ink)}
+.sortwrap{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
+.sortwrap select{padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit;font-size:13px}
+#list{display:flex;flex-direction:column;gap:10px;list-style:none;margin:0;padding:0}
+.card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--cc,var(--line));border-radius:10px;padding:12px 14px;box-shadow:var(--shadow)}
+.card .row1{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card h3{margin:0;font-size:16.5px}
+.card h3 a{color:var(--ink);text-decoration:none}
+.card h3 a:hover{color:var(--accent);text-decoration:underline}
+.cat{display:inline-flex;align-items:center;gap:5px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--cc);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;white-space:nowrap}
+.open-badge{font-size:11px;border:1px solid var(--cc);color:var(--cc);border-radius:999px;padding:1px 8px;white-space:nowrap}
+.one{margin:5px 0 8px;font-size:14.5px;color:var(--ink)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--muted);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.meta b{color:var(--ink);font-weight:600}
+.links{margin-top:5px;display:flex;flex-wrap:wrap;gap:0 14px;font-size:13px}
+.links a{white-space:nowrap;display:inline-block;padding:4px 0}
+.warnnote{margin-top:6px;font-size:12px;color:var(--warn)}
+.empty{padding:40px 20px;text-align:center;color:var(--muted);background:var(--panel);border:1px dashed var(--line);border-radius:12px}
+footer{max-width:1180px;margin:26px auto 40px;padding:0 16px;font-size:12.5px;color:var(--muted);line-height:1.7}
+footer .box{border-top:1px solid var(--line);padding-top:14px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+@media (prefers-reduced-motion: no-preference){.card{transition:border-color .15s}}
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="hi">अवसर</span> Avsar</h1>
+  <span class="tag">every exam, scholarship &amp; job door in India — one list, honest filters</span>
+  <div class="modes" role="group" aria-label="Display modes">
+    <button id="mLight" aria-pressed="false" title="Light mode">Light</button>
+    <button id="mDark" aria-pressed="false" title="Dark mode">Dark</button>
+    <button id="mCb" aria-pressed="false" title="Colorblind-friendly palette (shapes are always on)">CB</button>
+  </div>
+</header>
+
+<main>
+  <details id="filters" open>
+    <summary>Filters</summary>
+    <div class="fbody">
+      <div class="f"><label for="q">Search</label><input type="search" id="q" placeholder="name, keyword…" autocomplete="off"></div>
+      <div class="f"><label for="age">Your age (years)</label><input type="number" id="age" min="8" max="80" placeholder="any age" inputmode="numeric"></div>
+      <div class="f"><label for="edu">Your education</label>
+        <select id="edu">
+          <option value="">anything / doesn't matter</option>
+          <option value="below10">still in school (below 10th)</option>
+          <option value="10th">10th pass</option>
+          <option value="12th">12th pass</option>
+          <option value="diploma">diploma</option>
+          <option value="ug">graduate (bachelor's)</option>
+          <option value="pg">postgraduate</option>
+        </select>
+      </div>
+      <div class="f"><label id="catlab">Category</label><div class="chips" id="cats" role="group" aria-labelledby="catlab"></div></div>
+      <div class="f"><label for="fee">Application fee I can afford</label>
+        <select id="fee">
+          <option value="">any fee</option>
+          <option value="0">free only</option>
+          <option value="500">up to ₹500</option>
+          <option value="1000">up to ₹1,000</option>
+          <option value="2500">up to ₹2,500</option>
+        </select>
+      </div>
+      <div class="f"><label for="month">Open for applications in</label>
+        <select id="month">
+          <option value="">any time</option>
+          <option value="now">around now</option>
+          <option value="1">January</option><option value="2">February</option><option value="3">March</option>
+          <option value="4">April</option><option value="5">May</option><option value="6">June</option>
+          <option value="7">July</option><option value="8">August</option><option value="9">September</option>
+          <option value="10">October</option><option value="11">November</option><option value="12">December</option>
+        </select>
+      </div>
+      <div class="f"><label class="check" style="text-transform:none;font-size:14px;color:var(--ink);font-family:inherit;letter-spacing:0">
+        <input type="checkbox" id="pay"> only ones that pay me (scholarship / stipend / salary)</label></div>
+      <button id="reset">reset all filters</button>
+    </div>
+  </details>
+
+  <section aria-label="Opportunities">
+    <div class="topline">
+      <div id="count" aria-live="polite"></div>
+      <div class="sortwrap"><label for="sort">sort</label>
+        <select id="sort">
+          <option value="soon">soonest to apply</option>
+          <option value="name">name A–Z</option>
+          <option value="fee">fee: low first</option>
+        </select>
+      </div>
+    </div>
+    <ul id="list"></ul>
+  </section>
+</main>
+
+<footer><div class="box">
+  <p><b>Independent prototype</b> for <a href="https://buildwhatmovesindia.com/" rel="noopener">Build What Moves India</a> — not an official government product, not affiliated with any body it links to. Dates shown are <i>typical windows</i>; always confirm on the official page before paying anything.</p>
+  <p id="stamp" class="mono"></p>
+  <p>Open source: <a href="https://github.com/vaibhavgit9210/build-what-moves-india" rel="noopener">github.com/vaibhavgit9210/build-what-moves-india</a> · spotted a wrong or dead link? <a href="https://github.com/vaibhavgit9210/build-what-moves-india/issues/new" rel="noopener">report it</a> — data fixes are one-file PRs.</p>
+</div></footer>
+
+<script src="data.js"></script>
+<script>
+(function(){
+"use strict";
+/* V2 hook: set to the avsar-live worker /overlay URL to render exact deadlines & open-now status.
+   Contract in PLAN-V2.md. null = fully static v1. */
+var LIVE_ENDPOINT = null;
+
+var DATA = window.AVSAR_DATA || {updated:"", opportunities:[]};
+var CATS = {
+  "college":{label:"College entrance",glyph:"◆"},
+  "gov-job":{label:"Govt jobs & exams",glyph:"■"},
+  "scholarship":{label:"Scholarship",glyph:"●"},
+  "abroad":{label:"Abroad",glyph:"✚"},
+  "private-job":{label:"Private & fellowships",glyph:"★"},
+  "resource":{label:"Portals & prep",glyph:"◗"}
+};
+var EDU_RANK = {any:0,"10th":1,"12th":2,diploma:2,ug:3,pg:4};
+var USER_EDU_RANK = {below10:.5,"10th":1,"12th":2,diploma:2,ug:3,pg:4};
+var EDU_LABEL = {any:"anyone","10th":"10th pass","12th":"12th pass",diploma:"diploma",ug:"graduate",pg:"postgraduate"};
+var MONTH_ABBR = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var CUR_MONTH = new Date().getMonth()+1;
+
+var els = {};
+["q","age","edu","fee","month","pay","sort","cats","list","count","stamp","reset","filters","mLight","mDark","mCb"].forEach(function(id){ els[id]=document.getElementById(id); });
+
+/* ---------- state <-> hash (shareable filter URLs) ---------- */
+var state = {q:"",age:"",edu:"",cats:[],fee:"",month:"",pay:false,sort:"soon"};
+function readHash(){
+  var h = location.hash.replace(/^#/,""); if(!h) return;
+  function dec(s){ try{ return decodeURIComponent(s); }catch(e){ return ""; } }
+  var p = {}; h.split("&").forEach(function(kv){ var i=kv.indexOf("="); if(i>0) p[kv.slice(0,i)] = dec(kv.slice(i+1)); });
+  if (p.shot==="dark") setTheme("dark",getCb(),false);
+  if (p.shot==="cb") setTheme(getTheme(),true,false);
+  if (p.shot==="filtered"){ state.age="17"; state.edu="12th"; state.cats=["college","scholarship"]; }
+  if (p.theme==="dark"||p.theme==="light") setTheme(p.theme,getCb(),false);
+  if (p.cb==="1") setTheme(getTheme(),true,false);
+  if (p.q!==undefined) state.q = p.q;
+  if (p.age!==undefined && /^\d{1,2}(\.\d+)?$/.test(p.age)) state.age = p.age;
+  if (p.edu!==undefined && USER_EDU_RANK[p.edu]!==undefined) state.edu = p.edu;
+  if (p.fee!==undefined && ["0","500","1000","2500"].indexOf(p.fee)>=0) state.fee = p.fee;
+  if (p.month!==undefined && (p.month==="now"||(+p.month>=1&&+p.month<=12&&/^\d+$/.test(p.month)))) state.month = p.month;
+  if (p.sort!==undefined && ["soon","name","fee"].indexOf(p.sort)>=0) state.sort = p.sort;
+  if (p.cat) state.cats = p.cat.split(",").filter(function(c){return CATS[c];});
+  if (p.pay==="1") state.pay = true;
+}
+var lastHash=null;
+function writeHash(){
+  var parts=[];
+  if(state.q)parts.push("q="+encodeURIComponent(state.q));
+  if(state.age)parts.push("age="+state.age);
+  if(state.edu)parts.push("edu="+state.edu);
+  if(state.cats.length)parts.push("cat="+state.cats.join(","));
+  if(state.fee!=="")parts.push("fee="+state.fee);
+  if(state.month)parts.push("month="+state.month);
+  if(state.pay)parts.push("pay=1");
+  if(state.sort!=="soon")parts.push("sort="+state.sort);
+  var next=parts.length?"#"+parts.join("&"):"";
+  if(next===lastHash)return;
+  lastHash=next;
+  try{ history.replaceState(null,"",next||location.pathname+location.search); }catch(e){}
+}
+
+/* ---------- themes ---------- */
+function getTheme(){ return document.documentElement.classList.contains("dark")?"dark":"light"; }
+function getCb(){ return document.documentElement.classList.contains("cb"); }
+function setTheme(theme,cb,persist){
+  document.documentElement.classList.toggle("dark",theme==="dark");
+  document.documentElement.classList.toggle("cb",!!cb);
+  els.mLight.setAttribute("aria-pressed",theme==="light");
+  els.mDark.setAttribute("aria-pressed",theme==="dark");
+  els.mCb.setAttribute("aria-pressed",!!cb);
+  if(persist!==false){ try{ localStorage.setItem("avsar-mode",JSON.stringify({theme:theme,cb:!!cb})); }catch(e){} }
+}
+(function initTheme(){
+  var pref=null; try{ pref=JSON.parse(localStorage.getItem("avsar-mode")); }catch(e){}
+  var theme = pref&&pref.theme ? pref.theme : (window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");
+  setTheme(theme, pref?!!pref.cb:false, false);
+})();
+els.mLight.onclick=function(){ setTheme("light",getCb()); };
+els.mDark.onclick=function(){ setTheme("dark",getCb()); };
+els.mCb.onclick=function(){ setTheme(getTheme(),!getCb()); };
+
+/* ---------- health + live overlay (both optional, never fatal) ---------- */
+var health=null, live=null;
+function tryFetch(url,cb){
+  if(location.protocol==="file:"&&url.indexOf("http")!==0)return;
+  fetch(url).then(function(r){return r.ok?r.json():null;}).then(function(j){ if(j){cb(j);render();} }).catch(function(){});
+}
+tryFetch("health.json",function(j){health=j;stamp();});
+if(LIVE_ENDPOINT) tryFetch(LIVE_ENDPOINT,function(j){live=j;});
+function badOfficial(id){
+  if(!health)return false;
+  return (health.badLinks||[]).some(function(b){return b.id===id&&b.kind==="official";});
+}
+
+/* ---------- filtering ---------- */
+function matches(o){
+  if(state.q){
+    var q=state.q.toLowerCase();
+    var hay=(o.name+" "+o.oneLiner+" "+(o.tags||[]).join(" ")).toLowerCase();
+    if(hay.indexOf(q)<0)return false;
+  }
+  if(state.cats.length&&state.cats.indexOf(o.category)<0)return false;
+  if(state.age!==""){
+    var a=+state.age;
+    if(o.ageMin!=null&&a<o.ageMin)return false;
+    if(o.ageMax!=null&&a>o.ageMax)return false;
+  }
+  if(state.edu){
+    if(EDU_RANK[o.minEducation] > USER_EDU_RANK[state.edu])return false;
+  }
+  if(state.fee!==""){
+    var cap=+state.fee;
+    if(o.feeINR==null||o.feeINR>cap)return false;
+  }
+  if(state.pay&&!o.benefit)return false;
+  if(state.month){
+    var m = state.month==="now"?CUR_MONTH:+state.month;
+    var wm=o.windowMonths||[];
+    if(wm.length&&wm.indexOf(m)<0)return false;
+  }
+  return true;
+}
+function soonKey(o){
+  var wm=o.windowMonths||[];
+  if(!wm.length)return .4; // rolling: right after "open this month"
+  var d=12;
+  for(var i=0;i<wm.length;i++){ var dd=(wm[i]-CUR_MONTH+12)%12; if(dd<d)d=dd; }
+  return d;
+}
+function sorted(list){
+  var s=state.sort;
+  return list.slice().sort(function(a,b){
+    if(s==="name")return a.name.localeCompare(b.name);
+    if(s==="fee")return (a.feeINR==null?1e9:a.feeINR)-(b.feeINR==null?1e9:b.feeINR)||a.name.localeCompare(b.name);
+    return soonKey(a)-soonKey(b)||a.name.localeCompare(b.name);
+  });
+}
+
+/* ---------- rendering (textContent only — no HTML injection from data) ---------- */
+function el(tag,cls,text){ var e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e; }
+function safeUrl(u){ return /^https?:\/\//i.test(u)?u:null; }
+function fmtFee(o){ return o.feeINR==null?"fee varies":(o.feeINR===0?"free":"₹"+o.feeINR.toLocaleString("en-IN")); }
+function fmtAge(o){
+  if(o.ageMin==null&&o.ageMax==null)return "any age";
+  if(o.ageMin!=null&&o.ageMax!=null)return o.ageMin+"–"+o.ageMax+" yrs";
+  return o.ageMin!=null?o.ageMin+"+ yrs":"up to "+o.ageMax+" yrs";
+}
+function meta(parent,label,value){
+  var s=el("span");s.appendChild(el("b",null,label+" "));s.appendChild(document.createTextNode(value));parent.appendChild(s);
+}
+function card(o){
+  var li=el("li","card");
+  li.style.setProperty("--cc","var(--c-"+o.category+")");
+  var r1=el("div","row1");
+  var cat=el("span","cat"); cat.appendChild(el("span","g",CATS[o.category].glyph)); cat.appendChild(document.createTextNode(CATS[o.category].label));
+  var h=el("h3"); var a=el("a",null,o.name);
+  var off=safeUrl(o.official); if(off){a.href=off;a.rel="noopener";a.target="_blank";}
+  h.appendChild(a);
+  r1.appendChild(h); r1.appendChild(cat);
+  var lv = live&&live.entries&&live.entries[o.id];
+  var wm=o.windowMonths||[];
+  if(lv&&lv.status){ r1.appendChild(el("span","open-badge",lv.status+(lv.deadline?" · till "+lv.deadline:"")+(lv.confidence==="auto"?" (auto)":""))); }
+  else if(!wm.length){ r1.appendChild(el("span","open-badge","apply anytime")); }
+  else if(wm.indexOf(CUR_MONTH)>=0){ r1.appendChild(el("span","open-badge","likely open now")); }
+  li.appendChild(r1);
+  li.appendChild(el("p","one",o.oneLiner));
+  var m=el("div","meta");
+  meta(m,"who",fmtAge(o)+" · "+EDU_LABEL[o.minEducation]);
+  meta(m,"fee",fmtFee(o));
+  if(o.benefit)meta(m,"you get",o.benefit);
+  meta(m,"when",o.window+(o.nextExpected?" · next: "+o.nextExpected:""));
+  li.appendChild(m);
+  var links=el("div","links");
+  if(off){ var la=el("a",null,"official site ↗");la.href=off;la.rel="noopener";la.target="_blank";links.appendChild(la); }
+  (o.resources||[]).forEach(function(r){
+    var u=safeUrl(r.url); if(!u)return;
+    var ra=el("a",null,r.label+" ↗");ra.href=u;ra.rel="noopener";ra.target="_blank";links.appendChild(ra);
+  });
+  li.appendChild(links);
+  if(badOfficial(o.id))li.appendChild(el("div","warnnote","⚠ the official link failed our last automated check — it may be down or moved"));
+  return li;
+}
+function render(){
+  var out=sorted(DATA.opportunities.filter(matches));
+  els.list.textContent="";
+  var frag=document.createDocumentFragment();
+  out.forEach(function(o){frag.appendChild(card(o));});
+  if(!out.length){
+    var e=el("li","empty","Nothing matches these filters. Loosen one — or ");
+    var r=el("a",null,"reset them");r.href="#";r.onclick=function(ev){ev.preventDefault();doReset();els.q.focus();};
+    e.appendChild(r);e.appendChild(document.createTextNode("."));
+    frag.appendChild(e);
+  }
+  els.list.appendChild(frag);
+  els.count.textContent="";
+  var c=el("span");c.appendChild(el("b",null,String(out.length)));
+  c.appendChild(document.createTextNode(" of "+DATA.opportunities.length+" opportunities"));
+  els.count.appendChild(c);
+  writeHash();
+}
+function stamp(){
+  var t="data updated "+(DATA.updated||"—");
+  if(health&&health.checkedAt)t+=" · links auto-checked "+health.checkedAt.slice(0,10)+" ("+((health.badLinks||[]).length)+" flagged)";
+  els.stamp.textContent=t;
+}
+
+/* ---------- controls ---------- */
+Object.keys(CATS).forEach(function(k){
+  var b=el("button");b.type="button";b.style.color="var(--c-"+k+")";
+  b.appendChild(el("span","g",CATS[k].glyph));
+  b.appendChild(el("span","lbl",CATS[k].label));
+  b.appendChild(el("span","n",String(DATA.opportunities.filter(function(o){return o.category===k;}).length)));
+  b.setAttribute("aria-pressed","false");
+  b.onclick=function(){
+    var i=state.cats.indexOf(k);
+    if(i<0)state.cats.push(k);else state.cats.splice(i,1);
+    syncControls();render();
+  };
+  b.dataset.cat=k;
+  els.cats.appendChild(b);
+});
+function syncControls(){
+  els.q.value=state.q; els.age.value=state.age; els.edu.value=state.edu;
+  els.fee.value=state.fee; els.month.value=state.month; els.pay.checked=state.pay; els.sort.value=state.sort;
+  Array.prototype.forEach.call(els.cats.children,function(b){
+    b.setAttribute("aria-pressed",state.cats.indexOf(b.dataset.cat)>=0?"true":"false");
+  });
+}
+function doReset(){ state={q:"",age:"",edu:"",cats:[],fee:"",month:"",pay:false,sort:state.sort}; syncControls(); render(); }
+els.q.oninput=function(){state.q=this.value.trim();render();};
+els.age.oninput=function(){state.age=this.value;render();};
+els.edu.onchange=function(){state.edu=this.value;render();};
+els.fee.onchange=function(){state.fee=this.value;render();};
+els.month.onchange=function(){state.month=this.value;render();};
+els.pay.onchange=function(){state.pay=this.checked;render();};
+els.sort.onchange=function(){state.sort=this.value;render();};
+els.reset.onclick=doReset;
+if(matchMedia("(max-width: 880px)").matches)els.filters.removeAttribute("open");
+
+readHash();
+syncControls();
+stamp();
+render();
+})();
+</script>
+<script>
+/* anonymous visit beacon: counts loads + presence heartbeats, no cookies */
+(function(){
+  if (location.protocol === "file:" || location.hostname === "localhost") return;
+  var EP = "https://site-analytics.vaibhavpro9210.workers.dev/ping";
+  var sid = sessionStorage.getItem("va_sid");
+  if (!sid) { sid = Math.random().toString(36).slice(2) + Date.now().toString(36); sessionStorage.setItem("va_sid", sid); }
+  function send(kind){
+    try { navigator.sendBeacon(EP, new Blob([JSON.stringify({sid:sid, page:location.pathname, kind:kind})], {type:"text/plain"})); } catch(e){}
+  }
+  send("load");
+  setInterval(function(){ if (document.visibilityState === "visible") send("beat"); }, 60000);
+})();
+</script>
+</body>
+</html>

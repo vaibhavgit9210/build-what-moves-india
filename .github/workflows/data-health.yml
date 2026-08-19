@@ -1,0 +1,43 @@
+name: data-health
+# Keyless self-update: weekly link-check + stale-window scan.
+# Commits health.json (the site renders its warnings) and opens/updates an issue when something needs a human.
+on:
+  schedule:
+    - cron: "30 3 * * 1" # Mondays 09:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links & windows
+        run: python3 scripts/check_links.py
+      - name: Commit health.json (main + gh-pages)
+        run: |
+          git config user.name "avsar-health-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add health.json
+          git diff --cached --quiet || git commit -m "health: weekly link & window check"
+          git push origin HEAD:main
+          git push origin HEAD:gh-pages
+      - name: Open issue if action needed
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const h = require('./health.json');
+            if (!h.badLinks.length && !h.staleWindows.length) return;
+            const title = 'data-health: entries need re-verification';
+            const body = [
+              `Automated weekly check (${h.checkedAt}, ${h.urlsChecked} URLs).`,
+              h.badLinks.length ? `\n**Unreachable links:**\n` + h.badLinks.map(b => `- \`${b.id}\` (${b.kind}): ${b.url} — ${b.note}`).join('\n') : '',
+              h.staleWindows.length ? `\n**Past expected windows (update \`nextExpected\` in data.js):**\n` + h.staleWindows.map(id => `- \`${id}\``).join('\n') : '',
+            ].join('\n');
+            const open = await github.rest.issues.listForRepo({ ...context.repo, state: 'open', creator: 'github-actions[bot]' });
+            const existing = open.data.find(i => i.title === title);
+            if (existing) await github.rest.issues.update({ ...context.repo, issue_number: existing.number, body });
+            else await github.rest.issues.create({ ...context.repo, title, body });

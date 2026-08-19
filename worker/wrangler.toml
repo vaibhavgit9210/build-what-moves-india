@@ -1,0 +1,22 @@
+# avsar-live — staged V2 worker (see ../PLAN-V2.md). Deploy on the vaibhavpro9210 account.
+name = "avsar-live"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+# Scheduled refresh of the overlay (2x/day, polite to sources)
+[triggers]
+crons = ["30 3 * * *", "30 15 * * *"]
+
+# KV for the cached overlay + raw source snapshots
+# Create with: npx wrangler kv namespace create AVSAR_KV   (then paste the id here)
+# [[kv_namespaces]]
+# binding = "AVSAR_KV"
+# id = "TODO"
+
+# Keyless LLM of last resort for date extraction (no secret needed)
+[ai]
+binding = "AI"
+
+# Optional better models — add as secrets, never here:
+#   npx wrangler secret put GROQ_API_KEY
+#   npx wrangler secret put GEMINI_API_KEY
