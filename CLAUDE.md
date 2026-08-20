@@ -1,6 +1,6 @@
 # build-what-moves-india (Avsar)
 
-Opportunity-finder portal for the Build What Moves India hackathon (Varun Mayya × OpenAI, submission 27 Aug 2026, finale 12 Sep). Repo `vaibhavgit9210/build-what-moves-india`, live at https://vaibhavkumar.is-a.dev/build-what-moves-india/ — Pages from `gh-pages`, so push BOTH `main` and `main:gh-pages`.
+Opportunity-finder portal for the Build What Moves India hackathon (Varun Mayya × OpenAI, submission 27 Aug 2026, finale 12 Sep). Repo `vaibhavgit9210/build-what-moves-india`, **live at https://avsar.pages.dev/** (Cloudflare Pages project `avsar` on the vaibhavpro9210 account; deploy = `npx wrangler pages deploy <dist with index.html,data.js,health.json> --project-name avsar --branch main`). The old GitHub Pages URL (https://vaibhavkumar.is-a.dev/build-what-moves-india/) still deploys from `gh-pages` but JS-forwards to avsar.pages.dev preserving the hash — so a deploy is THREE pushes: `main`, `main:gh-pages`, and wrangler pages deploy. The beacon sends page `/avsar/` on pages.dev to avoid colliding with the portfolio homepage's `/` in site-analytics.
 
 **Hackathon compliance note:** the brief mandates Codex/OpenAI-model involvement in the build — that's the user's call to reconcile before submitting; don't misrepresent tooling in any write-up.
 

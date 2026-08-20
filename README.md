@@ -1,6 +1,6 @@
 # Avsar (अवसर) — one honest list of India's opportunity doors
 
-**Live:** https://vaibhavkumar.is-a.dev/build-what-moves-india/
+**Live:** https://avsar.pages.dev/ (the old GitHub Pages URL forwards here, filters preserved)
 
 Built for [Build What Moves India](https://buildwhatmovesindia.com/) — an independent hackathon prototype, **not** an official government product.
 

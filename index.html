@@ -6,6 +6,11 @@
 <title>Avsar — every Indian exam, scholarship & job door in one list</title>
 <meta name="description" content="Find every exam, scholarship, government job, private route and study-abroad door you are eligible for. Honest filters: age, education, fee, timing. No login, no ads.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2410c'/%3E%3Cpath d='M16 6l3.2 6.9 7.3.9-5.4 5 1.4 7.2L16 22.4 9.5 26l1.4-7.2-5.4-5 7.3-.9z' fill='%23fff7ed'/%3E%3C/svg%3E">
+<script>
+/* canonical home is avsar.pages.dev — old GitHub Pages URLs forward there, filters (hash) preserved */
+if (location.hostname === "vaibhavkumar.is-a.dev" || location.hostname.slice(-10) === ".github.io")
+  location.replace("https://avsar.pages.dev/" + location.search + location.hash);
+</script>
 <style>
 :root{
   --bg:#faf7f1; --panel:#ffffff; --ink:#221f1a; --muted:#6b6459; --line:#e6dfd2;
@@ -422,8 +427,10 @@ render();
   var EP = "https://site-analytics.vaibhavpro9210.workers.dev/ping";
   var sid = sessionStorage.getItem("va_sid");
   if (!sid) { sid = Math.random().toString(36).slice(2) + Date.now().toString(36); sessionStorage.setItem("va_sid", sid); }
+  /* on avsar.pages.dev the path is "/", which would collide with the portfolio homepage in analytics */
+  var pg = (location.hostname.indexOf("pages.dev") > -1 ? "/avsar" : "") + location.pathname;
   function send(kind){
-    try { navigator.sendBeacon(EP, new Blob([JSON.stringify({sid:sid, page:location.pathname, kind:kind})], {type:"text/plain"})); } catch(e){}
+    try { navigator.sendBeacon(EP, new Blob([JSON.stringify({sid:sid, page:pg, kind:kind})], {type:"text/plain"})); } catch(e){}
   }
   send("load");
   setInterval(function(){ if (document.visibilityState === "visible") send("beat"); }, 60000);
