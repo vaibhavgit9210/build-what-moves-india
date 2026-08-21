@@ -1213,7 +1213,7 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "Engineering degree (or an equivalent qualification listed in the notification) in the branch applied for",
-    "age": "21 to 30 years for the General category, with relaxations for reserved categories",
+    "age": "21 to 30 years for the General category, reckoned as on 1 January (1 January 2026 in the linked ESE 2026 notice), with relaxations for reserved categories",
     "other": "Indian citizen."
    },
    "fee": "₹200 for the Preliminary examination (women, SC/ST and PwBD candidates are exempt)",
@@ -2146,7 +2146,7 @@ window.AVSAR_DATA = {
    "category": "gov-job",
    "oneLiner": "10th-pass entry to central government Group C support posts and Havaldar in CBIC/CBN; the most accessible SSC exam.",
    "ageMin": 18,
-   "ageMax": 25,
+   "ageMax": 27,
    "minEducation": "10th",
    "feeINR": 100,
    "benefit": "Rs 18,000 starting basic (Level 1) plus allowances",
@@ -9082,7 +9082,7 @@ window.AVSAR_DATA = {
     "age": "Upper age limit 28 years as on the closing date (17/09/2026) in advertisement R&A/01/2026, with relaxation of 5 years for SC/ST, 3 years for OBC (Non-Creamy Layer) and 10 years for PwBD",
     "other": "CSIR-UGC NET is a separate national test for research fellowships and lectureship, not a CSIR staff recruitment."
    },
-   "fee": "Set in each advertisement (SC/ST/PwBD and women candidates are usually exempt)",
+   "fee": "₹500, non-refundable, for the headquarters advertisement R&A/01/2026 (Technician) that is open now — women, SC, ST, PwBD and ex-servicemen candidates pay nothing. Every CSIR advertisement sets its own fee and many laboratory and project positions charge none, so check the one you are applying under.",
    "syllabus": {
     "title": "Requirements and selection method (inside each advertisement)",
     "url": "https://www.csir.res.in/career-opportunities/recruitment",
