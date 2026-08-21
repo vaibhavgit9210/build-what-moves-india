@@ -4,8 +4,14 @@
  *
  * Contract served at GET /overlay (CORS: GET only, any origin):
  *   { checkedAt: ISO string,
- *     entries: { "<opportunity-id>": { status: "open"|"closing-soon"|"closed"|"announced",
- *                deadline: "YYYY-MM-DD"|null, applyUrl: string|null, confidence: "auto"|"human" } } }
+ *     entries: { "<opportunity-id>": { status: "open"|"upcoming"|"closed"|"not-announced"|"exam-completed",
+ *                deadline: "YYYY-MM-DD"|null, applyUrl: string|null, notificationUrl: string|null,
+ *                confidence: "auto"|"human" } } }
+ *
+ * The frontend (index.html -> withLive) overlays these four fields onto the static
+ * exam record: current status, application deadline, application URL and the
+ * official notification URL. Anything missing falls back to the static data, so the
+ * site keeps working unchanged when this worker is down or unconfigured.
  *
  * Rules baked in: read-only public pages / documented public APIs only,
  * KV-cached (12h), auto-extracted dates marked confidence:"auto".
@@ -65,13 +71,13 @@ async function llmExtract(src, html, env) {
   // Prompt the model to emit the overlay contract for src.ids from the page text;
   // everything extracted here is tagged confidence:"auto".
   const text = html.replace(/<script[\s\S]*?<\/script>/gi, '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').slice(0, 12000);
-  const prompt = `From this Indian exam/scheme notification page text, extract application status and deadline for these ids: ${src.ids.join(', ')}. Reply ONLY with JSON {"<id>":{"status":"open|closing-soon|closed|announced","deadline":"YYYY-MM-DD or null","applyUrl":"url or null"}} for ids actually mentioned.\n\nPAGE: ${text}`;
+  const prompt = `From this Indian exam/scheme notification page text, extract application status and deadline for these ids: ${src.ids.join(', ')}. Reply ONLY with JSON {"<id>":{"status":"open|upcoming|closed|not-announced|exam-completed","deadline":"YYYY-MM-DD or null","applyUrl":"url or null","notificationUrl":"url of the official notification PDF or null"}} for ids actually mentioned. Never invent a date or URL — use null when the page does not state it.\n\nPAGE: ${text}`;
   try {
     const out = await env.AI.run('@cf/meta/llama-3.1-8b-instruct', { messages: [{ role: 'user', content: prompt }] });
     const parsed = JSON.parse((out.response.match(/\{[\s\S]*\}/) || ['{}'])[0]);
     const entries = {};
     for (const [id, v] of Object.entries(parsed)) {
-      if (src.ids.includes(id)) entries[id] = { status: v.status || 'announced', deadline: v.deadline || null, applyUrl: v.applyUrl || null, confidence: 'auto' };
+      if (src.ids.includes(id)) entries[id] = { status: v.status || null, deadline: v.deadline || null, applyUrl: v.applyUrl || null, notificationUrl: v.notificationUrl || null, confidence: 'auto' };
     }
     return entries;
   } catch (_e) {

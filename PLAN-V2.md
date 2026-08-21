@@ -16,9 +16,11 @@ RSS (Employment News etc.) ──────────────┘        
 - **Overlay contract** (frontend already consumes it when `LIVE_ENDPOINT` is set in `index.html`):
   ```json
   { "checkedAt": "2026-08-19T09:00:00Z",
-    "entries": { "jee-main": { "status": "open", "deadline": "2026-11-25", "applyUrl": "https://..." } } }
+    "entries": { "ssc-cgl": { "status": "open", "deadline": "2026-11-25",
+                              "applyUrl": "https://...", "notificationUrl": "https://...",
+                              "confidence": "auto" } } }
   ```
-  Unknown ids are ignored; missing entries fall back to the static typical-window text. The overlay can only *add* precision, never break the static site.
+  Unknown ids are ignored; missing entries fall back to the static record. For the exam entries the frontend overlays exactly four fields — **status, application deadline, application URL and official notification URL** (`withLive()` in `index.html`) — and anything marked `confidence: "auto"` renders with a visible "auto-extracted, verify" hint. The overlay can only *add* precision, never break the static site.
 
 ## Source slices (each unlocks independently)
 

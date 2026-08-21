@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Avsar — every Indian exam, scholarship & job door in one list</title>
-<meta name="description" content="Find every exam, scholarship, government job, private route and study-abroad door you are eligible for. Honest filters: age, education, fee, timing. No login, no ads.">
+<title>Avsar — find government exams you can apply for</title>
+<meta name="description" content="Discover India's major government exams — UPSC, SSC, Railways, banking, defence and more. Read the actual official notification, find the official syllabus and previous papers, and apply on the official website. No login, no ads.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c2410c'/%3E%3Cpath d='M16 6l3.2 6.9 7.3.9-5.4 5 1.4 7.2L16 22.4 9.5 26l1.4-7.2-5.4-5 7.3-.9z' fill='%23fff7ed'/%3E%3C/svg%3E">
 <script>
 /* canonical home is avsar.pages.dev — old GitHub Pages URLs forward there, filters (hash) preserved */
@@ -96,22 +96,94 @@ footer{max-width:1180px;margin:26px auto 40px;padding:0 16px;font-size:12.5px;co
 footer .box{border-top:1px solid var(--line);padding-top:14px}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 @media (prefers-reduced-motion: no-preference){.card{transition:border-color .15s}}
+
+/* ---------- v2: exam discovery, detail pages, languages ---------- */
+select#lang{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:4px 8px;font:inherit;font-size:13px;max-width:130px}
+.hero{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 16px;margin-bottom:14px;box-shadow:var(--shadow)}
+.hero h2{margin:0 0 6px;font-size:22px;line-height:1.25}
+.hero p{margin:0 0 12px;color:var(--muted);font-size:15px}
+.hero .bigsearch{display:flex;gap:8px;flex-wrap:wrap}
+.hero .bigsearch input{flex:1;min-width:200px;padding:12px 14px;font-size:16px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.quickf{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.quickf label{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.quickf select{padding:9px 10px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--ink);font:inherit;font-size:15px;min-width:150px;max-width:100%}
+@media (max-width:600px){.quickf>div{flex:1 1 46%}.quickf select{min-width:0;width:100%}}
+
+/* exam card */
+.card.exam h3{font-size:18px}
+.card.exam .org{margin:2px 0 0;font-size:14px;color:var(--muted)}
+.card.exam .badges{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 6px}
+.pill{font-size:12.5px;border:1px solid var(--line);background:var(--chipbg);border-radius:999px;padding:2px 9px;white-space:nowrap}
+.st{font-size:12.5px;border-radius:999px;padding:2px 9px;border:1px solid currentColor;white-space:nowrap;font-weight:600}
+.st-open{color:#12693f}.st-upcoming{color:#8a5000}.st-closed{color:#7d3030}.st-notannounced{color:var(--muted)}.st-examcompleted{color:#4a4a86}
+html.dark .st-open{color:#63d19b}html.dark .st-upcoming{color:#e7b45c}html.dark .st-closed{color:#f19191}html.dark .st-examcompleted{color:#a9a9e6}
+html.cb .st-open{color:#007454}html.cb .st-upcoming{color:#875e00}html.cb .st-closed{color:#aa4900}html.cb .st-examcompleted{color:#00669e}
+html.cb.dark .st-open{color:#3FD0A4}html.cb.dark .st-upcoming{color:#F5C15C}html.cb.dark .st-closed{color:#F08A47}html.cb.dark .st-examcompleted{color:#56B4E9}
+.card.exam .whenline{margin:6px 0 10px;font-size:15px}
+.card.exam .whenline b{font-weight:650}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);border:1px solid var(--accent);border-radius:9px;padding:10px 16px;font:inherit;font-size:15px;font-weight:600;text-decoration:none;cursor:pointer;min-height:44px;line-height:22px}
+.btn:hover{filter:brightness(1.07)}
+.btn.ghost{background:var(--panel);color:var(--accent)}
+.btn.wide{display:block;text-align:center;width:100%}
+
+/* detail page */
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+#detail{display:none}
+#detail[data-open="1"]{display:block;max-width:820px;margin:0 auto;padding:16px}
+body[data-view="detail"] main,body[data-view="detail"] footer{display:none}
+.back{background:none;border:none;color:var(--accent);font:inherit;font-size:15px;padding:8px 0;cursor:pointer;text-decoration:underline;min-height:44px}
+.dhead h2{margin:2px 0 2px;font-size:26px;line-height:1.2}
+.dhead .org{margin:0 0 8px;font-size:16px;color:var(--muted)}
+.dhead .desc{font-size:16px;margin:10px 0 0;max-width:65ch}
+.sec{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0;box-shadow:var(--shadow)}
+.sec.hl{border-color:var(--accent);box-shadow:0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent),var(--shadow)}
+.sec h3{margin:0 0 10px;font-size:18px}
+.sec h4{margin:14px 0 4px;font-size:15.5px}
+.sec p{margin:6px 0}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:15.5px;margin:0}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0}
+@media (max-width:520px){.kv{grid-template-columns:1fr;gap:2px}.kv dd{margin-bottom:8px}}
+.official{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--ink);background:var(--chipbg);border:1px solid var(--line);border-radius:999px;padding:1px 8px;white-space:nowrap}
+.pdfwrap{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--bg)}
+.pdfwrap iframe{display:block;width:100%;height:640px;border:0;background:#fff}
+@media (max-width:760px){.pdfwrap iframe{height:340px}}
+.pdffall{padding:16px;font-size:15px;color:var(--ink);background:var(--chipbg);border:1px dashed var(--line);border-radius:10px}
+.pdfbtns{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.yearlist{list-style:none;margin:6px 0 0;padding:0}
+.yearlist>li{border-top:1px solid var(--line)}
+.yearlist>li:first-child{border-top:0}
+.yearlist summary{cursor:pointer;padding:12px 2px;font-size:16px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:10px;min-height:44px;align-items:center}
+.yearlist summary::-webkit-details-marker{display:none}
+.yearlist summary::after{content:"▾";color:var(--muted);font-weight:400}
+.yearlist details[open] summary::after{content:"▴"}
+.paperlist{list-style:none;margin:0 0 10px;padding:0 0 0 2px;display:flex;flex-direction:column;gap:2px}
+.paperlist li{padding:7px 0;font-size:15px;border-top:1px dotted var(--line)}
+.paperlist a{display:inline-block;padding:3px 0}
+.note{font-size:14.5px;color:var(--muted);margin:8px 0 0}
+.warnbox{font-size:14.5px;color:var(--warn);background:var(--chipbg);border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin:8px 0}
+.hitlist{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.hitlist a{font-size:15px}
 </style>
 </head>
 <body>
 <header>
   <h1><span class="hi">अवसर</span> Avsar</h1>
-  <span class="tag">every exam, scholarship &amp; job door in India — one list, honest filters</span>
+  <span class="tag" id="tagline">every exam, scholarship &amp; job door in India — one list, honest filters</span>
   <div class="modes" role="group" aria-label="Display modes">
+    <label class="visually-hidden" for="lang" id="langLabel">Language</label>
+    <select id="lang" aria-labelledby="langLabel"></select>
     <button id="mLight" aria-pressed="false" title="Light mode">Light</button>
     <button id="mDark" aria-pressed="false" title="Dark mode">Dark</button>
     <button id="mCb" aria-pressed="false" title="Colorblind-friendly palette (shapes are always on)">CB</button>
   </div>
 </header>
 
+<article id="detail" data-open="0" aria-live="polite"></article>
+
 <main>
-  <details id="filters" open>
-    <summary>Filters</summary>
+  <details id="filters">
+    <summary id="filtersLabel">Filters</summary>
     <div class="fbody">
       <div class="f"><label for="q">Search</label><input type="search" id="q" placeholder="name, keyword…" autocomplete="off"></div>
       <div class="f"><label for="age">Your age (years)</label><input type="number" id="age" min="8" max="80" placeholder="any age" inputmode="numeric"></div>
@@ -153,6 +225,23 @@ footer .box{border-top:1px solid var(--line);padding-top:14px}
   </details>
 
   <section aria-label="Opportunities">
+    <div class="hero">
+      <h2 id="heroH">Find government exams you can apply for</h2>
+      <p id="heroP">Search major exams from UPSC, SSC, Railways, Banking, Defence and more. Read the official notification, prepare with official papers, and apply on the official website.</p>
+      <div class="bigsearch">
+        <label class="visually-hidden" for="q2" id="q2Label">Search exams</label>
+        <input type="search" id="q2" aria-labelledby="q2Label" placeholder="Search exams…" autocomplete="off">
+      </div>
+      <div class="quickf">
+        <div><label for="org" id="orgLabel">Organization</label>
+          <select id="org" aria-labelledby="orgLabel"></select></div>
+        <div><label for="edu2" id="edu2Label">Education</label>
+          <select id="edu2" aria-labelledby="edu2Label"></select></div>
+        <div><label for="status" id="statusLabel">Status</label>
+          <select id="status" aria-labelledby="statusLabel"></select></div>
+      </div>
+      <ul class="hitlist" id="intentHits"></ul>
+    </div>
     <div class="topline">
       <div id="count" aria-live="polite"></div>
       <div class="sortwrap"><label for="sort">sort</label>
@@ -168,7 +257,7 @@ footer .box{border-top:1px solid var(--line);padding-top:14px}
 </main>
 
 <footer><div class="box">
-  <p><b>Independent prototype</b> for <a href="https://buildwhatmovesindia.com/" rel="noopener">Build What Moves India</a> — not an official government product, not affiliated with any body it links to. Dates shown are <i>typical windows</i>; always confirm on the official page before paying anything.</p>
+  <p><b>Independent prototype</b> for <a href="https://buildwhatmovesindia.com/" rel="noopener">Build What Moves India</a> — not an official government product, not affiliated with any body it links to. Exam dates come from the official notification or the recruiting body's own calendar and are marked <i>Expected</i> when they are only forecast; everything else in the list uses <i>typical windows</i>. Always confirm on the official page before paying anything.</p>
   <p id="stamp" class="mono"></p>
   <p>Open source: <a href="https://github.com/vaibhavgit9210/build-what-moves-india" rel="noopener">github.com/vaibhavgit9210/build-what-moves-india</a> · spotted a wrong or dead link? <a href="https://github.com/vaibhavgit9210/build-what-moves-india/issues/new" rel="noopener">report it</a> — data fixes are one-file PRs.</p>
 </div></footer>
@@ -190,17 +279,337 @@ var CATS = {
   "private-job":{label:"Private & fellowships",glyph:"★"},
   "resource":{label:"Portals & prep",glyph:"◗"}
 };
-var EDU_RANK = {any:0,"10th":1,"12th":2,diploma:2,ug:3,pg:4};
-var USER_EDU_RANK = {below10:.5,"10th":1,"12th":2,diploma:2,ug:3,pg:4};
-var EDU_LABEL = {any:"anyone","10th":"10th pass","12th":"12th pass",diploma:"diploma",ug:"graduate",pg:"postgraduate"};
+var EDU_RANK = {any:0,"10th":1,"12th":2,diploma:2,ug:3,professional:3.5,pg:4};
+var USER_EDU_RANK = {below10:.5,"10th":1,"12th":2,diploma:2,ug:3,professional:3.5,pg:4};
+var EDU_LABEL = {any:"anyone","10th":"10th pass","12th":"12th pass",diploma:"diploma",ug:"graduate",professional:"professional degree",pg:"postgraduate"};
 var MONTH_ABBR = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 var CUR_MONTH = new Date().getMonth()+1;
+var TODAY = new Date();
+
+/* organizations, in the order the product spec asks for */
+var ORGS = ["UPSC","SSC","Railways","IBPS","SBI","RBI","NABARD","SEBI","LIC","GIC","India Post","Defence","Teaching","DRDO","ISRO","CSIR","AIIMS"];
+var STATUSES = ["open","upcoming","closed","not-announced"];
+/* exam-completed is shown precisely on the detail page but groups under "closed" in the filter */
+var STATUS_KEY = {open:"stOpen",upcoming:"stUpcoming",closed:"stClosed","not-announced":"stNotAnnounced","exam-completed":"stExamCompleted"};
+var STATUS_CLASS = {open:"st-open",upcoming:"st-upcoming",closed:"st-closed","not-announced":"st-notannounced","exam-completed":"st-examcompleted"};
+
+/* ---------- languages ----------
+   One dictionary, English is the fallback for any key a language is missing.
+   Official exam names and acronyms are never translated — only the words around them. */
+var LANGS = [["en","English"],["hi","हिन्दी"],["mr","मराठी"],["kn","ಕನ್ನಡ"],["ta","தமிழ்"],["te","తెలుగు"],["bn","বাংলা"],["ml","മലയാളം"]];
+var UI_TEXT = {
+ en:{
+  tagline:"government exams in one place: read the official notification, prepare, apply",
+  heroH:"Find government exams you can apply for",
+  heroP:"Search major exams from UPSC, SSC, Railways, Banking, Defence and more. Read the official notification, prepare with official papers, and apply on the official website.",
+  searchPlaceholder:"Search exams…", search:"Search", filters:"Filters", language:"Language",
+  organization:"Organization", education:"Education", status:"Status", all:"All", anyEducation:"Any education",
+  stOpen:"Open", stUpcoming:"Upcoming", stClosed:"Closed", stNotAnnounced:"Not announced", stExamCompleted:"Exam completed",
+  edu10:"10th", edu12:"12th", eduDiploma:"Diploma", eduGraduate:"Graduate", eduPostgraduate:"Postgraduate", eduProfessional:"Professional",
+  viewDetails:"View details", back:"Back to all exams", showing:"showing",
+  govRecruitment:"Government recruitment", eligibilityTest:"Eligibility test",
+  applicationOpenUntil:"Application open until", applicationClosed:"Applications closed",
+  notificationExpected:"Notification expected", notReleased:"Notification not yet released", expected:"Expected",
+  currentStatus:"Current status", whoCanApply:"Who can apply?", age:"Age", fee:"Application fee",
+  typicalJobs:"Jobs you can get", importantDates:"Important dates",
+  applicationOpens:"Application opens", applicationCloses:"Application closes", examDate:"Exam",
+  seeNotification:"See the official notification",
+  officialNotification:"Official notification", openPdf:"Open official PDF",
+  notPreviewable:"The official notification cannot be previewed here. It opens fine in a new tab.",
+  prepareFor:"Prepare for this exam",
+  syllabus:"Syllabus", syllabusSub:"Understand what you need to study.", officialSyllabus:"Official syllabus",
+  examPattern:"Exam pattern", examPatternSub:"Understand the stages, papers and marks.", viewPattern:"View official exam pattern",
+  previousPapers:"Previous question papers", previousPapersSub:"Practise with real previous papers.",
+  olderPapers:"Older papers", papersNotAvailable:"Official previous papers are not available on the official website.",
+  answerKeys:"Answer keys", keysNotAvailable:"No official answer keys are published for this exam.",
+  officialMockTest:"Official mock test", tryMockTest:"Try official mock test",
+  apply:"Apply", applyOn:"Apply on official website", officialSource:"Official source",
+  visitWebsite:"Visit official website", officialExamPage:"Official exam page",
+  lastVerified:"Last verified", official:"Official", otherResource:"Other useful resource",
+  noResults:"Nothing matches these filters. Loosen one, or", resetFilters:"reset them",
+  moreDetails:"More details", openInNewTab:"opens in a new tab",
+  lastPublished:"This is the most recent notification published for this exam. The notification for the next cycle has not been released yet.",
+  didYouMean:"Looking for one of these?", pdfIsFrom:"Published by"
+ },
+ hi:{
+  tagline:"सरकारी परीक्षाएँ एक जगह: आधिकारिक अधिसूचना पढ़ें, तैयारी करें, आवेदन करें",
+  heroH:"वे सरकारी परीक्षाएँ खोजें जिनके लिए आप आवेदन कर सकते हैं",
+  heroP:"UPSC, SSC, रेलवे, बैंकिंग, रक्षा और अन्य प्रमुख परीक्षाएँ खोजें। आधिकारिक अधिसूचना पढ़ें, आधिकारिक सामग्री से तैयारी करें और आधिकारिक वेबसाइट पर आवेदन करें।",
+  searchPlaceholder:"परीक्षा खोजें…", search:"खोजें", filters:"फ़िल्टर", language:"भाषा",
+  organization:"संस्था", education:"शिक्षा", status:"स्थिति", all:"सभी", anyEducation:"कोई भी शिक्षा",
+  stOpen:"आवेदन खुला", stUpcoming:"आने वाली", stClosed:"बंद", stNotAnnounced:"घोषित नहीं", stExamCompleted:"परीक्षा हो चुकी",
+  edu10:"10वीं", edu12:"12वीं", eduDiploma:"डिप्लोमा", eduGraduate:"स्नातक", eduPostgraduate:"परास्नातक", eduProfessional:"व्यावसायिक डिग्री",
+  viewDetails:"पूरी जानकारी देखें", back:"सभी परीक्षाओं पर वापस", showing:"दिखाया जा रहा है",
+  govRecruitment:"सरकारी भर्ती", eligibilityTest:"पात्रता परीक्षा",
+  applicationOpenUntil:"आवेदन की अंतिम तिथि", applicationClosed:"आवेदन बंद हो गए",
+  notificationExpected:"अधिसूचना अपेक्षित", notReleased:"अधिसूचना अभी जारी नहीं हुई", expected:"अपेक्षित",
+  currentStatus:"वर्तमान स्थिति", whoCanApply:"कौन आवेदन कर सकता है?", age:"आयु", fee:"आवेदन शुल्क",
+  typicalJobs:"कौन-सी नौकरियाँ मिल सकती हैं", importantDates:"महत्वपूर्ण तिथियाँ",
+  applicationOpens:"आवेदन शुरू", applicationCloses:"आवेदन की अंतिम तिथि", examDate:"परीक्षा",
+  seeNotification:"आधिकारिक अधिसूचना देखें",
+  officialNotification:"आधिकारिक अधिसूचना", openPdf:"आधिकारिक PDF खोलें",
+  notPreviewable:"आधिकारिक अधिसूचना यहाँ नहीं दिखाई जा सकती। नए टैब में यह ठीक खुलती है।",
+  prepareFor:"इस परीक्षा की तैयारी करें",
+  syllabus:"पाठ्यक्रम", syllabusSub:"समझें कि क्या पढ़ना है।", officialSyllabus:"आधिकारिक पाठ्यक्रम",
+  examPattern:"परीक्षा प्रारूप", examPatternSub:"चरण, प्रश्नपत्र और अंक समझें।", viewPattern:"आधिकारिक परीक्षा प्रारूप देखें",
+  previousPapers:"पिछले प्रश्नपत्र", previousPapersSub:"असली पुराने प्रश्नपत्रों से अभ्यास करें।",
+  olderPapers:"पुराने प्रश्नपत्र", papersNotAvailable:"आधिकारिक वेबसाइट पर पिछले प्रश्नपत्र उपलब्ध नहीं हैं।",
+  answerKeys:"उत्तर कुंजी", keysNotAvailable:"इस परीक्षा के लिए कोई आधिकारिक उत्तर कुंजी प्रकाशित नहीं है।",
+  officialMockTest:"आधिकारिक मॉक टेस्ट", tryMockTest:"आधिकारिक मॉक टेस्ट दें",
+  apply:"आवेदन करें", applyOn:"आधिकारिक वेबसाइट पर आवेदन करें", officialSource:"आधिकारिक स्रोत",
+  visitWebsite:"आधिकारिक वेबसाइट देखें", officialExamPage:"आधिकारिक परीक्षा पृष्ठ",
+  lastVerified:"अंतिम जाँच", official:"आधिकारिक", otherResource:"अन्य उपयोगी संसाधन",
+  noResults:"इन फ़िल्टरों से कुछ नहीं मिला। कोई फ़िल्टर हटाएँ, या", resetFilters:"सभी हटाएँ",
+  moreDetails:"अधिक जानकारी", openInNewTab:"नए टैब में खुलता है",
+  lastPublished:"यह इस परीक्षा की सबसे हाल में जारी अधिसूचना है। अगले चक्र की अधिसूचना अभी जारी नहीं हुई है।",
+  didYouMean:"क्या आप इनमें से कोई खोज रहे हैं?", pdfIsFrom:"प्रकाशक"
+ },
+ mr:{
+  tagline:"सरकारी परीक्षा एकाच ठिकाणी: अधिकृत अधिसूचना वाचा, तयारी करा, अर्ज करा",
+  heroH:"तुम्ही अर्ज करू शकता अशा सरकारी परीक्षा शोधा",
+  heroP:"UPSC, SSC, रेल्वे, बँकिंग, संरक्षण आणि इतर प्रमुख परीक्षा शोधा. अधिकृत अधिसूचना वाचा, अधिकृत साहित्याने तयारी करा आणि अधिकृत संकेतस्थळावर अर्ज करा.",
+  searchPlaceholder:"परीक्षा शोधा…", search:"शोधा", filters:"फिल्टर", language:"भाषा",
+  organization:"संस्था", education:"शिक्षण", status:"स्थिती", all:"सर्व", anyEducation:"कोणतेही शिक्षण",
+  stOpen:"अर्ज सुरू", stUpcoming:"येणारी", stClosed:"बंद", stNotAnnounced:"जाहीर नाही", stExamCompleted:"परीक्षा झाली",
+  edu10:"10वी", edu12:"12वी", eduDiploma:"पदविका", eduGraduate:"पदवीधर", eduPostgraduate:"पदव्युत्तर", eduProfessional:"व्यावसायिक पदवी",
+  viewDetails:"संपूर्ण माहिती पहा", back:"सर्व परीक्षांकडे परत", showing:"दाखवत आहे",
+  govRecruitment:"सरकारी भरती", eligibilityTest:"पात्रता परीक्षा",
+  applicationOpenUntil:"अर्जाची अंतिम तारीख", applicationClosed:"अर्ज बंद झाले",
+  notificationExpected:"अधिसूचना अपेक्षित", notReleased:"अधिसूचना अजून जाहीर झालेली नाही", expected:"अपेक्षित",
+  currentStatus:"सध्याची स्थिती", whoCanApply:"कोण अर्ज करू शकतो?", age:"वय", fee:"अर्ज शुल्क",
+  typicalJobs:"कोणत्या नोकऱ्या मिळू शकतात", importantDates:"महत्त्वाच्या तारखा",
+  applicationOpens:"अर्ज सुरू", applicationCloses:"अर्जाची अंतिम तारीख", examDate:"परीक्षा",
+  seeNotification:"अधिकृत अधिसूचना पहा",
+  officialNotification:"अधिकृत अधिसूचना", openPdf:"अधिकृत PDF उघडा",
+  notPreviewable:"अधिकृत अधिसूचना येथे दाखवता येत नाही. नवीन टॅबमध्ये ती व्यवस्थित उघडते.",
+  prepareFor:"या परीक्षेची तयारी करा",
+  syllabus:"अभ्यासक्रम", syllabusSub:"काय अभ्यास करायचा हे समजून घ्या.", officialSyllabus:"अधिकृत अभ्यासक्रम",
+  examPattern:"परीक्षा स्वरूप", examPatternSub:"टप्पे, प्रश्नपत्रिका आणि गुण समजून घ्या.", viewPattern:"अधिकृत परीक्षा स्वरूप पहा",
+  previousPapers:"मागील प्रश्नपत्रिका", previousPapersSub:"खऱ्या जुन्या प्रश्नपत्रिकांवर सराव करा.",
+  olderPapers:"जुन्या प्रश्नपत्रिका", papersNotAvailable:"अधिकृत संकेतस्थळावर मागील प्रश्नपत्रिका उपलब्ध नाहीत.",
+  answerKeys:"उत्तरसूची", keysNotAvailable:"या परीक्षेसाठी अधिकृत उत्तरसूची प्रकाशित केलेली नाही.",
+  officialMockTest:"अधिकृत सराव परीक्षा", tryMockTest:"अधिकृत सराव परीक्षा द्या",
+  apply:"अर्ज करा", applyOn:"अधिकृत संकेतस्थळावर अर्ज करा", officialSource:"अधिकृत स्रोत",
+  visitWebsite:"अधिकृत संकेतस्थळ पहा", officialExamPage:"अधिकृत परीक्षा पृष्ठ",
+  lastVerified:"शेवटची तपासणी", official:"अधिकृत", otherResource:"इतर उपयुक्त संसाधन",
+  noResults:"या फिल्टरने काही सापडले नाही. एखादा फिल्टर काढा, किंवा", resetFilters:"सर्व काढा",
+  moreDetails:"अधिक माहिती", openInNewTab:"नवीन टॅबमध्ये उघडते",
+  lastPublished:"ही या परीक्षेची सर्वात अलीकडील जाहीर अधिसूचना आहे. पुढील चक्राची अधिसूचना अजून जाहीर झालेली नाही.",
+  didYouMean:"तुम्ही यांपैकी एक शोधत आहात का?", pdfIsFrom:"प्रकाशक"
+ },
+ kn:{
+  tagline:"ಸರ್ಕಾರಿ ಪರೀಕ್ಷೆಗಳು ಒಂದೇ ಸ್ಥಳದಲ್ಲಿ: ಅಧಿಕೃತ ಅಧಿಸೂಚನೆ ಓದಿ, ಸಿದ್ಧತೆ ಮಾಡಿ, ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
+  heroH:"ನೀವು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದಾದ ಸರ್ಕಾರಿ ಪರೀಕ್ಷೆಗಳನ್ನು ಹುಡುಕಿ",
+  heroP:"UPSC, SSC, ರೈಲ್ವೆ, ಬ್ಯಾಂಕಿಂಗ್, ರಕ್ಷಣಾ ಮತ್ತು ಇತರ ಪ್ರಮುಖ ಪರೀಕ್ಷೆಗಳನ್ನು ಹುಡುಕಿ. ಅಧಿಕೃತ ಅಧಿಸೂಚನೆ ಓದಿ, ಅಧಿಕೃತ ಸಾಮಗ್ರಿಯಿಂದ ಸಿದ್ಧತೆ ಮಾಡಿ, ಅಧಿಕೃತ ಜಾಲತಾಣದಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+  searchPlaceholder:"ಪರೀಕ್ಷೆ ಹುಡುಕಿ…", search:"ಹುಡುಕಿ", filters:"ಫಿಲ್ಟರ್", language:"ಭಾಷೆ",
+  organization:"ಸಂಸ್ಥೆ", education:"ವಿದ್ಯಾರ್ಹತೆ", status:"ಸ್ಥಿತಿ", all:"ಎಲ್ಲಾ", anyEducation:"ಯಾವುದೇ ವಿದ್ಯಾರ್ಹತೆ",
+  stOpen:"ಅರ್ಜಿ ತೆರೆದಿದೆ", stUpcoming:"ಮುಂಬರುವ", stClosed:"ಮುಚ್ಚಿದೆ", stNotAnnounced:"ಘೋಷಿಸಿಲ್ಲ", stExamCompleted:"ಪರೀಕ್ಷೆ ಮುಗಿದಿದೆ",
+  edu10:"10ನೇ", edu12:"12ನೇ", eduDiploma:"ಡಿಪ್ಲೊಮಾ", eduGraduate:"ಪದವೀಧರ", eduPostgraduate:"ಸ್ನಾತಕೋತ್ತರ", eduProfessional:"ವೃತ್ತಿಪರ ಪದವಿ",
+  viewDetails:"ಪೂರ್ಣ ಮಾಹಿತಿ ನೋಡಿ", back:"ಎಲ್ಲಾ ಪರೀಕ್ಷೆಗಳಿಗೆ ಹಿಂತಿರುಗಿ", showing:"ತೋರಿಸಲಾಗುತ್ತಿದೆ",
+  govRecruitment:"ಸರ್ಕಾರಿ ನೇಮಕಾತಿ", eligibilityTest:"ಅರ್ಹತಾ ಪರೀಕ್ಷೆ",
+  applicationOpenUntil:"ಅರ್ಜಿಯ ಕೊನೆಯ ದಿನಾಂಕ", applicationClosed:"ಅರ್ಜಿ ಮುಚ್ಚಿದೆ",
+  notificationExpected:"ಅಧಿಸೂಚನೆ ನಿರೀಕ್ಷಿತ", notReleased:"ಅಧಿಸೂಚನೆ ಇನ್ನೂ ಬಿಡುಗಡೆಯಾಗಿಲ್ಲ", expected:"ನಿರೀಕ್ಷಿತ",
+  currentStatus:"ಪ್ರಸ್ತುತ ಸ್ಥಿತಿ", whoCanApply:"ಯಾರು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು?", age:"ವಯಸ್ಸು", fee:"ಅರ್ಜಿ ಶುಲ್ಕ",
+  typicalJobs:"ಯಾವ ಉದ್ಯೋಗಗಳು ಸಿಗಬಹುದು", importantDates:"ಮುಖ್ಯ ದಿನಾಂಕಗಳು",
+  applicationOpens:"ಅರ್ಜಿ ಪ್ರಾರಂಭ", applicationCloses:"ಅರ್ಜಿಯ ಕೊನೆಯ ದಿನಾಂಕ", examDate:"ಪರೀಕ್ಷೆ",
+  seeNotification:"ಅಧಿಕೃತ ಅಧಿಸೂಚನೆ ನೋಡಿ",
+  officialNotification:"ಅಧಿಕೃತ ಅಧಿಸೂಚನೆ", openPdf:"ಅಧಿಕೃತ PDF ತೆರೆಯಿರಿ",
+  notPreviewable:"ಅಧಿಕೃತ ಅಧಿಸೂಚನೆಯನ್ನು ಇಲ್ಲಿ ತೋರಿಸಲಾಗುವುದಿಲ್ಲ. ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಸರಿಯಾಗಿ ತೆರೆಯುತ್ತದೆ.",
+  prepareFor:"ಈ ಪರೀಕ್ಷೆಗೆ ಸಿದ್ಧತೆ ಮಾಡಿ",
+  syllabus:"ಪಠ್ಯಕ್ರಮ", syllabusSub:"ಏನು ಓದಬೇಕು ಎಂದು ತಿಳಿಯಿರಿ.", officialSyllabus:"ಅಧಿಕೃತ ಪಠ್ಯಕ್ರಮ",
+  examPattern:"ಪರೀಕ್ಷಾ ಮಾದರಿ", examPatternSub:"ಹಂತಗಳು, ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳು ಮತ್ತು ಅಂಕಗಳನ್ನು ತಿಳಿಯಿರಿ.", viewPattern:"ಅಧಿಕೃತ ಪರೀಕ್ಷಾ ಮಾದರಿ ನೋಡಿ",
+  previousPapers:"ಹಿಂದಿನ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳು", previousPapersSub:"ನಿಜವಾದ ಹಿಂದಿನ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳಿಂದ ಅಭ್ಯಾಸ ಮಾಡಿ.",
+  olderPapers:"ಹಳೆಯ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳು", papersNotAvailable:"ಅಧಿಕೃತ ಜಾಲತಾಣದಲ್ಲಿ ಹಿಂದಿನ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಗಳು ಲಭ್ಯವಿಲ್ಲ.",
+  answerKeys:"ಉತ್ತರ ಕೀ", keysNotAvailable:"ಈ ಪರೀಕ್ಷೆಗೆ ಅಧಿಕೃತ ಉತ್ತರ ಕೀ ಪ್ರಕಟಿಸಿಲ್ಲ.",
+  officialMockTest:"ಅಧಿಕೃತ ಅಣಕು ಪರೀಕ್ಷೆ", tryMockTest:"ಅಧಿಕೃತ ಅಣಕು ಪರೀಕ್ಷೆ ಮಾಡಿ",
+  apply:"ಅರ್ಜಿ ಸಲ್ಲಿಸಿ", applyOn:"ಅಧಿಕೃತ ಜಾಲತಾಣದಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ", officialSource:"ಅಧಿಕೃತ ಮೂಲ",
+  visitWebsite:"ಅಧಿಕೃತ ಜಾಲತಾಣ ನೋಡಿ", officialExamPage:"ಅಧಿಕೃತ ಪರೀಕ್ಷಾ ಪುಟ",
+  lastVerified:"ಕೊನೆಯ ಪರಿಶೀಲನೆ", official:"ಅಧಿಕೃತ", otherResource:"ಇತರ ಉಪಯುಕ್ತ ಸಂಪನ್ಮೂಲ",
+  noResults:"ಈ ಫಿಲ್ಟರ್‌ಗಳಿಗೆ ಏನೂ ಸಿಗಲಿಲ್ಲ. ಒಂದನ್ನು ತೆಗೆಯಿರಿ, ಅಥವಾ", resetFilters:"ಎಲ್ಲಾ ತೆಗೆಯಿರಿ",
+  moreDetails:"ಹೆಚ್ಚಿನ ಮಾಹಿತಿ", openInNewTab:"ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ",
+  lastPublished:"ಇದು ಈ ಪರೀಕ್ಷೆಗೆ ಇತ್ತೀಚೆಗೆ ಪ್ರಕಟವಾದ ಅಧಿಸೂಚನೆ. ಮುಂದಿನ ಚಕ್ರದ ಅಧಿಸೂಚನೆ ಇನ್ನೂ ಬಿಡುಗಡೆಯಾಗಿಲ್ಲ.",
+  didYouMean:"ಇವುಗಳಲ್ಲಿ ಒಂದನ್ನು ಹುಡುಕುತ್ತಿದ್ದೀರಾ?", pdfIsFrom:"ಪ್ರಕಾಶಕ"
+ },
+ ta:{
+  tagline:"அரசு தேர்வுகள் ஒரே இடத்தில்: அதிகாரப்பூர்வ அறிவிப்பைப் படியுங்கள், தயாராகுங்கள், விண்ணப்பியுங்கள்",
+  heroH:"நீங்கள் விண்ணப்பிக்கக்கூடிய அரசு தேர்வுகளைக் கண்டறியுங்கள்",
+  heroP:"UPSC, SSC, ரயில்வே, வங்கி, பாதுகாப்பு உள்ளிட்ட முக்கிய தேர்வுகளைத் தேடுங்கள். அதிகாரப்பூர்வ அறிவிப்பைப் படித்து, அதிகாரப்பூர்வ தாள்களுடன் தயாராகி, அதிகாரப்பூர்வ இணையதளத்தில் விண்ணப்பியுங்கள்.",
+  searchPlaceholder:"தேர்வைத் தேடுங்கள்…", search:"தேடு", filters:"வடிகட்டி", language:"மொழி",
+  organization:"நிறுவனம்", education:"கல்வி", status:"நிலை", all:"அனைத்தும்", anyEducation:"எந்த கல்வியும்",
+  stOpen:"விண்ணப்பம் திறந்துள்ளது", stUpcoming:"வரவிருக்கிறது", stClosed:"மூடப்பட்டது", stNotAnnounced:"அறிவிக்கப்படவில்லை", stExamCompleted:"தேர்வு முடிந்தது",
+  edu10:"10ஆம் வகுப்பு", edu12:"12ஆம் வகுப்பு", eduDiploma:"டிப்ளோமா", eduGraduate:"இளங்கலை", eduPostgraduate:"முதுகலை", eduProfessional:"தொழில்முறை பட்டம்",
+  viewDetails:"முழு விவரங்களைப் பார்க்க", back:"அனைத்து தேர்வுகளுக்குத் திரும்பு", showing:"காட்டப்படுகிறது",
+  govRecruitment:"அரசு பணி நியமனம்", eligibilityTest:"தகுதித் தேர்வு",
+  applicationOpenUntil:"விண்ணப்பிக்க கடைசி நாள்", applicationClosed:"விண்ணப்பம் மூடப்பட்டது",
+  notificationExpected:"அறிவிப்பு எதிர்பார்க்கப்படுகிறது", notReleased:"அறிவிப்பு இன்னும் வெளியிடப்படவில்லை", expected:"எதிர்பார்க்கப்படுகிறது",
+  currentStatus:"தற்போதைய நிலை", whoCanApply:"யார் விண்ணப்பிக்கலாம்?", age:"வயது", fee:"விண்ணப்பக் கட்டணம்",
+  typicalJobs:"கிடைக்கும் பணிகள்", importantDates:"முக்கிய தேதிகள்",
+  applicationOpens:"விண்ணப்பம் தொடங்கும்", applicationCloses:"விண்ணப்பிக்க கடைசி நாள்", examDate:"தேர்வு",
+  seeNotification:"அதிகாரப்பூர்வ அறிவிப்பைப் பார்க்க",
+  officialNotification:"அதிகாரப்பூர்வ அறிவிப்பு", openPdf:"அதிகாரப்பூர்வ PDF-ஐத் திற",
+  notPreviewable:"அதிகாரப்பூர்வ அறிவிப்பை இங்கே காட்ட முடியாது. புதிய தாவலில் சரியாகத் திறக்கும்.",
+  prepareFor:"இந்தத் தேர்வுக்குத் தயாராகுங்கள்",
+  syllabus:"பாடத்திட்டம்", syllabusSub:"என்ன படிக்க வேண்டும் என்பதைப் புரிந்துகொள்ளுங்கள்.", officialSyllabus:"அதிகாரப்பூர்வ பாடத்திட்டம்",
+  examPattern:"தேர்வு முறை", examPatternSub:"நிலைகள், தாள்கள், மதிப்பெண்களைப் புரிந்துகொள்ளுங்கள்.", viewPattern:"அதிகாரப்பூர்வ தேர்வு முறையைப் பார்க்க",
+  previousPapers:"முந்தைய வினாத்தாள்கள்", previousPapersSub:"உண்மையான பழைய வினாத்தாள்களில் பயிற்சி செய்யுங்கள்.",
+  olderPapers:"பழைய வினாத்தாள்கள்", papersNotAvailable:"அதிகாரப்பூர்வ இணையதளத்தில் முந்தைய வினாத்தாள்கள் இல்லை.",
+  answerKeys:"விடைக்குறிப்பு", keysNotAvailable:"இந்தத் தேர்வுக்கு அதிகாரப்பூர்வ விடைக்குறிப்பு வெளியிடப்படவில்லை.",
+  officialMockTest:"அதிகாரப்பூர்வ மாதிரித் தேர்வு", tryMockTest:"அதிகாரப்பூர்வ மாதிரித் தேர்வை முயற்சி செய்",
+  apply:"விண்ணப்பியுங்கள்", applyOn:"அதிகாரப்பூர்வ இணையதளத்தில் விண்ணப்பியுங்கள்", officialSource:"அதிகாரப்பூர்வ ஆதாரம்",
+  visitWebsite:"அதிகாரப்பூர்வ இணையதளத்தைப் பார்க்க", officialExamPage:"அதிகாரப்பூர்வ தேர்வுப் பக்கம்",
+  lastVerified:"கடைசியாகச் சரிபார்க்கப்பட்டது", official:"அதிகாரப்பூர்வ", otherResource:"பிற பயனுள்ள ஆதாரம்",
+  noResults:"இந்த வடிகட்டிகளுக்கு எதுவும் இல்லை. ஒன்றை நீக்குங்கள், அல்லது", resetFilters:"அனைத்தையும் நீக்கு",
+  moreDetails:"மேலும் விவரங்கள்", openInNewTab:"புதிய தாவலில் திறக்கும்",
+  lastPublished:"இது இந்தத் தேர்வுக்கு வெளியிடப்பட்ட மிக அண்மைய அறிவிப்பு. அடுத்த சுற்றுக்கான அறிவிப்பு இன்னும் வெளியிடப்படவில்லை.",
+  didYouMean:"இவற்றில் ஒன்றைத் தேடுகிறீர்களா?", pdfIsFrom:"வெளியிட்டவர்"
+ },
+ te:{
+  tagline:"ప్రభుత్వ పరీక్షలు ఒకే చోట: అధికారిక ప్రకటన చదవండి, సిద్ధపడండి, దరఖాస్తు చేయండి",
+  heroH:"మీరు దరఖాస్తు చేయగల ప్రభుత్వ పరీక్షలను కనుగొనండి",
+  heroP:"UPSC, SSC, రైల్వే, బ్యాంకింగ్, రక్షణ తో పాటు ప్రధాన పరీక్షలను వెతకండి. అధికారిక ప్రకటన చదివి, అధికారిక పత్రాలతో సిద్ధపడి, అధికారిక వెబ్‌సైట్‌లో దరఖాస్తు చేయండి.",
+  searchPlaceholder:"పరీక్షను వెతకండి…", search:"వెతకండి", filters:"ఫిల్టర్లు", language:"భాష",
+  organization:"సంస్థ", education:"విద్య", status:"స్థితి", all:"అన్నీ", anyEducation:"ఏ విద్య అయినా",
+  stOpen:"దరఖాస్తు తెరిచి ఉంది", stUpcoming:"రాబోయే", stClosed:"మూసివేయబడింది", stNotAnnounced:"ప్రకటించలేదు", stExamCompleted:"పరీక్ష పూర్తయింది",
+  edu10:"10వ తరగతి", edu12:"12వ తరగతి", eduDiploma:"డిప్లొమా", eduGraduate:"డిగ్రీ", eduPostgraduate:"పీజీ", eduProfessional:"వృత్తి డిగ్రీ",
+  viewDetails:"పూర్తి వివరాలు చూడండి", back:"అన్ని పరీక్షలకు తిరిగి", showing:"చూపిస్తోంది",
+  govRecruitment:"ప్రభుత్వ నియామకం", eligibilityTest:"అర్హత పరీక్ష",
+  applicationOpenUntil:"దరఖాస్తుకు చివరి తేదీ", applicationClosed:"దరఖాస్తులు మూసివేయబడ్డాయి",
+  notificationExpected:"ప్రకటన ఆశించబడుతోంది", notReleased:"ప్రకటన ఇంకా విడుదల కాలేదు", expected:"ఆశించినది",
+  currentStatus:"ప్రస్తుత స్థితి", whoCanApply:"ఎవరు దరఖాస్తు చేయవచ్చు?", age:"వయస్సు", fee:"దరఖాస్తు రుసుము",
+  typicalJobs:"ఏ ఉద్యోగాలు రావచ్చు", importantDates:"ముఖ్య తేదీలు",
+  applicationOpens:"దరఖాస్తు ప్రారంభం", applicationCloses:"దరఖాస్తుకు చివరి తేదీ", examDate:"పరీక్ష",
+  seeNotification:"అధికారిక ప్రకటన చూడండి",
+  officialNotification:"అధికారిక ప్రకటన", openPdf:"అధికారిక PDF తెరవండి",
+  notPreviewable:"అధికారిక ప్రకటనను ఇక్కడ చూపించలేము. కొత్త ట్యాబ్‌లో సరిగ్గా తెరుచుకుంటుంది.",
+  prepareFor:"ఈ పరీక్షకు సిద్ధపడండి",
+  syllabus:"సిలబస్", syllabusSub:"ఏమి చదవాలో తెలుసుకోండి.", officialSyllabus:"అధికారిక సిలబస్",
+  examPattern:"పరీక్ష విధానం", examPatternSub:"దశలు, పత్రాలు, మార్కులు తెలుసుకోండి.", viewPattern:"అధికారిక పరీక్ష విధానం చూడండి",
+  previousPapers:"గత ప్రశ్నపత్రాలు", previousPapersSub:"నిజమైన గత ప్రశ్నపత్రాలతో సాధన చేయండి.",
+  olderPapers:"పాత ప్రశ్నపత్రాలు", papersNotAvailable:"అధికారిక వెబ్‌సైట్‌లో గత ప్రశ్నపత్రాలు అందుబాటులో లేవు.",
+  answerKeys:"కీ (సమాధాన పత్రం)", keysNotAvailable:"ఈ పరీక్షకు అధికారిక కీ ప్రచురించలేదు.",
+  officialMockTest:"అధికారిక మాక్ టెస్ట్", tryMockTest:"అధికారిక మాక్ టెస్ట్ చేయండి",
+  apply:"దరఖాస్తు చేయండి", applyOn:"అధికారిక వెబ్‌సైట్‌లో దరఖాస్తు చేయండి", officialSource:"అధికారిక మూలం",
+  visitWebsite:"అధికారిక వెబ్‌సైట్ చూడండి", officialExamPage:"అధికారిక పరీక్ష పేజీ",
+  lastVerified:"చివరి ధృవీకరణ", official:"అధికారిక", otherResource:"ఇతర ఉపయోగకర వనరు",
+  noResults:"ఈ ఫిల్టర్లకు ఏమీ దొరకలేదు. ఒకటి తీసివేయండి, లేదా", resetFilters:"అన్నీ తీసివేయండి",
+  moreDetails:"మరిన్ని వివరాలు", openInNewTab:"కొత్త ట్యాబ్‌లో తెరుచుకుంటుంది",
+  lastPublished:"ఇది ఈ పరీక్షకు ఇటీవల విడుదలైన ప్రకటన. తదుపరి చక్రం ప్రకటన ఇంకా విడుదల కాలేదు.",
+  didYouMean:"వీటిలో ఒకటి వెతుకుతున్నారా?", pdfIsFrom:"ప్రచురణకర్త"
+ },
+ bn:{
+  tagline:"সরকারি পরীক্ষা এক জায়গায়: সরকারি বিজ্ঞপ্তি পড়ুন, প্রস্তুতি নিন, আবেদন করুন",
+  heroH:"আপনি যে সরকারি পরীক্ষায় আবেদন করতে পারেন তা খুঁজুন",
+  heroP:"UPSC, SSC, রেল, ব্যাঙ্কিং, প্রতিরক্ষা এবং আরও বড় পরীক্ষা খুঁজুন। সরকারি বিজ্ঞপ্তি পড়ুন, সরকারি প্রশ্নপত্র দিয়ে প্রস্তুতি নিন, সরকারি ওয়েবসাইটে আবেদন করুন।",
+  searchPlaceholder:"পরীক্ষা খুঁজুন…", search:"খুঁজুন", filters:"ফিল্টার", language:"ভাষা",
+  organization:"সংস্থা", education:"শিক্ষা", status:"অবস্থা", all:"সব", anyEducation:"যেকোনো শিক্ষা",
+  stOpen:"আবেদন চলছে", stUpcoming:"আসন্ন", stClosed:"বন্ধ", stNotAnnounced:"ঘোষণা হয়নি", stExamCompleted:"পরীক্ষা হয়ে গেছে",
+  edu10:"দশম", edu12:"দ্বাদশ", eduDiploma:"ডিপ্লোমা", eduGraduate:"স্নাতক", eduPostgraduate:"স্নাতকোত্তর", eduProfessional:"পেশাদার ডিগ্রি",
+  viewDetails:"সম্পূর্ণ তথ্য দেখুন", back:"সব পরীক্ষায় ফিরে যান", showing:"দেখানো হচ্ছে",
+  govRecruitment:"সরকারি নিয়োগ", eligibilityTest:"যোগ্যতা পরীক্ষা",
+  applicationOpenUntil:"আবেদনের শেষ তারিখ", applicationClosed:"আবেদন বন্ধ হয়েছে",
+  notificationExpected:"বিজ্ঞপ্তি প্রত্যাশিত", notReleased:"বিজ্ঞপ্তি এখনও প্রকাশিত হয়নি", expected:"প্রত্যাশিত",
+  currentStatus:"বর্তমান অবস্থা", whoCanApply:"কে আবেদন করতে পারেন?", age:"বয়স", fee:"আবেদন ফি",
+  typicalJobs:"কোন কাজ পেতে পারেন", importantDates:"গুরুত্বপূর্ণ তারিখ",
+  applicationOpens:"আবেদন শুরু", applicationCloses:"আবেদনের শেষ তারিখ", examDate:"পরীক্ষা",
+  seeNotification:"সরকারি বিজ্ঞপ্তি দেখুন",
+  officialNotification:"সরকারি বিজ্ঞপ্তি", openPdf:"সরকারি PDF খুলুন",
+  notPreviewable:"সরকারি বিজ্ঞপ্তি এখানে দেখানো যাচ্ছে না। নতুন ট্যাবে ঠিকভাবে খোলে।",
+  prepareFor:"এই পরীক্ষার প্রস্তুতি নিন",
+  syllabus:"সিলেবাস", syllabusSub:"কী পড়তে হবে তা বুঝুন।", officialSyllabus:"সরকারি সিলেবাস",
+  examPattern:"পরীক্ষার ধরন", examPatternSub:"ধাপ, প্রশ্নপত্র ও নম্বর বুঝুন।", viewPattern:"সরকারি পরীক্ষার ধরন দেখুন",
+  previousPapers:"পুরনো প্রশ্নপত্র", previousPapersSub:"আসল পুরনো প্রশ্নপত্রে অভ্যাস করুন।",
+  olderPapers:"আরও পুরনো প্রশ্নপত্র", papersNotAvailable:"সরকারি ওয়েবসাইটে পুরনো প্রশ্নপত্র নেই।",
+  answerKeys:"উত্তরপত্র (কী)", keysNotAvailable:"এই পরীক্ষার কোনো সরকারি উত্তরপত্র প্রকাশিত হয়নি।",
+  officialMockTest:"সরকারি মক টেস্ট", tryMockTest:"সরকারি মক টেস্ট দিন",
+  apply:"আবেদন করুন", applyOn:"সরকারি ওয়েবসাইটে আবেদন করুন", officialSource:"সরকারি সূত্র",
+  visitWebsite:"সরকারি ওয়েবসাইট দেখুন", officialExamPage:"সরকারি পরীক্ষার পাতা",
+  lastVerified:"সর্বশেষ যাচাই", official:"সরকারি", otherResource:"অন্য কাজের সূত্র",
+  noResults:"এই ফিল্টারে কিছু মেলেনি। একটি সরান, অথবা", resetFilters:"সব সরান",
+  moreDetails:"আরও তথ্য", openInNewTab:"নতুন ট্যাবে খোলে",
+  lastPublished:"এটি এই পরীক্ষার সবচেয়ে সাম্প্রতিক প্রকাশিত বিজ্ঞপ্তি। পরবর্তী চক্রের বিজ্ঞপ্তি এখনও প্রকাশিত হয়নি।",
+  didYouMean:"আপনি কি এগুলোর একটি খুঁজছেন?", pdfIsFrom:"প্রকাশক"
+ },
+ ml:{
+  tagline:"സർക്കാർ പരീക്ഷകൾ ഒരിടത്ത്: ഔദ്യോഗിക വിജ്ഞാപനം വായിക്കുക, തയ്യാറെടുക്കുക, അപേക്ഷിക്കുക",
+  heroH:"നിങ്ങൾക്ക് അപേക്ഷിക്കാവുന്ന സർക്കാർ പരീക്ഷകൾ കണ്ടെത്തുക",
+  heroP:"UPSC, SSC, റെയിൽവേ, ബാങ്കിംഗ്, പ്രതിരോധം തുടങ്ങിയ പ്രധാന പരീക്ഷകൾ തിരയുക. ഔദ്യോഗിക വിജ്ഞാപനം വായിച്ച്, ഔദ്യോഗിക ചോദ്യപേപ്പറുകൾ ഉപയോഗിച്ച് തയ്യാറെടുത്ത്, ഔദ്യോഗിക വെബ്‌സൈറ്റിൽ അപേക്ഷിക്കുക.",
+  searchPlaceholder:"പരീക്ഷ തിരയുക…", search:"തിരയുക", filters:"ഫിൽട്ടർ", language:"ഭാഷ",
+  organization:"സ്ഥാപനം", education:"വിദ്യാഭ്യാസം", status:"നില", all:"എല്ലാം", anyEducation:"ഏത് വിദ്യാഭ്യാസവും",
+  stOpen:"അപേക്ഷ തുറന്നിരിക്കുന്നു", stUpcoming:"വരാനിരിക്കുന്നത്", stClosed:"അടച്ചു", stNotAnnounced:"പ്രഖ്യാപിച്ചിട്ടില്ല", stExamCompleted:"പരീക്ഷ കഴിഞ്ഞു",
+  edu10:"പത്താം ക്ലാസ്", edu12:"പന്ത്രണ്ടാം ക്ലാസ്", eduDiploma:"ഡിപ്ലോമ", eduGraduate:"ബിരുദം", eduPostgraduate:"ബിരുദാനന്തര ബിരുദം", eduProfessional:"പ്രൊഫഷണൽ ബിരുദം",
+  viewDetails:"പൂർണ്ണ വിവരങ്ങൾ കാണുക", back:"എല്ലാ പരീക്ഷകളിലേക്കും മടങ്ങുക", showing:"കാണിക്കുന്നു",
+  govRecruitment:"സർക്കാർ നിയമനം", eligibilityTest:"യോഗ്യതാ പരീക്ഷ",
+  applicationOpenUntil:"അപേക്ഷിക്കാനുള്ള അവസാന തീയതി", applicationClosed:"അപേക്ഷ അടച്ചു",
+  notificationExpected:"വിജ്ഞാപനം പ്രതീക്ഷിക്കുന്നു", notReleased:"വിജ്ഞാപനം ഇതുവരെ പ്രസിദ്ധീകരിച്ചിട്ടില്ല", expected:"പ്രതീക്ഷിക്കുന്നത്",
+  currentStatus:"നിലവിലെ സ്ഥിതി", whoCanApply:"ആർക്ക് അപേക്ഷിക്കാം?", age:"പ്രായം", fee:"അപേക്ഷാ ഫീസ്",
+  typicalJobs:"ലഭിക്കാവുന്ന ജോലികൾ", importantDates:"പ്രധാന തീയതികൾ",
+  applicationOpens:"അപേക്ഷ ആരംഭം", applicationCloses:"അപേക്ഷിക്കാനുള്ള അവസാന തീയതി", examDate:"പരീക്ഷ",
+  seeNotification:"ഔദ്യോഗിക വിജ്ഞാപനം കാണുക",
+  officialNotification:"ഔദ്യോഗിക വിജ്ഞാപനം", openPdf:"ഔദ്യോഗിക PDF തുറക്കുക",
+  notPreviewable:"ഔദ്യോഗിക വിജ്ഞാപനം ഇവിടെ കാണിക്കാൻ കഴിയില്ല. പുതിയ ടാബിൽ ശരിയായി തുറക്കും.",
+  prepareFor:"ഈ പരീക്ഷയ്ക്ക് തയ്യാറെടുക്കുക",
+  syllabus:"സിലബസ്", syllabusSub:"എന്ത് പഠിക്കണം എന്ന് മനസ്സിലാക്കുക.", officialSyllabus:"ഔദ്യോഗിക സിലബസ്",
+  examPattern:"പരീക്ഷാ രീതി", examPatternSub:"ഘട്ടങ്ങൾ, പേപ്പറുകൾ, മാർക്ക് മനസ്സിലാക്കുക.", viewPattern:"ഔദ്യോഗിക പരീക്ഷാ രീതി കാണുക",
+  previousPapers:"മുൻവർഷ ചോദ്യപേപ്പറുകൾ", previousPapersSub:"യഥാർത്ഥ പഴയ ചോദ്യപേപ്പറുകളിൽ പരിശീലിക്കുക.",
+  olderPapers:"പഴയ ചോദ്യപേപ്പറുകൾ", papersNotAvailable:"ഔദ്യോഗിക വെബ്‌സൈറ്റിൽ മുൻവർഷ ചോദ്യപേപ്പറുകൾ ലഭ്യമല്ല.",
+  answerKeys:"ഉത്തരസൂചിക", keysNotAvailable:"ഈ പരീക്ഷയ്ക്ക് ഔദ്യോഗിക ഉത്തരസൂചിക പ്രസിദ്ധീകരിച്ചിട്ടില്ല.",
+  officialMockTest:"ഔദ്യോഗിക മോക്ക് ടെസ്റ്റ്", tryMockTest:"ഔദ്യോഗിക മോക്ക് ടെസ്റ്റ് ചെയ്യുക",
+  apply:"അപേക്ഷിക്കുക", applyOn:"ഔദ്യോഗിക വെബ്‌സൈറ്റിൽ അപേക്ഷിക്കുക", officialSource:"ഔദ്യോഗിക ഉറവിടം",
+  visitWebsite:"ഔദ്യോഗിക വെബ്‌സൈറ്റ് കാണുക", officialExamPage:"ഔദ്യോഗിക പരീക്ഷാ പേജ്",
+  lastVerified:"അവസാനം പരിശോധിച്ചത്", official:"ഔദ്യോഗികം", otherResource:"മറ്റ് ഉപകാരപ്രദമായ വിഭവം",
+  noResults:"ഈ ഫിൽട്ടറുകൾക്ക് ഒന്നും കിട്ടിയില്ല. ഒന്ന് മാറ്റുക, അല്ലെങ്കിൽ", resetFilters:"എല്ലാം മാറ്റുക",
+  moreDetails:"കൂടുതൽ വിവരങ്ങൾ", openInNewTab:"പുതിയ ടാബിൽ തുറക്കും",
+  lastPublished:"ഇത് ഈ പരീക്ഷയ്ക്ക് ഏറ്റവും അടുത്ത് പ്രസിദ്ധീകരിച്ച വിജ്ഞാപനമാണ്. അടുത്ത ചക്രത്തിന്റെ വിജ്ഞാപനം ഇതുവരെ പ്രസിദ്ധീകരിച്ചിട്ടില്ല.",
+  didYouMean:"ഇവയിൽ ഒന്ന് തിരയുന്നുണ്ടോ?", pdfIsFrom:"പ്രസാധകൻ"
+ }
+};
+/* regional-language and shorthand search aliases -> the words the dataset already uses */
+var ALIASES = [
+ [["सरकारी परीक्षा","सरकारी नौकरी","सरकारी नौकरी परीक्षा","सरकारी भर्ती"],"type:exam"],
+ [["सरकारी परीक्षा","शासकीय नोकरी","सरकारी भरती"],"type:exam"],
+ [["ಸರ್ಕಾರಿ ಪರೀಕ್ಷೆ","ಸರ್ಕಾರಿ ಕೆಲಸ","ಸರ್ಕಾರಿ ನೌಕರಿ"],"type:exam"],
+ [["அரசு தேர்வு","அரசு வேலை","அரசுப் பணி"],"type:exam"],
+ [["ప్రభుత్వ పరీక్ష","ప్రభుత్వ ఉద్యోగం","గవర్నమెంట్ జాబ్"],"type:exam"],
+ [["সরকারি পরীক্ষা","সরকারি চাকরি","সরকারি নিয়োগ"],"type:exam"],
+ [["സർക്കാർ പരീക്ഷ","സർക്കാർ ജോലി","സർക്കാർ നിയമനം"],"type:exam"],
+ [["रेलवे","रेल्वे","ரயில்வே","റെയിൽവേ","রেল","ರೈಲ್ವೆ","రైల్వే"],"railway"],
+ [["बैंक","बँक","வங்கி","ബാങ്ക്","ব্যাঙ্ক","ಬ್ಯಾಂಕ್","బ్యాంక్"],"bank"],
+ [["सेना","फौज","ராணுவம்","സൈന്യം","সেনা","ಸೇನೆ","సైన్యం","army"],"defence army"],
+ [["शिक्षक","अध्यापक","ஆசிரியர்","അധ്യാപകൻ","শিক্ষক","ಶಿಕ್ಷಕ","ఉపాధ్యాయుడు"],"teacher"],
+ [["पुलिस","போலீஸ்","പോലീസ്","পুলিশ","ಪೊಲೀಸ್","పోలీసు"],"police constable"],
+ [["डॉक्टर","மருத்துவர்","ഡോക്ടർ","ডাক্তার","ವೈದ್ಯ","డాక్టర్"],"doctor medical"],
+ [["नर्स","செவிலியர்","നഴ്‌സ്","নার্স","ನರ್ಸ್","నర్సు"],"nursing"],
+ [["इंजीनियर","अभियंता","பொறியாளர்","എൻജിനീയർ","ইঞ্জিনিয়ার","ಇಂಜಿನಿಯರ್","ఇంజనీర్"],"engineer"],
+ [["क्लर्क","लिपिक","எழுத்தர்","ക്ലർക്ക്","কেরানি","ಗುಮಾಸ್ತ","క్లర్క్"],"clerk"]
+];
+/* preparation search intents: "ssc cgl syllabus" -> open that exam at the syllabus section */
+var INTENTS = [
+ {sec:"papers", words:["pyq","previous paper","previous papers","previous year paper","previous year papers","question paper","question papers","past paper","past papers","prev paper","पिछला प्रश्नपत्र","पिछले प्रश्नपत्र","प्रश्नपत्र","मागील प्रश्नपत्रिका","ಹಿಂದಿನ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ","முந்தைய வினாத்தாள்","గత ప్రశ్నపత్రం","পুরনো প্রশ্নপত্র","മുൻവർഷ ചോദ്യപേപ്പർ"]},
+ {sec:"pattern", words:["exam pattern","pattern","paper pattern","marking scheme","exam scheme","परीक्षा प्रारूप","परीक्षा पैटर्न","परीक्षा स्वरूप","ಪರೀಕ್ಷಾ ಮಾದರಿ","தேர்வு முறை","పరీక్ష విధానం","পরীক্ষার ধরন","പരീക്ഷാ രീതി"]},
+ {sec:"keys", words:["answer key","answer keys","key","उत्तर कुंजी","उत्तरसूची","ಉತ್ತರ ಕೀ","விடைக்குறிப்பு","కీ","উত্তরপত্র","ഉത്തരസൂചിക"]},
+ {sec:"mock", words:["mock test","mock","practice test","मॉक टेस्ट","सराव परीक्षा","ಅಣಕು ಪರೀಕ್ಷೆ","மாதிரித் தேர்வு","మాక్ టెస్ట్","মক টেস্ট","മോക്ക് ടെസ്റ്റ്"]},
+ {sec:"notification", words:["notification","notice","advertisement","अधिसूचना","अधिसूचना pdf","सूचना","ಅಧಿಸೂಚನೆ","அறிவிப்பு","ప్రకటన","বিজ্ঞপ্তি","വിജ്ഞാപനം"]},
+ {sec:"syllabus", words:["syllabus","course","curriculum","पाठ्यक्रम","सिलेबस","अभ्यासक्रम","ಪಠ್ಯಕ್ರಮ","பாடத்திட்டம்","సిలబస్","সিলেবাস","സിലബസ്"]}
+];
 
 var els = {};
-["q","age","edu","fee","month","pay","sort","cats","list","count","stamp","reset","filters","mLight","mDark","mCb"].forEach(function(id){ els[id]=document.getElementById(id); });
+["q","age","edu","fee","month","pay","sort","cats","list","count","stamp","reset","filters","mLight","mDark","mCb",
+ "lang","q2","org","edu2","status","detail","heroH","heroP","tagline","intentHits","filtersLabel"].forEach(function(id){ els[id]=document.getElementById(id); });
+
+/* ---------- language ---------- */
+var lang = "en";
+function t(k){
+  var d = UI_TEXT[lang];
+  if (d && d[k] != null) return d[k];
+  return UI_TEXT.en[k] != null ? UI_TEXT.en[k] : "";  /* never show a raw key */
+}
+function eduOptLabel(v){
+  return {"10th":t("edu10"),"12th":t("edu12"),diploma:t("eduDiploma"),ug:t("eduGraduate"),
+          pg:t("eduPostgraduate"),professional:t("eduProfessional")}[v] || v;
+}
 
 /* ---------- state <-> hash (shareable filter URLs) ---------- */
-var state = {q:"",age:"",edu:"",cats:[],fee:"",month:"",pay:false,sort:"soon"};
+var state = {q:"",age:"",edu:"",cats:[],fee:"",month:"",pay:false,sort:"soon",org:"",status:"",exam:"",sec:""};
 function readHash(){
   var h = location.hash.replace(/^#/,""); if(!h) return;
   function dec(s){ try{ return decodeURIComponent(s); }catch(e){ return ""; } }
@@ -218,10 +627,25 @@ function readHash(){
   if (p.sort!==undefined && ["soon","name","fee"].indexOf(p.sort)>=0) state.sort = p.sort;
   if (p.cat) state.cats = p.cat.split(",").filter(function(c){return CATS[c];});
   if (p.pay==="1") state.pay = true;
+  if (p.lang!==undefined && UI_TEXT[p.lang]) lang = p.lang;
+  if (p.org!==undefined && ORGS.indexOf(p.org)>=0) state.org = p.org;
+  if (p.status!==undefined && STATUSES.indexOf(p.status)>=0) state.status = p.status;
+  if (p.exam!==undefined && /^[a-z0-9-]{2,60}$/.test(p.exam)) state.exam = p.exam;
+  if (p.sec!==undefined && /^[a-z]{2,14}$/.test(p.sec)) state.sec = p.sec;
+  if (p.shot==="exam"){ state.exam = "ssc-cgl"; }
+  if (p.shot==="prep"){ state.exam = "upsc-cse"; state.sec = "papers"; }
 }
 var lastHash=null;
 function writeHash(){
   var parts=[];
+  if(state.exam){
+    parts.push("exam="+state.exam);
+    if(state.sec)parts.push("sec="+state.sec);
+    if(lang!=="en")parts.push("lang="+lang);
+    var nx="#"+parts.join("&");
+    if(nx!==lastHash){ lastHash=nx; try{ history.replaceState(null,"",nx); }catch(e){} }
+    return;
+  }
   if(state.q)parts.push("q="+encodeURIComponent(state.q));
   if(state.age)parts.push("age="+state.age);
   if(state.edu)parts.push("edu="+state.edu);
@@ -229,6 +653,9 @@ function writeHash(){
   if(state.fee!=="")parts.push("fee="+state.fee);
   if(state.month)parts.push("month="+state.month);
   if(state.pay)parts.push("pay=1");
+  if(state.org)parts.push("org="+encodeURIComponent(state.org));
+  if(state.status)parts.push("status="+state.status);
+  if(lang!=="en")parts.push("lang="+lang);
   if(state.sort!=="soon")parts.push("sort="+state.sort);
   var next=parts.length?"#"+parts.join("&"):"";
   if(next===lastHash)return;
@@ -268,13 +695,54 @@ function badOfficial(id){
   if(!health)return false;
   return (health.badLinks||[]).some(function(b){return b.id===id&&b.kind==="official";});
 }
+/* did this exact URL fail the last automated check? used to warn honestly on detail pages */
+function badUrl(url){
+  if(!health||!url)return false;
+  return (health.badLinks||[]).some(function(b){return b.url===url;});
+}
 
 /* ---------- filtering ---------- */
+/* expand a query through the regional-language aliases, and drop any preparation
+   intent word ("syllabus", "pyq", …) so "ssc cgl syllabus" still finds SSC CGL */
+function expandQuery(raw){
+  var q=(raw||"").toLowerCase().trim();
+  if(!q)return {terms:[],sec:""};
+  var sec="";
+  INTENTS.forEach(function(it){
+    it.words.forEach(function(w){
+      var lw=w.toLowerCase();
+      if(q.indexOf(lw)>=0){ if(!sec)sec=it.sec; q=q.split(lw).join(" "); }
+    });
+  });
+  var terms=[q.replace(/\s+/g," ").trim()];
+  ALIASES.forEach(function(pair){
+    pair[0].forEach(function(a){
+      if(q.indexOf(a.toLowerCase())>=0) terms.push(pair[1]);
+    });
+  });
+  return {terms:terms.filter(function(s){return s;}), sec:sec};
+}
+function haystack(o){
+  return (o.name+" "+o.oneLiner+" "+(o.tags||[]).join(" ")+" "+
+          (o.organization||"")+" "+(o.organizationFull||"")+" "+
+          (o.typicalJobs||[]).join(" ")+" "+(o.description||"")).toLowerCase();
+}
 function matches(o){
   if(state.q){
-    var q=state.q.toLowerCase();
-    var hay=(o.name+" "+o.oneLiner+" "+(o.tags||[]).join(" ")).toLowerCase();
-    if(hay.indexOf(q)<0)return false;
+    var ex=expandQuery(state.q), hay=haystack(o);
+    var hit=ex.terms.some(function(term){
+      if(term==="type:exam")return o.type==="exam";
+      return term.split(/\s+/).every(function(w){ return hay.indexOf(w)>=0; });
+    });
+    if(!hit)return false;
+  }
+  if(state.org){
+    if(o.organization!==state.org)return false;
+  }
+  if(state.status){
+    if(!o.status)return false;
+    var s=o.status==="exam-completed"?"closed":o.status;
+    if(s!==state.status)return false;
   }
   if(state.cats.length&&state.cats.indexOf(o.category)<0)return false;
   if(state.age!==""){
@@ -304,9 +772,18 @@ function soonKey(o){
   for(var i=0;i<wm.length;i++){ var dd=(wm[i]-CUR_MONTH+12)%12; if(dd<d)d=dd; }
   return d;
 }
+/* government exams are what this site is for, so they lead the list; everything
+   else in the dataset still shows below, in the order it always did */
+function statusRank(o){ return {open:0,upcoming:1,closed:2,"exam-completed":3,"not-announced":4}[o.status]; }
 function sorted(list){
   var s=state.sort;
   return list.slice().sort(function(a,b){
+    var ea=a.type==="exam"?0:1, eb=b.type==="exam"?0:1;
+    if(ea!==eb)return ea-eb;
+    if(ea===0&&s==="soon"){
+      var ra=statusRank(a),rb=statusRank(b);
+      if(ra!==rb)return ra-rb;
+    }
     if(s==="name")return a.name.localeCompare(b.name);
     if(s==="fee")return (a.feeINR==null?1e9:a.feeINR)-(b.feeINR==null?1e9:b.feeINR)||a.name.localeCompare(b.name);
     return soonKey(a)-soonKey(b)||a.name.localeCompare(b.name);
@@ -325,7 +802,103 @@ function fmtAge(o){
 function meta(parent,label,value){
   var s=el("span");s.appendChild(el("b",null,label+" "));s.appendChild(document.createTextNode(value));parent.appendChild(s);
 }
+/* ---------- exam helpers ---------- */
+/* V2 live overlay (PLAN-V2.md): when the avsar-live worker is configured it can sharpen
+   status, deadline, application URL and notification URL. Static data stays the fallback,
+   and an auto-extracted value is always labelled as such. */
+function liveFor(id){ return (live&&live.entries&&live.entries[id])||null; }
+function withLive(o){
+  var lv=liveFor(o.id);
+  if(!lv)return o;
+  var v={}; for(var k in o)v[k]=o[k];
+  if(lv.status&&STATUS_KEY[lv.status])v.status=lv.status;
+  if(lv.deadline||lv.applyUrl){
+    v.application={openingDate:(o.application||{}).openingDate,
+                   closingDate:lv.deadline||(o.application||{}).closingDate,
+                   url:lv.applyUrl||(o.application||{}).url};
+  }
+  if(lv.notificationUrl&&o.notification){
+    v.notification={}; for(var n in o.notification)v.notification[n]=o.notification[n];
+    v.notification.pdfUrl=lv.notificationUrl; v.notification.embeddable=null;
+  }
+  v.liveConfidence=lv.confidence||"auto";
+  return v;
+}
+var LOCALE = {en:"en-IN",hi:"hi-IN",mr:"mr-IN",kn:"kn-IN",ta:"ta-IN",te:"te-IN",bn:"bn-IN",ml:"ml-IN"};
+function fmtDate(iso){
+  if(!iso)return "";
+  var m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if(!m)return iso;
+  var d=new Date(+m[1],+m[2]-1,+m[3]);
+  try{ return d.toLocaleDateString(LOCALE[lang]||"en-IN",{day:"numeric",month:"short",year:"numeric"}); }
+  catch(e){ return m[3]+" "+MONTH_ABBR[+m[2]]+" "+m[1]; }
+}
+function daysTo(iso){
+  var m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(iso||"");
+  if(!m)return null;
+  var d=new Date(+m[1],+m[2]-1,+m[3]);
+  return Math.round((d-new Date(TODAY.getFullYear(),TODAY.getMonth(),TODAY.getDate()))/86400000);
+}
+function statusPill(o){
+  var s=el("span","st "+(STATUS_CLASS[o.status]||""),t(STATUS_KEY[o.status]||"stNotAnnounced"));
+  return s;
+}
+/* the one line a person actually needs on the card */
+function examWhen(o){
+  var wrap=el("div","whenline");
+  var app=o.application||{}, exp=o.expected||{};
+  if(o.status==="open"&&app.closingDate){
+    wrap.appendChild(el("b",null,t("applicationOpenUntil")+" "));
+    wrap.appendChild(document.createTextNode(fmtDate(app.closingDate)));
+    var dl=daysTo(app.closingDate);
+    if(dl!=null&&dl>=0&&dl<=10)wrap.appendChild(el("span","pill",dl===0?"today":dl+"d"));
+    return wrap;
+  }
+  if(o.status==="upcoming"&&exp.notificationDate){
+    wrap.appendChild(el("b",null,t("notificationExpected")+" "));
+    wrap.appendChild(document.createTextNode(fmtDate(exp.notificationDate)));
+    return wrap;
+  }
+  if(o.status==="closed"){
+    wrap.appendChild(el("b",null,t("applicationClosed")));
+    if(exp.notificationDate){
+      wrap.appendChild(document.createTextNode(" · "+t("notificationExpected")+" "+fmtDate(exp.notificationDate)));
+    }
+    return wrap;
+  }
+  if(o.status==="exam-completed"){
+    wrap.appendChild(el("b",null,t("stExamCompleted")));
+    return wrap;
+  }
+  wrap.appendChild(el("b",null,t("notReleased")));
+  return wrap;
+}
+function examCard(o){
+  o=withLive(o);
+  var li=el("li","card exam");
+  li.style.setProperty("--cc","var(--c-"+o.category+")");
+  var h=el("h3"); var a=el("a",null,o.name);
+  a.href="#exam="+o.id+(lang!=="en"?"&lang="+lang:"");
+  a.onclick=function(ev){ ev.preventDefault(); openExam(o.id,""); };
+  h.appendChild(a); li.appendChild(h);
+  li.appendChild(el("p","org",o.organizationFull||o.organization));
+  var b=el("div","badges");
+  b.appendChild(el("span","pill",eduOptLabel(o.minEducation)));
+  b.appendChild(el("span","pill",o.id==="ctet"?t("eligibilityTest"):t("govRecruitment")));
+  b.appendChild(statusPill(o));
+  li.appendChild(b);
+  li.appendChild(examWhen(o));
+  if(o.liveConfidence==="auto")li.appendChild(el("div","note","(auto-extracted from the official page, verify before applying)"));
+  var btn=el("a","btn",t("viewDetails")+" →");
+  btn.href="#exam="+o.id+(lang!=="en"?"&lang="+lang:"");
+  btn.onclick=function(ev){ ev.preventDefault(); openExam(o.id,""); };
+  li.appendChild(btn);
+  if(badOfficial(o.id))li.appendChild(el("div","warnnote","⚠ the official link failed our last automated check — it may be down or moved"));
+  return li;
+}
+
 function card(o){
+  if(o.type==="exam")return examCard(o);
   var li=el("li","card");
   li.style.setProperty("--cc","var(--c-"+o.category+")");
   var r1=el("div","row1");
@@ -357,22 +930,323 @@ function card(o){
   if(badOfficial(o.id))li.appendChild(el("div","warnnote","⚠ the official link failed our last automated check — it may be down or moved"));
   return li;
 }
+/* ---------- exam detail page ---------- */
+function extLink(label,url,cls){
+  var u=safeUrl(url); if(!u)return null;
+  var a=el("a",cls||null,label+" ↗");
+  a.href=u; a.target="_blank"; a.rel="noopener noreferrer";
+  a.setAttribute("aria-label",label+" — "+t("openInNewTab"));
+  return a;
+}
+function section(title,id){
+  var s=el("section","sec"); s.id="sec-"+id;
+  if(title)s.appendChild(el("h3",null,title));
+  return s;
+}
+function officialTag(){ return el("span","official","✓ "+t("official")); }
+
+function pdfViewer(sec,notif){
+  var url=safeUrl(notif.pdfUrl)||safeUrl(notif.url);
+  var host=""; try{ host=new URL(url).hostname.replace(/^www\./,""); }catch(e){}
+  var btns=el("div","pdfbtns");
+  var open=extLink(t("openPdf"),notif.pdfUrl||notif.url,"btn");
+  if(open)btns.appendChild(open);
+  if(notif.embeddable===false){
+    var f=el("div","pdffall",t("notPreviewable"));
+    sec.appendChild(f);
+  }else{
+    var wrap=el("div","pdfwrap");
+    var fr=document.createElement("iframe");
+    fr.src=url; fr.title=t("officialNotification"); fr.loading="lazy";
+    fr.setAttribute("referrerpolicy","no-referrer");
+    var settled=false;
+    fr.addEventListener("load",function(){ settled=true; });
+    wrap.appendChild(fr);
+    sec.appendChild(wrap);
+    /* some government hosts refuse framing; never leave a blank box behind */
+    setTimeout(function(){
+      if(settled||!wrap.parentNode)return;
+      wrap.parentNode.replaceChild(el("div","pdffall",t("notPreviewable")),wrap);
+    },4000);
+  }
+  if(host)sec.appendChild(el("p","note",t("pdfIsFrom")+" "+host));
+  sec.appendChild(btns);
+  return sec;
+}
+
+function prepBlock(parent,heading,sub,linkLabel,url,extra){
+  var h=el("h4",null,heading);
+  parent.appendChild(h);
+  if(sub)parent.appendChild(el("p",null,sub));
+  if(extra)parent.appendChild(extra);
+  var a=extLink(linkLabel,url,"btn ghost");
+  if(a)parent.appendChild(a);
+}
+
+function papersBlock(parent,o){
+  var groups=(o.pastPapers||[]).slice().sort(function(a,b){return b.year-a.year;});
+  parent.appendChild(el("h4",null,t("previousPapers")));
+  if(!groups.length){
+    parent.appendChild(el("p","note",o.pastPapersNote||t("papersNotAvailable")));
+    var pl=extLink(t("officialExamPage"),o.pastPapersPage||o.officialExamPage,"btn ghost");
+    if(pl)parent.appendChild(pl);
+    return;
+  }
+  parent.appendChild(el("p",null,t("previousPapersSub")));
+  var ul=el("ul","yearlist");
+  groups.forEach(function(g,i){
+    var li=el("li"); var d=document.createElement("details");
+    if(i===0)d.open=true;
+    var sm=document.createElement("summary");
+    sm.appendChild(document.createTextNode(String(g.year)));
+    sm.appendChild(el("span","pill",String(g.papers.length)));
+    d.appendChild(sm);
+    var pl=el("ul","paperlist");
+    g.papers.forEach(function(p){
+      var pli=el("li");
+      pli.appendChild(document.createTextNode(p.name+" "));
+      pli.appendChild(officialTag());
+      pli.appendChild(document.createTextNode(" "));
+      var a=extLink(t("openPdf"),p.url);
+      if(a)pli.appendChild(a);
+      pl.appendChild(pli);
+    });
+    d.appendChild(pl); li.appendChild(d); ul.appendChild(li);
+  });
+  parent.appendChild(ul);
+  if(o.pastPapersNote)parent.appendChild(el("p","note",o.pastPapersNote));
+  var page=extLink(t("officialExamPage"),o.pastPapersPage,"btn ghost");
+  if(page)parent.appendChild(page);
+}
+
+function renderDetail(o){
+  o=withLive(o);
+  var root=els.detail;
+  root.textContent="";
+  var back=el("button","back","← "+t("back"));
+  back.type="button"; back.onclick=function(){ closeExam(); };
+  root.appendChild(back);
+
+  var head=el("div","dhead");
+  head.appendChild(el("h2",null,o.name));
+  head.appendChild(el("p","org",o.organizationFull||o.organization));
+  if(o.description)head.appendChild(el("p","desc",o.description));
+  root.appendChild(head);
+
+  /* current status */
+  var st=section(t("currentStatus"),"status");
+  var stline=el("p"); stline.appendChild(statusPill(o));
+  st.appendChild(stline);
+  if(o.statusNote)st.appendChild(el("p",null,o.statusNote));
+  if(o.liveConfidence==="auto")st.appendChild(el("p","note","Status and dates here were auto-extracted from the official page — verify on the official website before applying."));
+  root.appendChild(st);
+
+  /* who can apply */
+  var who=section(t("whoCanApply"),"eligibility");
+  var dl=el("dl","kv"), elig=o.eligibility||{};
+  function row(k,v){ if(!v)return; dl.appendChild(el("dt",null,k)); dl.appendChild(el("dd",null,v)); }
+  row(t("education"),elig.education);
+  row(t("age"),elig.age);
+  row(t("fee"),o.fee);
+  who.appendChild(dl);
+  if(elig.other)who.appendChild(el("p",null,elig.other));
+  if((o.typicalJobs||[]).length){
+    who.appendChild(el("h4",null,t("typicalJobs")));
+    var jl=el("ul"); jl.style.margin="4px 0 0"; jl.style.paddingLeft="20px";
+    o.typicalJobs.forEach(function(j){ jl.appendChild(el("li",null,j)); });
+    who.appendChild(jl);
+  }
+  root.appendChild(who);
+
+  /* important dates — only real dates; expected ones are labelled and sourced */
+  var dates=section(t("importantDates"),"dates");
+  var app=o.application||{}, exp=o.expected||{}, dd=el("dl","kv"), any=false;
+  function drow(k,v,tag){
+    if(!v)return; any=true;
+    dd.appendChild(el("dt",null,k));
+    var d=el("dd",null,fmtDate(v));
+    if(tag){ d.appendChild(document.createTextNode(" ")); d.appendChild(el("span","pill",tag)); }
+    dd.appendChild(d);
+  }
+  drow(t("applicationOpens"),app.openingDate);
+  drow(t("applicationCloses"),app.closingDate);
+  drow(t("examDate"),o.examDate);
+  drow(t("officialNotification"),(o.notification||{}).date);
+  drow(t("notificationExpected"),exp.notificationDate,t("expected"));
+  drow(t("applicationCloses"),exp.closingDate,t("expected"));
+  drow(t("examDate"),exp.examDate,t("expected"));
+  if(any){
+    dates.appendChild(dd);
+    if(exp.source&&(exp.notificationDate||exp.examDate||exp.closingDate)){
+      var sp=el("p","note",t("expected")+": "+exp.source+" ");
+      var sl=extLink(t("officialSource"),exp.sourceUrl);
+      if(sl)sp.appendChild(sl);
+      dates.appendChild(sp);
+    }
+  }else{
+    dates.appendChild(el("p","note",t("notReleased")));
+    var pg=extLink(t("officialExamPage"),o.officialExamPage||o.officialWebsite,"btn ghost");
+    if(pg)dates.appendChild(pg);
+  }
+  root.appendChild(dates);
+
+  /* official notification */
+  var ns=section(t("officialNotification"),"notification");
+  var notif=o.notification;
+  if(notif&&(notif.pdfUrl||notif.url)){
+    var ttl=el("p"); ttl.appendChild(el("b",null,notif.title||t("officialNotification")));
+    if(notif.date){ ttl.appendChild(document.createTextNode(" · "+fmtDate(notif.date))); }
+    ttl.appendChild(document.createTextNode(" ")); ttl.appendChild(officialTag());
+    ns.appendChild(ttl);
+    if(notif.current===false)ns.appendChild(el("div","warnbox",t("notReleased")+" — "+t("lastPublished")));
+    if(badUrl(notif.pdfUrl)||badUrl(notif.url))ns.appendChild(el("div","warnbox","⚠ this document failed our last automated check — it may have moved on the official site"));
+    pdfViewer(ns,notif);
+    var web=extLink(t("visitWebsite"),o.officialExamPage||o.officialWebsite,"btn ghost");
+    if(web)ns.lastChild.appendChild(web);
+  }else{
+    ns.appendChild(el("p",null,t("notReleased")));
+    if(o.notificationNote)ns.appendChild(el("p","note",o.notificationNote));
+    var b2=extLink(t("officialExamPage"),o.officialExamPage||o.officialWebsite,"btn");
+    if(b2)ns.appendChild(b2);
+  }
+  (o.extraNotifications||[]).forEach(function(x){
+    var p=el("p","note"); p.appendChild(document.createTextNode(x.title+(x.date?" · "+fmtDate(x.date):"")+" "));
+    var a=extLink(t("openPdf"),x.url); if(a)p.appendChild(a);
+    ns.appendChild(p);
+  });
+  root.appendChild(ns);
+
+  /* prepare */
+  var prep=section(t("prepareFor"),"prepare");
+  if(o.syllabus&&o.syllabus.url)
+    prepBlock(prep,t("syllabus"),t("syllabusSub"),t("officialSyllabus"),o.syllabus.url);
+  if(o.examPattern){
+    var sum=null;
+    if((o.examPattern.summary||[]).length){
+      sum=el("ul"); sum.style.margin="4px 0 10px"; sum.style.paddingLeft="20px";
+      o.examPattern.summary.forEach(function(s){ sum.appendChild(el("li",null,s)); });
+    }
+    prepBlock(prep,t("examPattern"),t("examPatternSub"),t("viewPattern"),o.examPattern.url,sum);
+  }
+  papersBlock(prep,o);
+  prep.appendChild(el("h4",null,t("answerKeys")));
+  if((o.answerKeys||[]).length){
+    var kl=el("ul","paperlist");
+    o.answerKeys.slice().sort(function(a,b){return b.year-a.year;}).forEach(function(k){
+      var li=el("li");
+      li.appendChild(document.createTextNode(k.title+" "));
+      li.appendChild(officialTag()); li.appendChild(document.createTextNode(" "));
+      var a=extLink(t("openPdf"),k.url); if(a)li.appendChild(a);
+      kl.appendChild(li);
+    });
+    prep.appendChild(kl);
+  }else{
+    prep.appendChild(el("p","note",o.answerKeysNote||t("keysNotAvailable")));
+  }
+  if((o.mockTests||[]).length){
+    prep.appendChild(el("h4",null,t("officialMockTest")));
+    o.mockTests.forEach(function(m){
+      var p=el("p"); p.appendChild(document.createTextNode(m.title+" "));
+      var a=extLink(t("tryMockTest"),m.url,"btn ghost"); if(a)p.appendChild(a);
+      prep.appendChild(p);
+    });
+  }else if(o.mockTestNote){
+    prep.appendChild(el("h4",null,t("officialMockTest")));
+    prep.appendChild(el("p","note",o.mockTestNote));
+  }
+  root.appendChild(prep);
+
+  /* apply */
+  var ap=section(t("apply"),"apply");
+  var applyUrl=(o.application||{}).url||o.officialExamPage||o.officialWebsite;
+  var ab=extLink(t("applyOn"),applyUrl,"btn wide");
+  if(ab)ap.appendChild(ab);
+  if(o.status!=="open")ap.appendChild(el("p","note",o.statusNote||""));
+  root.appendChild(ap);
+
+  /* official source + verified */
+  var src=section(t("officialSource"),"source");
+  var sl2=extLink(t("visitWebsite")+" ("+(o.organization||"")+")",o.officialWebsite,"btn ghost");
+  if(sl2)src.appendChild(sl2);
+  var pl2=extLink(t("officialExamPage"),o.officialExamPage,"btn ghost");
+  if(pl2&&o.officialExamPage!==o.officialWebsite){ src.appendChild(document.createTextNode(" ")); src.appendChild(pl2); }
+  src.appendChild(el("p","note",t("lastVerified")+": "+fmtDate(o.verifiedAt||DATA.examsVerifiedAt||DATA.updated)));
+  root.appendChild(src);
+
+  if(state.sec){
+    var target=document.getElementById("sec-"+(state.sec==="papers"||state.sec==="keys"||state.sec==="mock"||state.sec==="pattern"?"prepare":state.sec));
+    if(target){
+      target.classList.add("hl");
+      if(location.protocol!=="file:")setTimeout(function(){ try{ target.scrollIntoView({block:"start"}); }catch(e){ target.scrollIntoView(); } },30);
+    }
+  }
+}
+
+function examById(id){
+  for(var i=0;i<DATA.opportunities.length;i++){
+    var o=DATA.opportunities[i];
+    if(o.id===id&&o.type==="exam")return o;
+  }
+  return null;
+}
+function openExam(id,sec){
+  var o=examById(id);
+  if(!o){ state.exam=""; state.sec=""; render(); return; }
+  state.exam=id; state.sec=sec||"";
+  document.body.setAttribute("data-view","detail");
+  els.detail.setAttribute("data-open","1");
+  renderDetail(o);
+  writeHash();
+  document.title=o.name+" — Avsar";
+  if(!state.sec)window.scrollTo(0,0);
+}
+function closeExam(){
+  state.exam=""; state.sec="";
+  document.body.removeAttribute("data-view");
+  els.detail.setAttribute("data-open","0");
+  els.detail.textContent="";
+  document.title="Avsar — find government exams you can apply for";
+  render();
+  window.scrollTo(0,0);
+}
+
+/* "ssc cgl syllabus" / "upsc pyq" -> jump straight to the right section */
+function intentHits(){
+  els.intentHits.textContent="";
+  if(!state.q)return;
+  var ex=expandQuery(state.q);
+  if(!ex.sec)return;
+  var exams=DATA.opportunities.filter(function(o){ return o.type==="exam"&&matches(o); }).slice(0,4);
+  if(!exams.length)return;
+  els.intentHits.appendChild(el("li","note",t("didYouMean")));
+  exams.forEach(function(o){
+    var li=el("li");
+    var a=el("a",null,o.name+" — "+t({papers:"previousPapers",pattern:"examPattern",keys:"answerKeys",mock:"officialMockTest",notification:"officialNotification",syllabus:"syllabus"}[ex.sec])+" →");
+    a.href="#exam="+o.id+"&sec="+ex.sec;
+    a.onclick=function(evt){ evt.preventDefault(); openExam(o.id,ex.sec); };
+    li.appendChild(a); els.intentHits.appendChild(li);
+  });
+}
+
 function render(){
+  if(state.exam){ var eo=examById(state.exam); if(eo){ renderDetail(eo); return; } }
   var out=sorted(DATA.opportunities.filter(matches));
   els.list.textContent="";
   var frag=document.createDocumentFragment();
   out.forEach(function(o){frag.appendChild(card(o));});
   if(!out.length){
-    var e=el("li","empty","Nothing matches these filters. Loosen one — or ");
-    var r=el("a",null,"reset them");r.href="#";r.onclick=function(ev){ev.preventDefault();doReset();els.q.focus();};
+    var e=el("li","empty",t("noResults")+" ");
+    var r=el("a",null,t("resetFilters"));r.href="#";r.onclick=function(ev){ev.preventDefault();doReset();els.q.focus();};
     e.appendChild(r);e.appendChild(document.createTextNode("."));
     frag.appendChild(e);
   }
   els.list.appendChild(frag);
   els.count.textContent="";
   var c=el("span");c.appendChild(el("b",null,String(out.length)));
-  c.appendChild(document.createTextNode(" of "+DATA.opportunities.length+" opportunities"));
+  var nEx=out.filter(function(o){return o.type==="exam";}).length;
+  c.appendChild(document.createTextNode(" of "+DATA.opportunities.length+" opportunities"+(nEx?" · "+nEx+" exams":"")));
   els.count.appendChild(c);
+  intentHits();
   writeHash();
 }
 function stamp(){
@@ -396,28 +1270,93 @@ Object.keys(CATS).forEach(function(k){
   b.dataset.cat=k;
   els.cats.appendChild(b);
 });
+/* ---------- new controls: language, big search, organization, education, status ---------- */
+function opt(value,label){ var o=document.createElement("option"); o.value=value; o.textContent=label; return o; }
+function buildLangSelect(){
+  els.lang.textContent="";
+  LANGS.forEach(function(p){ els.lang.appendChild(opt(p[0],p[1])); });
+  els.lang.value=lang;
+}
+function buildFilterSelects(){
+  var counts={};
+  DATA.opportunities.forEach(function(o){ if(o.organization)counts[o.organization]=(counts[o.organization]||0)+1; });
+  els.org.textContent="";
+  els.org.appendChild(opt("",t("all")));
+  ORGS.forEach(function(k){ if(counts[k])els.org.appendChild(opt(k,k+" ("+counts[k]+")")); });
+  els.org.value=state.org;
+
+  els.edu2.textContent="";
+  els.edu2.appendChild(opt("",t("anyEducation")));
+  ["10th","12th","diploma","ug","pg","professional"].forEach(function(k){ els.edu2.appendChild(opt(k,eduOptLabel(k))); });
+  els.edu2.value=state.edu;
+
+  els.status.textContent="";
+  els.status.appendChild(opt("",t("all")));
+  STATUSES.forEach(function(k){ els.status.appendChild(opt(k,t(STATUS_KEY[k]))); });
+  els.status.value=state.status;
+}
+function applyLang(){
+  document.documentElement.setAttribute("lang",lang);
+  els.tagline.textContent=t("tagline");
+  els.heroH.textContent=t("heroH");
+  els.heroP.textContent=t("heroP");
+  els.q2.placeholder=t("searchPlaceholder");
+  els.q2.setAttribute("aria-label",t("search"));
+  els.lang.setAttribute("aria-label",t("language"));
+  els.filtersLabel.textContent=t("filters");
+  document.getElementById("orgLabel").textContent=t("organization");
+  document.getElementById("edu2Label").textContent=t("education");
+  document.getElementById("statusLabel").textContent=t("status");
+  document.getElementById("q2Label").textContent=t("search");
+  document.getElementById("langLabel").textContent=t("language");
+  buildLangSelect(); buildFilterSelects();
+  try{ localStorage.setItem("avsar-lang",lang); }catch(e){}
+}
+(function initLang(){
+  var saved=null; try{ saved=localStorage.getItem("avsar-lang"); }catch(e){}
+  if(saved&&UI_TEXT[saved])lang=saved;
+})();
+
 function syncControls(){
   els.q.value=state.q; els.age.value=state.age; els.edu.value=state.edu;
   els.fee.value=state.fee; els.month.value=state.month; els.pay.checked=state.pay; els.sort.value=state.sort;
+  els.q2.value=state.q; els.org.value=state.org; els.edu2.value=state.edu; els.status.value=state.status;
   Array.prototype.forEach.call(els.cats.children,function(b){
     b.setAttribute("aria-pressed",state.cats.indexOf(b.dataset.cat)>=0?"true":"false");
   });
 }
-function doReset(){ state={q:"",age:"",edu:"",cats:[],fee:"",month:"",pay:false,sort:state.sort}; syncControls(); render(); }
-els.q.oninput=function(){state.q=this.value.trim();render();};
+function doReset(){ state={q:"",age:"",edu:"",cats:[],fee:"",month:"",pay:false,sort:state.sort,org:"",status:"",exam:"",sec:""}; syncControls(); render(); }
+els.lang.onchange=function(){
+  lang=this.value; applyLang();
+  if(state.exam){ var o=examById(state.exam); if(o){ renderDetail(o); writeHash(); return; } }
+  render();
+};
+els.q2.oninput=function(){ state.q=this.value.trim(); els.q.value=state.q; render(); };
+els.org.onchange=function(){ state.org=this.value; render(); };
+els.edu2.onchange=function(){ state.edu=this.value; els.edu.value=this.value; render(); };
+els.status.onchange=function(){ state.status=this.value; render(); };
+els.q.oninput=function(){state.q=this.value.trim();els.q2.value=state.q;render();};
 els.age.oninput=function(){state.age=this.value;render();};
-els.edu.onchange=function(){state.edu=this.value;render();};
+els.edu.onchange=function(){state.edu=this.value;els.edu2.value=this.value;render();};
 els.fee.onchange=function(){state.fee=this.value;render();};
 els.month.onchange=function(){state.month=this.value;render();};
 els.pay.onchange=function(){state.pay=this.checked;render();};
 els.sort.onchange=function(){state.sort=this.value;render();};
 els.reset.onclick=doReset;
-if(matchMedia("(max-width: 880px)").matches)els.filters.removeAttribute("open");
 
+/* ---------- boot + back/forward routing ---------- */
 readHash();
+applyLang();
 syncControls();
 stamp();
-render();
+if(state.exam)openExam(state.exam,state.sec); else render();
+
+window.addEventListener("hashchange",function(){
+  var want=/(?:^|[#&])exam=([a-z0-9-]+)/.exec(location.hash);
+  var sec=/(?:^|[#&])sec=([a-z]+)/.exec(location.hash);
+  if(want){ if(want[1]!==state.exam||(sec?sec[1]:"")!==state.sec)openExam(want[1],sec?sec[1]:""); }
+  else if(state.exam)closeExam();
+});
 })();
 </script>
 <script>

@@ -30,11 +30,13 @@ jobs:
         with:
           script: |
             const h = require('./health.json');
-            if (!h.badLinks.length && !h.staleWindows.length) return;
+            const issues = h.dataIssues || [];
+            if (!h.badLinks.length && !h.staleWindows.length && !issues.length) return;
             const title = 'data-health: entries need re-verification';
             const body = [
               `Automated weekly check (${h.checkedAt}, ${h.urlsChecked} URLs).`,
               h.badLinks.length ? `\n**Unreachable links:**\n` + h.badLinks.map(b => `- \`${b.id}\` (${b.kind}): ${b.url} — ${b.note}`).join('\n') : '',
+              issues.length ? `\n**Data-quality problems (exam records):**\n` + issues.map(i => `- \`${i.id}\`: ${i.problem}`).join('\n') : '',
               h.staleWindows.length ? `\n**Past expected windows (update \`nextExpected\` in data.js):**\n` + h.staleWindows.map(id => `- \`${id}\``).join('\n') : '',
             ].join('\n');
             const open = await github.rest.issues.listForRepo({ ...context.repo, state: 'open', creator: 'github-actions[bot]' });

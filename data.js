@@ -1,7 +1,7 @@
 /* Avsar dataset — single source of truth. Schema documented in CLAUDE.md/README.
    Eligibility numbers are GENERAL-category. windowMonths [] = rolling. Researched + adversarially verified 2026-08-19. */
 window.AVSAR_DATA = {
- "updated": "2026-08-19",
+ "updated": "2026-08-21",
  "opportunities": [
   {
    "id": "jee-main",
@@ -967,6 +967,177 @@ window.AVSAR_DATA = {
     "ips",
     "6-attempts-general",
     "prelims-mains-interview"
+   ],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "IAS (Indian Administrative Service)",
+    "IPS (Indian Police Service)",
+    "IFS (Indian Foreign Service)",
+    "IRS (Income Tax / Customs)",
+    "other Group A and Group B central services"
+   ],
+   "description": "The single exam that recruits India's senior civil servants. Three stages: a Preliminary screening test, a written Main examination, then an interview. One notification a year.",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/Civil%20Services%20%28Preliminary%29%20Examination%2C%202026",
+   "status": "upcoming",
+   "statusNote": "CSE 2026 is over (applications closed February 2026). The next notification, for CSE 2027, is scheduled for 13 January 2027 in the official UPSC Annual Calendar 2027.",
+   "notification": {
+    "title": "Civil Services Examination, 2026 — notification",
+    "date": "2026-02-06",
+    "cycle": "2026",
+    "current": false,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2027-01-13",
+    "closingDate": "2027-02-02",
+    "examDate": "2027-05-23",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any subject from a recognised university",
+    "age": "21 to 32 years for the General category, with relaxations for reserved categories",
+    "other": "Indian citizen. Six attempts for General category candidates."
+   },
+   "fee": "₹100 for the Preliminary examination (women, SC/ST and PwBD candidates are exempt)",
+   "syllabus": {
+    "title": "Official CSE syllabus (Section III of the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Prelims: 2 objective papers, 200 marks each, 2 hours each (Paper II is qualifying at 33%)",
+     "Mains: 9 descriptive papers (Essay, 4 General Studies, 2 Optional, 2 language papers)",
+     "Interview / Personality Test: 275 marks"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf"
+   },
+   "pastPapersNote": "UPSC's official archive covers 2023 onward. Optional-subject Main papers are not listed here — the full set is on the UPSC archive page.",
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [],
+   "answerKeysNote": "UPSC publishes answer keys only for some recent examinations; none are currently listed for CSE.",
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [],
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "Prelims: General Studies Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSP_2026_GENERAL_STUDIES_PAPER-I_25052026.pdf"
+      },
+      {
+       "name": "Prelims: General Studies Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSP_2026_GENERAL_STUDIES_PAPER-II_25052026.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "Mains (compulsory): General Studies Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER%20I-QP-CSM-25-010925.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-II-QP-CSM-25-010925.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III-QP-CSM-25-010925.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - IV",
+       "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-IV-QP-CSM-25-010925.pdf"
+      },
+      {
+       "name": "Mains (compulsory): Essay",
+       "url": "https://www.upsc.gov.in/sites/default/files/ESSAY-QP-CSM-25-010925.pdf"
+      },
+      {
+       "name": "Prelims: General Studies Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf"
+      },
+      {
+       "name": "Prelims: General Studies Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-25-GENERAL-STUDIES-PAPER-II-26052025.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "Mains (compulsory): General Studies Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_I_03102024.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_II_03102024.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_III_03102024.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - IV",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_IV_03102024.pdf"
+      },
+      {
+       "name": "Mains (compulsory): Essay",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_ESSAY_03102024.pdf"
+      },
+      {
+       "name": "Prelims: General Studies Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf"
+      },
+      {
+       "name": "Prelims: General Studies Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSP-24-GENERAL-STUDIES-PAPER-II-180624.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "papers": [
+      {
+       "name": "Mains (compulsory): General Studies Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-I-180923.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-II-180923.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-III-180923.pdf"
+      },
+      {
+       "name": "Mains (compulsory): General Studies Paper - IV",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-IV-180923.pdf"
+      },
+      {
+       "name": "Mains (compulsory): Essay",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-ESSAY-180923.pdf"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1003,6 +1174,240 @@ window.AVSAR_DATA = {
     "group-a",
     "railways",
     "cpwd"
+   ],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Executive Engineer / Assistant Director in Central Engineering Services",
+    "Indian Railways engineering services",
+    "CPWD, MES, BRO, Telecom and Power engineering cadres"
+   ],
+   "description": "Recruits graduate engineers into Group A central engineering services, in four branches: Civil, Mechanical, Electrical, and Electronics & Telecommunication.",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/Engineering%20Services%20%28Preliminary%29%20Examination%2C%202026",
+   "status": "upcoming",
+   "statusNote": "The ESE 2027 notification is scheduled for 16 September 2026 in the official UPSC Annual Calendar 2027, with applications closing 6 October 2026.",
+   "notification": {
+    "title": "Engineering Services (Preliminary) Examination, 2026 — notification",
+    "date": "2026-01-01",
+    "cycle": "2026",
+    "current": false,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2026-09-16",
+    "closingDate": "2026-10-06",
+    "examDate": "2027-01-31",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "Engineering degree (or an equivalent qualification listed in the notification) in the branch applied for",
+    "age": "21 to 30 years for the General category, with relaxations for reserved categories",
+    "other": "Indian citizen."
+   },
+   "fee": "₹200 for the Preliminary examination (women, SC/ST and PwBD candidates are exempt)",
+   "syllabus": {
+    "title": "Official ESE syllabus (inside the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Prelims: Paper I General Studies & Engineering Aptitude (200 marks), Paper II branch subject (300 marks), both objective",
+     "Mains: 2 descriptive branch papers of 300 marks each",
+     "Personality Test: 200 marks"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf"
+   },
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [],
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "Mains: Civil Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-CIVIL-ENGINEERING-PAPER-I.pdf"
+      },
+      {
+       "name": "Mains: Civil Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-CIVIL-ENGINEERING-PAPER-II.pdf"
+      },
+      {
+       "name": "Mains: Mechanical Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-MECHANICAL-ENGINEERING-PAPER-I.pdf"
+      },
+      {
+       "name": "Mains: Mechanical Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-MECHANICAL-ENGINEERING-PAPER-II.pdf"
+      },
+      {
+       "name": "Mains: Electrical Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-ELECTRICAL-ENGINEERING-PAPER-I.pdf"
+      },
+      {
+       "name": "Mains: Electrical Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-ELECTRICAL-ENGINEERING-PAPER-II.pdf"
+      },
+      {
+       "name": "Mains: Electronics and Telecommunication Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-ELECTRONICS-TELECOM-ENGINEERING-PAPER-I.pdf"
+      },
+      {
+       "name": "Mains: Electronics and Telecommunication Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-26-220626-ELECTRONICS-TELECOM-ENGINEERING-PAPER-II.pdf"
+      },
+      {
+       "name": "Prelims: Paper - I General Studies and Engineering Aptitude",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_ESPE26_GenStud_EnggAptit_I_09022026.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Electrical Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_ESPE26_ElecEngg_II_09022026.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Electronics and Telecommunication Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_ESPE26_ElecTelecomEngg_II_09022026.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Mechanical Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_ESPE26_MechEngg_II_09022026.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Civil Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_ESPE26_CivilEngg_II_09022026.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "Mains: Civil Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/CIVIL-ENGINEERING-PAPER-I-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Mains: Civil Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/CIVIL-ENGINEERING-PAPER-II-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Mains: Mechanical Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/MECHANICAL-ENGINEERING-PAPER-I-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Mains: Mechanical Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/MECHANICAL-ENGINEERING-PAPER-II-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Mains: Electrical Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/ELECTRICAL-ENGINEERING-PAPER-I-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Mains: Electrical Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/ELECTRICAL-ENGINEERING-PAPER%20II-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Mains: Electronics and Telecommunication Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/ELECTRO-TELECOMN-ENGINEERING-PAPER-I-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Mains: Electronics and Telecommunication Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/ELECTRO-TELECOMN-ENGINEERING%20PAPER%20II-QP-ESEM-25-110825.pdf"
+      },
+      {
+       "name": "Prelims: Paper - I General Studies and Engineering Aptitude",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEP-25-GENERAL-STUDIES-AND-ENGINEERING-APTITUDE-P-I-090625.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Electrical Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEP-25-ELECTRICAL-ENGINEERING-P-II-090625.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Electronics and Telecommunication Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEP-25-ELECTRONICS-AND-TELECOMMUNICATION-ENGINEERING-P-II-090625.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Mechanical Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEP-25-MECHANICAL-ENGINEERING-P-II-090625.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Civil Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEP-25-CIVIL-ENGINEERING-P-II-090625.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "Mains: Civil Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-CIVIL-ENGINEERING-PAPER-I-240624.pdf"
+      },
+      {
+       "name": "Mains: Civil Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-CIVIL-ENGINEERING-PAPER-II-240624.pdf"
+      },
+      {
+       "name": "Mains: Mechanical Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-MECHANICAL-ENGINEERING-PAPER-I-240624.pdf"
+      },
+      {
+       "name": "Mains: Mechanical Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-MECHANICAL-ENGINEERING-PAPER-II-240624.pdf"
+      },
+      {
+       "name": "Mains: Electrical Engineering Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-ELECTRICAL-ENGINEERING-PAPER-I-240624.pdf"
+      },
+      {
+       "name": "Mains: Electrical Engineering Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-ELECTRICAL-ENGINEERING-PAPER-II-240624.pdf"
+      },
+      {
+       "name": "Mains: Electronics and Telecommunication Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-ELECTRONICS-TELECOMMUNICATION-ENGINEERING-PAPER-I-240624.pdf"
+      },
+      {
+       "name": "Mains: Electronics and Telecommunication Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-ESEM-24-ELECTRONICS-TELECOMMUNICATION-ENGINEERING-PAPER-II-240624.pdf"
+      },
+      {
+       "name": "Prelims: Paper - I General Studies and Engineering Aptitude",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-EnggServcPrelExam-24-GENERAL-STUDIES-AND-ENGINEERING-APTITUDE-190224.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Electrical Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-EnggServcPrelExam-24-ELECTRICAL-ENGINEERING-190224.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Mechanical Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-EnggServcPrelExam-24-MECHANICAL-ENGINEERING-190224.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Civil Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-EnggServcPrelExam-24-CIVIL-ENGINEERING-190224.pdf"
+      },
+      {
+       "name": "Prelims: Paper - II Electronics and Telecommunication Engineering",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-EnggServcPrelExam-24-ELECTRONICS-AND-TELECOMMUNICATION-ENGINEERING-200224r.pdf"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1042,6 +1447,178 @@ window.AVSAR_DATA = {
     "airforce",
     "ssb",
     "unmarried"
+   ],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Indian Military Academy, Dehradun (Army officer)",
+    "Indian Naval Academy, Ezhimala (Navy officer)",
+    "Air Force Academy, Hyderabad (Air Force officer)",
+    "Officers Training Academy, Chennai (Short Service Commission)"
+   ],
+   "description": "The graduate route to a commission as an officer in the Army, Navy or Air Force. Held twice a year — CDS (I) and CDS (II).",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20%28II%29%2C%202026",
+   "status": "closed",
+   "statusNote": "Applications for CDS (II) 2026 have closed; the written examination follows. The next notification, for CDS (I) 2027, is scheduled for 2 December 2026 in the official UPSC Annual Calendar 2027.",
+   "notification": {
+    "title": "Combined Defence Services Examination (II), 2026 — notification",
+    "date": "2026-05-20",
+    "cycle": "CDS (II) 2026",
+    "current": true,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2026-12-02",
+    "closingDate": "2026-12-22",
+    "examDate": "2027-04-11",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree for IMA and OTA; degree with Physics and Mathematics at 10+2, or an engineering degree, for the Naval Academy and Air Force Academy",
+    "age": "Roughly 20 to 25 years, and the exact birth-date window differs for each academy — check the notification",
+    "other": "Unmarried candidates only for IMA, INA and AFA. Men and women both eligible for OTA."
+   },
+   "fee": "₹200 (women, SC and ST candidates are exempt)",
+   "syllabus": {
+    "title": "Official CDS syllabus (inside the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "IMA / INA / AFA: 3 objective papers — English, General Knowledge, Elementary Mathematics (100 marks each, 2 hours each)",
+     "OTA: 2 objective papers — English and General Knowledge (100 marks each)",
+     "Then SSB interview and personality test"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf"
+   },
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [
+    {
+     "year": 2025,
+     "title": "CDS (II) 2025 — English",
+     "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CDS-II-Examination-2025-ENGLISH-130826.pdf"
+    },
+    {
+     "year": 2025,
+     "title": "CDS (II) 2025 — Elementary Mathematics",
+     "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CDS-II-Examination-2025-ElemMath-130826.pdf"
+    },
+    {
+     "year": 2025,
+     "title": "CDS (II) 2025 — General Knowledge",
+     "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CDS-II-Examination-2025-GK-130826.pdf"
+    }
+   ],
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [],
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "English — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDS-I-26-ENGLISH-130426.pdf"
+      },
+      {
+       "name": "General Knowledge — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDS-I-26-GENERAL-KNOWLEDGE-130426.pdf"
+      },
+      {
+       "name": "Elementary Mathematics — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDS-I-26-ELEMENTARY-MATHEMATICS-130426.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "English — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-25-ENGLISH-150925.pdf"
+      },
+      {
+       "name": "General Knowledge — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-25-GENERAL-KNOWLEDGE-150925.pdf"
+      },
+      {
+       "name": "Elementary Mathematics — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-25-ELEMENTARY-MATHEMATICS-150925.pdf"
+      },
+      {
+       "name": "English — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-I-25-ENGLISH-150425.pdf"
+      },
+      {
+       "name": "General Knowledge — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-I-25-GENERAL-KNOWLEDGE-150425.pdf"
+      },
+      {
+       "name": "Elementary Mathematics — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-I-25-ELEMENTARY-MATHEMATICS-150425.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "English — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-24-ENGLISH-020924.pdf"
+      },
+      {
+       "name": "General Knowledge — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-24-GENERAL-KNOWLEDGE-020924.pdf"
+      },
+      {
+       "name": "Elementary Mathematics — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-24-ELEMENTARY-MATHEMATICS-020924.pdf"
+      },
+      {
+       "name": "Elementary Mathematics — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CDSI2024_ELEMENTARY-MATHEMATICS_22042024.pdf"
+      },
+      {
+       "name": "English — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CDSI2024_ENGLISH_22042024.pdf"
+      },
+      {
+       "name": "General Knowledge — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CDSI2024_GENERAL-KNOWLEDGE_22042024.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "papers": [
+      {
+       "name": "Elementary Mathematics — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-2023-EleMath-04092023.pdf"
+      },
+      {
+       "name": "English — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-2023-Eng-04092023.pdf"
+      },
+      {
+       "name": "General Knowledge — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-2023-GK-04092023.pdf"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1081,6 +1658,136 @@ window.AVSAR_DATA = {
     "ssb",
     "unmarried",
     "12th-pcm-for-navy-airforce"
+   ],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "National Defence Academy, Khadakwasla (Army, Navy, Air Force cadet)",
+    "Indian Naval Academy — 10+2 Cadet Entry Scheme"
+   ],
+   "description": "The route into the armed forces straight after class 12. Cadets train at the National Defence Academy or the Naval Academy and are commissioned as officers. Held twice a year.",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026",
+   "status": "closed",
+   "statusNote": "Applications for NDA & NA (II) 2026 have closed; the written examination follows. The next notification, for NDA & NA (I) 2027, is scheduled for 2 December 2026 in the official UPSC Annual Calendar 2027.",
+   "notification": {
+    "title": "National Defence Academy and Naval Academy Examination (II), 2026 — notification",
+    "date": "2026-05-20",
+    "cycle": "NDA & NA (II) 2026",
+    "current": true,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2026-12-02",
+    "closingDate": "2026-12-22",
+    "examDate": "2027-04-11",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "Class 12 pass (or appearing) for the Army wing; class 12 with Physics, Chemistry and Mathematics for the Air Force, Navy and Naval Academy",
+    "age": "Broadly 16.5 to 19.5 years — the exact birth-date window is in the notification",
+    "other": "Unmarried candidates only. Both men and women are eligible."
+   },
+   "fee": "₹100 (women, SC and ST candidates are exempt)",
+   "syllabus": {
+    "title": "Official NDA & NA syllabus (inside the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Paper I: Mathematics — 300 marks, 2.5 hours, objective",
+     "Paper II: General Ability Test — 600 marks, 2.5 hours, objective",
+     "Then SSB interview and personality test (900 marks)"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf"
+   },
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [],
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "Mathematics — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-26-MATHEMATICS-130426.pdf"
+      },
+      {
+       "name": "General Ability Test — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-26-GENERAL-ABILITY-TEST-130426.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "General Ability Test — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-25-GENERAL-ABILITY-TEST-150925.pdf"
+      },
+      {
+       "name": "Mathematics — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-25-MATHEMATICS-150925.pdf"
+      },
+      {
+       "name": "Mathematics — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-25-MATHEMATICS-150425.pdf"
+      },
+      {
+       "name": "General Ability Test — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-25-GENERAL-ABILITY-TEST-150425.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "General Ability Test — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-II-24-GENERAL-ABILITY-TEST-020924.pdf"
+      },
+      {
+       "name": "Mathematics — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-II-24-MATHEMATICS-020924.pdf"
+      },
+      {
+       "name": "General Ability Test — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf"
+      },
+      {
+       "name": "Mathematics — Exam (I)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_NDANAI2024_MATHEMATICS_22042024.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "papers": [
+      {
+       "name": "General Ability Test — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-2023-GAT-04092023.pdf"
+      },
+      {
+       "name": "Mathematics — Exam (II)",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-2023-Maths-04092023.pdf"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1113,6 +1820,112 @@ window.AVSAR_DATA = {
     "cisf",
     "physical-standards",
     "uniformed-officer"
+   ],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Commandant in BSF, CRPF, CISF, ITBP and SSB"
+   ],
+   "description": "Recruits graduates directly as Assistant Commandant — a gazetted officer rank — in the five Central Armed Police Forces. Written exam, then physical tests and an interview.",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/Central%20Armed%20Police%20Forces%20%28ACs%29%20Examination%2C%202026",
+   "status": "upcoming",
+   "statusNote": "CAPF (AC) 2026 is over. The next notification, for 2027, is scheduled for 17 February 2027 in the official UPSC Annual Calendar 2027.",
+   "notification": {
+    "title": "Central Armed Police Forces (ACs) Examination, 2026 — notification",
+    "date": "2026-02-20",
+    "cycle": "2026",
+    "current": false,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2027-02-17",
+    "closingDate": "2027-03-09",
+    "examDate": "2027-07-04",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any subject",
+    "age": "20 to 25 years, with relaxations for reserved categories",
+    "other": "Indian citizen. Physical standards and a physical efficiency test apply."
+   },
+   "fee": "₹200 (women, SC and ST candidates are exempt)",
+   "syllabus": {
+    "title": "Official CAPF (AC) syllabus (inside the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Paper I: General Ability and Intelligence — 250 marks, objective, 2 hours",
+     "Paper II: General Studies, Essay and Comprehension — 200 marks, descriptive, 3 hours",
+     "Then Physical Standards / Efficiency Tests, medical, and an interview of 150 marks"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ExamNotifi_CAPF_AC_Exam_2026_Eng_20022026.pdf"
+   },
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [
+    {
+     "year": 2025,
+     "title": "CAPF (AC) 2025 — General Ability and Intelligence",
+     "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CAPFACs-Exam-2025-GAI-110826.pdf"
+    }
+   ],
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [],
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "General Ability and Intelligence",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CAPF-Exam-2026-GENERAL-ABILITY-AND-INTELLIGENCE-200726.pdf"
+      },
+      {
+       "name": "General Studies, Essay and Comprehension",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CAPF-Exam-2026-GENERAL-STUDIES-ESSAY-AND-COMPREHENSION-200726.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "General Ability and Intelligence",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CAPF-25-GENERAL-ABILITY-INTELLIGENCE-040825.pdf"
+      },
+      {
+       "name": "General Studies, Essay and Comprehension",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CAPF-25-GENERAL-STUDIES-ESSAY-COMPREHENSION-040825.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "GENERAL ABILITY AND INTELLIGENCE",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CAPF_2024_GEN-ABILITY-AND-INTELLI_05082024.pdf"
+      },
+      {
+       "name": "GENERAL STUDIES, ESSAY AND COMPREHENSION",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP_CAPF_2024_GS-ESSAY-AND-COMP_05082024.pdf"
+      }
+     ]
+    }
    ]
   },
   {
@@ -1149,7 +1962,76 @@ window.AVSAR_DATA = {
     "income-tax-inspector",
     "aso",
     "age-limit-varies-by-post"
-   ]
+   ],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Income Tax Inspector",
+    "Inspector (GST / Central Excise / Customs)",
+    "Assistant Section Officer",
+    "Assistant Audit Officer",
+    "Auditor",
+    "Accountant",
+    "Sub-Inspector in CBI / NIA",
+    "other Group B and Group C posts"
+   ],
+   "description": "The biggest graduate-level recruitment for central government office jobs. Two computer-based tiers, then document verification. Notified once a year.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "closed",
+   "statusNote": "Applications for CGL 2026 closed on 22 June 2026. Tier-I was scheduled for August–September 2026 and Tier-II for December 2026 in the official notice.",
+   "notification": {
+    "title": "Notice of Combined Graduate Level Examination, 2026",
+    "date": "2026-05-21",
+    "cycle": "2026",
+    "current": true,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": "2026-05-21",
+    "closingDate": "2026-06-22",
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC examination calendar",
+    "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any subject; some posts need specific subjects — Assistant Audit Officer needs a degree, and Junior Statistical Officer needs Mathematics at 10+2 or Statistics in the degree",
+    "age": "18 to 32 years depending on the post, with relaxations for reserved categories",
+    "other": "Indian citizen (a few posts also open to specified Nepal/Bhutan/Tibetan candidates)."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official CGL syllabus (SSC syllabus repository)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/Syllabus/CGL-syllabus-169635-.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Tier-I: 4 sections of 25 questions each — 200 marks, 1 hour, negative marking of 0.50 per wrong answer",
+     "Tier-II: Paper I in two sessions (Mathematical Abilities, Reasoning, English, General Awareness, Computer Knowledge, Data Entry Speed); Papers II and III only for specific posts",
+     "Both tiers are computer-based"
+    ],
+    "title": "Scheme of examination (paragraph 13 of the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SSC does not publish a public archive of previous question papers. Candidates get their own question paper and response sheet in the candidate login area after each examination.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases tentative and final answer keys inside the candidate login area, not as public downloads.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": []
   },
   {
    "id": "ssc-chsl",
@@ -1181,7 +2063,82 @@ window.AVSAR_DATA = {
     "ldc",
     "deo",
     "clerical"
-   ]
+   ],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Lower Division Clerk (LDC)",
+    "Junior Secretariat Assistant (JSA)",
+    "Data Entry Operator (DEO)",
+    "Data Entry Operator Grade 'A'"
+   ],
+   "description": "Class-12-level recruitment for clerical and data-entry posts across central ministries and departments. Two computer-based tiers, plus a typing or data-entry skill test.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "not-announced",
+   "statusNote": "No CHSL 2026 notice has been published yet. The latest published notice is CHSL 2025 (23 June 2025), whose application window has closed.",
+   "notification": {
+    "title": "Notice of Combined Higher Secondary Level Examination, 2025",
+    "date": "2025-06-23",
+    "cycle": "2025",
+    "current": false,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC examination calendar",
+    "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
+   },
+   "eligibility": {
+    "education": "Class 12 (higher secondary) pass; the DEO post in some ministries needs Science with Mathematics at 12th",
+    "age": "18 to 27 years, with relaxations for reserved categories",
+    "other": "Indian citizen. A typing or data-entry speed test applies."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official CHSL syllabus (Annexure of the notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Tier-I: 100 objective questions, 200 marks, 1 hour, negative marking of 0.50 per wrong answer",
+     "Tier-II: computer-based, with a typing / data-entry skill test module",
+     "Both tiers are computer-based"
+    ],
+    "title": "Scheme of examination (paragraph 13 of the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2025.pdf"
+   },
+   "pastPapers": [
+    {
+     "year": 2023,
+     "papers": [
+      {
+       "name": "Official model question paper (English)",
+       "url": "https://ssc.gov.in/api/attachment/uploads/masterData/QuestionPapers/model-question-paper-english.pdf"
+      }
+     ]
+    }
+   ],
+   "pastPapersNote": "This is the only question paper SSC publishes openly — an official model paper. Actual previous papers are released to each candidate in the login area.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": []
   },
   {
    "id": "ssc-mts",
@@ -1212,6 +2169,75 @@ window.AVSAR_DATA = {
     "10th-pass",
     "group-c",
     "havaldar-upto-27"
+   ],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Multi-Tasking Staff (non-technical) in central ministries",
+    "Havaldar in CBIC and the Central Bureau of Narcotics"
+   ],
+   "description": "Class-10-level recruitment for the largest number of central government support-staff posts. One computer-based examination; the Havaldar post adds physical tests.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "not-announced",
+   "statusNote": "No MTS 2026 notice has been published yet. The latest published notice is MTS 2025 (26 June 2025), whose application window has closed.",
+   "notification": {
+    "title": "Notice of Multi-Tasking (Non-Technical) Staff and Havaldar (CBIC and CBN) Examination, 2025",
+    "date": "2025-06-26",
+    "cycle": "2025",
+    "current": false,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC examination calendar",
+    "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
+   },
+   "eligibility": {
+    "education": "Class 10 (matriculation) pass",
+    "age": "18 to 25 years for most posts and 18 to 27 for some, with relaxations for reserved categories",
+    "other": "Indian citizen. Havaldar applicants must clear a Physical Efficiency Test and Physical Standard Test."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official MTS syllabus (Annexure of the notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Computer-based examination in two sessions of 45 minutes each",
+     "Session I: Numerical and Mathematical Ability, Reasoning Ability and Problem Solving (60 marks each)",
+     "Session II: General Awareness and English Language",
+     "Offered in English, Hindi and 13 regional languages"
+    ],
+    "title": "Scheme of examination (paragraph 14 of the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SSC does not publish a public archive of previous question papers.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": [
+    {
+     "title": "Official SSC mock test link for MTS (non-technical) candidates",
+     "url": "https://ssc.gov.in/mock-link-for-candidates-of-multi-tasking-non-technical-staff"
+    }
    ]
   },
   {
@@ -1245,6 +2271,75 @@ window.AVSAR_DATA = {
     "paramilitary",
     "physical-test",
     "huge-vacancies"
+   ],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Constable (General Duty) in BSF, CRPF, CISF, ITBP, SSB and SSF",
+    "Rifleman (General Duty) in Assam Rifles"
+   ],
+   "description": "The largest class-10-level uniformed recruitment in the country. Computer-based test, then physical tests and a medical examination.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "not-announced",
+   "statusNote": "The 2026 examination has been conducted (applications closed 31 December 2025). The notice for the 2027 examination has not been published yet.",
+   "notification": {
+    "title": "Notice of Constable (GD) in CAPFs, SSF and Rifleman (GD) in Assam Rifles Examination, 2026",
+    "date": "2025-12-01",
+    "cycle": "2026",
+    "current": false,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_CTGD_2026.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": "2025-12-01",
+    "closingDate": "2025-12-31",
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC examination calendar",
+    "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
+   },
+   "eligibility": {
+    "education": "Class 10 (matriculation) pass",
+    "age": "18 to 23 years, with relaxations for reserved categories",
+    "other": "Indian citizen. Height, chest, running and medical standards apply and differ by force, gender and region."
+   },
+   "fee": "₹100 (women, SC/ST and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official Constable (GD) syllabus (SSC syllabus repository)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/Syllabus/Syllabus-%20CAPFS%20and%20DP-169635-.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "One objective computer-based paper: 80 questions of 2 marks each — 160 marks, 60 minutes",
+     "Four parts: General Intelligence & Reasoning, General Knowledge & Awareness, Elementary Mathematics, English/Hindi (20 questions each)",
+     "Offered in English, Hindi and 13 regional languages",
+     "Then Physical Efficiency Test, Physical Standard Test and a medical examination"
+    ],
+    "title": "Scheme of examination (paragraph 12 of the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_CTGD_2026.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SSC does not publish a public archive of previous question papers.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": [
+    {
+     "title": "Official SSC mock test link for Constable candidates",
+     "url": "https://ssc.gov.in/mock-test-link-in-respect-of-constable"
+    }
    ]
   },
   {
@@ -1281,7 +2376,71 @@ window.AVSAR_DATA = {
     "diploma-eligible",
     "cpwd",
     "junior-engineer"
-   ]
+   ],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Junior Engineer (Civil) in CPWD, MES, BRO and other departments",
+    "Junior Engineer (Mechanical)",
+    "Junior Engineer (Electrical)"
+   ],
+   "description": "Recruits diploma and degree engineers as Junior Engineers in central government departments. Two computer-based papers.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "not-announced",
+   "statusNote": "No JE 2026 notice has been published yet. The latest published notice is JE 2025 (30 June 2025), whose application window has closed.",
+   "notification": {
+    "title": "Notice of Junior Engineer (Civil, Mechanical and Electrical) Examination, 2025",
+    "date": "2025-06-30",
+    "cycle": "2025",
+    "current": false,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2025.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC examination calendar",
+    "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
+   },
+   "eligibility": {
+    "education": "Diploma or degree in the relevant engineering branch; some posts require experience — the notice lists the requirement post by post",
+    "age": "Up to 30 or 32 years depending on the post, with relaxations for reserved categories",
+    "other": "Indian citizen."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official Junior Engineer syllabus (SSC syllabus repository)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/Syllabus/Syllabus-JE%20Eamination-169635-.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Paper I: objective — General Intelligence & Reasoning, General Awareness, and the branch subject",
+     "Paper II: the branch subject in more depth",
+     "Both papers are computer-based"
+    ],
+    "title": "Scheme of examination (inside the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_je_2025.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SSC does not publish a public archive of previous question papers.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": []
   },
   {
    "id": "ibps-po",
@@ -1312,11 +2471,79 @@ window.AVSAR_DATA = {
     "po",
     "public-sector-banks",
     "prelims-mains-interview"
+   ],
+   "type": "exam",
+   "organization": "IBPS",
+   "organizationFull": "Institute of Banking Personnel Selection",
+   "officialWebsite": "https://www.ibps.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Probationary Officer in public sector banks",
+    "Management Trainee"
+   ],
+   "description": "The common recruitment process that fills officer-grade entry posts across participating public sector banks. Preliminary online exam, main online exam, then an interview.",
+   "officialExamPage": "https://www.ibps.in/index.php/management-trainees/",
+   "status": "closed",
+   "statusNote": "Registration for CRP PO/MT-XVI closed on 21 July 2026. The preliminary examination was scheduled for August 2026 and the main examination for October 2026.",
+   "notification": {
+    "title": "Notification for Common Recruitment Process CRP PO/MT-XVI",
+    "date": "2026-06-30",
+    "cycle": "CRP PO/MT-XVI",
+    "current": true,
+    "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": "2026-07-01",
+    "closingDate": "2026-07-21",
+    "url": "https://www.ibps.in/index.php/management-trainees-xvi/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "IBPS CRP updates",
+    "sourceUrl": "https://www.ibps.in/index.php/crp-updates"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any discipline",
+    "age": "20 to 30 years, with relaxations for reserved categories",
+    "other": "Indian citizen (or the other nationalities listed in the notification). Computer literacy required."
+   },
+   "fee": "₹850 including GST (₹175 for SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official examination structure and syllabus (inside the notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: 100 questions, 100 marks, 1 hour — English, Quantitative Aptitude, Reasoning Ability (sectional timing)",
+     "Main: 155 questions, 200 marks, 3 hours, plus a 25-mark English descriptive test",
+     "Then an interview of 100 marks; final merit is 80:20 between the main exam and interview"
+    ],
+    "title": "Structure of examination (inside the official notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "IBPS does not publish previous question papers. It does publish an official practice test, listed below.",
+   "pastPapersPage": "https://www.ibps.in/",
+   "answerKeys": [],
+   "answerKeysNote": "IBPS does not publish public answer keys for CRP examinations.",
+   "answerKeysPage": "https://www.ibps.in/",
+   "mockTests": [
+    {
+     "title": "Official IBPS online mock test",
+     "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
+    }
    ]
   },
   {
    "id": "ibps-clerk",
-   "name": "IBPS Clerk (Customer Service Associate)",
+   "name": "IBPS Customer Service Associate (CSA / Clerk)",
    "category": "gov-job",
    "oneLiner": "Common recruitment for clerical/customer service associate posts in public sector banks; no interview, Mains score decides.",
    "ageMin": 20,
@@ -1342,13 +2569,79 @@ window.AVSAR_DATA = {
     "clerk",
     "no-interview",
     "state-language-required"
+   ],
+   "type": "exam",
+   "organization": "IBPS",
+   "organizationFull": "Institute of Banking Personnel Selection",
+   "officialWebsite": "https://www.ibps.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Customer Service Associate (clerical cadre) in public sector banks"
+   ],
+   "description": "The common recruitment process for clerical-cadre bank jobs — front-desk and back-office work in public sector banks. Preliminary and main online exams, and a local language proficiency test; no interview.",
+   "officialExamPage": "https://www.ibps.in/index.php/clerical-cadre/",
+   "status": "open",
+   "statusNote": "Registration for CRP CSA-XVI is open from 1 August 2026 to 21 August 2026.",
+   "notification": {
+    "title": "Notification for Common Recruitment Process CRP CSA-XVI",
+    "date": "2026-08-01",
+    "cycle": "CRP CSA-XVI",
+    "current": true,
+    "pdfUrl": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": "2026-08-01",
+    "closingDate": "2026-08-21",
+    "url": "https://www.ibps.in/index.php/clerical-cadre-xvi/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "CRP CSA-XVI notification",
+    "sourceUrl": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any discipline",
+    "age": "20 to 28 years as on 1 August 2026 (born between 2 August 1998 and 1 August 2006), with relaxations for reserved categories",
+    "other": "Computer literacy required. Candidates must be proficient in the official language of the state they apply for."
+   },
+   "fee": "₹850 including GST (₹175 for SC/ST/PwBD/ex-servicemen candidates)",
+   "syllabus": {
+    "title": "Official examination structure and syllabus (inside the notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability (sectional timing)",
+     "Main: 190 questions, 200 marks, 160 minutes",
+     "Then a Local Language Proficiency Test. There is no interview."
+    ],
+    "title": "Structure of examination (inside the official notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "IBPS does not publish previous question papers.",
+   "pastPapersPage": "https://www.ibps.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.ibps.in/",
+   "mockTests": [
+    {
+     "title": "Official IBPS online mock test",
+     "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
+    }
    ]
   },
   {
    "id": "ibps-rrb",
-   "name": "IBPS RRB (Regional Rural Banks: Officer & Office Assistant)",
+   "name": "IBPS RRB Officer (Scale I, II & III)",
    "category": "gov-job",
-   "oneLiner": "Common recruitment for Officer Scale I-III (age 18-30 for Scale I) and Office Assistant (18-28) in 43 Regional Rural Banks.",
+   "oneLiner": "Officer posts in Regional Rural Banks (Scale I, II and III) through the IBPS common recruitment process; local language proficiency required.",
    "ageMin": 18,
    "ageMax": 30,
    "minEducation": "ug",
@@ -1373,6 +2666,74 @@ window.AVSAR_DATA = {
     "rural-banks",
     "local-language-required",
     "officer-and-clerk"
+   ],
+   "type": "exam",
+   "organization": "IBPS",
+   "organizationFull": "Institute of Banking Personnel Selection",
+   "officialWebsite": "https://www.ibps.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Officer Scale I (Assistant Manager) in Regional Rural Banks",
+    "Officer Scale II (specialist and general banking)",
+    "Officer Scale III"
+   ],
+   "description": "The common recruitment process for officer posts in India's Regional Rural Banks. Scale I has a preliminary and a main exam; Scale II and III have a single exam. All are followed by an interview.",
+   "officialExamPage": "https://www.ibps.in/index.php/regional-rural-bank/",
+   "status": "not-announced",
+   "statusNote": "Registration for CRP RRBs-XIV closed on 21 September 2025 and that process is complete. The next RRB common recruitment process has not been notified.",
+   "notification": {
+    "title": "Notification for Common Recruitment Process CRP RRBs-XIV",
+    "date": "2025-09-01",
+    "cycle": "CRP RRBs-XIV",
+    "current": false,
+    "pdfUrl": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.ibps.in/index.php/rural-bank-xiv/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "IBPS CRP RRBs page",
+    "sourceUrl": "https://www.ibps.in/index.php/regional-rural-bank/"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any discipline for Officer Scale I; a relevant degree plus experience for Scale II and III",
+    "age": "18 to 30 years for Officer Scale I; 21 to 32 for Scale II and 21 to 40 for Scale III, with relaxations for reserved categories",
+    "other": "Proficiency in the local language of the state is required."
+   },
+   "fee": "₹850 including GST (₹175 for SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official examination structure and syllabus (inside the notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Officer Scale I: preliminary objective test, then a main objective test, then an interview",
+     "Officer Scale II and III: a single objective test, then an interview",
+     "Final merit for officers is 80:20 between the written exam and interview"
+    ],
+    "title": "Structure of examination (inside the official notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "IBPS does not publish previous question papers.",
+   "pastPapersPage": "https://www.ibps.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.ibps.in/",
+   "mockTests": [
+    {
+     "title": "Official IBPS online mock test",
+     "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
+    }
    ]
   },
   {
@@ -1392,7 +2753,7 @@ window.AVSAR_DATA = {
    ],
    "nextExpected": "Jun 2027 (expected)",
    "frequency": "annual",
-   "official": "https://sbi.co.in/web/careers",
+   "official": "https://sbi.bank.in/web/careers",
    "resources": [
     {
      "label": "SBI careers current openings",
@@ -1404,7 +2765,69 @@ window.AVSAR_DATA = {
     "sbi",
     "po",
     "psychometric-test"
-   ]
+   ],
+   "type": "exam",
+   "organization": "SBI",
+   "organizationFull": "State Bank of India",
+   "officialWebsite": "https://sbi.co.in/web/careers",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Probationary Officer in State Bank of India (Junior Management Grade Scale I)"
+   ],
+   "description": "State Bank of India's own officer-entry recruitment, separate from the IBPS process. Preliminary exam, main exam, then a psychometric test, group exercise and interview.",
+   "officialExamPage": "https://sbi.bank.in/web/careers/current-openings",
+   "status": "closed",
+   "statusNote": "Registration for advertisement CRPD/PO/2026-27/09 (1,500 vacancies) ran from 18 June to 8 July 2026 and has closed. The preliminary examination call letters have been issued.",
+   "notification": {
+    "title": "Recruitment of Probationary Officers — advertisement CRPD/PO/2026-27/09",
+    "date": "2026-06-18",
+    "cycle": "2026-27",
+    "current": true,
+    "pdfUrl": "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1?t=1781759726353",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": "2026-06-18",
+    "closingDate": "2026-07-08",
+    "url": "https://sbi.bank.in/web/careers/current-openings"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SBI current openings page",
+    "sourceUrl": "https://sbi.bank.in/web/careers/current-openings"
+   },
+   "eligibility": {
+    "education": "Graduation in any discipline; final-year students may apply subject to producing proof of passing",
+    "age": "21 to 30 years, with relaxations for reserved categories",
+    "other": "Indian citizen. Number of attempts is capped by category."
+   },
+   "fee": "₹750 (SC/ST/PwBD candidates are exempt)",
+   "syllabus": {
+    "title": "Official examination structure (inside the advertisement)",
+    "url": "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1?t=1781759726353",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: 100 questions, 100 marks, 1 hour — English, Quantitative Aptitude, Reasoning Ability",
+     "Main: objective test of 200 marks plus a descriptive English test of 50 marks",
+     "Then a psychometric test, group exercise and interview"
+    ],
+    "title": "Selection procedure (inside the official advertisement)",
+    "url": "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1?t=1781759726353"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SBI does not publish previous question papers. It does publish an official 'Acquaint Yourself' booklet with the format of each test alongside every advertisement.",
+   "pastPapersPage": "https://sbi.bank.in/web/careers/current-openings",
+   "answerKeys": [],
+   "answerKeysNote": "SBI does not publish public answer keys.",
+   "answerKeysPage": "https://sbi.bank.in/web/careers/current-openings",
+   "mockTests": []
   },
   {
    "id": "sbi-clerk",
@@ -1423,7 +2846,7 @@ window.AVSAR_DATA = {
    ],
    "nextExpected": "Dec 2026 (expected)",
    "frequency": "annual",
-   "official": "https://sbi.co.in/web/careers",
+   "official": "https://sbi.bank.in/web/careers",
    "resources": [
     {
      "label": "SBI careers current openings",
@@ -1436,7 +2859,68 @@ window.AVSAR_DATA = {
     "clerk",
     "state-wise-vacancies",
     "local-language"
-   ]
+   ],
+   "type": "exam",
+   "organization": "SBI",
+   "organizationFull": "State Bank of India",
+   "officialWebsite": "https://sbi.co.in/web/careers",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Junior Associate (Customer Support & Sales) — clerical cadre in State Bank of India"
+   ],
+   "description": "SBI's clerical-cadre recruitment, done state by state (you apply for a specific circle and must know its local language). Preliminary exam, main exam, and a local language test.",
+   "officialExamPage": "https://sbi.bank.in/web/careers/current-openings",
+   "status": "open",
+   "statusNote": "Advertisement CRPD/CR/2026-27/17 is open — apply online from 11 August 2026 to 31 August 2026.",
+   "notification": {
+    "title": "Recruitment of Junior Associates (Customer Support & Sales) — advertisement CRPD/CR/2026-27/17",
+    "date": "2026-08-11",
+    "cycle": "2026-27",
+    "current": true,
+    "pdfUrl": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": "2026-08-11",
+    "closingDate": "2026-08-31",
+    "url": "https://ibpsreg.ibps.in/sbijajul26/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SBI current openings page",
+    "sourceUrl": "https://sbi.bank.in/web/careers/current-openings"
+   },
+   "eligibility": {
+    "education": "Graduation in any discipline",
+    "age": "20 to 28 years, with relaxations for reserved categories",
+    "other": "You apply for one state or circle and must be able to read, write and speak its local language."
+   },
+   "fee": "₹750 (SC/ST/PwBD/ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official examination structure (inside the advertisement)",
+    "url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability",
+     "Main: 190 questions, 200 marks, 2 hours 40 minutes",
+     "Then a local language test. There is no interview."
+    ],
+    "title": "Selection procedure (inside the official advertisement)",
+    "url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SBI does not publish previous question papers; it publishes an official 'Acquaint Yourself' booklet with each advertisement.",
+   "pastPapersPage": "https://sbi.bank.in/web/careers/current-openings",
+   "answerKeys": [],
+   "answerKeysPage": "https://sbi.bank.in/web/careers/current-openings",
+   "mockTests": []
   },
   {
    "id": "rbi-grade-b",
@@ -1469,7 +2953,72 @@ window.AVSAR_DATA = {
     "economics",
     "high-salary",
     "60-percent-graduation"
-   ]
+   ],
+   "type": "exam",
+   "organization": "RBI",
+   "organizationFull": "Reserve Bank of India",
+   "officialWebsite": "https://opportunities.rbi.org.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Officer in Grade B (Direct Recruit) — General cadre",
+    "Officer in Grade B — DEPR (economic research)",
+    "Officer in Grade B — DSIM (statistics)"
+   ],
+   "description": "The entry-level officer post at India's central bank, and one of the most competitive banking exams. Three phases: an objective screening test, descriptive papers, and an interview.",
+   "officialExamPage": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+   "status": "closed",
+   "statusNote": "Advertisement RBISB/DA/01/2026-27 (Panel Year 2026) closed for applications on 20 May 2026.",
+   "notification": {
+    "title": "Direct Recruitment for Officers in Grade 'B' (DR) — advertisement RBISB/DA/01/2026-27",
+    "date": "2026-04-29",
+    "cycle": "Panel Year 2026",
+    "current": true,
+    "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997",
+    "pdfUrl": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/DEPR29042026BE94DEA85E3C4753A82B191EB6A795ED.PDF",
+    "embeddable": null
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": "2026-05-20",
+    "url": "https://opportunities.rbi.org.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "RBI current vacancies page",
+    "sourceUrl": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx"
+   },
+   "eligibility": {
+    "education": "For the General cadre: a bachelor's degree with at least 60% marks. For DEPR and DSIM: a master's degree in Economics or Statistics with the class specified in the advertisement",
+    "age": "21 to 30 years, with relaxations for reserved categories and for candidates with a research or work background",
+    "other": "Indian citizen. Six attempts for General category candidates."
+   },
+   "fee": "₹850 plus GST (₹100 for SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official syllabus and scheme of selection (inside the advertisement)",
+    "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Phase I: objective screening test of 200 marks (General cadre)",
+     "Phase II: three papers — Economic & Social Issues, English (descriptive), Finance & Management",
+     "Then an interview of 75 marks"
+    ],
+    "title": "Scheme of selection (inside the official advertisement)",
+    "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "RBI does not publish previous question papers.",
+   "pastPapersPage": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+   "answerKeys": [],
+   "answerKeysNote": "RBI does not publish public answer keys.",
+   "answerKeysPage": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+   "mockTests": []
   },
   {
    "id": "rbi-assistant",
@@ -1500,7 +3049,69 @@ window.AVSAR_DATA = {
     "clerical",
     "high-pay-for-clerical",
     "irregular-cycle"
-   ]
+   ],
+   "type": "exam",
+   "organization": "RBI",
+   "organizationFull": "Reserve Bank of India",
+   "officialWebsite": "https://opportunities.rbi.org.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant in Reserve Bank of India regional offices"
+   ],
+   "description": "The clerical-grade job at the Reserve Bank of India. Preliminary online test, main online test, then a language proficiency test.",
+   "officialExamPage": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+   "status": "closed",
+   "statusNote": "The advertisement for Assistant (Panel Year 2025, 650 posts) was published on 16 February 2026 and closed for applications on 8 March 2026.",
+   "notification": {
+    "title": "Recruitment for the Post of Assistant — Panel Year 2025",
+    "date": "2026-02-16",
+    "cycle": "Panel Year 2025",
+    "current": true,
+    "url": "https://opportunities.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4912",
+    "pdfUrl": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/DAASSISTANT2025CCB4E54CEB5542D9987FE6D1EA51D143.PDF",
+    "embeddable": null
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": "2026-03-08",
+    "url": "https://opportunities.rbi.org.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "RBI current vacancies page",
+    "sourceUrl": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree with at least 50% marks (pass class for SC/ST/PwBD candidates), plus computer knowledge",
+    "age": "20 to 28 years as on 1 February 2026 (born between 2 February 1998 and 1 February 2006), with relaxations for reserved categories",
+    "other": "Knowledge of the official language of the state you apply for is required."
+   },
+   "fee": "₹450 plus GST (₹50 for SC/ST/PwBD/ex-servicemen candidates)",
+   "syllabus": {
+    "title": "Official scheme of selection (inside the advertisement)",
+    "url": "https://opportunities.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4912",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability",
+     "Main: 200 questions, 200 marks, 135 minutes, adding General Awareness and Computer Knowledge",
+     "Then a Language Proficiency Test"
+    ],
+    "title": "Scheme of selection (inside the official advertisement)",
+    "url": "https://opportunities.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4912"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "RBI does not publish previous question papers.",
+   "pastPapersPage": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+   "answerKeys": [],
+   "answerKeysPage": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+   "mockTests": []
   },
   {
    "id": "rrb-ntpc",
@@ -1519,7 +3130,7 @@ window.AVSAR_DATA = {
    ],
    "nextExpected": "Aug 2026 (per RRB annual calendar)",
    "frequency": "annual",
-   "official": "https://www.rrbapply.gov.in",
+   "official": "https://rrb.indianrailways.gov.in/",
    "resources": [
     {
      "label": "Centralised railway application portal",
@@ -1536,7 +3147,83 @@ window.AVSAR_DATA = {
     "clerk",
     "fee-partly-refunded",
     "annual-calendar-new"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Railways",
+   "organizationFull": "Railway Recruitment Boards, Ministry of Railways",
+   "officialWebsite": "https://rrb.indianrailways.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Station Master",
+    "Goods Train Manager (Guard)",
+    "Chief Commercial cum Ticket Supervisor",
+    "Junior Clerk cum Typist",
+    "Accounts Clerk cum Typist",
+    "Trains Clerk"
+   ],
+   "description": "The Railways' big non-technical recruitment. It runs as two separate Centralised Employment Notifications — one for graduate-level posts and one for undergraduate (class 12) posts. Multiple computer-based stages, then a typing or aptitude test depending on the post.",
+   "officialExamPage": "https://rrb.indianrailways.gov.in/",
+   "status": "not-announced",
+   "statusNote": "The application windows for the current graduate CEN 06/2025 and undergraduate CEN 07/2025 have closed. No newer NTPC CEN has been published.",
+   "notification": {
+    "title": "CEN 06/2025 — Detailed Centralised Employment Notification, NTPC (Graduate posts)",
+    "date": "2025-10-21",
+    "cycle": "CEN 06/2025",
+    "current": false,
+    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1762325548056Detailed_CEN_06_2025_English_com_(1).pdf/examsDocuments",
+    "embeddable": false
+   },
+   "extraNotifications": [
+    {
+     "title": "CEN 07/2025 — Detailed CEN, NTPC (Undergraduate posts)",
+     "date": "2025-10-28",
+     "url": "https://rrb.indianrailways.gov.in/-/image/1762325939510Detailed_CEN_07_2025_NTPC_Under_Graduate_English.pdf/examsDocuments"
+    }
+   ],
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.rrbapply.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "RRB Recruitment (CENs) listing",
+    "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=06/2025&loc=chandigarh&category=Notification"
+   },
+   "eligibility": {
+    "education": "Class 12 (+2 stage) for the undergraduate CEN; a bachelor's degree for the graduate CEN",
+    "age": "18 to 33 years for graduate posts and 18 to 30 for undergraduate posts in recent CENs, with relaxations for reserved categories",
+    "other": "Indian citizen. Medical fitness standards differ by post."
+   },
+   "fee": "₹500, of which ₹400 is refunded after appearing for the first stage (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
+   "syllabus": {
+    "title": "Official syllabus (Annexure of the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1762325548056Detailed_CEN_06_2025_English_com_(1).pdf/examsDocuments",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "CBT-1: 100 questions, 90 minutes — Mathematics, General Intelligence & Reasoning, General Awareness",
+     "CBT-2: 120 questions, 90 minutes, on the same subject areas at greater depth",
+     "Then a Typing Skill Test or Computer Based Aptitude Test depending on the post",
+     "Negative marking of 1/3 mark per wrong answer"
+    ],
+    "title": "Scheme of examination (inside the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1762325548056Detailed_CEN_06_2025_English_com_(1).pdf/examsDocuments"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "RRBs do not publish previous question papers. After each computer-based test they publish the question paper with the candidate's own responses and the answer key inside the candidate login, along with a public objection-tracker window.",
+   "pastPapersPage": "https://rrb.indianrailways.gov.in/",
+   "answerKeys": [],
+   "answerKeysNote": "Answer keys are released per CEN through the candidate login and objection tracker.",
+   "answerKeysPage": "https://rrb.indianrailways.gov.in/",
+   "mockTests": [],
+   "mockTestNote": "RRBs publish an official mock test link for each CEN once the examination is scheduled — look for 'Mock Test Link' under the CEN."
   },
   {
    "id": "rrb-group-d",
@@ -1555,7 +3242,7 @@ window.AVSAR_DATA = {
    ],
    "nextExpected": "Oct 2026 (per RRB annual calendar)",
    "frequency": "annual",
-   "official": "https://www.rrbapply.gov.in",
+   "official": "https://rrb.indianrailways.gov.in/",
    "resources": [
     {
      "label": "Centralised railway application portal",
@@ -1571,7 +3258,72 @@ window.AVSAR_DATA = {
     "10th-pass",
     "massive-vacancies",
     "physical-efficiency-test"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Railways",
+   "organizationFull": "Railway Recruitment Boards, Ministry of Railways",
+   "officialWebsite": "https://rrb.indianrailways.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Track Maintainer Grade IV",
+    "Pointsman",
+    "Assistant (Loco Shed, Workshop, Bridge, Signal & Telecom)",
+    "Assistant Operations (Electrical)"
+   ],
+   "description": "Class-10-level recruitment for Level 1 posts across the Railways — the largest single government recruitment by number of vacancies. One computer-based test, then a physical efficiency test and a medical examination.",
+   "officialExamPage": "https://rrb.indianrailways.gov.in/",
+   "status": "not-announced",
+   "statusNote": "Applications for CEN 08/2024 closed on 22 February 2025. No newer Level 1 CEN has been published.",
+   "notification": {
+    "title": "CEN 08/2024 — Detailed Centralised Employment Notification, Level 1 posts",
+    "date": "2025-01-23",
+    "cycle": "CEN 08/2024",
+    "current": false,
+    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": "2025-01-23",
+    "closingDate": "2025-02-22",
+    "url": "https://www.rrbapply.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "RRB Recruitment (CENs) listing",
+    "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=08/2024&loc=chandigarh&category=Notification"
+   },
+   "eligibility": {
+    "education": "Class 10 pass, or an ITI certificate, or a National Apprenticeship Certificate",
+    "age": "18 to 33 years in CEN 08/2024, with relaxations for reserved categories",
+    "other": "Indian citizen. Physical Efficiency Test and medical standards apply."
+   },
+   "fee": "₹500, of which ₹400 is refunded after appearing for the CBT (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
+   "syllabus": {
+    "title": "Official syllabus (Annexure of the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Single computer-based test: 100 questions, 90 minutes",
+     "Mathematics, General Intelligence & Reasoning, General Science, General Awareness",
+     "Negative marking of 1/3 mark per wrong answer",
+     "Then Physical Efficiency Test and document verification"
+    ],
+    "title": "Scheme of examination (inside the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "RRBs do not publish previous question papers publicly.",
+   "pastPapersPage": "https://rrb.indianrailways.gov.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://rrb.indianrailways.gov.in/",
+   "mockTests": []
   },
   {
    "id": "rrb-alp",
@@ -1591,7 +3343,7 @@ window.AVSAR_DATA = {
    ],
    "nextExpected": "Feb 2027 (expected)",
    "frequency": "annual",
-   "official": "https://www.rrbapply.gov.in",
+   "official": "https://rrb.indianrailways.gov.in/",
    "resources": [
     {
      "label": "Centralised railway application portal",
@@ -1608,7 +3360,69 @@ window.AVSAR_DATA = {
     "iti-required",
     "a1-medical",
     "aptitude-test"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Railways",
+   "organizationFull": "Railway Recruitment Boards, Ministry of Railways",
+   "officialWebsite": "https://rrb.indianrailways.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Loco Pilot (trainee train driver)"
+   ],
+   "description": "Recruits ITI-qualified and diploma candidates to drive trains, starting as Assistant Loco Pilot. Two computer-based tests, then a computer-based aptitude test and a medical examination with strict vision standards.",
+   "officialExamPage": "https://rrb.indianrailways.gov.in/",
+   "status": "closed",
+   "statusNote": "Applications for CEN 01/2026 closed on 14 June 2026. The examination schedule has not been announced yet.",
+   "notification": {
+    "title": "CEN 01/2026 — Detailed Centralised Employment Notification, Assistant Loco Pilot",
+    "date": "2026-05-14",
+    "cycle": "CEN 01/2026",
+    "current": true,
+    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1780467818641detail_cen_01_2026_eng.pdf/examsDocuments",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": "2026-05-15",
+    "closingDate": "2026-06-14",
+    "url": "https://www.rrbapply.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "RRB Recruitment (CENs) listing",
+    "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=01/2026&loc=chandigarh&category=Notification"
+   },
+   "eligibility": {
+    "education": "Class 10 plus an ITI certificate in a notified trade, or a diploma or degree in Mechanical, Electrical, Electronics or Automobile engineering",
+    "age": "18 to 30 years in CEN 01/2026, with relaxations for reserved categories",
+    "other": "Indian citizen. Medical standard A-1 — the strictest vision standard in the Railways."
+   },
+   "fee": "₹500, of which ₹400 is refunded after appearing for CBT-1 (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
+   "syllabus": {
+    "title": "Official syllabus (Annexure of the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1780467818641detail_cen_01_2026_eng.pdf/examsDocuments",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "CBT-1: 75 questions, 60 minutes — screening only",
+     "CBT-2: two parts (Part A 100 questions/90 min, Part B 75 questions/60 min on the trade)",
+     "Computer Based Aptitude Test (no negative marking, minimum 42 marks in each battery)",
+     "Then document verification and medical examination"
+    ],
+    "title": "Scheme of examination (inside the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1780467818641detail_cen_01_2026_eng.pdf/examsDocuments"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "RRBs do not publish previous question papers publicly.",
+   "pastPapersPage": "https://rrb.indianrailways.gov.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://rrb.indianrailways.gov.in/",
+   "mockTests": []
   },
   {
    "id": "lic-aao",
@@ -1639,7 +3453,77 @@ window.AVSAR_DATA = {
     "psu",
     "officer",
     "high-salary"
-   ]
+   ],
+   "type": "exam",
+   "organization": "LIC",
+   "organizationFull": "Life Insurance Corporation of India",
+   "officialWebsite": "https://licindia.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Administrative Officer (Generalist)",
+    "Assistant Administrative Officer (Specialist: Chartered Accountant, Actuarial, Legal, IT)",
+    "Assistant Engineer"
+   ],
+   "description": "The officer-entry post at Life Insurance Corporation of India. Preliminary online exam, main online exam, then an interview.",
+   "officialExamPage": "https://licindia.in/careers",
+   "status": "closed",
+   "statusNote": "The AAO 2025 recruitment closed for applications on 8 September 2025. The preliminary examination was held on 3 October 2025 and the main examination on 8 November 2025.",
+   "notification": {
+    "title": "Recruitment of AAO (Generalist) 2025 — official notification",
+    "date": "2025-08-16",
+    "cycle": "2025",
+    "current": true,
+    "pdfUrl": "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final",
+    "embeddable": false
+   },
+   "extraNotifications": [
+    {
+     "title": "AAO (Specialists / Assistant Engineers) 2025 — official notification",
+     "date": "2025-08-16",
+     "url": "https://licindia.in/documents/d/guest/aao-specialist-notification-2025-final"
+    }
+   ],
+   "application": {
+    "openingDate": "2025-08-16",
+    "closingDate": "2025-09-08",
+    "url": "https://licindia.in/recruitment-of-aao-generalists/-specialists/-assistant-engineers-2025"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "LIC careers page",
+    "sourceUrl": "https://licindia.in/careers"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any discipline for the Generalist post; the matching professional qualification for each Specialist post",
+    "age": "21 to 30 years as on 1 August 2025 in the 2025 cycle, with relaxations for reserved categories",
+    "other": "Indian citizen."
+   },
+   "fee": "₹700 in the 2025 cycle (₹85 for SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official scheme of examination (inside the notification)",
+    "url": "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: objective online test — Reasoning Ability, Quantitative Aptitude, English (qualifying)",
+     "Main: objective online test plus a descriptive English paper",
+     "Then an interview and a pre-recruitment medical examination"
+    ],
+    "title": "Scheme of selection (inside the official notification)",
+    "url": "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "LIC does not publish previous question papers.",
+   "pastPapersPage": "https://licindia.in/careers",
+   "answerKeys": [],
+   "answerKeysPage": "https://licindia.in/careers",
+   "mockTests": []
   },
   {
    "id": "agniveer-army",
@@ -1672,7 +3556,66 @@ window.AVSAR_DATA = {
     "4-year-tenure",
     "physical-test",
     "unmarried"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Defence",
+   "organizationFull": "Indian Armed Forces",
+   "officialWebsite": "https://joinindianarmy.nic.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Agniveer (General Duty)",
+    "Agniveer (Technical)",
+    "Agniveer Clerk / Store Keeper Technical",
+    "Agniveer Tradesman",
+    "Agniveer (Women Military Police)"
+   ],
+   "description": "Enrolment into the Army under the Agnipath scheme, for a four-year term with up to 25% retained in regular service. An online Common Entrance Examination, then a recruitment rally with physical and medical tests.",
+   "officialExamPage": "https://joinindianarmy.nic.in/",
+   "status": "not-announced",
+   "statusNote": "The Common Entrance Examination for the 2026 cycle was held in June 2026 and that cycle's applications are closed. The next Agniveer notification has not been published.",
+   "notification": null,
+   "notificationNote": "Agniveer notifications are published on the official Join Indian Army portal for each cycle.",
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://joinindianarmy.nic.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "Join Indian Army portal",
+    "sourceUrl": "https://joinindianarmy.nic.in/"
+   },
+   "eligibility": {
+    "education": "Class 10 for General Duty and Tradesman; class 12 with Physics, Chemistry, Maths and English for Technical; class 12 in any stream for Clerk / Store Keeper Technical",
+    "age": "17.5 to 21 years",
+    "other": "Indian citizen. Height, weight, chest, running and medical standards apply and differ by category and region."
+   },
+   "fee": "₹250 in recent cycles; confirm in the notification",
+   "syllabus": {
+    "title": "Official syllabus and scheme (published with each notification on the Army portal)",
+    "url": "https://joinindianarmy.nic.in/",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Stage I: online Common Entrance Examination (CEE), objective, category-specific paper",
+     "Stage II: recruitment rally with the Physical Fitness Test and Physical Measurement Test",
+     "Stage III: medical examination"
+    ],
+    "title": "Join Indian Army portal",
+    "url": "https://joinindianarmy.nic.in/"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "The Army does not publish previous Common Entrance Examination papers.",
+   "pastPapersPage": "https://joinindianarmy.nic.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://joinindianarmy.nic.in/",
+   "mockTests": []
   },
   {
    "id": "agniveer-airforce",
@@ -1704,7 +3647,76 @@ window.AVSAR_DATA = {
     "agnipath",
     "4-year-tenure",
     "women-eligible"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Defence",
+   "organizationFull": "Indian Armed Forces",
+   "officialWebsite": "https://agnipathvayu.cdac.in/AV/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Agniveervayu (Science subjects)",
+    "Agniveervayu (Other than science subjects)",
+    "Agniveervayu (Musician)",
+    "Agniveervayu (Non-combatant)"
+   ],
+   "description": "Enrolment into the Air Force under the Agnipath scheme, run by the Central Airmen Selection Board in numbered intakes. Online test, then physical fitness, adaptability and medical tests.",
+   "officialExamPage": "https://agnipathvayu.cdac.in/AV/",
+   "status": "not-announced",
+   "statusNote": "Intake 02/2026 has reached the provisional select list stage, so its application window is closed. The next intake has not been notified.",
+   "notification": null,
+   "notificationNote": "Agniveervayu notifications are published per intake on the official CASB portal.",
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://agnipathvayu.cdac.in/AV/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "CASB Agniveervayu portal",
+    "sourceUrl": "https://agnipathvayu.cdac.in/AV/"
+   },
+   "eligibility": {
+    "education": "Class 12 with Mathematics, Physics and English (or a three-year engineering diploma) for the science stream; class 12 in any stream with English for the non-science stream",
+    "age": "17.5 to 21 years",
+    "other": "Indian citizen. Physical fitness and medical standards apply; both men and women are eligible."
+   },
+   "fee": "Around ₹550 including GST in recent intakes; confirm in the notification",
+   "syllabus": {
+    "title": "Official eligibility criteria and syllabus (CASB)",
+    "url": "https://agnipathvayu.cdac.in/AV/eligibilityCriteria",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Phase I: online test (objective), stream-specific",
+     "Phase II: Physical Fitness Test, adaptability tests",
+     "Phase III: medical examination"
+    ],
+    "title": "Official eligibility criteria and selection process",
+    "url": "https://agnipathvayu.cdac.in/AV/eligibilityCriteria"
+   },
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "Agniveervayu (Musician) — official model question paper",
+       "url": "https://agnipathvayu.cdac.in/AV/img/rally/AV_Musician_MODEL_QP.pdf"
+      }
+     ]
+    }
+   ],
+   "pastPapersNote": "The only question paper CASB publishes openly is the official model paper for the Musician entry.",
+   "pastPapersPage": "https://agnipathvayu.cdac.in/AV/",
+   "answerKeys": [],
+   "answerKeysPage": "https://agnipathvayu.cdac.in/AV/",
+   "mockTests": [],
+   "mockTestNote": "CASB publishes an official mock test and OMR tutorial for each intake on the Agniveervayu portal."
   },
   {
    "id": "agniveer-navy",
@@ -1736,7 +3748,64 @@ window.AVSAR_DATA = {
     "agnipath",
     "4-year-tenure",
     "women-eligible"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Defence",
+   "organizationFull": "Indian Armed Forces",
+   "officialWebsite": "https://www.joinindiannavy.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Agniveer SSR (Senior Secondary Recruit)",
+    "Agniveer MR (Matric Recruit — chef, steward, hygienist)",
+    "Agniveer (Apprentice)"
+   ],
+   "description": "Enrolment into the Navy under the Agnipath scheme through the Indian Navy Entrance Test (INET), followed by written, physical and medical stages. The Navy notifies SSR, MR and Apprentice entries separately.",
+   "officialExamPage": "https://www.joinindiannavy.gov.in/en/page/agniveer-ways-to-join.html",
+   "status": "not-announced",
+   "statusNote": "The Indian Navy Entrance Test for the current Agniveer cycles has been conducted. The next Agniveer SSR / MR notification has not been published.",
+   "notification": null,
+   "notificationNote": "Agniveer notifications are published on the official Join Indian Navy portal for each batch.",
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://agniveer.navydmpr.in/sailorscycle5/signUp"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "Join Indian Navy portal",
+    "sourceUrl": "https://www.joinindiannavy.gov.in/en/page/agniveer-ways-to-join.html"
+   },
+   "eligibility": {
+    "education": "Class 12 with Mathematics and Physics for Agniveer SSR; class 10 pass for Agniveer MR",
+    "age": "17.5 to 21 years",
+    "other": "Indian citizen. Physical fitness and medical standards apply; both men and women are eligible."
+   },
+   "fee": "Around ₹550 including GST in recent cycles; confirm in the notification",
+   "syllabus": {
+    "title": "Official Agniveer SSR page (eligibility, syllabus and selection)",
+    "url": "https://www.joinindiannavy.gov.in/en/page/agniveer-ssr.html",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Computer-based Indian Navy Entrance Test (INET), objective, with sectional qualifying marks",
+     "Then a Physical Fitness Test",
+     "Then a medical examination"
+    ],
+    "title": "Selection procedure — Agniveer SSR and MR",
+    "url": "https://www.joinindiannavy.gov.in/en/page/selection-procedure-agniveer-ssr-and-agniveer-mr.html"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "The Navy does not publish previous INET question papers.",
+   "pastPapersPage": "https://www.joinindiannavy.gov.in/en/page/agniveer-ways-to-join.html",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.joinindiannavy.gov.in/",
+   "mockTests": []
   },
   {
    "id": "isro-icrb",
@@ -1772,7 +3841,86 @@ window.AVSAR_DATA = {
     "gate-score-based",
     "65-percent-required",
     "prestige"
-   ]
+   ],
+   "type": "exam",
+   "organization": "ISRO",
+   "organizationFull": "Indian Space Research Organisation",
+   "officialWebsite": "https://www.isro.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Scientist / Engineer 'SC' in Electronics, Mechanical, Computer Science and allied disciplines at ISRO centres"
+   ],
+   "description": "ISRO's centralised recruitment for entry-level scientists and engineers, run by the ISRO Centralised Recruitment Board. Recent cycles shortlist candidates on GATE scores and then hold an interview.",
+   "officialExamPage": "https://www.isro.gov.in/Careers.html",
+   "status": "closed",
+   "statusNote": "Advertisement ISRO:ICRB:02(EMC-CEPO):2026 for Scientist/Engineer 'SC' was open from 28 July to 17 August 2026 and has closed.",
+   "notification": {
+    "title": "Recruitment to the post of Scientist/Engineer 'SC' — Advertisement ISRO:ICRB:02(EMC-CEPO):2026",
+    "date": "2026-07-28",
+    "cycle": "ICRB:02:2026",
+    "current": true,
+    "pdfUrl": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/GATE_Bilingual_Advertisement_2026_28072026.pdf",
+    "embeddable": false
+   },
+   "extraNotifications": [
+    {
+     "title": "Official FAQ for the Scientist/Engineer 'SC' advertisement",
+     "date": "2026-07-28",
+     "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/FREQUENTLY_ASKED_QUESTIONS(FAQ)_28072026.pdf"
+    }
+   ],
+   "application": {
+    "openingDate": "2026-07-28",
+    "closingDate": "2026-08-17",
+    "url": "https://www.isro.gov.in/ICRB_Recruitment12.html"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "ISRO careers page",
+    "sourceUrl": "https://www.isro.gov.in/Careers.html"
+   },
+   "eligibility": {
+    "education": "BE / B.Tech or equivalent in the notified discipline with a first class and at least 65% marks or CGPA 6.84/10, plus a valid GATE score in recent cycles",
+    "age": "Up to 28 years, with relaxations for reserved categories",
+    "other": "Indian citizen. Read the discipline-wise table in the advertisement."
+   },
+   "fee": "₹750 in recent cycles, with a refund on appearing (a reduced or nil fee applies to women, SC/ST, PwBD and ex-servicemen candidates)",
+   "syllabus": {
+    "title": "Requirements and selection procedure (inside the advertisement)",
+    "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/GATE_Bilingual_Advertisement_2026_28072026.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Recent cycles shortlist on GATE score in the relevant paper",
+     "Shortlisted candidates attend a written test or a personal interview, as specified in the advertisement",
+     "The method is stated in each advertisement"
+    ],
+    "title": "Selection procedure (inside the official advertisement)",
+    "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/GATE_Bilingual_Advertisement_2026_28072026.pdf"
+   },
+   "pastPapers": [
+    {
+     "year": 2023,
+     "papers": [
+      {
+       "name": "ISRO Assistant 2023 — official previous question paper",
+       "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/August/Assistant_2023_QP_11082026.pdf"
+      }
+     ]
+    }
+   ],
+   "pastPapersNote": "ISRO publishes previous question papers only for some cadres. The Assistant and Junior Personal Assistant papers above were published with the 2026 administrative recruitment; there is no published paper for Scientist/Engineer 'SC', which is GATE-based.",
+   "pastPapersPage": "https://www.isro.gov.in/ICRB_Recruitment11.html",
+   "answerKeys": [],
+   "answerKeysNote": "ISRO does not publish public answer keys.",
+   "answerKeysPage": "https://www.isro.gov.in/Careers.html",
+   "mockTests": []
   },
   {
    "id": "ctet",
@@ -1808,7 +3956,122 @@ window.AVSAR_DATA = {
     "no-age-limit",
     "rs-1200-for-both-papers",
     "lifetime-validity"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Teaching",
+   "organizationFull": "Central Board of Secondary Education (CTET Unit)",
+   "officialWebsite": "https://ctet.nic.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Eligibility to apply for teacher posts in KVS, NVS, central government schools and many state and private schools"
+   ],
+   "description": "CTET is an eligibility test, not a job. Clearing it makes you eligible to apply for teaching posts — the actual recruitment is done separately by KVS, NVS, state governments and schools. Paper I is for classes 1 to 5 and Paper II for classes 6 to 8. The certificate is valid for life.",
+   "officialExamPage": "https://ctet.nic.in/",
+   "status": "closed",
+   "statusNote": "Applications for CTET September 2026 closed on 10 June 2026. The examination is on 6 September 2026 — Paper II in the morning shift (09:30 to 12:00) and Paper I in the evening shift (14:30 to 17:00).",
+   "notification": {
+    "title": "CTET September 2026 — Information Bulletin",
+    "date": "2026-05-11",
+    "cycle": "September 2026",
+    "current": true,
+    "pdfUrl": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+    "embeddable": true
+   },
+   "extraNotifications": [
+    {
+     "title": "Public Notice — CTET September 2026",
+     "date": "2026-05-11",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/2026051163782266.pdf"
+    },
+    {
+     "title": "Public Notice — CTET September 2026 correction window",
+     "date": "2026-06-15",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/06/202606151389616278.pdf"
+    }
+   ],
+   "application": {
+    "openingDate": null,
+    "closingDate": "2026-06-10",
+    "url": "https://ctet.nic.in/"
+   },
+   "examDate": "2026-09-06",
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "CTET official website",
+    "sourceUrl": "https://ctet.nic.in/"
+   },
+   "eligibility": {
+    "education": "For Paper I: class 12 with at least 50% plus a D.El.Ed, or graduation plus a D.El.Ed / B.El.Ed. For Paper II: graduation plus a B.Ed or the equivalent combination in the Information Bulletin",
+    "age": "No upper age limit",
+    "other": "This is an eligibility certificate, not an appointment. Recruiting bodies hold their own selection."
+   },
+   "fee": "₹1,000 for one paper and ₹1,200 for both (₹500 and ₹600 for SC/ST/PwD candidates) in the September 2026 cycle",
+   "syllabus": {
+    "title": "Official CTET syllabus (Information Bulletin)",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Paper I (classes 1 to 5): 150 objective questions, 150 marks, 2.5 hours",
+     "Paper II (classes 6 to 8): 150 objective questions, 150 marks, 2.5 hours",
+     "No negative marking. 60% (90 marks) is the qualifying score.",
+     "Both papers cover Child Development & Pedagogy, two languages, and subject areas"
+    ],
+    "title": "Examination pattern (inside the Information Bulletin)",
+    "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "CTET does not publish an archive of previous question papers, but it does publish the official final answer keys for past sessions, which list every question's correct option.",
+   "pastPapersPage": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "answerKeys": [
+    {
+     "year": 2026,
+     "title": "CTET February 2026 — Paper I final answer key (7 Feb 2026)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/20260401145739613.pdf"
+    },
+    {
+     "year": 2026,
+     "title": "CTET February 2026 — Paper II final answer key (7 Feb 2026)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/202604011258134140.pdf"
+    },
+    {
+     "year": 2026,
+     "title": "CTET February 2026 — Paper I final answer key (8 Feb 2026)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/20260401449979389.pdf"
+    },
+    {
+     "year": 2026,
+     "title": "CTET February 2026 — Paper II final answer key (8 Feb 2026)",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/20260401628564007.pdf"
+    },
+    {
+     "year": 2024,
+     "title": "CTET December 2024 — Paper I final answer key",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/01/2025012321.pdf"
+    },
+    {
+     "year": 2024,
+     "title": "CTET December 2024 — Paper II final answer key",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/01/2025012315.pdf"
+    },
+    {
+     "year": 2024,
+     "title": "CTET July 2024 — Paper I final answer key",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/08/2024080797.pdf"
+    },
+    {
+     "year": 2024,
+     "title": "CTET July 2024 — Paper II final answer key",
+     "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/08/2024080769.pdf"
+    }
+   ],
+   "answerKeysPage": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "mockTests": []
   },
   {
    "id": "ugc-net",
@@ -4571,7 +6834,80 @@ window.AVSAR_DATA = {
     "officer-entry",
     "flying-branch",
     "age 20-24 for Flying, 20-26 Ground Duty"
-   ]
+   ],
+   "type": "exam",
+   "organization": "Defence",
+   "organizationFull": "Indian Armed Forces",
+   "officialWebsite": "https://indianairforce.nic.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Flying Branch officer",
+    "Ground Duty (Technical) officer",
+    "Ground Duty (Non-Technical) officer — Administration, Logistics, Accounts, Education, Meteorology"
+   ],
+   "description": "The Indian Air Force's officer-entry test for graduates, held twice a year as AFCAT 01 and AFCAT 02. Written test, then the Air Force Selection Board process.",
+   "officialExamPage": "https://afcat.edcil.co.in/",
+   "status": "exam-completed",
+   "statusNote": "AFCAT 02/2026 (for courses commencing July 2027) closed for applications on 19 June 2026 and the examination was held on 8 August 2026. The next cycle, AFCAT 01/2027, has not been notified yet.",
+   "notification": {
+    "title": "Notification for AFCAT 02/2026 — Flying Branch and Ground Duty (Technical and Non-Technical)",
+    "date": "2026-05-20",
+    "cycle": "AFCAT 02/2026",
+    "current": true,
+    "pdfUrl": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2026/Notification%20for%20AFCAT%20Cycle%2002-2026.pdf",
+    "embeddable": true
+   },
+   "extraNotifications": [
+    {
+     "title": "Notification for AFCAT 01/2026",
+     "date": "2025-12-01",
+     "url": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2025/Notification_AFCAT_01-2026.pdf"
+    }
+   ],
+   "application": {
+    "openingDate": "2026-05-20",
+    "closingDate": "2026-06-19",
+    "url": "https://afcat.edcil.co.in/"
+   },
+   "examDate": "2026-08-08",
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "AFCAT official portal",
+    "sourceUrl": "https://afcat.edcil.co.in/"
+   },
+   "eligibility": {
+    "education": "Class 12 with Physics and Mathematics plus a graduate degree for the Flying Branch; an engineering degree for Ground Duty (Technical); a graduate or postgraduate degree for Ground Duty (Non-Technical), with stream-wise details in the notification",
+    "age": "20 to 24 years for the Flying Branch (up to 26 with a valid commercial pilot licence) and 20 to 26 years for Ground Duty, reckoned as on the course commencement date",
+    "other": "Candidates must be unmarried when the course begins. Both men and women are eligible."
+   },
+   "fee": "₹550 (no fee for candidates applying only for NCC Special Entry or Meteorology)",
+   "syllabus": {
+    "title": "Official AFCAT syllabus (inside the notification)",
+    "url": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2026/Notification%20for%20AFCAT%20Cycle%2002-2026.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "AFCAT: 100 questions, 300 marks, 2 hours — General Awareness, Verbal Ability, Numerical Ability, Reasoning and Military Aptitude",
+     "Negative marking of 1 mark per wrong answer",
+     "Ground Duty (Technical) candidates also take the EKT (Engineering Knowledge Test), 50 questions in 45 minutes",
+     "Then the Air Force Selection Board (AFSB) testing and a medical examination"
+    ],
+    "title": "Examination pattern (inside the official notification)",
+    "url": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2026/Notification%20for%20AFCAT%20Cycle%2002-2026.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "The Air Force does not publish previous AFCAT question papers.",
+   "pastPapersPage": "https://afcat.edcil.co.in/",
+   "answerKeys": [],
+   "answerKeysNote": "An objection-management portal opens after each AFCAT examination instead of a published key.",
+   "answerKeysPage": "https://afcat.edcil.co.in/",
+   "mockTests": [],
+   "mockTestNote": "Official guidelines for candidates are published at https://afcat.edcil.co.in/guidelines.html"
   },
   {
    "id": "csir-ugc-net",
@@ -4773,7 +7109,71 @@ window.AVSAR_DATA = {
     "sub-inspector",
     "physical-test",
     "LMV licence needed for Delhi Police SI (male)"
-   ]
+   ],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Sub-Inspector (Executive) in Delhi Police",
+    "Sub-Inspector in BSF, CRPF, CISF, ITBP and SSB"
+   ],
+   "description": "Graduate-level recruitment for Sub-Inspector posts in Delhi Police and the Central Armed Police Forces. Written paper, physical tests, a second paper, then a medical examination.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "not-announced",
+   "statusNote": "No CPO 2026 notice has been published yet. The latest published notice is for the 2025 examination (26 September 2025), whose application window has closed.",
+   "notification": {
+    "title": "Notice of Sub-Inspector in Delhi Police and Central Armed Police Forces Examination, 2025",
+    "date": "2025-09-26",
+    "cycle": "2025",
+    "current": false,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2025.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC examination calendar",
+    "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any subject; male candidates for Sub-Inspector in Delhi Police must also hold a valid LMV driving licence",
+    "age": "20 to 25 years, with relaxations for reserved categories",
+    "other": "Indian citizen. Physical standards, endurance tests and a detailed medical examination apply."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official CPO syllabus (Annexure of the notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2025.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Paper I: 4 parts of 50 questions each — 200 marks, 2 hours, computer-based",
+     "Then Physical Standard Test and Physical Endurance Test",
+     "Paper II: English Language and Comprehension — 200 marks",
+     "Then a detailed medical examination"
+    ],
+    "title": "Scheme of examination (paragraph 12 of the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2025.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SSC does not publish a public archive of previous question papers.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": []
   },
   {
    "id": "nabard-grade-a",
@@ -4807,7 +7207,63 @@ window.AVSAR_DATA = {
     "regulatory-body",
     "rural-development",
     "prelims-mains-interview"
-   ]
+   ],
+   "type": "exam",
+   "organization": "NABARD",
+   "organizationFull": "National Bank for Agriculture and Rural Development",
+   "officialWebsite": "https://www.nabard.org/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Manager in Grade A — Rural Development Banking Service (RDBS)",
+    "Assistant Manager — Legal, Protocol & Security Services, Rajbhasha"
+   ],
+   "description": "Entry-level officer post at the National Bank for Agriculture and Rural Development. Preliminary and main written exams, then an interview. NABARD does not recruit every year on a fixed date.",
+   "officialExamPage": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "status": "not-announced",
+   "statusNote": "The Grade A 2025 recruitment is complete — select and wait lists have been published. NABARD's Grade A notifications page currently shows no live notification, and NABARD does not follow a fixed annual calendar.",
+   "notification": null,
+   "notificationNote": "No current Grade A notification is live on NABARD's career notices page.",
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.nabard.org/careers-notices1.aspx?cid=672&id=26"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "NABARD career notices",
+    "sourceUrl": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree with the minimum marks specified in the notification, or a relevant postgraduate degree, depending on the discipline",
+    "age": "21 to 30 years in recent cycles, with relaxations for reserved categories",
+    "other": "Indian citizen. Requirements differ by discipline — read the notification when it is published."
+   },
+   "fee": "Around ₹800 in recent cycles (a reduced fee applies to SC/ST/PwBD candidates); confirm in the notification",
+   "syllabus": {
+    "title": "NABARD downloads — formats and syllabus",
+    "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Phase I: objective preliminary examination (screening)",
+     "Phase II: main examination with objective and descriptive papers",
+     "Then an interview"
+    ],
+    "title": "Scheme of examination (published with each notification)",
+    "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "NABARD does not publish previous question papers.",
+   "pastPapersPage": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.nabard.org/careers-notices1.aspx?cid=680&id=26",
+   "mockTests": []
   },
   {
    "id": "bpsc-cce",
@@ -4939,6 +7395,1742 @@ window.AVSAR_DATA = {
     "work-from-home options",
     "free-to-apply"
    ]
+  },
+  {
+   "id": "upsc-cms",
+   "name": "UPSC Combined Medical Services Examination (CMS)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": 32,
+   "minEducation": "professional",
+   "feeINR": 200,
+   "oneLiner": "Central government doctor jobs for MBBS graduates: Railways, CHS and municipal medical officer posts, via a two-paper computer-based exam.",
+   "benefit": "Rs 56,100 starting basic (Level 10) plus allowances",
+   "window": "typically Mar (notification early Mar, ~3 weeks to apply)",
+   "windowMonths": [
+    3
+   ],
+   "nextExpected": "Mar 2027 (notification 3 Mar 2027 per UPSC calendar)",
+   "frequency": "annual",
+   "official": "https://upsc.gov.in/",
+   "tags": [
+    "upsc",
+    "mbbs",
+    "doctor",
+    "medical-officer",
+    "railways"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Medical Officer in Railways",
+    "Assistant Divisional Medical Officer",
+    "General Duty Medical Officer in central government hospitals and municipal services"
+   ],
+   "description": "Recruits MBBS doctors as medical officers in the Railways, central government hospitals and other central services.",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/Combined%20Medical%20Services%20Examination%2C%202026",
+   "status": "upcoming",
+   "statusNote": "CMS 2026 is over. The next notification, for CMS 2027, is scheduled for 3 March 2027 in the official UPSC Annual Calendar 2027.",
+   "notification": {
+    "title": "Combined Medical Services Examination, 2026 — notification",
+    "date": "2026-03-11",
+    "cycle": "2026",
+    "current": false,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2027-03-03",
+    "closingDate": "2027-03-23",
+    "examDate": "2027-07-18",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "MBBS — candidates who have passed the written and practical parts of the final MBBS examination may apply",
+    "age": "Up to 32 years for most posts, with relaxations for reserved categories",
+    "other": "Indian citizen."
+   },
+   "fee": "₹200 (women, SC/ST and PwBD candidates are exempt)",
+   "syllabus": {
+    "title": "Official CMS syllabus (inside the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Computer-based examination in two papers of 250 marks each (2 hours each)",
+     "Paper I: General Medicine and Paediatrics",
+     "Paper II: Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine",
+     "Then a Personality Test of 100 marks"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf"
+   },
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [
+    {
+     "title": "Official demo files for the computer-based CMS examination",
+     "url": "https://www.upsc.gov.in/examinations/demo-files-computer-based-combined-medical-service-examination"
+    }
+   ],
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "General Medicine and Pediatrics",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CMSE-26-GnrlMdcnPediatrc-Paper-I-030826.pdf"
+      },
+      {
+       "name": "Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CMSE-26-SrgryGynaeObstPvntSclMdcnPaper-II-03082026.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "General Medicine and Pediatrics",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CMS_2025_PAPER_01-210725.pdf"
+      },
+      {
+       "name": "Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CMS_2025_PAPER_02-210725.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "General Medicine and Pediatrics",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CMSE-24-PAPER-I-GENERAL-MEDICINE-AND-PEDIATRICS-150724.pdf"
+      },
+      {
+       "name": "Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-CMSE-24-PAPER-II-SURGERY-GYAE-OBST-PREVENT-SOCIAL-MEDCN-150724.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "upsc-ifos",
+   "name": "UPSC Indian Forest Service (IFoS)",
+   "category": "gov-job",
+   "ageMin": 21,
+   "ageMax": 32,
+   "minEducation": "ug",
+   "feeINR": 100,
+   "oneLiner": "Indian Forest Service officer entry for science, agriculture and engineering graduates; screened through the Civil Services Prelims, then a separate IFoS Mains.",
+   "benefit": "Rs 56,100 starting basic (Level 10) plus allowances",
+   "window": "typically Jan–Feb (same notification as Civil Services Prelims)",
+   "windowMonths": [
+    1,
+    2
+   ],
+   "nextExpected": "Jan 2027 (notification 13 Jan 2027 per UPSC calendar)",
+   "frequency": "annual",
+   "official": "https://upsc.gov.in/",
+   "tags": [
+    "upsc",
+    "forest-service",
+    "science-graduates",
+    "physical-standards"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Conservator of Forests",
+    "Indian Forest Service officer in state forest departments and central deputation"
+   ],
+   "description": "Recruits science and engineering graduates into the Indian Forest Service. Important: there is no separate IFoS Preliminary exam — candidates are screened through the Civil Services (Preliminary) Examination, then sit a separate IFoS Main examination.",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/Indian%20Forest%20Service%20%28Preliminary%29%20Examination%2C%202026%20through%20CS%28P%29%20Examination%2C%202026",
+   "status": "upcoming",
+   "statusNote": "IFoS 2026 is over. The next notification, for IFoS 2027 (through the CSE Preliminary Examination 2027), is scheduled for 13 January 2027 in the official UPSC Annual Calendar 2027.",
+   "notification": {
+    "title": "Indian Forest Service (Preliminary) Examination, 2026 through CS(P) Examination, 2026 — notification",
+    "date": "2026-02-06",
+    "cycle": "2026",
+    "current": false,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2027-01-13",
+    "closingDate": "2027-02-02",
+    "examDate": "2027-05-23",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree with at least one of Animal Husbandry & Veterinary Science, Botany, Chemistry, Geology, Mathematics, Physics, Statistics or Zoology; or a degree in Agriculture, Forestry or Engineering",
+    "age": "21 to 32 years, with relaxations for reserved categories",
+    "other": "Indian citizen. Physical standards apply."
+   },
+   "fee": "₹100 for the Preliminary examination (women, SC/ST and PwBD candidates are exempt)",
+   "syllabus": {
+    "title": "Official IFoS syllabus (inside the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Screening: the Civil Services (Preliminary) Examination — the same 2 objective papers",
+     "Mains: 6 descriptive papers (General English, General Knowledge and 2 optional subjects of 2 papers each)",
+     "Then a Personality Test of 300 marks"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf"
+   },
+   "pastPapersNote": "Only the compulsory Main papers are listed here; optional-subject papers are on the UPSC archive page.",
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [],
+   "pastPapers": [
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "Mains: General English",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IFSM-25-GENERAL-ENGLISH-241125.pdf"
+      },
+      {
+       "name": "Mains: General Knowledge",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IFSM-25-GENERAL-KNOWLEDGE-241125.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "Mains: General English",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IFSM-24-GENERAL-ENGLISH-021224.pdf"
+      },
+      {
+       "name": "Mains: General Knowledge",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IFSM-24-GENERAL-KNOWLEDGE-021224.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2023,
+     "papers": [
+      {
+       "name": "Mains: General English",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IFSM-23-GENERAL-%20ENGLISH-051223.pdf"
+      },
+      {
+       "name": "Mains: General Knowledge",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IFSM-23-GENERAL-KNOWLEDGE-051223.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "upsc-ies-iss",
+   "name": "UPSC Indian Economic Service / Indian Statistical Service (IES/ISS)",
+   "category": "gov-job",
+   "ageMin": 21,
+   "ageMax": 30,
+   "minEducation": "pg",
+   "feeINR": 200,
+   "oneLiner": "Economics and statistics postgraduates enter the Indian Economic Service or Indian Statistical Service through this three-day written exam plus viva.",
+   "benefit": "Rs 56,100 starting basic (Level 10) plus allowances",
+   "window": "typically Feb–Mar (notification mid-Feb, ~3 weeks to apply)",
+   "windowMonths": [
+    2,
+    3
+   ],
+   "nextExpected": "Feb 2027 (notification 10 Feb 2027 per UPSC calendar)",
+   "frequency": "annual",
+   "official": "https://upsc.gov.in/",
+   "tags": [
+    "upsc",
+    "economics",
+    "statistics",
+    "postgraduate"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "UPSC",
+   "organizationFull": "Union Public Service Commission",
+   "officialWebsite": "https://upsc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Indian Economic Service officer (Ministry of Finance, NITI Aayog, economic ministries)",
+    "Indian Statistical Service officer (MoSPI, NSO, statistical divisions)"
+   ],
+   "description": "Recruits economics and statistics postgraduates into two specialist Group A services that staff the government's economic and statistical machinery.",
+   "officialExamPage": "https://www.upsc.gov.in/examinations/Indian%20Economic%20Service%20-%20Indian%20Statistical%20Service%20Examination%2C%202026",
+   "status": "upcoming",
+   "statusNote": "IES/ISS 2026 is over. The next notification, for 2027, is scheduled for 10 February 2027 in the official UPSC Annual Calendar 2027.",
+   "notification": {
+    "title": "Indian Economic Service / Indian Statistical Service Examination, 2026 — notification",
+    "date": "2026-02-11",
+    "cycle": "2026",
+    "current": false,
+    "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Exam_Notification_IES_ISS_Eng_11022026.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://upsconline.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": "2027-02-10",
+    "closingDate": "2027-03-02",
+    "examDate": "2027-06-18",
+    "source": "UPSC Annual Calendar 2027 (published 20 May 2026)",
+    "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
+   },
+   "eligibility": {
+    "education": "For IES: a postgraduate degree in Economics, Applied Economics, Business Economics or Econometrics. For ISS: a bachelor's or master's degree with Statistics as a subject",
+    "age": "21 to 30 years, with relaxations for reserved categories",
+    "other": "Indian citizen."
+   },
+   "fee": "₹200 (women, SC/ST and PwBD candidates are exempt)",
+   "syllabus": {
+    "title": "Official IES/ISS syllabus (inside the notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Exam_Notification_IES_ISS_Eng_11022026.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Written examination over 3 days: General English and General Studies (100 marks each), plus 3 subject papers for IES or 4 for ISS (200 marks each)",
+     "Then a viva voce of 200 marks"
+    ],
+    "title": "Scheme of examination (inside the official notification)",
+    "url": "https://www.upsc.gov.in/sites/default/files/Exam_Notification_IES_ISS_Eng_11022026.pdf"
+   },
+   "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.upsc.gov.in/examinations/answer-key",
+   "mockTests": [],
+   "pastPapers": [
+    {
+     "year": 2026,
+     "papers": [
+      {
+       "name": "General Studies",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-GENERAL-STUDIES.pdf"
+      },
+      {
+       "name": "General English",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-GENERAL-ENGLISH.pdf"
+      },
+      {
+       "name": "Indian Economics",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-INDIAN-ECONOMICS.pdf"
+      },
+      {
+       "name": "General Economics Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-GENERAL-ECONOMICS-PAPER-I.pdf"
+      },
+      {
+       "name": "General Economics Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-GENERAL-ECONOMICS-PAPER-II.pdf"
+      },
+      {
+       "name": "General Economics Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-GENERAL-ECONOMICS-PAPER-III.pdf"
+      },
+      {
+       "name": "Statistics Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-STATISTICS-PAPER-I.pdf"
+      },
+      {
+       "name": "Statistics Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-STATISTICS-PAPER-II.pdf"
+      },
+      {
+       "name": "Statistics Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-STATISTICS-PAPER-III.pdf"
+      },
+      {
+       "name": "Statistics Paper - IV",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-26-220626-STATISTICS-PAPER-IV.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2025,
+     "papers": [
+      {
+       "name": "General Studies",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-GENERAL-STUDIES-230625.pdf"
+      },
+      {
+       "name": "General English",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-GENERAL-ENGLISH-230625.pdf"
+      },
+      {
+       "name": "Indian Economics",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-INDIAN-ECONOMICS-230625.pdf"
+      },
+      {
+       "name": "General Economics Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-GENERAL-ECONOMICS-PAPER-I-230625.pdf"
+      },
+      {
+       "name": "General Economics Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-GENERAL-ECONOMICS-PAPER-II-230625.pdf"
+      },
+      {
+       "name": "General Economics Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-GENERAL-ECONOMICS-PAPER-III-230625.pdf"
+      },
+      {
+       "name": "Ststistics Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-STATISTICS-PAPER-I-230625.pdf"
+      },
+      {
+       "name": "Statistics Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-STATISTICS-PAPER-II-230625.pdf"
+      },
+      {
+       "name": "Statistics Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-STATISTICS-PAPER-III-230625.pdf"
+      },
+      {
+       "name": "Statistics Paper - IV",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-25-STATISTICS-PAPER-IV-230625.pdf"
+      }
+     ]
+    },
+    {
+     "year": 2024,
+     "papers": [
+      {
+       "name": "General Studies",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-STUDIES-240624.pdf"
+      },
+      {
+       "name": "General English",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ENGLISH-240624.pdf"
+      },
+      {
+       "name": "Indian Economics",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-INDIAN-ECONOMICS-240624.pdf"
+      },
+      {
+       "name": "General Economics Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ECONOMICS-%20PAPER-I-240624.pdf"
+      },
+      {
+       "name": "General Economics Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ECONOMICS-PAPER-II-240624.pdf"
+      },
+      {
+       "name": "General Economics Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ECONOMICS-PAPER-III-240624.pdf"
+      },
+      {
+       "name": "Statistics Paper - I",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-I-240624.pdf"
+      },
+      {
+       "name": "Statistics Paper - II",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-II-240624.pdf"
+      },
+      {
+       "name": "Statistics Paper - III",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-III-240624.pdf"
+      },
+      {
+       "name": "Statistics Paper - IV",
+       "url": "https://www.upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-IV-240624.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ssc-stenographer",
+   "name": "SSC Stenographer Grade 'C' and 'D'",
+   "category": "gov-job",
+   "ageMin": 18,
+   "ageMax": 30,
+   "minEducation": "12th",
+   "feeINR": 100,
+   "oneLiner": "Shorthand stenographer posts in central ministries for class 12 pass candidates: one computer-based test, then a shorthand skill test.",
+   "benefit": "Rs 25,500–29,200 starting basic (Level 4–6)",
+   "window": "typically Apr–May (2026: 24 Apr–15 May)",
+   "windowMonths": [
+    4,
+    5
+   ],
+   "nextExpected": "Apr 2027 (expected)",
+   "frequency": "annual",
+   "official": "https://ssc.gov.in/",
+   "tags": [
+    "ssc",
+    "stenographer",
+    "shorthand",
+    "class-12"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Stenographer Grade 'C' in central ministries and departments",
+    "Stenographer Grade 'D' in central ministries and departments"
+   ],
+   "description": "Class-12-level recruitment for shorthand stenographer posts. One computer-based test, then a shorthand skill test.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "closed",
+   "statusNote": "Applications for the 2026 examination closed on 15 May 2026. SSC's notice of 12 August 2026 fixed the computer-based examination for 9–12 September 2026.",
+   "notification": {
+    "title": "Notice of Stenographer Grade 'C' and 'D' Examination, 2026",
+    "date": "2026-04-24",
+    "cycle": "2026",
+    "current": true,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_steno_2026.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": "2026-04-24",
+    "closingDate": "2026-05-15",
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": "2026-09-09",
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC notice dated 12 August 2026",
+    "sourceUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_12082026.pdf"
+   },
+   "eligibility": {
+    "education": "Class 12 (higher secondary) pass",
+    "age": "18 to 27 years for Grade 'D' and 18 to 30 for Grade 'C', with relaxations for reserved categories",
+    "other": "Indian citizen. A shorthand skill test at 80 or 100 words per minute applies."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official Stenographer syllabus (SSC syllabus repository)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/Syllabus/Syllabus%20-%20Stenographers-169635-.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Computer-based examination: General Intelligence & Reasoning, General Awareness, English Language and Comprehension — 200 marks, 2 hours",
+     "Then a shorthand Skill Test in English or Hindi"
+    ],
+    "title": "Scheme of examination (inside the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_steno_2026.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SSC does not publish a public archive of previous question papers.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": [
+    {
+     "title": "Official SSC mock test link for Stenographer candidates",
+     "url": "https://ssc.gov.in/mock-link-for-candidates-of-steno"
+    }
+   ]
+  },
+  {
+   "id": "ssc-jht",
+   "name": "SSC Junior Hindi Translator (Combined Hindi Translators Examination)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": 30,
+   "minEducation": "pg",
+   "feeINR": 100,
+   "oneLiner": "Junior Hindi Translator and allied translation posts across central ministries: one objective paper plus a descriptive translation paper.",
+   "benefit": "Rs 35,400 starting basic (Level 6)",
+   "window": "typically Apr–May (2026: 23 Apr–14 May)",
+   "windowMonths": [
+    4,
+    5
+   ],
+   "nextExpected": "Apr 2027 (expected)",
+   "frequency": "annual",
+   "official": "https://ssc.gov.in/",
+   "tags": [
+    "ssc",
+    "hindi",
+    "translator",
+    "postgraduate"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "SSC",
+   "organizationFull": "Staff Selection Commission",
+   "officialWebsite": "https://ssc.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Junior Hindi Translator",
+    "Junior Translation Officer",
+    "Senior Hindi Translator",
+    "Hindi Pradhyapak"
+   ],
+   "description": "Recruits Hindi–English translators into central ministries, departments and public bodies. One computer-based paper, then a descriptive translation paper.",
+   "officialExamPage": "https://ssc.gov.in/",
+   "status": "closed",
+   "statusNote": "Applications for the 2026 examination closed on 14 May 2026. SSC's notice of 12 August 2026 fixed Paper-I for 8 September 2026.",
+   "notification": {
+    "title": "Notice of Combined Hindi Translators Examination, 2026",
+    "date": "2026-04-23",
+    "cycle": "2026",
+    "current": true,
+    "pdfUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": "2026-04-23",
+    "closingDate": "2026-05-14",
+    "url": "https://ssc.gov.in/"
+   },
+   "examDate": "2026-09-08",
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SSC notice dated 12 August 2026",
+    "sourceUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_12082026.pdf"
+   },
+   "eligibility": {
+    "education": "Master's degree in Hindi with English as a subject at degree level, or the equivalent combination set out in the notice, plus a recognised translation qualification for some posts",
+    "age": "Up to 30 years, with relaxations for reserved categories",
+    "other": "Indian citizen."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "syllabus": {
+    "title": "Official syllabus (Annexure of the notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Paper I: objective computer-based — General Hindi and General English, 200 marks, 2 hours",
+     "Paper II: descriptive translation and essay, 200 marks, 2 hours"
+    ],
+    "title": "Scheme of examination (inside the official notice)",
+    "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cht_2026.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SSC does not publish a public archive of previous question papers.",
+   "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
+   "answerKeys": [],
+   "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
+   "answerKeysPage": "https://ssc.gov.in/",
+   "mockTests": []
+  },
+  {
+   "id": "rrb-technician",
+   "name": "RRB Technician",
+   "category": "gov-job",
+   "ageMin": 18,
+   "ageMax": 33,
+   "minEducation": "10th",
+   "feeINR": 500,
+   "oneLiner": "Railway technician posts for ITI and diploma holders who maintain locomotives, coaches, signalling and electrical systems.",
+   "benefit": "Rs 19,900–29,200 starting basic (Level 2–5) plus railway allowances",
+   "window": "varies by CEN (CEN 02/2026: 30 Jun–29 Jul 2026)",
+   "windowMonths": [],
+   "nextExpected": "next Technician CEN not yet announced",
+   "frequency": "varies (per CEN)",
+   "official": "https://rrb.indianrailways.gov.in/",
+   "tags": [
+    "railways",
+    "technician",
+    "iti",
+    "cen"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "Railways",
+   "organizationFull": "Railway Recruitment Boards, Ministry of Railways",
+   "officialWebsite": "https://rrb.indianrailways.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Technician Grade I Signal",
+    "Technician Grade III (various trades)"
+   ],
+   "description": "Recruits ITI and diploma holders as Railway technicians who maintain locomotives, coaches, signalling and electrical systems.",
+   "officialExamPage": "https://rrb.indianrailways.gov.in/",
+   "status": "closed",
+   "statusNote": "Applications for CEN 02/2026 closed on 29 July 2026. The examination schedule has not been announced yet.",
+   "notification": {
+    "title": "CEN 02/2026 — Detailed Centralised Employment Notification, Technician categories",
+    "date": "2026-06-30",
+    "cycle": "CEN 02/2026",
+    "current": true,
+    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1783081193700Detailed_CEN_02_20262.pdf/examsDocuments",
+    "embeddable": false
+   },
+   "extraNotifications": [
+    {
+     "title": "CEN 02/2026 — official FAQ",
+     "date": "2026-06-30",
+     "url": "https://rrb.indianrailways.gov.in/-/image/1783081420531FAQ_CEN_022026.pdf/examsDocuments"
+    }
+   ],
+   "application": {
+    "openingDate": "2026-06-30",
+    "closingDate": "2026-07-29",
+    "url": "https://www.rrbapply.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "RRB Recruitment (CENs) listing",
+    "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=02/2026&loc=chandigarh&category=Notification"
+   },
+   "eligibility": {
+    "education": "For Technician Grade I Signal: a diploma or degree in the relevant engineering branch. For Technician Grade III: class 10 plus an ITI certificate in a notified trade",
+    "age": "18 to 33 years for Grade I and 18 to 30 for Grade III in CEN 02/2026, with relaxations for reserved categories",
+    "other": "Indian citizen. Medical fitness standards apply."
+   },
+   "fee": "₹500, of which ₹400 is refunded after appearing for the CBT (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
+   "syllabus": {
+    "title": "Official syllabus (Annexure of the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1783081193700Detailed_CEN_02_20262.pdf/examsDocuments",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Single-stage computer-based test for most technician posts",
+     "General Awareness, General Intelligence & Reasoning, Basic Science & Engineering, Mathematics",
+     "Negative marking of 1/3 mark per wrong answer",
+     "Then document verification and medical examination"
+    ],
+    "title": "Scheme of examination (inside the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1783081193700Detailed_CEN_02_20262.pdf/examsDocuments"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "RRBs do not publish previous question papers publicly.",
+   "pastPapersPage": "https://rrb.indianrailways.gov.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://rrb.indianrailways.gov.in/",
+   "mockTests": []
+  },
+  {
+   "id": "rrb-je",
+   "name": "RRB Junior Engineer (JE)",
+   "category": "gov-job",
+   "ageMin": 18,
+   "ageMax": 33,
+   "minEducation": "diploma",
+   "feeINR": 500,
+   "oneLiner": "Junior Engineer, Depot Material Superintendent and Chemical & Metallurgical Assistant posts in the Railways, for diploma and degree engineers.",
+   "benefit": "Rs 35,400 starting basic (Level 6) plus railway allowances",
+   "window": "varies by CEN (CEN 05/2025 opened Oct 2025)",
+   "windowMonths": [],
+   "nextExpected": "next Junior Engineer CEN not yet announced",
+   "frequency": "varies (per CEN)",
+   "official": "https://rrb.indianrailways.gov.in/",
+   "tags": [
+    "railways",
+    "junior-engineer",
+    "diploma",
+    "cen"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "Railways",
+   "organizationFull": "Railway Recruitment Boards, Ministry of Railways",
+   "officialWebsite": "https://rrb.indianrailways.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Junior Engineer (Civil, Mechanical, Electrical, Signal & Telecom, IT)",
+    "Depot Material Superintendent (DMS)",
+    "Chemical & Metallurgical Assistant (CMA)"
+   ],
+   "description": "Recruits diploma and degree engineers as Junior Engineers and allied technical supervisors in the Railways. Two computer-based tests, then document verification and a medical examination.",
+   "officialExamPage": "https://rrb.indianrailways.gov.in/",
+   "status": "not-announced",
+   "statusNote": "The application window for CEN 05/2025 has closed and that examination is in progress. No newer Junior Engineer CEN has been published.",
+   "notification": {
+    "title": "CEN 05/2025 — Detailed Centralised Employment Notification, JE / DMS / CMA",
+    "date": "2025-10-28",
+    "cycle": "CEN 05/2025",
+    "current": false,
+    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments",
+    "embeddable": false
+   },
+   "extraNotifications": [
+    {
+     "title": "CEN 05/2025 — official FAQ",
+     "date": "2025-10-30",
+     "url": "https://rrb.indianrailways.gov.in/-/image/1762325433847FAQs_CEN_05_2025_JE_English.pdf/examsDocuments"
+    }
+   ],
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.rrbapply.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "RRB Recruitment (CENs) listing",
+    "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=05/2025&loc=chandigarh&category=Notification"
+   },
+   "eligibility": {
+    "education": "Diploma or degree in the relevant engineering branch; B.Sc. with specified subjects for some CMA and DMS posts",
+    "age": "18 to 33 years in CEN 05/2025, with relaxations for reserved categories",
+    "other": "Indian citizen. Medical fitness standards apply."
+   },
+   "fee": "₹500, of which ₹400 is refunded after appearing for CBT-1 (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
+   "syllabus": {
+    "title": "Official syllabus (Annexure of the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "CBT-1: 100 questions, 90 minutes — screening only",
+     "CBT-2: 150 questions, 120 minutes, mostly on the technical subject",
+     "Negative marking of 1/3 mark per wrong answer",
+     "Then document verification and medical examination"
+    ],
+    "title": "Scheme of examination (inside the Detailed CEN)",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "RRBs do not publish previous question papers publicly.",
+   "pastPapersPage": "https://rrb.indianrailways.gov.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://rrb.indianrailways.gov.in/",
+   "mockTests": []
+  },
+  {
+   "id": "ibps-so",
+   "name": "IBPS Specialist Officer (SO)",
+   "category": "gov-job",
+   "ageMin": 20,
+   "ageMax": 30,
+   "minEducation": "ug",
+   "feeINR": 850,
+   "oneLiner": "Specialist officer posts in public sector banks (IT, agriculture, law, HR, marketing, Rajbhasha) for candidates with a matching professional degree.",
+   "benefit": "Rs 48,480 starting basic; roughly Rs 80,000–1,00,000/month gross",
+   "window": "typically Jun–Jul (2026: 1 Jul–21 Jul)",
+   "windowMonths": [
+    6,
+    7
+   ],
+   "nextExpected": "Jun 2027 (expected)",
+   "frequency": "annual",
+   "official": "https://www.ibps.in/",
+   "tags": [
+    "banking",
+    "specialist-officer",
+    "it-officer",
+    "agriculture-field-officer"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "IBPS",
+   "organizationFull": "Institute of Banking Personnel Selection",
+   "officialWebsite": "https://www.ibps.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "IT Officer (Scale I)",
+    "Agricultural Field Officer",
+    "Rajbhasha Adhikari",
+    "Law Officer",
+    "HR / Personnel Officer",
+    "Marketing Officer"
+   ],
+   "description": "The common recruitment process for specialist officer posts in public sector banks — for candidates with a specific professional degree rather than a general one.",
+   "officialExamPage": "https://www.ibps.in/index.php/specialist-officers/",
+   "status": "closed",
+   "statusNote": "Registration for CRP SPL-XVI closed on 21 July 2026. The preliminary examination was scheduled for August 2026 and the main examination for November 2026.",
+   "notification": {
+    "title": "Notification for Common Recruitment Process CRP SPL-XVI",
+    "date": "2026-06-30",
+    "cycle": "CRP SPL-XVI",
+    "current": true,
+    "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": "2026-07-01",
+    "closingDate": "2026-07-21",
+    "url": "https://www.ibps.in/index.php/specialist-officers-xvi/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "IBPS CRP updates",
+    "sourceUrl": "https://www.ibps.in/index.php/crp-updates"
+   },
+   "eligibility": {
+    "education": "A professional degree matching the post — for example a four-year engineering degree in IT or Computer Science for IT Officer, or a degree in Agriculture for Agricultural Field Officer",
+    "age": "20 to 30 years, with relaxations for reserved categories",
+    "other": "Indian citizen. Requirements differ post by post; read the notification."
+   },
+   "fee": "₹850 including GST (₹175 for SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official examination structure and syllabus (inside the notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: objective online test with sectional timing (differs between Law/Rajbhasha and the other posts)",
+     "Main: a professional-knowledge paper of 60 questions and 60 marks",
+     "Then an interview; final merit is 80:20 between the main exam and interview"
+    ],
+    "title": "Structure of examination (inside the official notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "IBPS does not publish previous question papers.",
+   "pastPapersPage": "https://www.ibps.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.ibps.in/",
+   "mockTests": [
+    {
+     "title": "Official IBPS online mock test",
+     "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
+    }
+   ]
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "name": "IBPS RRB Office Assistant (Multipurpose)",
+   "category": "gov-job",
+   "ageMin": 18,
+   "ageMax": 28,
+   "minEducation": "ug",
+   "feeINR": 850,
+   "oneLiner": "Clerical-cadre Office Assistant posts in Regional Rural Banks; local language proficiency required, and no interview.",
+   "benefit": "Rs 17,900 starting basic plus allowances",
+   "window": "typically Aug–Sep (CRP RRBs-XIV: 1 Sep–21 Sep 2025)",
+   "windowMonths": [
+    8,
+    9
+   ],
+   "nextExpected": "next CRP RRBs cycle not yet announced",
+   "frequency": "annual (dates vary)",
+   "official": "https://www.ibps.in/",
+   "tags": [
+    "banking",
+    "regional-rural-banks",
+    "clerk",
+    "local-language"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "IBPS",
+   "organizationFull": "Institute of Banking Personnel Selection",
+   "officialWebsite": "https://www.ibps.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Office Assistant (Multipurpose) — clerical cadre in Regional Rural Banks"
+   ],
+   "description": "The clerical-cadre entry into Regional Rural Banks, recruited through the same common process as RRB officers. Preliminary and main online exams; no interview.",
+   "officialExamPage": "https://www.ibps.in/index.php/regional-rural-bank/",
+   "status": "not-announced",
+   "statusNote": "Registration for CRP RRBs-XIV closed on 21 September 2025 and that process is complete. The next RRB common recruitment process has not been notified.",
+   "notification": {
+    "title": "Notification for Common Recruitment Process CRP RRBs-XIV",
+    "date": "2025-09-01",
+    "cycle": "CRP RRBs-XIV",
+    "current": false,
+    "pdfUrl": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+    "embeddable": true
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.ibps.in/index.php/rural-bank-xiv/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "IBPS CRP RRBs page",
+    "sourceUrl": "https://www.ibps.in/index.php/regional-rural-bank/"
+   },
+   "eligibility": {
+    "education": "Bachelor's degree in any discipline",
+    "age": "18 to 28 years, with relaxations for reserved categories",
+    "other": "Proficiency in the local language of the state is required."
+   },
+   "fee": "₹850 including GST (₹175 for SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official examination structure and syllabus (inside the notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Preliminary: 80 questions, 80 marks, 45 minutes — Reasoning and Numerical Ability",
+     "Main: 200 marks objective test",
+     "There is no interview for Office Assistant"
+    ],
+    "title": "Structure of examination (inside the official notification)",
+    "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "IBPS does not publish previous question papers.",
+   "pastPapersPage": "https://www.ibps.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.ibps.in/",
+   "mockTests": [
+    {
+     "title": "Official IBPS online mock test",
+     "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
+    }
+   ]
+  },
+  {
+   "id": "sbi-so",
+   "name": "SBI Specialist Cadre Officer (SO)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": null,
+   "minEducation": "ug",
+   "feeINR": 750,
+   "oneLiner": "SBI hires specialists through many separate advertisements a year (IT, law, risk, credit, marketing) — usually shortlisting and interview, not a written exam.",
+   "benefit": "Varies by post and grade; most posts are Scale II and above",
+   "window": "rolling — several advertisements open through the year",
+   "windowMonths": [],
+   "nextExpected": "check SBI current openings; new advertisements appear most months",
+   "frequency": "rolling (multiple advertisements a year)",
+   "official": "https://sbi.bank.in/web/careers",
+   "tags": [
+    "banking",
+    "sbi",
+    "specialist-officer",
+    "experienced-hire",
+    "rolling"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "SBI",
+   "organizationFull": "State Bank of India",
+   "officialWebsite": "https://sbi.co.in/web/careers",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Deputy Manager and Assistant Manager in specialist streams (IT, law, risk, credit, marketing)",
+    "Assistant General Manager and Chief Manager on contract or regular basis"
+   ],
+   "description": "SBI hires specialists through many separate advertisements through the year rather than one annual exam. Each advertisement has its own post, eligibility, deadline and selection method — often shortlisting and interview rather than a written test.",
+   "officialExamPage": "https://sbi.bank.in/web/careers/current-openings",
+   "status": "open",
+   "statusNote": "Several specialist advertisements are open at once. Advertisements CRPD/SCO/2026-27/11, /12 and /13 are open for applications from 7 August 2026 to 27 August 2026. Check the current openings page for the full live list — this is not an annual cycle.",
+   "notification": {
+    "title": "Engagement of Specialist Cadre Officers — advertisement CRPD/SCO/2026-27/13",
+    "date": "2026-08-07",
+    "cycle": "CRPD/SCO/2026-27/13",
+    "current": true,
+    "pdfUrl": "https://sbi.bank.in/documents/77530/57941334/FINAL++ADVT++CRPD_SCO_2026-27_13.pdf/64d9efd8-2a64-ad88-d4a1-0ae1a5e2fb4b?t=1786026587436",
+    "embeddable": false
+   },
+   "extraNotifications": [
+    {
+     "title": "Advertisement CRPD/SCO/2026-27/12 (regular basis)",
+     "date": "2026-08-07",
+     "url": "https://sbi.bank.in/documents/77530/57941334/FINAL+ADVT+CRPD_SCO_2026-27_12.pdf/1c6d4f7f-ca97-cc9c-6e00-5b6744a1283d?t=1786026186547"
+    },
+    {
+     "title": "Advertisement CRPD/SCO/2026-27/11 (contract / regular basis)",
+     "date": "2026-08-07",
+     "url": "https://sbi.bank.in/documents/77530/57941334/ADV_CRPD_SCO_2026-27_11+%281%29.pdf/474dbe0d-e408-720b-f412-3788a553105a?t=1786024930974"
+    }
+   ],
+   "application": {
+    "openingDate": "2026-08-07",
+    "closingDate": "2026-08-27",
+    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-13/apply"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SBI current openings page",
+    "sourceUrl": "https://sbi.bank.in/web/careers/current-openings"
+   },
+   "eligibility": {
+    "education": "A professional degree or qualification matching the specific post, usually with several years of relevant experience",
+    "age": "Varies by post and is stated in each advertisement",
+    "other": "Each advertisement is independent — always read the one you are applying under."
+   },
+   "fee": "₹750 for most specialist advertisements (SC/ST/PwBD candidates are exempt); confirm in the advertisement",
+   "syllabus": {
+    "title": "Selection procedure and requirements (inside each advertisement)",
+    "url": "https://sbi.bank.in/web/careers/current-openings",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Selection is usually by shortlisting and interview",
+     "Some posts add an online written test or a CTC negotiation round",
+     "The method is stated in each advertisement"
+    ],
+    "title": "Selection procedure (inside the advertisement you are applying under)",
+    "url": "https://sbi.bank.in/web/careers/current-openings"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "Not applicable to most specialist posts, which are filled by interview.",
+   "pastPapersPage": "https://sbi.bank.in/web/careers/current-openings",
+   "answerKeys": [],
+   "answerKeysPage": "https://sbi.bank.in/web/careers/current-openings",
+   "mockTests": []
+  },
+  {
+   "id": "nabard-grade-b",
+   "name": "NABARD Grade B (Manager)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": null,
+   "minEducation": "pg",
+   "feeINR": null,
+   "oneLiner": "Manager (Grade B) direct entry at NABARD. Recruited only occasionally — the last announced process was withdrawn, so there is no annual cycle.",
+   "benefit": "Rs 55,200 starting basic (Grade B) plus allowances",
+   "window": "no fixed window — announced only when NABARD has vacancies",
+   "windowMonths": [],
+   "nextExpected": "not announced",
+   "frequency": "occasional",
+   "official": "https://www.nabard.org/",
+   "tags": [
+    "banking",
+    "nabard",
+    "manager",
+    "occasional-recruitment"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "NABARD",
+   "organizationFull": "National Bank for Agriculture and Rural Development",
+   "officialWebsite": "https://www.nabard.org/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Manager in Grade B — Rural Development Banking Service (RDBS)"
+   ],
+   "description": "A direct-entry manager post at NABARD, one level above Grade A. It is recruited only occasionally — there is no annual cycle, and the last announced process was withdrawn.",
+   "officialExamPage": "https://www.nabard.org/careers-notices1.aspx?cid=676&id=26",
+   "status": "not-announced",
+   "statusNote": "NABARD's Grade B notifications page shows no live notification. The most recent Manager Grade B (RDBS) recruitment process was withdrawn by NABARD. Treat any claim of an annual Grade B exam with caution.",
+   "notification": null,
+   "notificationNote": "No current or recent Grade B notification is live on NABARD's career notices page.",
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.nabard.org/careers-notices1.aspx?cid=676&id=26"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "NABARD career notices",
+    "sourceUrl": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+   },
+   "eligibility": {
+    "education": "As specified when a notification is issued — past cycles asked for a postgraduate degree or a professional qualification with relevant experience",
+    "age": "As specified in the notification",
+    "other": "Indian citizen."
+   },
+   "fee": "As specified in the notification",
+   "syllabus": {
+    "title": "NABARD downloads — formats and syllabus",
+    "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Announced with each notification; past cycles used a preliminary and main examination followed by an interview"
+    ],
+    "title": "NABARD career notices",
+    "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "NABARD does not publish previous question papers.",
+   "pastPapersPage": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.nabard.org/careers-notices1.aspx?cid=680&id=26",
+   "mockTests": []
+  },
+  {
+   "id": "sebi-grade-a",
+   "name": "SEBI Officer Grade A (Assistant Manager)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": 30,
+   "minEducation": "ug",
+   "feeINR": 1000,
+   "oneLiner": "Officer Grade A (Assistant Manager) at India's securities market regulator, across General, Legal, IT, Research, Official Language and Engineering streams.",
+   "benefit": "Rs 44,500 starting basic; CTC over Rs 17 lakh a year per SEBI",
+   "window": "varies year to year (2025 cycle: 30 Oct–28 Nov)",
+   "windowMonths": [
+    10,
+    11
+   ],
+   "nextExpected": "not announced",
+   "frequency": "annual (dates vary)",
+   "official": "https://www.sebi.gov.in/",
+   "tags": [
+    "regulator",
+    "sebi",
+    "assistant-manager",
+    "finance"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "SEBI",
+   "organizationFull": "Securities and Exchange Board of India",
+   "officialWebsite": "https://www.sebi.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Manager (Officer Grade A) at the Securities and Exchange Board of India — General, Legal, IT, Research, Official Language and Engineering streams"
+   ],
+   "description": "Entry-level officer post at India's securities market regulator. Phase I screening test, Phase II main test, then an interview.",
+   "officialExamPage": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes",
+   "status": "closed",
+   "statusNote": "The Officer Grade A 2025 recruitment closed for applications on 28 November 2025. Phase I was held on 10 January 2026 and Phase II on 21 February 2026.",
+   "notification": {
+    "title": "Recruitment of Officer Grade A (Assistant Manager) 2025 — official advertisement",
+    "date": "2025-10-30",
+    "cycle": "2025",
+    "current": true,
+    "pdfUrl": "https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": "2025-10-30",
+    "closingDate": "2025-11-28",
+    "url": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "SEBI careers page",
+    "sourceUrl": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes"
+   },
+   "eligibility": {
+    "education": "A degree matching the stream applied for — for example any bachelor's degree plus a postgraduate qualification for the General stream, LL.B. for Legal, or an engineering degree for the IT and Engineering streams",
+    "age": "Up to 30 years for General category candidates, with relaxations for reserved categories",
+    "other": "Indian citizen. Read the stream-wise table in the advertisement."
+   },
+   "fee": "As stated in the advertisement (a reduced fee applies to SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official syllabus and scheme (inside the advertisement)",
+    "url": "https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Phase I: on-line screening examination in two papers of 100 marks each",
+     "Phase II: on-line main examination in two papers of 100 marks each",
+     "Phase III: interview"
+    ],
+    "title": "Scheme of examination (inside the official advertisement)",
+    "url": "https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "SEBI does not publish previous question papers.",
+   "pastPapersPage": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes",
+   "mockTests": []
+  },
+  {
+   "id": "gic-assistant-manager",
+   "name": "GIC Re Assistant Manager (Scale I Officer)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": null,
+   "minEducation": "ug",
+   "feeINR": null,
+   "oneLiner": "Assistant Manager (Scale I) at GIC Re, India's national reinsurer. Recruited only when vacancies arise, not on an annual calendar.",
+   "benefit": "Rs 50,925 starting basic (Scale I) plus allowances",
+   "window": "no fixed window (last drive: 4 Dec–19 Dec 2024)",
+   "windowMonths": [],
+   "nextExpected": "not announced",
+   "frequency": "occasional",
+   "official": "https://www.gicre.in/",
+   "tags": [
+    "insurance",
+    "reinsurance",
+    "gic-re",
+    "occasional-recruitment"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "GIC",
+   "organizationFull": "General Insurance Corporation of India (GIC Re)",
+   "officialWebsite": "https://www.gicre.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Assistant Manager (Scale I) at General Insurance Corporation of India — reinsurance, actuarial, IT, finance, legal and medical streams"
+   ],
+   "description": "Officer entry at India's national reinsurer. GIC Re recruits only when it has vacancies, not on an annual calendar — the last drive was for 110 posts and is now complete.",
+   "officialExamPage": "https://www.gicre.in/en/people-resources/career-en",
+   "status": "not-announced",
+   "statusNote": "The Assistant Manager (Scale I) recruitment of 110 posts advertised on 4 December 2024 is complete — group discussion and interview results have been published. No new Assistant Manager advertisement is live. GIC Re does not follow an annual cycle.",
+   "notification": {
+    "title": "Detailed Advertisement — Recruitment of Assistant Managers (Scale I), 110 posts",
+    "date": "2024-12-04",
+    "cycle": "2024",
+    "current": false,
+    "pdfUrl": "https://www.gicre.in/images/2024/Detailed_Advertisement_for_Recruitment_of_AMs_in_GIC_Re_2024_-_v3_-_Final.pdf",
+    "embeddable": false
+   },
+   "application": {
+    "openingDate": "2024-12-04",
+    "closingDate": "2024-12-19",
+    "url": "https://www.gicre.in/en/people-resources/career-en"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "GIC Re careers page",
+    "sourceUrl": "https://www.gicre.in/en/people-resources/career-en"
+   },
+   "eligibility": {
+    "education": "A degree matching the stream — for example any graduate degree for the generalist stream, MBBS for medical, or a relevant professional qualification for actuarial, legal, IT and finance streams",
+    "age": "As on the date given in the advertisement (1 November 2024 in the last drive)",
+    "other": "Indian citizen. Each advertisement sets its own stream-wise eligibility."
+   },
+   "fee": "As stated in the advertisement (a reduced fee applies to SC/ST/PwBD candidates)",
+   "syllabus": {
+    "title": "Official information handout for the written examination",
+    "url": "https://www.gicre.in/images/2024/pdf/Recruitment_2024_Written_Examination_Information_Handout_English.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Online written examination",
+     "Then a group discussion and interview",
+     "Then a pre-employment medical examination"
+    ],
+    "title": "Selection procedure (inside the official advertisement)",
+    "url": "https://www.gicre.in/images/2024/Detailed_Advertisement_for_Recruitment_of_AMs_in_GIC_Re_2024_-_v3_-_Final.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "GIC Re does not publish previous question papers. It does publish an official information handout describing the test format.",
+   "pastPapersPage": "https://www.gicre.in/en/people-resources/career-en",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.gicre.in/en/people-resources/career-en",
+   "mockTests": []
+  },
+  {
+   "id": "india-post-gds",
+   "name": "India Post Gramin Dak Sevak (GDS)",
+   "category": "gov-job",
+   "ageMin": 18,
+   "ageMax": 40,
+   "minEducation": "10th",
+   "feeINR": 100,
+   "oneLiner": "Village-level postal jobs (Branch Postmaster, Assistant BPM, Dak Sevak) selected purely on class 10 marks — no written exam.",
+   "benefit": "Rs 12,000–14,500 time-related continuity allowance a month",
+   "window": "notified in cycles through the official GDS portal",
+   "windowMonths": [],
+   "nextExpected": "check the official GDS portal for the current cycle",
+   "frequency": "varies (per cycle)",
+   "official": "https://www.indiapost.gov.in/vacancies",
+   "tags": [
+    "india-post",
+    "gds",
+    "class-10",
+    "no-exam",
+    "merit-list"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "India Post",
+   "organizationFull": "Department of Posts, India Post",
+   "officialWebsite": "https://www.indiapost.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Branch Postmaster (BPM)",
+    "Assistant Branch Postmaster (ABPM)",
+    "Dak Sevak"
+   ],
+   "description": "India Post's largest direct recruitment — village-level postal staff, selected on class 10 marks with no written examination. Notified circle by circle through the official GDS portal.",
+   "officialExamPage": "https://www.indiapost.gov.in/vacancies",
+   "status": "not-announced",
+   "statusNote": "GDS recruitment is notified in cycles through the official GDS online portal, not on a fixed annual date. Check the portal for the current cycle. Note: Postal Assistant and Sorting Assistant posts were not part of the latest SSC CHSL notice, and India Post has no current standalone notification for them.",
+   "notification": null,
+   "notificationNote": "GDS notifications are published on the official India Post GDS online portal for each cycle.",
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.indiapost.gov.in/vacancies/online-gds"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "India Post vacancies page",
+    "sourceUrl": "https://www.indiapost.gov.in/vacancies"
+   },
+   "eligibility": {
+    "education": "Class 10 pass with Mathematics and English as subjects; knowledge of the local language and a basic computer training certificate",
+    "age": "18 to 40 years, with relaxations for reserved categories",
+    "other": "Cycling knowledge is required. Selection is by a merit list of class 10 marks — there is no examination."
+   },
+   "fee": "₹100 (women, SC/ST, PwBD and transgender candidates are exempt)",
+   "syllabus": {
+    "title": "Not applicable — GDS selection has no examination",
+    "url": "https://www.indiapost.gov.in/vacancies/online-gds",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "There is no written examination",
+     "Selection is on an automatically generated merit list of class 10 marks",
+     "Then document verification"
+    ],
+    "title": "India Post GDS online portal",
+    "url": "https://www.indiapost.gov.in/vacancies/online-gds"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "Not applicable — there is no written examination for GDS posts.",
+   "pastPapersPage": "https://www.indiapost.gov.in/vacancies",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.indiapost.gov.in/vacancies",
+   "mockTests": []
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "name": "DRDO Scientist recruitment (RAC)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": 45,
+   "minEducation": "ug",
+   "feeINR": null,
+   "oneLiner": "Scientist posts in DRDO's Defence Research & Development Service — Scientist 'B' through GATE, senior grades through lateral recruitment with experience.",
+   "benefit": "Rs 56,100 starting basic for Scientist 'B' (Level 10), higher for senior grades",
+   "window": "no fixed window (Advt 157: 30 May–19 Jun 2026)",
+   "windowMonths": [],
+   "nextExpected": "watch the RAC website; DRDO has no fixed annual date",
+   "frequency": "occasional",
+   "official": "https://rac.gov.in/",
+   "tags": [
+    "drdo",
+    "scientist",
+    "defence-research",
+    "gate",
+    "lateral-entry"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "DRDO",
+   "organizationFull": "Defence Research & Development Organisation",
+   "officialWebsite": "https://rac.gov.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Scientist 'B' (entry level, through GATE)",
+    "Scientist 'C', 'D' and 'E' (lateral entry with experience)"
+   ],
+   "description": "DRDO recruits scientists into the Defence Research & Development Service through its Recruitment & Assessment Centre (RAC). Entry-level Scientist 'B' recruitment uses GATE scores; senior grades are advertised as lateral recruitment with experience.",
+   "officialExamPage": "https://rac.gov.in/",
+   "status": "closed",
+   "statusNote": "RAC Advertisement No. 157 (Scientist C, D and E lateral recruitment, 33 posts) closed for applications on 19 June 2026. Watch the RAC website for the next advertisement — DRDO does not publish on a fixed annual date.",
+   "notification": {
+    "title": "RAC Advertisement No. 157 — Scientist E, D and C (lateral recruitment)",
+    "date": "2026-05-30",
+    "cycle": "Advt 157",
+    "current": true,
+    "pdfUrl": "https://rac.gov.in/download/advt_157.pdf",
+    "embeddable": false
+   },
+   "extraNotifications": [
+    {
+     "title": "RAC Advertisement No. 157 — brief advertisement",
+     "date": "2026-05-30",
+     "url": "https://rac.gov.in/download/advt_157_brief.pdf"
+    },
+    {
+     "title": "RAC Advertisement No. 157 — official FAQ (technical posts)",
+     "date": "2026-05-30",
+     "url": "https://rac.gov.in/drdo/public/advt_157_faq_technical.pdf?ver=1"
+    }
+   ],
+   "application": {
+    "openingDate": "2026-05-30",
+    "closingDate": "2026-06-19",
+    "url": "https://rac.gov.in/"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "DRDO RAC website",
+    "sourceUrl": "https://rac.gov.in/"
+   },
+   "eligibility": {
+    "education": "A first-class engineering degree or postgraduate degree in a relevant subject. Scientist 'B' requires a valid GATE score; senior grades require 3 to 11 years of relevant experience",
+    "age": "Up to 35 years for Scientist 'C' and up to 45 years for Scientist 'D' and 'E' in Advertisement 157, reckoned on the closing date",
+    "other": "Indian citizen. DRDO also runs separate CEPTAM recruitment for technical and administrative cadres."
+   },
+   "fee": "As stated in each advertisement (SC/ST/PwBD and women candidates are usually exempt)",
+   "syllabus": {
+    "title": "Requirements and selection procedure (inside the advertisement)",
+    "url": "https://rac.gov.in/download/advt_157.pdf",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Scientist 'B': shortlisting on GATE score, then a personal interview",
+     "Scientist 'C', 'D' and 'E': screening of applications, then a personal interview",
+     "Some cycles add a written screening test — the method is stated in each advertisement"
+    ],
+    "title": "Selection procedure (inside the advertisement)",
+    "url": "https://rac.gov.in/download/advt_157.pdf"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "DRDO RAC does not publish previous question papers for scientist recruitment.",
+   "pastPapersPage": "https://rac.gov.in/",
+   "answerKeys": [],
+   "answerKeysPage": "https://rac.gov.in/",
+   "mockTests": []
+  },
+  {
+   "id": "csir-recruitment",
+   "name": "CSIR recruitment (headquarters and laboratories)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": null,
+   "minEducation": "ug",
+   "feeINR": null,
+   "oneLiner": "CSIR has no single national exam — its 37 laboratories and headquarters advertise scientist, technical and administrative posts separately, each with its own deadline.",
+   "benefit": "Varies by post; scientist posts start at Level 11 or above",
+   "window": "rolling — advertisements appear through the year",
+   "windowMonths": [],
+   "nextExpected": "see the CSIR recruitment listing for live advertisements",
+   "frequency": "rolling",
+   "official": "https://www.csir.res.in/career-opportunities/recruitment",
+   "tags": [
+    "csir",
+    "scientist",
+    "laboratories",
+    "rolling",
+    "technician"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "CSIR",
+   "organizationFull": "Council of Scientific & Industrial Research",
+   "officialWebsite": "https://www.csir.res.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Scientist and Senior Scientist at CSIR laboratories",
+    "Technical Officer and Technician",
+    "Group II and Group III administrative and technical posts",
+    "Project staff and Junior Research Fellows"
+   ],
+   "description": "CSIR does not run one nationwide annual exam. Its 37 laboratories and its headquarters advertise posts separately, each with its own notification, deadline and selection method. Watch the central recruitment listing for the live advertisements.",
+   "officialExamPage": "https://www.csir.res.in/career-opportunities/recruitment",
+   "status": "open",
+   "statusNote": "CSIR headquarters advertisement R&A/01/2026 for Group-II and Technician posts is open, with a last date of 17 September 2026. Other laboratory advertisements are listed on the same page with their own deadlines.",
+   "notification": {
+    "title": "Recruitment for Group-II and Technician posts at CSIR headquarters — advertisement R&A/01/2026",
+    "date": "2026-08-01",
+    "cycle": "R&A/01/2026",
+    "current": true,
+    "pdfUrl": "https://www.csir.res.in/sites/default/files/2026-08/gr_ii_advertisement-hindi.pdf",
+    "embeddable": null
+   },
+   "application": {
+    "openingDate": null,
+    "closingDate": "2026-09-17",
+    "url": "https://www.csir.res.in/career-opportunities/recruitment"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "CSIR recruitment listing",
+    "sourceUrl": "https://www.csir.res.in/career-opportunities/recruitment"
+   },
+   "eligibility": {
+    "education": "Set post by post in each advertisement — a PhD or master's degree for scientist posts, a diploma or degree for technical posts, and graduation for administrative posts",
+    "age": "Set in each advertisement",
+    "other": "CSIR-UGC NET is a separate national test for research fellowships and lectureship, not a CSIR staff recruitment."
+   },
+   "fee": "Set in each advertisement (SC/ST/PwBD and women candidates are usually exempt)",
+   "syllabus": {
+    "title": "Requirements and selection method (inside each advertisement)",
+    "url": "https://www.csir.res.in/career-opportunities/recruitment",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "There is no single CSIR examination",
+     "Selection is usually by a written or trade test and an interview, as stated in the advertisement",
+     "Some laboratory posts are filled by walk-in interview"
+    ],
+    "title": "CSIR recruitment listing",
+    "url": "https://www.csir.res.in/career-opportunities/recruitment"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "CSIR does not publish previous question papers for staff recruitment.",
+   "pastPapersPage": "https://www.csir.res.in/career-opportunities/recruitment",
+   "answerKeys": [],
+   "answerKeysPage": "https://www.csir.res.in/career-opportunities/recruitment",
+   "mockTests": []
+  },
+  {
+   "id": "aiims-norcet",
+   "name": "AIIMS NORCET (Nursing Officer Recruitment Common Eligibility Test)",
+   "category": "gov-job",
+   "ageMin": null,
+   "ageMax": 30,
+   "minEducation": "ug",
+   "feeINR": null,
+   "oneLiner": "The common national test for Nursing Officer posts at AIIMS and participating central hospitals, conducted by AIIMS New Delhi.",
+   "benefit": "Rs 44,900 starting basic (Level 7) plus allowances",
+   "window": "varies by edition — check the official NORCET page",
+   "windowMonths": [],
+   "nextExpected": "not announced",
+   "frequency": "varies (per edition)",
+   "official": "https://www.aiimsexams.ac.in/",
+   "tags": [
+    "aiims",
+    "nursing-officer",
+    "norcet",
+    "healthcare"
+   ],
+   "resources": [],
+   "type": "exam",
+   "organization": "AIIMS",
+   "organizationFull": "All India Institute of Medical Sciences, New Delhi",
+   "officialWebsite": "https://www.aiimsexams.ac.in/",
+   "source": "official",
+   "verifiedAt": "2026-08-21",
+   "typicalJobs": [
+    "Nursing Officer at AIIMS New Delhi and other AIIMS",
+    "Nursing Officer at central government hospitals participating in NORCET"
+   ],
+   "description": "The common national test for Nursing Officer posts at AIIMS and participating central hospitals, conducted by AIIMS New Delhi. AIIMS also advertises Group-A non-faculty, faculty and scientist posts separately on the same portal.",
+   "officialExamPage": "https://www.aiimsexams.ac.in/landingpage/courses/68dbbb27b7b096817673976e",
+   "status": "not-announced",
+   "statusNote": "AIIMS publishes each NORCET edition with its own prospectus and dates on the AIIMS examination portal. Check the NORCET page for the current edition — there is no fixed annual date, and AIIMS notice documents are served through time-limited links, so we point you at the official page rather than a file.",
+   "notification": null,
+   "notificationNote": "AIIMS serves its notice PDFs through expiring links, so we link the official NORCET page instead of a file that would break.",
+   "application": {
+    "openingDate": null,
+    "closingDate": null,
+    "url": "https://www.aiimsexams.ac.in/landingpage/courses/advertisement/66ab7926ebb3815a4b707804"
+   },
+   "examDate": null,
+   "expected": {
+    "notificationDate": null,
+    "closingDate": null,
+    "examDate": null,
+    "source": "AIIMS examinations portal",
+    "sourceUrl": "https://www.aiimsexams.ac.in/landingpage/courses/68dbbb27b7b096817673976e"
+   },
+   "eligibility": {
+    "education": "B.Sc. (Hons) Nursing, B.Sc. Nursing, or a Diploma in General Nursing & Midwifery with the experience stated in the prospectus, plus registration with a State Nursing Council",
+    "age": "Up to 30 years in recent editions, with relaxations for reserved categories",
+    "other": "Read the prospectus for the current edition — eligibility and stages change between editions."
+   },
+   "fee": "Set in the prospectus for each edition",
+   "syllabus": {
+    "title": "Official NORCET prospectus and syllabus (on the NORCET page)",
+    "url": "https://www.aiimsexams.ac.in/landingpage/courses/advertisement/66ab7926ebb3815a4b707804",
+    "source": "official",
+    "verifiedAt": "2026-08-21"
+   },
+   "examPattern": {
+    "summary": [
+     "Computer-based preliminary test (objective)",
+     "Then a computer-based main test for shortlisted candidates",
+     "Then document verification. The exact stages are set in each edition's prospectus."
+    ],
+    "title": "AIIMS NORCET official page",
+    "url": "https://www.aiimsexams.ac.in/landingpage/courses/advertisement/66ab7926ebb3815a4b707804"
+   },
+   "pastPapers": [],
+   "pastPapersNote": "AIIMS does not publish an archive of previous NORCET question papers.",
+   "pastPapersPage": "https://www.aiimsexams.ac.in/landingpage/courses/68dbbb27b7b096817673976e",
+   "answerKeys": [],
+   "answerKeysNote": "AIIMS releases answer keys and objection windows through the candidate login for each edition.",
+   "answerKeysPage": "https://www.aiimsexams.ac.in/landingpage/notice",
+   "mockTests": []
   }
- ]
+ ],
+ "examsVerifiedAt": "2026-08-21"
 };

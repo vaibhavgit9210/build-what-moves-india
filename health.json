@@ -1,6 +1,38 @@
 {
- "checkedAt": "2026-08-19T15:45:00Z",
- "urlsChecked": 223,
- "badLinks": [],
- "staleWindows": []
+ "checkedAt": "2026-08-21T10:20:04Z",
+ "urlsChecked": 511,
+ "badLinks": [
+  {
+   "id": "kcet",
+   "kind": "resource",
+   "url": "https://kea.kar.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "great-scholarships-india",
+   "kind": "resource",
+   "url": "https://www.britishcouncil.in/study-uk/scholarships/great-scholarships",
+   "note": "timeout"
+  },
+  {
+   "id": "ndli",
+   "kind": "official",
+   "url": "https://ndl.iitkgp.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "diksha",
+   "kind": "resource",
+   "url": "https://ndl.iitkgp.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ca-foundation",
+   "kind": "resource",
+   "url": "https://icaiexam.icai.org/",
+   "note": "URLError"
+  }
+ ],
+ "staleWindows": [],
+ "dataIssues": []
 }
