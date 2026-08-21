@@ -179,7 +179,7 @@ body[data-view="detail"] main,body[data-view="detail"] footer{display:none}
   </div>
 </header>
 
-<article id="detail" data-open="0" aria-live="polite"></article>
+<article id="detail" data-open="0" tabindex="-1"></article>
 
 <main>
   <details id="filters">
@@ -195,6 +195,7 @@ body[data-view="detail"] main,body[data-view="detail"] footer{display:none}
           <option value="12th">12th pass</option>
           <option value="diploma">diploma</option>
           <option value="ug">graduate (bachelor's)</option>
+          <option value="professional">professional degree (MBBS/LLB/CA…)</option>
           <option value="pg">postgraduate</option>
         </select>
       </div>
@@ -329,6 +330,12 @@ var UI_TEXT = {
   noResults:"Nothing matches these filters. Loosen one, or", resetFilters:"reset them",
   moreDetails:"More details", openInNewTab:"opens in a new tab",
   lastPublished:"This is the most recent notification published for this exam. The notification for the next cycle has not been released yet.",
+  previewHere:"Preview the notification here",
+  eduBelow10:"Still in school",
+  autoExtracted:"(auto-extracted from the official page — verify before applying)",
+  autoExtractedLong:"Status and dates here were auto-extracted from the official page — verify on the official website before applying.",
+  linkCheckFailed:"⚠ the official link failed our last automated check — it may be down or moved",
+  docCheckFailed:"⚠ this document failed our last automated check — it may have moved on the official site",
   didYouMean:"Looking for one of these?", pdfIsFrom:"Published by"
  },
  hi:{
@@ -362,6 +369,12 @@ var UI_TEXT = {
   noResults:"इन फ़िल्टरों से कुछ नहीं मिला। कोई फ़िल्टर हटाएँ, या", resetFilters:"सभी हटाएँ",
   moreDetails:"अधिक जानकारी", openInNewTab:"नए टैब में खुलता है",
   lastPublished:"यह इस परीक्षा की सबसे हाल में जारी अधिसूचना है। अगले चक्र की अधिसूचना अभी जारी नहीं हुई है।",
+  previewHere:"अधिसूचना यहाँ देखें",
+  eduBelow10:"अभी स्कूल में",
+  autoExtracted:"(आधिकारिक पृष्ठ से स्वतः लिया गया — आवेदन से पहले जाँच लें)",
+  autoExtractedLong:"यहाँ दी गई स्थिति और तिथियाँ आधिकारिक पृष्ठ से स्वतः ली गई हैं — आवेदन से पहले आधिकारिक वेबसाइट पर जाँच लें।",
+  linkCheckFailed:"⚠ पिछली स्वतः जाँच में यह आधिकारिक लिंक काम नहीं आया — यह बंद या स्थानांतरित हो सकता है",
+  docCheckFailed:"⚠ पिछली स्वतः जाँच में यह दस्तावेज़ नहीं मिला — यह आधिकारिक साइट पर स्थानांतरित हो सकता है",
   didYouMean:"क्या आप इनमें से कोई खोज रहे हैं?", pdfIsFrom:"प्रकाशक"
  },
  mr:{
@@ -395,6 +408,12 @@ var UI_TEXT = {
   noResults:"या फिल्टरने काही सापडले नाही. एखादा फिल्टर काढा, किंवा", resetFilters:"सर्व काढा",
   moreDetails:"अधिक माहिती", openInNewTab:"नवीन टॅबमध्ये उघडते",
   lastPublished:"ही या परीक्षेची सर्वात अलीकडील जाहीर अधिसूचना आहे. पुढील चक्राची अधिसूचना अजून जाहीर झालेली नाही.",
+  previewHere:"अधिसूचना येथे पहा",
+  eduBelow10:"अजून शाळेत",
+  autoExtracted:"(अधिकृत पृष्ठावरून स्वयं घेतले — अर्ज करण्यापूर्वी तपासा)",
+  autoExtractedLong:"येथील स्थिती आणि तारखा अधिकृत पृष्ठावरून स्वयं घेतल्या आहेत — अर्ज करण्यापूर्वी अधिकृत संकेतस्थळावर तपासा.",
+  linkCheckFailed:"⚠ शेवटच्या स्वयं तपासणीत हा अधिकृत दुवा चालला नाही — तो बंद किंवा हलवलेला असू शकतो",
+  docCheckFailed:"⚠ शेवटच्या स्वयं तपासणीत हा दस्तऐवज मिळाला नाही — तो अधिकृत संकेतस्थळावर हलवलेला असू शकतो",
   didYouMean:"तुम्ही यांपैकी एक शोधत आहात का?", pdfIsFrom:"प्रकाशक"
  },
  kn:{
@@ -428,6 +447,12 @@ var UI_TEXT = {
   noResults:"ಈ ಫಿಲ್ಟರ್‌ಗಳಿಗೆ ಏನೂ ಸಿಗಲಿಲ್ಲ. ಒಂದನ್ನು ತೆಗೆಯಿರಿ, ಅಥವಾ", resetFilters:"ಎಲ್ಲಾ ತೆಗೆಯಿರಿ",
   moreDetails:"ಹೆಚ್ಚಿನ ಮಾಹಿತಿ", openInNewTab:"ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ",
   lastPublished:"ಇದು ಈ ಪರೀಕ್ಷೆಗೆ ಇತ್ತೀಚೆಗೆ ಪ್ರಕಟವಾದ ಅಧಿಸೂಚನೆ. ಮುಂದಿನ ಚಕ್ರದ ಅಧಿಸೂಚನೆ ಇನ್ನೂ ಬಿಡುಗಡೆಯಾಗಿಲ್ಲ.",
+  previewHere:"ಅಧಿಸೂಚನೆಯನ್ನು ಇಲ್ಲಿ ನೋಡಿ",
+  eduBelow10:"ಇನ್ನೂ ಶಾಲೆಯಲ್ಲಿ",
+  autoExtracted:"(ಅಧಿಕೃತ ಪುಟದಿಂದ ಸ್ವಯಂ ಪಡೆದದ್ದು — ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮೊದಲು ಪರಿಶೀಲಿಸಿ)",
+  autoExtractedLong:"ಇಲ್ಲಿನ ಸ್ಥಿತಿ ಮತ್ತು ದಿನಾಂಕಗಳನ್ನು ಅಧಿಕೃತ ಪುಟದಿಂದ ಸ್ವಯಂ ಪಡೆಯಲಾಗಿದೆ — ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮೊದಲು ಅಧಿಕೃತ ಜಾಲತಾಣದಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.",
+  linkCheckFailed:"⚠ ಕೊನೆಯ ಸ್ವಯಂ ಪರಿಶೀಲನೆಯಲ್ಲಿ ಈ ಅಧಿಕೃತ ಕೊಂಡಿ ಕೆಲಸ ಮಾಡಲಿಲ್ಲ — ಅದು ಸ್ಥಗಿತವಾಗಿರಬಹುದು ಅಥವಾ ಸ್ಥಳಾಂತರವಾಗಿರಬಹುದು",
+  docCheckFailed:"⚠ ಕೊನೆಯ ಸ್ವಯಂ ಪರಿಶೀಲನೆಯಲ್ಲಿ ಈ ದಾಖಲೆ ಸಿಗಲಿಲ್ಲ — ಅದು ಅಧಿಕೃತ ತಾಣದಲ್ಲಿ ಸ್ಥಳಾಂತರವಾಗಿರಬಹುದು",
   didYouMean:"ಇವುಗಳಲ್ಲಿ ಒಂದನ್ನು ಹುಡುಕುತ್ತಿದ್ದೀರಾ?", pdfIsFrom:"ಪ್ರಕಾಶಕ"
  },
  ta:{
@@ -461,6 +486,12 @@ var UI_TEXT = {
   noResults:"இந்த வடிகட்டிகளுக்கு எதுவும் இல்லை. ஒன்றை நீக்குங்கள், அல்லது", resetFilters:"அனைத்தையும் நீக்கு",
   moreDetails:"மேலும் விவரங்கள்", openInNewTab:"புதிய தாவலில் திறக்கும்",
   lastPublished:"இது இந்தத் தேர்வுக்கு வெளியிடப்பட்ட மிக அண்மைய அறிவிப்பு. அடுத்த சுற்றுக்கான அறிவிப்பு இன்னும் வெளியிடப்படவில்லை.",
+  previewHere:"அறிவிப்பை இங்கே பார்க்க",
+  eduBelow10:"இன்னும் பள்ளியில்",
+  autoExtracted:"(அதிகாரப்பூர்வ பக்கத்திலிருந்து தானாக எடுக்கப்பட்டது — விண்ணப்பிக்கும் முன் சரிபார்க்கவும்)",
+  autoExtractedLong:"இங்குள்ள நிலை மற்றும் தேதிகள் அதிகாரப்பூர்வ பக்கத்திலிருந்து தானாக எடுக்கப்பட்டவை — விண்ணப்பிக்கும் முன் அதிகாரப்பூர்வ இணையதளத்தில் சரிபார்க்கவும்.",
+  linkCheckFailed:"⚠ கடைசி தானியங்கி சரிபார்ப்பில் இந்த அதிகாரப்பூர்வ இணைப்பு வேலை செய்யவில்லை — அது நிறுத்தப்பட்டிருக்கலாம் அல்லது மாற்றப்பட்டிருக்கலாம்",
+  docCheckFailed:"⚠ கடைசி தானியங்கி சரிபார்ப்பில் இந்த ஆவணம் கிடைக்கவில்லை — அது அதிகாரப்பூர்வ தளத்தில் மாற்றப்பட்டிருக்கலாம்",
   didYouMean:"இவற்றில் ஒன்றைத் தேடுகிறீர்களா?", pdfIsFrom:"வெளியிட்டவர்"
  },
  te:{
@@ -494,6 +525,12 @@ var UI_TEXT = {
   noResults:"ఈ ఫిల్టర్లకు ఏమీ దొరకలేదు. ఒకటి తీసివేయండి, లేదా", resetFilters:"అన్నీ తీసివేయండి",
   moreDetails:"మరిన్ని వివరాలు", openInNewTab:"కొత్త ట్యాబ్‌లో తెరుచుకుంటుంది",
   lastPublished:"ఇది ఈ పరీక్షకు ఇటీవల విడుదలైన ప్రకటన. తదుపరి చక్రం ప్రకటన ఇంకా విడుదల కాలేదు.",
+  previewHere:"ప్రకటనను ఇక్కడ చూడండి",
+  eduBelow10:"ఇంకా పాఠశాలలో",
+  autoExtracted:"(అధికారిక పేజీ నుండి స్వయంచాలకంగా తీసుకున్నది — దరఖాస్తు చేసే ముందు తనిఖీ చేయండి)",
+  autoExtractedLong:"ఇక్కడి స్థితి, తేదీలు అధికారిక పేజీ నుండి స్వయంచాలకంగా తీసుకున్నవి — దరఖాస్తు చేసే ముందు అధికారిక వెబ్‌సైట్‌లో తనిఖీ చేయండి.",
+  linkCheckFailed:"⚠ చివరి స్వయంచాలక తనిఖీలో ఈ అధికారిక లింక్ పని చేయలేదు — అది నిలిచిపోయి ఉండవచ్చు లేదా మారి ఉండవచ్చు",
+  docCheckFailed:"⚠ చివరి స్వయంచాలక తనిఖీలో ఈ పత్రం దొరకలేదు — అది అధికారిక సైట్‌లో మారి ఉండవచ్చు",
   didYouMean:"వీటిలో ఒకటి వెతుకుతున్నారా?", pdfIsFrom:"ప్రచురణకర్త"
  },
  bn:{
@@ -527,6 +564,12 @@ var UI_TEXT = {
   noResults:"এই ফিল্টারে কিছু মেলেনি। একটি সরান, অথবা", resetFilters:"সব সরান",
   moreDetails:"আরও তথ্য", openInNewTab:"নতুন ট্যাবে খোলে",
   lastPublished:"এটি এই পরীক্ষার সবচেয়ে সাম্প্রতিক প্রকাশিত বিজ্ঞপ্তি। পরবর্তী চক্রের বিজ্ঞপ্তি এখনও প্রকাশিত হয়নি।",
+  previewHere:"বিজ্ঞপ্তি এখানে দেখুন",
+  eduBelow10:"এখনও স্কুলে",
+  autoExtracted:"(সরকারি পাতা থেকে স্বয়ংক্রিয়ভাবে নেওয়া — আবেদনের আগে যাচাই করুন)",
+  autoExtractedLong:"এখানের অবস্থা ও তারিখ সরকারি পাতা থেকে স্বয়ংক্রিয়ভাবে নেওয়া — আবেদনের আগে সরকারি ওয়েবসাইটে যাচাই করুন।",
+  linkCheckFailed:"⚠ শেষ স্বয়ংক্রিয় পরীক্ষায় এই সরকারি লিঙ্কটি কাজ করেনি — এটি বন্ধ বা সরানো হতে পারে",
+  docCheckFailed:"⚠ শেষ স্বয়ংক্রিয় পরীক্ষায় এই নথিটি পাওয়া যায়নি — এটি সরকারি সাইটে সরানো হতে পারে",
   didYouMean:"আপনি কি এগুলোর একটি খুঁজছেন?", pdfIsFrom:"প্রকাশক"
  },
  ml:{
@@ -560,6 +603,12 @@ var UI_TEXT = {
   noResults:"ഈ ഫിൽട്ടറുകൾക്ക് ഒന്നും കിട്ടിയില്ല. ഒന്ന് മാറ്റുക, അല്ലെങ്കിൽ", resetFilters:"എല്ലാം മാറ്റുക",
   moreDetails:"കൂടുതൽ വിവരങ്ങൾ", openInNewTab:"പുതിയ ടാബിൽ തുറക്കും",
   lastPublished:"ഇത് ഈ പരീക്ഷയ്ക്ക് ഏറ്റവും അടുത്ത് പ്രസിദ്ധീകരിച്ച വിജ്ഞാപനമാണ്. അടുത്ത ചക്രത്തിന്റെ വിജ്ഞാപനം ഇതുവരെ പ്രസിദ്ധീകരിച്ചിട്ടില്ല.",
+  previewHere:"വിജ്ഞാപനം ഇവിടെ കാണുക",
+  eduBelow10:"ഇപ്പോഴും സ്കൂളിൽ",
+  autoExtracted:"(ഔദ്യോഗിക പേജിൽ നിന്ന് സ്വയമേവ എടുത്തത് — അപേക്ഷിക്കുന്നതിന് മുൻപ് പരിശോധിക്കുക)",
+  autoExtractedLong:"ഇവിടെയുള്ള നിലയും തീയതികളും ഔദ്യോഗിക പേജിൽ നിന്ന് സ്വയമേവ എടുത്തതാണ് — അപേക്ഷിക്കുന്നതിന് മുൻപ് ഔദ്യോഗിക വെബ്‌സൈറ്റിൽ പരിശോധിക്കുക.",
+  linkCheckFailed:"⚠ അവസാന സ്വയം പരിശോധനയിൽ ഈ ഔദ്യോഗിക ലിങ്ക് പ്രവർത്തിച്ചില്ല — അത് നിർത്തിയതോ മാറ്റിയതോ ആകാം",
+  docCheckFailed:"⚠ അവസാന സ്വയം പരിശോധനയിൽ ഈ രേഖ കണ്ടില്ല — അത് ഔദ്യോഗിക സൈറ്റിൽ മാറ്റിയിരിക്കാം",
   didYouMean:"ഇവയിൽ ഒന്ന് തിരയുന്നുണ്ടോ?", pdfIsFrom:"പ്രസാധകൻ"
  }
 };
@@ -604,8 +653,8 @@ function t(k){
   return UI_TEXT.en[k] != null ? UI_TEXT.en[k] : "";  /* never show a raw key */
 }
 function eduOptLabel(v){
-  return {"10th":t("edu10"),"12th":t("edu12"),diploma:t("eduDiploma"),ug:t("eduGraduate"),
-          pg:t("eduPostgraduate"),professional:t("eduProfessional")}[v] || v;
+  return {below10:t("eduBelow10"),"10th":t("edu10"),"12th":t("edu12"),diploma:t("eduDiploma"),
+          ug:t("eduGraduate"),pg:t("eduPostgraduate"),professional:t("eduProfessional")}[v] || v;
 }
 
 /* ---------- state <-> hash (shareable filter URLs) ---------- */
@@ -641,10 +690,6 @@ function writeHash(){
   if(state.exam){
     parts.push("exam="+state.exam);
     if(state.sec)parts.push("sec="+state.sec);
-    if(lang!=="en")parts.push("lang="+lang);
-    var nx="#"+parts.join("&");
-    if(nx!==lastHash){ lastHash=nx; try{ history.replaceState(null,"",nx); }catch(e){} }
-    return;
   }
   if(state.q)parts.push("q="+encodeURIComponent(state.q));
   if(state.age)parts.push("age="+state.age);
@@ -659,8 +704,15 @@ function writeHash(){
   if(state.sort!=="soon")parts.push("sort="+state.sort);
   var next=parts.length?"#"+parts.join("&"):"";
   if(next===lastHash)return;
+  var wasExam=/(?:^|[#&])exam=/.test(lastHash||"");
+  var isExam=!!state.exam;
   lastHash=next;
-  try{ history.replaceState(null,"",next||location.pathname+location.search); }catch(e){}
+  try{
+    /* entering or leaving a detail page is a navigation the Back button should undo;
+       everything else (typing in the search box) just rewrites the current entry */
+    if(wasExam!==isExam)history.pushState(null,"",next||location.pathname+location.search);
+    else history.replaceState(null,"",next||location.pathname+location.search);
+  }catch(e){}
 }
 
 /* ---------- themes ---------- */
@@ -687,7 +739,7 @@ els.mCb.onclick=function(){ setTheme(getTheme(),!getCb()); };
 var health=null, live=null;
 function tryFetch(url,cb){
   if(location.protocol==="file:"&&url.indexOf("http")!==0)return;
-  fetch(url).then(function(r){return r.ok?r.json():null;}).then(function(j){ if(j){cb(j);render();} }).catch(function(){});
+  fetch(url).then(function(r){return r.ok?r.json():null;}).then(function(j){ if(j){cb(j);if(state.exam)return;render();} }).catch(function(){});
 }
 tryFetch("health.json",function(j){health=j;stamp();});
 if(LIVE_ENDPOINT) tryFetch(LIVE_ENDPOINT,function(j){live=j;});
@@ -704,32 +756,43 @@ function badUrl(url){
 /* ---------- filtering ---------- */
 /* expand a query through the regional-language aliases, and drop any preparation
    intent word ("syllabus", "pyq", …) so "ssc cgl syllabus" still finds SSC CGL */
+var INTENT_WORDS = (function(){
+  /* longest phrase first, so "question papers" is consumed whole instead of leaving a
+     stray "s" behind after "question paper" matches */
+  var all=[];
+  INTENTS.forEach(function(it){ it.words.forEach(function(w){ all.push({w:w.toLowerCase(),sec:it.sec}); }); });
+  return all.sort(function(a,b){ return b.w.length-a.w.length; });
+})();
 function expandQuery(raw){
   var q=(raw||"").toLowerCase().trim();
   if(!q)return {terms:[],sec:""};
   var sec="";
-  INTENTS.forEach(function(it){
-    it.words.forEach(function(w){
-      var lw=w.toLowerCase();
-      if(q.indexOf(lw)>=0){ if(!sec)sec=it.sec; q=q.split(lw).join(" "); }
-    });
-  });
-  var terms=[q.replace(/\s+/g," ").trim()];
+  for(var i=0;i<INTENT_WORDS.length;i++){
+    var iw=INTENT_WORDS[i];
+    if(q.indexOf(iw.w)>=0){ if(!sec)sec=iw.sec; q=q.split(iw.w).join(" "); }
+  }
+  var rest=q.replace(/\s+/g," ").trim();
+  var terms=[];
+  /* "syllabus" on its own, or the "s" left over from a plural, must not filter the list to
+     nothing (or to everything) — show every exam and let the did-you-mean list do the work */
+  if(sec&&rest.length<2)terms.push("type:exam");
+  else if(rest)terms.push(rest);
   ALIASES.forEach(function(pair){
     pair[0].forEach(function(a){
-      if(q.indexOf(a.toLowerCase())>=0) terms.push(pair[1]);
+      if(raw.toLowerCase().indexOf(a.toLowerCase())>=0) terms.push(pair[1]);
     });
   });
-  return {terms:terms.filter(function(s){return s;}), sec:sec};
+  return {terms:terms, sec:sec};
 }
 function haystack(o){
   return (o.name+" "+o.oneLiner+" "+(o.tags||[]).join(" ")+" "+
           (o.organization||"")+" "+(o.organizationFull||"")+" "+
           (o.typicalJobs||[]).join(" ")+" "+(o.description||"")).toLowerCase();
 }
+var curQuery=null;  /* parsed once per render, not once per entry per keystroke */
 function matches(o){
   if(state.q){
-    var ex=expandQuery(state.q), hay=haystack(o);
+    var ex=curQuery||expandQuery(state.q), hay=haystack(o);
     var hit=ex.terms.some(function(term){
       if(term==="type:exam")return o.type==="exam";
       return term.split(/\s+/).every(function(w){ return hay.indexOf(w)>=0; });
@@ -741,7 +804,8 @@ function matches(o){
   }
   if(state.status){
     if(!o.status)return false;
-    var s=o.status==="exam-completed"?"closed":o.status;
+    var es=effStatus(o);
+    var s=es==="exam-completed"?"closed":es;
     if(s!==state.status)return false;
   }
   if(state.cats.length&&state.cats.indexOf(o.category)<0)return false;
@@ -774,7 +838,10 @@ function soonKey(o){
 }
 /* government exams are what this site is for, so they lead the list; everything
    else in the dataset still shows below, in the order it always did */
-function statusRank(o){ return {open:0,upcoming:1,closed:2,"exam-completed":3,"not-announced":4}[o.status]; }
+function statusRank(o){
+  var r={open:0,upcoming:1,closed:2,"exam-completed":3,"not-announced":4}[effStatus(o)];
+  return r==null?9:r;  /* a NaN comparator would make the sort order undefined */
+}
 function sorted(list){
   var s=state.sort;
   return list.slice().sort(function(a,b){
@@ -839,34 +906,44 @@ function daysTo(iso){
   var d=new Date(+m[1],+m[2]-1,+m[3]);
   return Math.round((d-new Date(TODAY.getFullYear(),TODAY.getMonth(),TODAY.getDate()))/86400000);
 }
+/* This site is a static snapshot, so a stored status="open" would keep claiming an
+   application is open long after its deadline. Always derive the status shown from the
+   stored status AND the calendar. */
+function effStatus(o){
+  if(o.status==="open"){
+    var d=daysTo((o.application||{}).closingDate);
+    if(d!=null&&d<0)return "closed";
+  }
+  return o.status;
+}
 function statusPill(o){
-  var s=el("span","st "+(STATUS_CLASS[o.status]||""),t(STATUS_KEY[o.status]||"stNotAnnounced"));
-  return s;
+  var st=effStatus(o);
+  return el("span","st "+(STATUS_CLASS[st]||""),t(STATUS_KEY[st]||"stNotAnnounced"));
 }
 /* the one line a person actually needs on the card */
 function examWhen(o){
   var wrap=el("div","whenline");
-  var app=o.application||{}, exp=o.expected||{};
-  if(o.status==="open"&&app.closingDate){
+  var app=o.application||{}, exp=o.expected||{}, st=effStatus(o);
+  if(st==="open"&&app.closingDate){
     wrap.appendChild(el("b",null,t("applicationOpenUntil")+" "));
     wrap.appendChild(document.createTextNode(fmtDate(app.closingDate)));
     var dl=daysTo(app.closingDate);
     if(dl!=null&&dl>=0&&dl<=10)wrap.appendChild(el("span","pill",dl===0?"today":dl+"d"));
     return wrap;
   }
-  if(o.status==="upcoming"&&exp.notificationDate){
+  if(st==="upcoming"&&exp.notificationDate){
     wrap.appendChild(el("b",null,t("notificationExpected")+" "));
     wrap.appendChild(document.createTextNode(fmtDate(exp.notificationDate)));
     return wrap;
   }
-  if(o.status==="closed"){
+  if(st==="closed"){
     wrap.appendChild(el("b",null,t("applicationClosed")));
     if(exp.notificationDate){
       wrap.appendChild(document.createTextNode(" · "+t("notificationExpected")+" "+fmtDate(exp.notificationDate)));
     }
     return wrap;
   }
-  if(o.status==="exam-completed"){
+  if(st==="exam-completed"){
     wrap.appendChild(el("b",null,t("stExamCompleted")));
     return wrap;
   }
@@ -888,12 +965,12 @@ function examCard(o){
   b.appendChild(statusPill(o));
   li.appendChild(b);
   li.appendChild(examWhen(o));
-  if(o.liveConfidence==="auto")li.appendChild(el("div","note","(auto-extracted from the official page, verify before applying)"));
+  if(o.liveConfidence==="auto")li.appendChild(el("div","note",t("autoExtracted")));
   var btn=el("a","btn",t("viewDetails")+" →");
   btn.href="#exam="+o.id+(lang!=="en"?"&lang="+lang:"");
   btn.onclick=function(ev){ ev.preventDefault(); openExam(o.id,""); };
   li.appendChild(btn);
-  if(badOfficial(o.id))li.appendChild(el("div","warnnote","⚠ the official link failed our last automated check — it may be down or moved"));
+  if(badOfficial(o.id))li.appendChild(el("div","warnnote",t("linkCheckFailed")));
   return li;
 }
 
@@ -927,7 +1004,7 @@ function card(o){
     var ra=el("a",null,r.label+" ↗");ra.href=u;ra.rel="noopener";ra.target="_blank";links.appendChild(ra);
   });
   li.appendChild(links);
-  if(badOfficial(o.id))li.appendChild(el("div","warnnote","⚠ the official link failed our last automated check — it may be down or moved"));
+  if(badOfficial(o.id))li.appendChild(el("div","warnnote",t("linkCheckFailed")));
   return li;
 }
 /* ---------- exam detail page ---------- */
@@ -952,22 +1029,30 @@ function pdfViewer(sec,notif){
   var open=extLink(t("openPdf"),notif.pdfUrl||notif.url,"btn");
   if(open)btns.appendChild(open);
   if(notif.embeddable===false){
-    var f=el("div","pdffall",t("notPreviewable"));
-    sec.appendChild(f);
+    /* measured: this host sends X-Frame-Options, so framing would render a blank box */
+    sec.appendChild(el("div","pdffall",t("notPreviewable")));
   }else{
-    var wrap=el("div","pdfwrap");
-    var fr=document.createElement("iframe");
-    fr.src=url; fr.title=t("officialNotification"); fr.loading="lazy";
-    fr.setAttribute("referrerpolicy","no-referrer");
-    var settled=false;
-    fr.addEventListener("load",function(){ settled=true; });
-    wrap.appendChild(fr);
-    sec.appendChild(wrap);
-    /* some government hosts refuse framing; never leave a blank box behind */
-    setTimeout(function(){
-      if(settled||!wrap.parentNode)return;
-      wrap.parentNode.replaceChild(el("div","pdffall",t("notPreviewable")),wrap);
-    },4000);
+    var mkFrame=function(){
+      var wrap=el("div","pdfwrap");
+      var fr=document.createElement("iframe");
+      fr.src=url; fr.title=t("officialNotification"); fr.loading="lazy";
+      fr.setAttribute("referrerpolicy","no-referrer");
+      wrap.appendChild(fr);
+      return wrap;
+    };
+    var small=false;
+    try{ small=window.matchMedia("(max-width: 760px)").matches; }catch(e){}
+    if(small){
+      /* these notifications run to several megabytes; on a phone, load on request */
+      var slot=el("div");
+      var tap=el("button","btn ghost wide",t("previewHere"));
+      tap.type="button";
+      tap.onclick=function(){ slot.textContent=""; slot.appendChild(mkFrame()); };
+      slot.appendChild(tap);
+      sec.appendChild(slot);
+    }else{
+      sec.appendChild(mkFrame());
+    }
   }
   if(host)sec.appendChild(el("p","note",t("pdfIsFrom")+" "+host));
   sec.appendChild(btns);
@@ -1038,7 +1123,7 @@ function renderDetail(o){
   var stline=el("p"); stline.appendChild(statusPill(o));
   st.appendChild(stline);
   if(o.statusNote)st.appendChild(el("p",null,o.statusNote));
-  if(o.liveConfidence==="auto")st.appendChild(el("p","note","Status and dates here were auto-extracted from the official page — verify on the official website before applying."));
+  if(o.liveConfidence==="auto")st.appendChild(el("p","note",t("autoExtractedLong")));
   root.appendChild(st);
 
   /* who can apply */
@@ -1068,10 +1153,14 @@ function renderDetail(o){
     if(tag){ d.appendChild(document.createTextNode(" ")); d.appendChild(el("span","pill",tag)); }
     dd.appendChild(d);
   }
-  drow(t("applicationOpens"),app.openingDate);
-  drow(t("applicationCloses"),app.closingDate);
-  drow(t("examDate"),o.examDate);
-  drow(t("officialNotification"),(o.notification||{}).date);
+  /* on anything other than a live application these dates belong to a past or in-progress
+     cycle; tag them with that cycle so they cannot be misread as the next one */
+  var cyc=(o.notification||{}).cycle;
+  var cycTag=(effStatus(o)!=="open"&&cyc)?cyc:null;
+  drow(t("applicationOpens"),app.openingDate,cycTag);
+  drow(t("applicationCloses"),app.closingDate,cycTag);
+  drow(t("examDate"),o.examDate,cycTag);
+  drow(t("officialNotification"),(o.notification||{}).date,cycTag);
   drow(t("notificationExpected"),exp.notificationDate,t("expected"));
   drow(t("applicationCloses"),exp.closingDate,t("expected"));
   drow(t("examDate"),exp.examDate,t("expected"));
@@ -1099,7 +1188,7 @@ function renderDetail(o){
     ttl.appendChild(document.createTextNode(" ")); ttl.appendChild(officialTag());
     ns.appendChild(ttl);
     if(notif.current===false)ns.appendChild(el("div","warnbox",t("notReleased")+" — "+t("lastPublished")));
-    if(badUrl(notif.pdfUrl)||badUrl(notif.url))ns.appendChild(el("div","warnbox","⚠ this document failed our last automated check — it may have moved on the official site"));
+    if(badUrl(notif.pdfUrl)||badUrl(notif.url))ns.appendChild(el("div","warnbox",t("docCheckFailed")));
     pdfViewer(ns,notif);
     var web=extLink(t("visitWebsite"),o.officialExamPage||o.officialWebsite,"btn ghost");
     if(web)ns.lastChild.appendChild(web);
@@ -1118,8 +1207,17 @@ function renderDetail(o){
 
   /* prepare */
   var prep=section(t("prepareFor"),"prepare");
-  if(o.syllabus&&o.syllabus.url)
-    prepBlock(prep,t("syllabus"),t("syllabusSub"),t("officialSyllabus"),o.syllabus.url);
+  if(o.syllabus&&o.syllabus.url){
+    /* some records legitimately have no syllabus (GDS is a merit list, not an exam) and say so
+       in syllabus.title — show that instead of a misleading "Official syllabus" button */
+    var noSyl=/^not applicable/i.test(o.syllabus.title||"");
+    if(noSyl){
+      prep.appendChild(el("h4",null,t("syllabus")));
+      prep.appendChild(el("p","note",o.syllabus.title));
+    }else{
+      prepBlock(prep,t("syllabus"),o.syllabus.title||t("syllabusSub"),t("officialSyllabus"),o.syllabus.url);
+    }
+  }
   if(o.examPattern){
     var sum=null;
     if((o.examPattern.summary||[]).length){
@@ -1174,7 +1272,8 @@ function renderDetail(o){
   root.appendChild(src);
 
   if(state.sec){
-    var target=document.getElementById("sec-"+(state.sec==="papers"||state.sec==="keys"||state.sec==="mock"||state.sec==="pattern"?"prepare":state.sec));
+    var PREP={papers:1,keys:1,mock:1,pattern:1,syllabus:1};
+    var target=document.getElementById("sec-"+(PREP[state.sec]?"prepare":state.sec));
     if(target){
       target.classList.add("hl");
       if(location.protocol!=="file:")setTimeout(function(){ try{ target.scrollIntoView({block:"start"}); }catch(e){ target.scrollIntoView(); } },30);
@@ -1199,8 +1298,13 @@ function openExam(id,sec){
   writeHash();
   document.title=o.name+" — Avsar";
   if(!state.sec)window.scrollTo(0,0);
+  /* move focus into the new view: a keyboard or screen-reader user was left on the card
+     link, which is now display:none, so Tab would restart from the top of the document */
+  var h=els.detail.querySelector("h2");
+  if(h){ h.setAttribute("tabindex","-1"); try{ h.focus({preventScroll:!!state.sec}); }catch(e){ h.focus(); } }
 }
 function closeExam(){
+  var was=state.exam;
   state.exam=""; state.sec="";
   document.body.removeAttribute("data-view");
   els.detail.setAttribute("data-open","0");
@@ -1208,6 +1312,9 @@ function closeExam(){
   document.title="Avsar — find government exams you can apply for";
   render();
   window.scrollTo(0,0);
+  /* put focus back on the card the person came from, not the top of the document */
+  var back=els.list.querySelector('a[href*="exam='+was+'"]');
+  if(back){ try{ back.focus({preventScroll:true}); }catch(e){} }
 }
 
 /* "ssc cgl syllabus" / "upsc pyq" -> jump straight to the right section */
@@ -1230,6 +1337,7 @@ function intentHits(){
 
 function render(){
   if(state.exam){ var eo=examById(state.exam); if(eo){ renderDetail(eo); return; } }
+  curQuery=state.q?expandQuery(state.q):null;
   var out=sorted(DATA.opportunities.filter(matches));
   els.list.textContent="";
   var frag=document.createDocumentFragment();
@@ -1287,7 +1395,7 @@ function buildFilterSelects(){
 
   els.edu2.textContent="";
   els.edu2.appendChild(opt("",t("anyEducation")));
-  ["10th","12th","diploma","ug","pg","professional"].forEach(function(k){ els.edu2.appendChild(opt(k,eduOptLabel(k))); });
+  ["below10","10th","12th","diploma","ug","professional","pg"].forEach(function(k){ els.edu2.appendChild(opt(k,eduOptLabel(k))); });
   els.edu2.value=state.edu;
 
   els.status.textContent="";

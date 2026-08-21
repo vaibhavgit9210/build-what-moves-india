@@ -171,6 +171,25 @@ def validate(data):
                 issues.append({"id": oid, "problem": "status is open but no notification link"})
         if o.get("status") == "not-announced" and notif.get("current") is True:
             issues.append({"id": oid, "problem": "status not-announced but notification marked current"})
+
+        today = date.today().isoformat()
+        # A notice cannot be published in the future. This catches the failure mode where
+        # notification.date was taken from a PDF filename fragment instead of the notice header.
+        nd = notif.get("date")
+        if ISO.match(str(nd or "")) and nd > today:
+            issues.append({"id": oid, "problem": f"notification.date {nd} is in the future"})
+        # An exam cannot be sat before applications close.
+        ed = o.get("examDate")
+        if ISO.match(str(ed or "")) and ISO.match(str(o_close or "")) and ed < o_close:
+            issues.append({"id": oid, "problem": f"examDate {ed} is before the application closes ({o_close})"})
+        # A closed cycle whose deadline is still in the future is mislabelled.
+        if o.get("status") in ("closed", "exam-completed") and ISO.match(str(o_close or "")) and o_close > today:
+            issues.append({"id": oid, "problem": f"status {o['status']} but the deadline {o_close} has not passed"})
+        # A forecast that has already gone by is stale and must be refreshed.
+        for label in ("notificationDate", "closingDate", "examDate"):
+            v = exp.get(label)
+            if ISO.match(str(v or "")) and v < today:
+                issues.append({"id": oid, "problem": f"expected.{label} {v} is in the past — refresh the forecast"})
         if not (o.get("eligibility") or {}).get("education"):
             issues.append({"id": oid, "problem": "no plain-language education requirement"})
         if not o.get("verifiedAt"):

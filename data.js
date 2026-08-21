@@ -987,7 +987,7 @@ window.AVSAR_DATA = {
    "statusNote": "CSE 2026 is over (applications closed February 2026). The next notification, for CSE 2027, is scheduled for 13 January 2027 in the official UPSC Annual Calendar 2027.",
    "notification": {
     "title": "Civil Services Examination, 2026 — notification",
-    "date": "2026-02-06",
+    "date": "2026-02-04",
     "cycle": "2026",
     "current": false,
     "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
@@ -995,7 +995,7 @@ window.AVSAR_DATA = {
    },
    "application": {
     "openingDate": null,
-    "closingDate": null,
+    "closingDate": "2026-02-24",
     "url": "https://upsconline.gov.in/"
    },
    "examDate": null,
@@ -1192,7 +1192,7 @@ window.AVSAR_DATA = {
    "statusNote": "The ESE 2027 notification is scheduled for 16 September 2026 in the official UPSC Annual Calendar 2027, with applications closing 6 October 2026.",
    "notification": {
     "title": "Engineering Services (Preliminary) Examination, 2026 — notification",
-    "date": "2026-01-01",
+    "date": "2025-09-26",
     "cycle": "2026",
     "current": false,
     "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-ESEP-26-Engl.pdf",
@@ -1200,7 +1200,7 @@ window.AVSAR_DATA = {
    },
    "application": {
     "openingDate": null,
-    "closingDate": null,
+    "closingDate": "2025-10-16",
     "url": "https://upsconline.gov.in/"
    },
    "examDate": null,
@@ -1474,10 +1474,10 @@ window.AVSAR_DATA = {
    },
    "application": {
     "openingDate": null,
-    "closingDate": null,
+    "closingDate": "2026-06-09",
     "url": "https://upsconline.gov.in/"
    },
-   "examDate": null,
+   "examDate": "2026-09-13",
    "expected": {
     "notificationDate": "2026-12-02",
     "closingDate": "2026-12-22",
@@ -1486,8 +1486,8 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
    },
    "eligibility": {
-    "education": "Bachelor's degree for IMA and OTA; degree with Physics and Mathematics at 10+2, or an engineering degree, for the Naval Academy and Air Force Academy",
-    "age": "Roughly 20 to 25 years, and the exact birth-date window differs for each academy — check the notification",
+    "education": "Bachelor's degree in any subject for IMA and OTA; for the Naval Academy an engineering degree or a B.Sc. with Physics as a core or elective subject (plus Physics and Mathematics at 10+2); for the Air Force Academy any degree with Physics and Mathematics at 10+2, or a B.E. Final-year students may apply.",
+    "age": "19 to 25 years depending on the academy (IMA and Naval Academy 19 to 24, Air Force Academy 20 to 24 and up to 26 with a current DGCA Commercial Pilot Licence, OTA 19 to 25); the exact birth-date window differs for each academy, so check the notification",
     "other": "Unmarried candidates only for IMA, INA and AFA. Men and women both eligible for OTA."
    },
    "fee": "₹200 (women, SC and ST candidates are exempt)",
@@ -1683,10 +1683,10 @@ window.AVSAR_DATA = {
    },
    "application": {
     "openingDate": null,
-    "closingDate": null,
+    "closingDate": "2026-06-09",
     "url": "https://upsconline.gov.in/"
    },
-   "examDate": null,
+   "examDate": "2026-09-13",
    "expected": {
     "notificationDate": "2026-12-02",
     "closingDate": "2026-12-22",
@@ -1699,7 +1699,7 @@ window.AVSAR_DATA = {
     "age": "Broadly 16.5 to 19.5 years — the exact birth-date window is in the notification",
     "other": "Unmarried candidates only. Both men and women are eligible."
    },
-   "fee": "₹100 (women, SC and ST candidates are exempt)",
+   "fee": "₹100, non-refundable (women, SC and ST candidates are exempt, as are wards of serving or ex JCOs/NCOs/ORs who are studying in a Sainik School or Military School; OBC and EWS candidates pay in full)",
    "syllabus": {
     "title": "Official NDA & NA syllabus (inside the notification)",
     "url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf",
@@ -1843,11 +1843,11 @@ window.AVSAR_DATA = {
     "embeddable": false
    },
    "application": {
-    "openingDate": null,
-    "closingDate": null,
+    "openingDate": "2026-02-20",
+    "closingDate": "2026-03-12",
     "url": "https://upsconline.gov.in/"
    },
-   "examDate": null,
+   "examDate": "2026-07-19",
    "expected": {
     "notificationDate": "2027-02-17",
     "closingDate": "2027-03-09",
@@ -1937,7 +1937,7 @@ window.AVSAR_DATA = {
    "ageMax": 32,
    "minEducation": "ug",
    "feeINR": 100,
-   "benefit": "Rs 25,500–44,900 starting basic depending on post (Level 4–7)",
+   "benefit": "Rs 25,500–47,600 starting basic depending on post (Level 4–8)",
    "window": "typically May–Jun (2026: 21 May–25 Jun per SSC calendar)",
    "windowMonths": [
     5,
@@ -1982,7 +1982,7 @@ window.AVSAR_DATA = {
    "description": "The biggest graduate-level recruitment for central government office jobs. Two computer-based tiers, then document verification. Notified once a year.",
    "officialExamPage": "https://ssc.gov.in/",
    "status": "closed",
-   "statusNote": "Applications for CGL 2026 closed on 22 June 2026. Tier-I was scheduled for August–September 2026 and Tier-II for December 2026 in the official notice.",
+   "statusNote": "Applications for CGL 2026 closed on 25 June 2026, after SSC re-opened the window for two days by a notice dated 23 June 2026 (https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/CGLE_Reopen_23062026.pdf); the fee-payment last date was 26 June 2026. Tier-I was scheduled for August–September 2026 and Tier-II for December 2026 in the official notice.",
    "notification": {
     "title": "Notice of Combined Graduate Level Examination, 2026",
     "date": "2026-05-21",
@@ -1993,7 +1993,7 @@ window.AVSAR_DATA = {
    },
    "application": {
     "openingDate": "2026-05-21",
-    "closingDate": "2026-06-22",
+    "closingDate": "2026-06-25",
     "url": "https://ssc.gov.in/"
    },
    "examDate": null,
@@ -2005,7 +2005,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
    },
    "eligibility": {
-    "education": "Bachelor's degree in any subject; some posts need specific subjects — Assistant Audit Officer needs a degree, and Junior Statistical Officer needs Mathematics at 10+2 or Statistics in the degree",
+    "education": "Bachelor's degree in any subject; some posts need specific subjects. Junior Statistical Officer needs at least 60% in Mathematics at 12th standard level, or Statistics as a subject at degree level",
     "age": "18 to 32 years depending on the post, with relaxations for reserved categories",
     "other": "Indian citizen (a few posts also open to specified Nepal/Bhutan/Tibetan candidates)."
    },
@@ -2042,7 +2042,7 @@ window.AVSAR_DATA = {
    "ageMax": 27,
    "minEducation": "12th",
    "feeINR": 100,
-   "benefit": "Rs 19,900–25,500 starting basic (Level 2–4)",
+   "benefit": "Rs 19,900–29,200 starting basic depending on post (Level 2–5)",
    "window": "per SSC calendar Apr–May; 2026 cycle running late",
    "windowMonths": [
     4,
@@ -2321,7 +2321,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "One objective computer-based paper: 80 questions of 2 marks each — 160 marks, 60 minutes",
+     "One objective computer-based paper: 80 questions of 2 marks each — 160 marks, 60 minutes, with negative marking of 0.25 marks per wrong answer",
      "Four parts: General Intelligence & Reasoning, General Knowledge & Awareness, Elementary Mathematics, English/Hindi (20 questions each)",
      "Offered in English, Hindi and 13 regional languages",
      "Then Physical Efficiency Test, Physical Standard Test and a medical examination"
@@ -2488,7 +2488,7 @@ window.AVSAR_DATA = {
    "statusNote": "Registration for CRP PO/MT-XVI closed on 21 July 2026. The preliminary examination was scheduled for August 2026 and the main examination for October 2026.",
    "notification": {
     "title": "Notification for Common Recruitment Process CRP PO/MT-XVI",
-    "date": "2026-06-30",
+    "date": "2026-07-01",
     "cycle": "CRP PO/MT-XVI",
     "current": true,
     "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
@@ -2509,7 +2509,7 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "Bachelor's degree in any discipline",
-    "age": "20 to 30 years, with relaxations for reserved categories",
+    "age": "20 to 30 years as on 1 July 2026 (born between 2 July 1996 and 1 July 2006, both inclusive), with relaxations for reserved categories",
     "other": "Indian citizen (or the other nationalities listed in the notification). Computer literacy required."
    },
    "fee": "₹850 including GST (₹175 for SC/ST/PwBD candidates)",
@@ -2522,7 +2522,7 @@ window.AVSAR_DATA = {
    "examPattern": {
     "summary": [
      "Preliminary: 100 questions, 100 marks, 1 hour — English, Quantitative Aptitude, Reasoning Ability (sectional timing)",
-     "Main: 155 questions, 200 marks, 3 hours, plus a 25-mark English descriptive test",
+     "Main: 170 questions, 200 marks, 160 minutes — Reasoning (40 q, 60 marks), General/Economy/Banking Awareness (50 q, 60 marks), English (40 q, 20 marks), Data Analysis & Interpretation (40 q, 60 marks) — plus a 2-question 25-mark descriptive paper in 30 minutes",
      "Then an interview of 100 marks; final merit is 80:20 between the main exam and interview"
     ],
     "title": "Structure of examination (inside the official notification)",
@@ -2536,7 +2536,7 @@ window.AVSAR_DATA = {
    "answerKeysPage": "https://www.ibps.in/",
    "mockTests": [
     {
-     "title": "Official IBPS online mock test",
+     "title": "Official IBPS online practice test (common to all IBPS recruitment processes)",
      "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
     }
    ]
@@ -2619,7 +2619,7 @@ window.AVSAR_DATA = {
    "examPattern": {
     "summary": [
      "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability (sectional timing)",
-     "Main: 190 questions, 200 marks, 160 minutes",
+     "Main: 160 questions, 200 marks, 125 minutes — General/Financial Awareness (40 q, 50 marks), General English (40 q, 40 marks), Reasoning Ability (40 q, 60 marks), Quantitative Aptitude (40 q, 50 marks), each separately timed",
      "Then a Local Language Proficiency Test. There is no interview."
     ],
     "title": "Structure of examination (inside the official notification)",
@@ -2632,7 +2632,7 @@ window.AVSAR_DATA = {
    "answerKeysPage": "https://www.ibps.in/",
    "mockTests": [
     {
-     "title": "Official IBPS online mock test",
+     "title": "Official IBPS online practice test (common to all IBPS recruitment processes)",
      "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
     }
    ]
@@ -2731,7 +2731,7 @@ window.AVSAR_DATA = {
    "answerKeysPage": "https://www.ibps.in/",
    "mockTests": [
     {
-     "title": "Official IBPS online mock test",
+     "title": "Official IBPS online practice test (common to all IBPS recruitment processes)",
      "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
     }
    ]
@@ -2802,7 +2802,7 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "Graduation in any discipline; final-year students may apply subject to producing proof of passing",
-    "age": "21 to 30 years, with relaxations for reserved categories",
+    "age": "21 to 30 years as on 1 April 2026 (born between 2 April 1996 and 1 April 2005, both inclusive), with relaxations for reserved categories",
     "other": "Indian citizen. Number of attempts is capped by category."
    },
    "fee": "₹750 (SC/ST/PwBD candidates are exempt)",
@@ -2815,7 +2815,7 @@ window.AVSAR_DATA = {
    "examPattern": {
     "summary": [
      "Preliminary: 100 questions, 100 marks, 1 hour — English, Quantitative Aptitude, Reasoning Ability",
-     "Main: objective test of 200 marks plus a descriptive English test of 50 marks",
+     "Main: objective test of 170 questions and 200 marks in 3 hours (Reasoning & Computer Aptitude 40 q/60, Data Analysis & Interpretation 30 q/60, General Awareness-Economy-Banking 60 q/60, English 40 q/20), plus a 3-question descriptive Communication Skills paper of 30 marks in 30 minutes",
      "Then a psychometric test, group exercise and interview"
     ],
     "title": "Selection procedure (inside the official advertisement)",
@@ -2838,7 +2838,7 @@ window.AVSAR_DATA = {
    "ageMax": 28,
    "minEducation": "ug",
    "feeINR": 750,
-   "benefit": "Around Rs 26,000 starting basic; roughly Rs 45,000/month gross",
+   "benefit": "Rs 26,730 starting basic (Rs 24,050 plus two advance increments admissible to graduates); total starting emoluments around Rs 46,000/month at a metro like Mumbai, varying with place of posting",
    "window": "recently Dec–Jan",
    "windowMonths": [
     12,
@@ -2896,7 +2896,7 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "Graduation in any discipline",
-    "age": "20 to 28 years, with relaxations for reserved categories",
+    "age": "20 to 28 years as on 1 April 2026 (born between 2 April 1998 and 1 April 2006, both inclusive), with relaxations for reserved categories",
     "other": "You apply for one state or circle and must be able to read, write and speak its local language."
    },
    "fee": "₹750 (SC/ST/PwBD/ex-servicemen candidates are exempt)",
@@ -2931,7 +2931,7 @@ window.AVSAR_DATA = {
    "ageMax": 30,
    "minEducation": "ug",
    "feeINR": 850,
-   "benefit": "Rs 55,200 starting basic; around Rs 1.4 lakh/month gross",
+   "benefit": "Rs 78,450 starting basic; around Rs 1,54,936/month gross (without HRA)",
    "window": "varies: Apr–May in 2026, Jul in earlier years",
    "windowMonths": [
     4,
@@ -2976,14 +2976,14 @@ window.AVSAR_DATA = {
     "current": true,
     "url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997",
     "pdfUrl": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/DEPR29042026BE94DEA85E3C4753A82B191EB6A795ED.PDF",
-    "embeddable": null
+    "embeddable": false
    },
    "application": {
-    "openingDate": null,
+    "openingDate": "2026-04-29",
     "closingDate": "2026-05-20",
     "url": "https://opportunities.rbi.org.in/"
    },
-   "examDate": null,
+   "examDate": "2026-06-13",
    "expected": {
     "notificationDate": null,
     "closingDate": null,
@@ -2992,8 +2992,8 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx"
    },
    "eligibility": {
-    "education": "For the General cadre: a bachelor's degree with at least 60% marks. For DEPR and DSIM: a master's degree in Economics or Statistics with the class specified in the advertisement",
-    "age": "21 to 30 years, with relaxations for reserved categories and for candidates with a research or work background",
+    "education": "For the General cadre: graduation in any discipline with at least 60% marks (50% for SC/ST/PwBD), OR post-graduation in any discipline with at least 55% marks. For DEPR and DSIM: a master's degree in Economics/Finance or Statistics/Mathematics respectively with at least 55% marks (50% for SC/ST/PwBD)",
+    "age": "21 to 30 years as on 1 April 2026 (born between 2 April 1996 and 1 April 2005), with relaxations for reserved categories; the upper limit is 32 for M.Phil. holders and 34 for Ph.D. holders",
     "other": "Indian citizen. Six attempts for General category candidates."
    },
    "fee": "₹850 plus GST (₹100 for SC/ST/PwBD candidates)",
@@ -3029,7 +3029,7 @@ window.AVSAR_DATA = {
    "ageMax": 28,
    "minEducation": "ug",
    "feeINR": 450,
-   "benefit": "Around Rs 47,000/month gross to start",
+   "benefit": "Rs 29,000 starting basic; around Rs 58,514/month gross (without HRA)",
    "window": "irregular; 2026 cycle ran 16 Feb–8 Mar",
    "windowMonths": [
     2,
@@ -3070,14 +3070,14 @@ window.AVSAR_DATA = {
     "current": true,
     "url": "https://opportunities.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4912",
     "pdfUrl": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/DAASSISTANT2025CCB4E54CEB5542D9987FE6D1EA51D143.PDF",
-    "embeddable": null
+    "embeddable": false
    },
    "application": {
-    "openingDate": null,
+    "openingDate": "2026-02-16",
     "closingDate": "2026-03-08",
     "url": "https://opportunities.rbi.org.in/"
    },
-   "examDate": null,
+   "examDate": "2026-04-11",
    "expected": {
     "notificationDate": null,
     "closingDate": null,
@@ -3101,7 +3101,8 @@ window.AVSAR_DATA = {
     "summary": [
      "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability",
      "Main: 200 questions, 200 marks, 135 minutes, adding General Awareness and Computer Knowledge",
-     "Then a Language Proficiency Test"
+     "Then a Language Proficiency Test",
+     "1/4 mark is deducted for every wrong answer in both the Preliminary and the Main objective tests, and you must qualify in each section separately"
     ],
     "title": "Scheme of selection (inside the official advertisement)",
     "url": "https://opportunities.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4912"
@@ -3182,8 +3183,8 @@ window.AVSAR_DATA = {
     }
    ],
    "application": {
-    "openingDate": null,
-    "closingDate": null,
+    "openingDate": "2025-10-21",
+    "closingDate": "2025-11-20",
     "url": "https://www.rrbapply.gov.in/"
    },
    "examDate": null,
@@ -3195,7 +3196,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=06/2025&loc=chandigarh&category=Notification"
    },
    "eligibility": {
-    "education": "Class 12 (+2 stage) for the undergraduate CEN; a bachelor's degree for the graduate CEN",
+    "education": "Class 12 (+2 stage) or equivalent with at least 50% marks in aggregate for the undergraduate CEN - the 50% is waived for SC/ST/PwBD/ex-servicemen candidates and for anyone holding a qualification higher than class 12; a degree from a recognised university for the graduate CEN (the typist posts additionally require typing proficiency in English or Hindi on computer)",
     "age": "18 to 33 years for graduate posts and 18 to 30 for undergraduate posts in recent CENs, with relaxations for reserved categories",
     "other": "Indian citizen. Medical fitness standards differ by post."
    },
@@ -3235,12 +3236,13 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 500,
    "benefit": "Rs 18,000 starting basic (Level 1); Rs 400 of fee refunded on appearing",
-   "window": "next CEN proposed Oct 2026 in RRB annual calendar (2025 cycle was Jan–Mar)",
+   "window": "varies by CEN (CEN 09/2025: 31 Jan–2 Mar 2026)",
    "windowMonths": [
-    10,
-    11
+    1,
+    2,
+    3
    ],
-   "nextExpected": "Oct 2026 (per RRB annual calendar)",
+   "nextExpected": "next Level 1 CEN not yet announced",
    "frequency": "annual",
    "official": "https://rrb.indianrailways.gov.in/",
    "resources": [
@@ -3273,19 +3275,19 @@ window.AVSAR_DATA = {
    ],
    "description": "Class-10-level recruitment for Level 1 posts across the Railways — the largest single government recruitment by number of vacancies. One computer-based test, then a physical efficiency test and a medical examination.",
    "officialExamPage": "https://rrb.indianrailways.gov.in/",
-   "status": "not-announced",
-   "statusNote": "Applications for CEN 08/2024 closed on 22 February 2025. No newer Level 1 CEN has been published.",
+   "status": "closed",
+   "statusNote": "Applications for CEN 09/2025 (Level 1, 22,195 vacancies) ran from 31 January to 2 March 2026 and have closed; the computer-based test is in progress. No newer Level 1 CEN has been published.",
    "notification": {
-    "title": "CEN 08/2024 — Detailed Centralised Employment Notification, Level 1 posts",
-    "date": "2025-01-23",
-    "cycle": "CEN 08/2024",
-    "current": false,
-    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments",
+    "title": "CEN 09/2025 — Detailed Centralised Employment Notice, Level 1 posts (22,195 vacancies)",
+    "date": "2026-01-31",
+    "cycle": "CEN 09/2025",
+    "current": true,
+    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1785986914371examsDocuments.pdf/examsDocuments",
     "embeddable": false
    },
    "application": {
-    "openingDate": "2025-01-23",
-    "closingDate": "2025-02-22",
+    "openingDate": "2026-01-31",
+    "closingDate": "2026-03-02",
     "url": "https://www.rrbapply.gov.in/"
    },
    "examDate": null,
@@ -3298,13 +3300,13 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "Class 10 pass, or an ITI certificate, or a National Apprenticeship Certificate",
-    "age": "18 to 33 years in CEN 08/2024, with relaxations for reserved categories",
+    "age": "18 to 33 years in the latest CEN 09/2025, reckoned as on 01.01.2026 (CEN 08/2024 allowed 18 to 36 years because of a one-time 3-year Covid-19 relaxation), with further relaxations for reserved categories",
     "other": "Indian citizen. Physical Efficiency Test and medical standards apply."
    },
    "fee": "₹500, of which ₹400 is refunded after appearing for the CBT (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
    "syllabus": {
     "title": "Official syllabus (Annexure of the Detailed CEN)",
-    "url": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1785986914371examsDocuments.pdf/examsDocuments",
     "source": "official",
     "verifiedAt": "2026-08-21"
    },
@@ -3316,14 +3318,26 @@ window.AVSAR_DATA = {
      "Then Physical Efficiency Test and document verification"
     ],
     "title": "Scheme of examination (inside the Detailed CEN)",
-    "url": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments"
+    "url": "https://rrb.indianrailways.gov.in/-/image/1785986914371examsDocuments.pdf/examsDocuments"
    },
    "pastPapers": [],
    "pastPapersNote": "RRBs do not publish previous question papers publicly.",
    "pastPapersPage": "https://rrb.indianrailways.gov.in/",
    "answerKeys": [],
    "answerKeysPage": "https://rrb.indianrailways.gov.in/",
-   "mockTests": []
+   "mockTests": [],
+   "extraNotifications": [
+    {
+     "title": "CEN 09/2025 — official FAQ",
+     "date": "2026-02-04",
+     "url": "https://rrb.indianrailways.gov.in/-/image/1770185990944FAQ_ENGLISH_092025.pdf/examsDocuments"
+    },
+    {
+     "title": "CEN 08/2024 — the previous Level 1 notice",
+     "date": "2025-01-22",
+     "url": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments"
+    }
+   ]
   },
   {
    "id": "rrb-alp",
@@ -3400,7 +3414,7 @@ window.AVSAR_DATA = {
     "age": "18 to 30 years in CEN 01/2026, with relaxations for reserved categories",
     "other": "Indian citizen. Medical standard A-1 — the strictest vision standard in the Railways."
    },
-   "fee": "₹500, of which ₹400 is refunded after appearing for CBT-1 (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
+   "fee": "₹500, of which ₹400 is refunded (less bank charges) after appearing for CBT-1; ₹250 for SC, ST, ex-servicemen, women, transgender, minority and Economically Backward Class candidates, refunded in full (less bank charges) on appearing for CBT-1",
    "syllabus": {
     "title": "Official syllabus (Annexure of the Detailed CEN)",
     "url": "https://rrb.indianrailways.gov.in/-/image/1780467818641detail_cen_01_2026_eng.pdf/examsDocuments",
@@ -3473,7 +3487,7 @@ window.AVSAR_DATA = {
     "title": "Recruitment of AAO (Generalist) 2025 — official notification",
     "date": "2025-08-16",
     "cycle": "2025",
-    "current": true,
+    "current": false,
     "pdfUrl": "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final",
     "embeddable": false
    },
@@ -3489,7 +3503,7 @@ window.AVSAR_DATA = {
     "closingDate": "2025-09-08",
     "url": "https://licindia.in/recruitment-of-aao-generalists/-specialists/-assistant-engineers-2025"
    },
-   "examDate": null,
+   "examDate": "2025-10-03",
    "expected": {
     "notificationDate": null,
     "closingDate": null,
@@ -3513,7 +3527,8 @@ window.AVSAR_DATA = {
     "summary": [
      "Preliminary: objective online test — Reasoning Ability, Quantitative Aptitude, English (qualifying)",
      "Main: objective online test plus a descriptive English paper",
-     "Then an interview and a pre-recruitment medical examination"
+     "Then an interview and a pre-recruitment medical examination",
+     "There is no negative marking in either examination, but you must qualify in each section separately. In the Preliminary only 70 of the 100 marks count (the English section is qualifying only), and the final merit list uses only the Main examination and interview marks"
     ],
     "title": "Scheme of selection (inside the official notification)",
     "url": "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final"
@@ -3780,7 +3795,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.joinindiannavy.gov.in/en/page/agniveer-ways-to-join.html"
    },
    "eligibility": {
-    "education": "Class 12 with Mathematics and Physics for Agniveer SSR; class 10 pass for Agniveer MR",
+    "education": "Agniveer SSR: 10+2 with Mathematics and Physics with a minimum 50% aggregate (or a 3-year engineering diploma, or a 2-year vocational course with Physics and Mathematics, each with 50% aggregate). Agniveer MR: Matriculation with a minimum 50% aggregate. Class 12 and class 10 candidates still awaiting results may apply but must produce the original marksheet at Stage II",
     "age": "17.5 to 21 years",
     "other": "Indian citizen. Physical fitness and medical standards apply; both men and women are eligible."
    },
@@ -3793,9 +3808,9 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Computer-based Indian Navy Entrance Test (INET), objective, with sectional qualifying marks",
-     "Then a Physical Fitness Test",
-     "Then a medical examination"
+     "Stage I: computer-based online examination (INET), or screening on marks obtained in the qualifying examination",
+     "Stage II: Written Examination, Physical Fitness Test and Recruitment Medical",
+     "Then induction and a final Recruitment Medical at INS Chilka, Odisha, followed by ab-initio training there and then at professional schools"
     ],
     "title": "Selection procedure — Agniveer SSR and MR",
     "url": "https://www.joinindiannavy.gov.in/en/page/selection-procedure-agniveer-ssr-and-agniveer-mr.html"
@@ -3815,8 +3830,8 @@ window.AVSAR_DATA = {
    "ageMin": 18,
    "ageMax": 28,
    "minEducation": "ug",
-   "feeINR": 750,
-   "benefit": "Rs 56,100 starting basic (Level 10); part of fee refunded on appearing",
+   "feeINR": 250,
+   "benefit": "Rs 56,100 minimum basic pay per month (Level 10 of the Pay Matrix) plus DA, HRA and Transport Allowance; second-class or sleeper-class rail fare is reimbursed for attending the interview",
    "window": "irregular, watch ISRO careers (2026 cycle: 28 Jul–17 Aug)",
    "windowMonths": [
     7,
@@ -3884,11 +3899,11 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.isro.gov.in/Careers.html"
    },
    "eligibility": {
-    "education": "BE / B.Tech or equivalent in the notified discipline with a first class and at least 65% marks or CGPA 6.84/10, plus a valid GATE score in recent cycles",
+    "education": "BE / B.Tech or equivalent in the notified discipline with an aggregate minimum of 65% marks (average of all semesters) or CGPA 6.84 on a 10-point scale, plus a valid GATE 2025 or GATE 2026 score in the paper prescribed for that discipline (Architecture also needs a valid Council of Architecture registration)",
     "age": "Up to 28 years, with relaxations for reserved categories",
     "other": "Indian citizen. Read the discipline-wise table in the advertisement."
    },
-   "fee": "₹750 in recent cycles, with a refund on appearing (a reduced or nil fee applies to women, SC/ST, PwBD and ex-servicemen candidates)",
+   "fee": "₹250, non-refundable (per Advertisement ISRO:ICRB:02(EMC-CEPO):2026 dated 28 July 2026)",
    "syllabus": {
     "title": "Requirements and selection procedure (inside the advertisement)",
     "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/GATE_Bilingual_Advertisement_2026_28072026.pdf",
@@ -3897,9 +3912,10 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Recent cycles shortlist on GATE score in the relevant paper",
-     "Shortlisted candidates attend a written test or a personal interview, as specified in the advertisement",
-     "The method is stated in each advertisement"
+     "Shortlisting for interview is in a 1:7 ratio on GATE Score (not GATE marks or GATE rank); a valid GATE 2025 or GATE 2026 score in the specified paper is mandatory",
+     "There is no written test in this advertisement — only a personal interview, marked out of 100: Technical (Academic) Knowledge 40, General Awareness in the specialisation 20, Presentation/Communication 20, Comprehension 10, Academic Achievements 10",
+     "Qualifying marks: 50% in GATE and 50% in the interview with a 60% aggregate for UR and EWS; 40% / 40% / 50% for SC, ST, OBC and PwBD where posts are reserved",
+     "The final panel weights GATE Score 50% and interview marks 50%"
     ],
     "title": "Selection procedure (inside the official advertisement)",
     "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/GATE_Bilingual_Advertisement_2026_28072026.pdf"
@@ -3969,7 +3985,7 @@ window.AVSAR_DATA = {
    "description": "CTET is an eligibility test, not a job. Clearing it makes you eligible to apply for teaching posts — the actual recruitment is done separately by KVS, NVS, state governments and schools. Paper I is for classes 1 to 5 and Paper II for classes 6 to 8. The certificate is valid for life.",
    "officialExamPage": "https://ctet.nic.in/",
    "status": "closed",
-   "statusNote": "Applications for CTET September 2026 closed on 10 June 2026. The examination is on 6 September 2026 — Paper II in the morning shift (09:30 to 12:00) and Paper I in the evening shift (14:30 to 17:00).",
+   "statusNote": "Applications for CTET September 2026 closed on 10 June 2026. The examination is on 6 September 2026 — Paper II in the morning shift (09:30 to 12:00) and Paper I in the evening shift (14:30 to 17:00). CBSE warns that if the number of candidates increases the examination may also be held on 5 September 2026 (Saturday). Results are expected by the end of October 2026.",
    "notification": {
     "title": "CTET September 2026 — Information Bulletin",
     "date": "2026-05-11",
@@ -3991,7 +4007,7 @@ window.AVSAR_DATA = {
     }
    ],
    "application": {
-    "openingDate": null,
+    "openingDate": "2026-05-11",
     "closingDate": "2026-06-10",
     "url": "https://ctet.nic.in/"
    },
@@ -6849,7 +6865,7 @@ window.AVSAR_DATA = {
    "description": "The Indian Air Force's officer-entry test for graduates, held twice a year as AFCAT 01 and AFCAT 02. Written test, then the Air Force Selection Board process.",
    "officialExamPage": "https://afcat.edcil.co.in/",
    "status": "exam-completed",
-   "statusNote": "AFCAT 02/2026 (for courses commencing July 2027) closed for applications on 19 June 2026 and the examination was held on 8 August 2026. The next cycle, AFCAT 01/2027, has not been notified yet.",
+   "statusNote": "AFCAT 02/2026 (for courses commencing July 2027) closed for applications on 21 June 2026, after the original 19 June deadline was extended, and the examination was held on 8 August 2026. The next cycle, AFCAT 01/2027, has not been notified yet.",
    "notification": {
     "title": "Notification for AFCAT 02/2026 — Flying Branch and Ground Duty (Technical and Non-Technical)",
     "date": "2026-05-20",
@@ -6867,7 +6883,7 @@ window.AVSAR_DATA = {
    ],
    "application": {
     "openingDate": "2026-05-20",
-    "closingDate": "2026-06-19",
+    "closingDate": "2026-06-21",
     "url": "https://afcat.edcil.co.in/"
    },
    "examDate": "2026-08-08",
@@ -6883,7 +6899,7 @@ window.AVSAR_DATA = {
     "age": "20 to 24 years for the Flying Branch (up to 26 with a valid commercial pilot licence) and 20 to 26 years for Ground Duty, reckoned as on the course commencement date",
     "other": "Candidates must be unmarried when the course begins. Both men and women are eligible."
    },
-   "fee": "₹550 (no fee for candidates applying only for NCC Special Entry or Meteorology)",
+   "fee": "₹550 plus 18% GST, non-refundable (no fee for candidates applying only through NCC Special Entry or GATE Score Entry)",
    "syllabus": {
     "title": "Official AFCAT syllabus (inside the notification)",
     "url": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2026/Notification%20for%20AFCAT%20Cycle%2002-2026.pdf",
@@ -6892,9 +6908,10 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "AFCAT: 100 questions, 300 marks, 2 hours — General Awareness, Verbal Ability, Numerical Ability, Reasoning and Military Aptitude",
-     "Negative marking of 1 mark per wrong answer",
-     "Ground Duty (Technical) candidates also take the EKT (Engineering Knowledge Test), 50 questions in 45 minutes",
+     "AFCAT: 100 questions, 300 marks, 2 hours — General Awareness, Verbal Ability in English, Numerical Ability and Reasoning and Military Aptitude Test",
+     "3 marks for a correct answer, 1 mark deducted for a wrong answer, nothing for un-attempted; marks are normalised across shifts",
+     "Ground Duty (Technical) candidates may instead apply through the GATE Score Entry, which is exempt from the AFCAT exam and goes straight to AFSB testing",
+     "NCC Special Entry is also exempt from the written exam and goes straight to AFSB testing",
      "Then the Air Force Selection Board (AFSB) testing and a medical examination"
     ],
     "title": "Examination pattern (inside the official notification)",
@@ -7150,7 +7167,7 @@ window.AVSAR_DATA = {
     "age": "20 to 25 years, with relaxations for reserved categories",
     "other": "Indian citizen. Physical standards, endurance tests and a detailed medical examination apply."
    },
-   "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
+   "fee": "₹100 (women, SC/ST and ex-servicemen candidates are exempt; PwBD candidates are NOT exempt for this examination)",
    "syllabus": {
     "title": "Official CPO syllabus (Annexure of the notice)",
     "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_capf_2025.pdf",
@@ -7445,11 +7462,11 @@ window.AVSAR_DATA = {
     "embeddable": false
    },
    "application": {
-    "openingDate": null,
-    "closingDate": null,
+    "openingDate": "2026-03-11",
+    "closingDate": "2026-03-31",
     "url": "https://upsconline.gov.in/"
    },
-   "examDate": null,
+   "examDate": "2026-08-02",
    "expected": {
     "notificationDate": "2027-03-03",
     "closingDate": "2027-03-23",
@@ -7471,10 +7488,11 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Computer-based examination in two papers of 250 marks each (2 hours each)",
-     "Paper I: General Medicine and Paediatrics",
-     "Paper II: Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine",
-     "Then a Personality Test of 100 marks"
+     "Written examination of 500 marks in two papers of 250 marks each, 2 hours each, both entirely objective (multiple choice); question papers are set in English only",
+     "Paper I: General Medicine and Paediatrics (120 questions: 96 General Medicine, 24 Paediatrics)",
+     "Paper II: Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine (120 questions, 40 from each part)",
+     "Then a Personality Test of 100 marks",
+     "Negative marking: one third of the marks for a wrong answer; no penalty for a blank"
     ],
     "title": "Scheme of examination (inside the official notification)",
     "url": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf"
@@ -7571,7 +7589,7 @@ window.AVSAR_DATA = {
    "statusNote": "IFoS 2026 is over. The next notification, for IFoS 2027 (through the CSE Preliminary Examination 2027), is scheduled for 13 January 2027 in the official UPSC Annual Calendar 2027.",
    "notification": {
     "title": "Indian Forest Service (Preliminary) Examination, 2026 through CS(P) Examination, 2026 — notification",
-    "date": "2026-02-06",
+    "date": "2026-02-04",
     "cycle": "2026",
     "current": false,
     "pdfUrl": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
@@ -7719,7 +7737,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
    },
    "eligibility": {
-    "education": "For IES: a postgraduate degree in Economics, Applied Economics, Business Economics or Econometrics. For ISS: a bachelor's or master's degree with Statistics as a subject",
+    "education": "For IES: a postgraduate degree in Economics, Applied Economics, Business Economics or Econometrics. For ISS: a bachelor's degree with Statistics, Mathematical Statistics or Applied Statistics as a subject studied in all years of the course, or a master's degree in Statistics, Mathematical Statistics or Applied Statistics",
     "age": "21 to 30 years, with relaxations for reserved categories",
     "other": "Indian citizen."
    },
@@ -7732,7 +7750,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Written examination over 3 days: General English and General Studies (100 marks each), plus 3 subject papers for IES or 4 for ISS (200 marks each)",
+     "Written examination of 1000 marks over 3 days: General English and General Studies (100 marks each, 3 hours each), plus 4 subject papers of 200 marks each (IES: General Economics I, II and III plus Indian Economics; ISS: Statistics I to IV, with I and II objective)",
      "Then a viva voce of 200 marks"
     ],
     "title": "Scheme of examination (inside the official notification)",
@@ -7971,18 +7989,25 @@ window.AVSAR_DATA = {
      "title": "Official SSC mock test link for Stenographer candidates",
      "url": "https://ssc.gov.in/mock-link-for-candidates-of-steno"
     }
+   ],
+   "extraNotifications": [
+    {
+     "title": "SSC notice dated 12 August 2026 — approved examination schedule",
+     "date": "2026-08-12",
+     "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_12082026.pdf"
+    }
    ]
   },
   {
    "id": "ssc-jht",
    "name": "SSC Junior Hindi Translator (Combined Hindi Translators Examination)",
    "category": "gov-job",
-   "ageMin": null,
+   "ageMin": 18,
    "ageMax": 30,
    "minEducation": "pg",
    "feeINR": 100,
    "oneLiner": "Junior Hindi Translator and allied translation posts across central ministries: one objective paper plus a descriptive translation paper.",
-   "benefit": "Rs 35,400 starting basic (Level 6)",
+   "benefit": "Rs 35,400–44,900 starting basic depending on post (Level 6–7)",
    "window": "typically Apr–May (2026: 23 Apr–14 May)",
    "windowMonths": [
     4,
@@ -8036,8 +8061,8 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_12082026.pdf"
    },
    "eligibility": {
-    "education": "Master's degree in Hindi with English as a subject at degree level, or the equivalent combination set out in the notice, plus a recognised translation qualification for some posts",
-    "age": "Up to 30 years, with relaxations for reserved categories",
+    "education": "Master's degree in Hindi with English as a subject at degree level, or the equivalent combination set out in the notice, AND (for every post) either a recognised diploma or certificate course in Hindi-English translation or two years of translation experience in a Central or State Government office (three years for the Senior Translator posts)",
+    "age": "18 to 30 years, with relaxations for reserved categories",
     "other": "Indian citizen."
    },
    "fee": "₹100 (women, SC/ST, PwBD and ex-servicemen candidates are exempt)",
@@ -8061,7 +8086,14 @@ window.AVSAR_DATA = {
    "answerKeys": [],
    "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
    "answerKeysPage": "https://ssc.gov.in/",
-   "mockTests": []
+   "mockTests": [],
+   "extraNotifications": [
+    {
+     "title": "SSC notice dated 12 August 2026 — approved examination schedule",
+     "date": "2026-08-12",
+     "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_12082026.pdf"
+    }
+   ]
   },
   {
    "id": "rrb-technician",
@@ -8128,7 +8160,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=02/2026&loc=chandigarh&category=Notification"
    },
    "eligibility": {
-    "education": "For Technician Grade I Signal: a diploma or degree in the relevant engineering branch. For Technician Grade III: class 10 plus an ITI certificate in a notified trade",
+    "education": "For Technician Grade I Signal: a B.Sc. in Physics, Electronics, Computer Science, IT or Instrumentation, or a three-year Diploma or a Degree in Engineering in those streams. For Technician Grade III: class 10 (Matriculation/SSLC) plus an ITI certificate from NCVT/SCVT in a notified trade, or a Course Completed Act Apprenticeship in that trade (an engineering diploma or degree is NOT accepted in lieu of ITI/apprenticeship for Grade III)",
     "age": "18 to 33 years for Grade I and 18 to 30 for Grade III in CEN 02/2026, with relaxations for reserved categories",
     "other": "Indian citizen. Medical fitness standards apply."
    },
@@ -8141,8 +8173,9 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Single-stage computer-based test for most technician posts",
-     "General Awareness, General Intelligence & Reasoning, Basic Science & Engineering, Mathematics",
+     "One computer-based test only, held separately for each pay level: 100 questions, 90 minutes",
+     "Technician Grade III (6,234 of the 6,557 vacancies): Mathematics 25, General Intelligence & Reasoning 25, General Science 40, General Awareness 10",
+     "Technician Grade I Signal: Basic Science & Engineering 35, Basics of Computers & Applications 20, Mathematics 20, General Intelligence & Reasoning 15, General Awareness 10",
      "Negative marking of 1/3 mark per wrong answer",
      "Then document verification and medical examination"
     ],
@@ -8166,9 +8199,12 @@ window.AVSAR_DATA = {
    "feeINR": 500,
    "oneLiner": "Junior Engineer, Depot Material Superintendent and Chemical & Metallurgical Assistant posts in the Railways, for diploma and degree engineers.",
    "benefit": "Rs 35,400 starting basic (Level 6) plus railway allowances",
-   "window": "varies by CEN (CEN 05/2025 opened Oct 2025)",
-   "windowMonths": [],
-   "nextExpected": "next Junior Engineer CEN not yet announced",
+   "window": "varies by CEN (CEN 04/2026: 14 Aug–13 Sep 2026)",
+   "windowMonths": [
+    8,
+    9
+   ],
+   "nextExpected": "open now — CEN 04/2026 closes 13 Sep 2026",
    "frequency": "varies (per CEN)",
    "official": "https://rrb.indianrailways.gov.in/",
    "tags": [
@@ -8191,26 +8227,36 @@ window.AVSAR_DATA = {
    ],
    "description": "Recruits diploma and degree engineers as Junior Engineers and allied technical supervisors in the Railways. Two computer-based tests, then document verification and a medical examination.",
    "officialExamPage": "https://rrb.indianrailways.gov.in/",
-   "status": "not-announced",
-   "statusNote": "The application window for CEN 05/2025 has closed and that examination is in progress. No newer Junior Engineer CEN has been published.",
+   "status": "open",
+   "statusNote": "CEN 04/2026 for Junior Engineer and Depot Material Superintendent posts is open now: applications from 14 August to 13 September 2026 (23:59), with fee payment allowed until 15 September 2026. The earlier CEN 05/2025 examination is still in progress.",
    "notification": {
-    "title": "CEN 05/2025 — Detailed Centralised Employment Notification, JE / DMS / CMA",
-    "date": "2025-10-28",
-    "cycle": "CEN 05/2025",
-    "current": false,
-    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments",
+    "title": "CEN 04/2026 — Detailed Centralised Employment Notice, Junior Engineer and Depot Material Superintendent",
+    "date": "2026-08-13",
+    "cycle": "CEN 04/2026",
+    "current": true,
+    "pdfUrl": "https://rrb.indianrailways.gov.in/-/image/1787058904504CEN_04_2026_JE_DMS_English.pdf/examsDocuments",
     "embeddable": false
    },
    "extraNotifications": [
     {
-     "title": "CEN 05/2025 — official FAQ",
-     "date": "2025-10-30",
-     "url": "https://rrb.indianrailways.gov.in/-/image/1762325433847FAQs_CEN_05_2025_JE_English.pdf/examsDocuments"
+     "title": "CEN 04/2026 — Corrigendum No. 1",
+     "date": "2026-08-18",
+     "url": "https://rrb.indianrailways.gov.in/-/image/1787108023956Corrigendum_1_CEN_04-2026.pdf/examsDocuments"
+    },
+    {
+     "title": "CEN 04/2026 — official FAQ",
+     "date": "2026-08-13",
+     "url": "https://rrb.indianrailways.gov.in/-/image/1787147535897FAQs_CEN_04_2026__JE_DMS_English.pdf/examsDocuments"
+    },
+    {
+     "title": "CEN 05/2025 — the previous Junior Engineer notice (examination in progress)",
+     "date": "2025-10-28",
+     "url": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments"
     }
    ],
    "application": {
-    "openingDate": null,
-    "closingDate": null,
+    "openingDate": "2026-08-14",
+    "closingDate": "2026-09-13",
     "url": "https://www.rrbapply.gov.in/"
    },
    "examDate": null,
@@ -8222,14 +8268,14 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://rrb.indianrailways.gov.in/getdata?cennum=05/2025&loc=chandigarh&category=Notification"
    },
    "eligibility": {
-    "education": "Diploma or degree in the relevant engineering branch; B.Sc. with specified subjects for some CMA and DMS posts",
+    "education": "Three-year Diploma in the relevant engineering branch for Junior Engineer posts (a B.E./B.Tech in the same discipline is accepted in lieu of the diploma); a three-year Diploma in Engineering in ANY discipline for Depot Material Superintendent; a B.Sc. in Physics and Chemistry with at least 45% marks for Chemical & Metallurgical Assistant",
     "age": "18 to 33 years in CEN 05/2025, with relaxations for reserved categories",
     "other": "Indian citizen. Medical fitness standards apply."
    },
    "fee": "₹500, of which ₹400 is refunded after appearing for CBT-1 (₹250 for SC/ST/ex-servicemen/PwBD/women/minority/EBC candidates, fully refunded)",
    "syllabus": {
     "title": "Official syllabus (Annexure of the Detailed CEN)",
-    "url": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments",
+    "url": "https://rrb.indianrailways.gov.in/-/image/1787058904504CEN_04_2026_JE_DMS_English.pdf/examsDocuments",
     "source": "official",
     "verifiedAt": "2026-08-21"
    },
@@ -8241,7 +8287,7 @@ window.AVSAR_DATA = {
      "Then document verification and medical examination"
     ],
     "title": "Scheme of examination (inside the Detailed CEN)",
-    "url": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments"
+    "url": "https://rrb.indianrailways.gov.in/-/image/1787058904504CEN_04_2026_JE_DMS_English.pdf/examsDocuments"
    },
    "pastPapers": [],
    "pastPapersNote": "RRBs do not publish previous question papers publicly.",
@@ -8295,7 +8341,7 @@ window.AVSAR_DATA = {
    "statusNote": "Registration for CRP SPL-XVI closed on 21 July 2026. The preliminary examination was scheduled for August 2026 and the main examination for November 2026.",
    "notification": {
     "title": "Notification for Common Recruitment Process CRP SPL-XVI",
-    "date": "2026-06-30",
+    "date": "2026-07-01",
     "cycle": "CRP SPL-XVI",
     "current": true,
     "pdfUrl": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
@@ -8316,7 +8362,7 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "A professional degree matching the post — for example a four-year engineering degree in IT or Computer Science for IT Officer, or a degree in Agriculture for Agricultural Field Officer",
-    "age": "20 to 30 years, with relaxations for reserved categories",
+    "age": "20 to 30 years as on 1 July 2026 (born between 2 July 1996 and 1 July 2006, both inclusive), with relaxations for reserved categories",
     "other": "Indian citizen. Requirements differ post by post; read the notification."
    },
    "fee": "₹850 including GST (₹175 for SC/ST/PwBD candidates)",
@@ -8329,7 +8375,7 @@ window.AVSAR_DATA = {
    "examPattern": {
     "summary": [
      "Preliminary: objective online test with sectional timing (differs between Law/Rajbhasha and the other posts)",
-     "Main: a professional-knowledge paper of 60 questions and 60 marks",
+     "Main: 150 questions, 200 marks, 125 minutes, with Professional Knowledge worth 50 questions and 100 marks, plus a 2-question 25-mark descriptive paper in 30 minutes; only the Professional Knowledge score counts for merit",
      "Then an interview; final merit is 80:20 between the main exam and interview"
     ],
     "title": "Structure of examination (inside the official notification)",
@@ -8342,7 +8388,7 @@ window.AVSAR_DATA = {
    "answerKeysPage": "https://www.ibps.in/",
    "mockTests": [
     {
-     "title": "Official IBPS online mock test",
+     "title": "Official IBPS online practice test (common to all IBPS recruitment processes)",
      "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
     }
    ]
@@ -8434,7 +8480,7 @@ window.AVSAR_DATA = {
    "answerKeysPage": "https://www.ibps.in/",
    "mockTests": [
     {
-     "title": "Official IBPS online mock test",
+     "title": "Official IBPS online practice test (common to all IBPS recruitment processes)",
      "url": "https://www4.digialm.com/OnlineAssessment/index.html?167@@M152"
     }
    ]
@@ -8622,7 +8668,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 1000,
    "oneLiner": "Officer Grade A (Assistant Manager) at India's securities market regulator, across General, Legal, IT, Research, Official Language and Engineering streams.",
-   "benefit": "Rs 44,500 starting basic; CTC over Rs 17 lakh a year per SEBI",
+   "benefit": "Rs 62,500 starting basic; gross about Rs 1,84,000/month at Mumbai without accommodation (Rs 1,43,000/month with accommodation)",
    "window": "varies year to year (2025 cycle: 30 Oct–28 Nov)",
    "windowMonths": [
     10,
@@ -8655,7 +8701,7 @@ window.AVSAR_DATA = {
     "title": "Recruitment of Officer Grade A (Assistant Manager) 2025 — official advertisement",
     "date": "2025-10-30",
     "cycle": "2025",
-    "current": true,
+    "current": false,
     "pdfUrl": "https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf",
     "embeddable": false
    },
@@ -8664,7 +8710,7 @@ window.AVSAR_DATA = {
     "closingDate": "2025-11-28",
     "url": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes"
    },
-   "examDate": null,
+   "examDate": "2026-01-10",
    "expected": {
     "notificationDate": null,
     "closingDate": null,
@@ -8674,10 +8720,10 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "A degree matching the stream applied for — for example any bachelor's degree plus a postgraduate qualification for the General stream, LL.B. for Legal, or an engineering degree for the IT and Engineering streams",
-    "age": "Up to 30 years for General category candidates, with relaxations for reserved categories",
+    "age": "Up to 30 years as on 30 September 2025 (born on or after 1 October 1995), with relaxations for reserved categories (5 years SC/ST, 3 years OBC)",
     "other": "Indian citizen. Read the stream-wise table in the advertisement."
    },
-   "fee": "As stated in the advertisement (a reduced fee applies to SC/ST/PwBD candidates)",
+   "fee": "₹1,000 plus 18% GST, non-refundable (₹100 plus 18% GST for SC/ST/PwBD candidates); a separate fee is payable for each stream you apply to",
    "syllabus": {
     "title": "Official syllabus and scheme (inside the advertisement)",
     "url": "https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf",
@@ -8688,7 +8734,8 @@ window.AVSAR_DATA = {
     "summary": [
      "Phase I: on-line screening examination in two papers of 100 marks each",
      "Phase II: on-line main examination in two papers of 100 marks each",
-     "Phase III: interview"
+     "Phase III: interview",
+     "Negative marking of 1/4 of the marks assigned applies to objective questions in both phases. Final selection weights Phase II at 85% and the interview at 15%; Phase I marks do not count toward final selection"
     ],
     "title": "Scheme of examination (inside the official advertisement)",
     "url": "https://www.sebi.gov.in/sebi_data/careerfiles/oct-2025/1761782417659.pdf"
@@ -8704,10 +8751,10 @@ window.AVSAR_DATA = {
    "id": "gic-assistant-manager",
    "name": "GIC Re Assistant Manager (Scale I Officer)",
    "category": "gov-job",
-   "ageMin": null,
-   "ageMax": null,
+   "ageMin": 21,
+   "ageMax": 30,
    "minEducation": "ug",
-   "feeINR": null,
+   "feeINR": 1000,
    "oneLiner": "Assistant Manager (Scale I) at GIC Re, India's national reinsurer. Recruited only when vacancies arise, not on an annual calendar.",
    "benefit": "Rs 50,925 starting basic (Scale I) plus allowances",
    "window": "no fixed window (last drive: 4 Dec–19 Dec 2024)",
@@ -8758,10 +8805,10 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "A degree matching the stream — for example any graduate degree for the generalist stream, MBBS for medical, or a relevant professional qualification for actuarial, legal, IT and finance streams",
-    "age": "As on the date given in the advertisement (1 November 2024 in the last drive)",
+    "age": "21 to 30 years as on 1 November 2024 in the last drive (born between 2 November 1994 and 1 November 2003), with relaxations capped so that the maximum age does not exceed 45 years",
     "other": "Indian citizen. Each advertisement sets its own stream-wise eligibility."
    },
-   "fee": "As stated in the advertisement (a reduced fee applies to SC/ST/PwBD candidates)",
+   "fee": "₹1,000 plus 18% GST, non-refundable. SC/ST candidates, PH candidates, female candidates and employees of GIC and GIPSA member companies pay nothing at all",
    "syllabus": {
     "title": "Official information handout for the written examination",
     "url": "https://www.gicre.in/images/2024/pdf/Recruitment_2024_Written_Examination_Information_Handout_English.pdf",
@@ -8872,9 +8919,9 @@ window.AVSAR_DATA = {
    "ageMin": null,
    "ageMax": 45,
    "minEducation": "ug",
-   "feeINR": null,
+   "feeINR": 100,
    "oneLiner": "Scientist posts in DRDO's Defence Research & Development Service — Scientist 'B' through GATE, senior grades through lateral recruitment with experience.",
-   "benefit": "Rs 56,100 starting basic for Scientist 'B' (Level 10), higher for senior grades",
+   "benefit": "Rs 67,700 basic (Level 11) for Scientist 'C', Rs 78,800 (Level 12) for Scientist 'D' and Rs 1,23,100 (Level 13) for Scientist 'E' in Advertisement 157",
    "window": "no fixed window (Advt 157: 30 May–19 Jun 2026)",
    "windowMonths": [],
    "nextExpected": "watch the RAC website; DRDO has no fixed annual date",
@@ -8940,7 +8987,7 @@ window.AVSAR_DATA = {
     "age": "Up to 35 years for Scientist 'C' and up to 45 years for Scientist 'D' and 'E' in Advertisement 157, reckoned on the closing date",
     "other": "Indian citizen. DRDO also runs separate CEPTAM recruitment for technical and administrative cadres."
    },
-   "fee": "As stated in each advertisement (SC/ST/PwBD and women candidates are usually exempt)",
+   "fee": "₹100 in Advertisement 157, non-refundable and non-transferable, payable online only by General, OBC and EWS male candidates; no fee for SC/ST/Divyang and women candidates",
    "syllabus": {
     "title": "Requirements and selection procedure (inside the advertisement)",
     "url": "https://rac.gov.in/download/advt_157.pdf",
@@ -8949,9 +8996,12 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Scientist 'B': shortlisting on GATE score, then a personal interview",
-     "Scientist 'C', 'D' and 'E': screening of applications, then a personal interview",
-     "Some cycles add a written screening test — the method is stated in each advertisement"
+     "Scientist 'B' (separate advertisements): shortlisting on GATE score, then a personal interview",
+     "Advertisement 157 (Scientist C, D and E lateral entry): administrative screening of identity, age, qualifications and length of experience, then biodata-based Technical Screening by an independent committee",
+     "If too many clear that stage, a Preliminary Online Interview of 10 to 15 minutes is held, shortlisting up to 24 candidates per post to up to 12 for the final interview",
+     "Final Personal Interview must be attended in person at RAC, Delhi — no online option — and final selection is purely on those marks",
+     "A candidate must score at least 75 out of 100 in the Final Personal Interview to be considered for selection",
+     "There is no written test in Advertisement 157"
     ],
     "title": "Selection procedure (inside the advertisement)",
     "url": "https://rac.gov.in/download/advt_157.pdf"
@@ -8968,14 +9018,17 @@ window.AVSAR_DATA = {
    "name": "CSIR recruitment (headquarters and laboratories)",
    "category": "gov-job",
    "ageMin": null,
-   "ageMax": null,
-   "minEducation": "ug",
-   "feeINR": null,
-   "oneLiner": "CSIR has no single national exam — its 37 laboratories and headquarters advertise scientist, technical and administrative posts separately, each with its own deadline.",
-   "benefit": "Varies by post; scientist posts start at Level 11 or above",
-   "window": "rolling — advertisements appear through the year",
-   "windowMonths": [],
-   "nextExpected": "see the CSIR recruitment listing for live advertisements",
+   "ageMax": 28,
+   "minEducation": "10th",
+   "feeINR": 500,
+   "oneLiner": "CSIR has no single national exam — its 37 laboratories and headquarters advertise separately. Live now: 43 Technician posts at CSIR headquarters, open to class 10 with ITI.",
+   "benefit": "Rs 19,900–63,200 (Pay Level 2) for the Technician posts open now",
+   "window": "rolling — advertisements appear through the year (R&A/01/2026: 18 Aug–17 Sep 2026)",
+   "windowMonths": [
+    8,
+    9
+   ],
+   "nextExpected": "open now — Technician (1) closes 17 Sep 2026",
    "frequency": "rolling",
    "official": "https://www.csir.res.in/career-opportunities/recruitment",
    "tags": [
@@ -9001,19 +9054,20 @@ window.AVSAR_DATA = {
    "description": "CSIR does not run one nationwide annual exam. Its 37 laboratories and its headquarters advertise posts separately, each with its own notification, deadline and selection method. Watch the central recruitment listing for the live advertisements.",
    "officialExamPage": "https://www.csir.res.in/career-opportunities/recruitment",
    "status": "open",
-   "statusNote": "CSIR headquarters advertisement R&A/01/2026 for Group-II and Technician posts is open, with a last date of 17 September 2026. Other laboratory advertisements are listed on the same page with their own deadlines.",
+   "statusNote": "CSIR headquarters advertisement R&A/01/2026 is open for 43 Technician (1) posts (Group C, Pay Level 2): applications from 18 August to 17 September 2026 (17:00). CSIR has no single national exam — its 37 laboratories and its headquarters advertise separately, and other live advertisements are listed on the same page with their own deadlines.",
    "notification": {
-    "title": "Recruitment for Group-II and Technician posts at CSIR headquarters — advertisement R&A/01/2026",
-    "date": "2026-08-01",
+    "title": "Advertisement R&A/01/2026 — Recruitment to the post of Technician (1), 43 posts at CSIR headquarters",
+    "date": null,
     "cycle": "R&A/01/2026",
     "current": true,
-    "pdfUrl": "https://www.csir.res.in/sites/default/files/2026-08/gr_ii_advertisement-hindi.pdf",
-    "embeddable": null
+    "pdfUrl": "https://www.csir.res.in/sites/default/files/2026-08/gr._ii_advertisement.pdf",
+    "embeddable": false,
+    "pdf": "https://www.csir.res.in/sites/default/files/2026-08/gr._ii_advertisement.pdf"
    },
    "application": {
-    "openingDate": null,
+    "openingDate": "2026-08-18",
     "closingDate": "2026-09-17",
-    "url": "https://www.csir.res.in/career-opportunities/recruitment"
+    "url": "https://recruitment.csir.res.in/"
    },
    "examDate": null,
    "expected": {
@@ -9024,8 +9078,8 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.csir.res.in/career-opportunities/recruitment"
    },
    "eligibility": {
-    "education": "Set post by post in each advertisement — a PhD or master's degree for scientist posts, a diploma or degree for technical posts, and graduation for administrative posts",
-    "age": "Set in each advertisement",
+    "education": "For the live advertisement R&A/01/2026 (Technician (1), 43 posts): class 10 / SSC or equivalent with Science subjects and at least 55% marks, plus an ITI certificate or National / State Trade Certificate in the relevant trade (COPA, DTPO, CH&NM, MLT, Draughtsman, Instrument Mechanic, LACP and others) — or, in place of the ITI certificate, 2 years as an apprentice trainee or 3 years of work experience in that trade in a government body",
+    "age": "Upper age limit 28 years as on the closing date (17/09/2026) in advertisement R&A/01/2026, with relaxation of 5 years for SC/ST, 3 years for OBC (Non-Creamy Layer) and 10 years for PwBD",
     "other": "CSIR-UGC NET is a separate national test for research fellowships and lectureship, not a CSIR staff recruitment."
    },
    "fee": "Set in each advertisement (SC/ST/PwBD and women candidates are usually exempt)",
@@ -9037,9 +9091,13 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "There is no single CSIR examination",
-     "Selection is usually by a written or trade test and an interview, as stated in the advertisement",
-     "Some laboratory posts are filled by walk-in interview"
+     "Advertisement R&A/01/2026 (Technician (1)): applications screened by a Screening Committee, then a qualifying Trade Test, then a competitive written examination",
+     "Written exam is OMR or computer-based objective MCQ: 150 questions, 2 hours 30 minutes total, standard SSC+ITI / class 12",
+     "Paper-I (1 hour): Mental Ability Test, 50 questions, 100 marks, 2 marks per correct answer, NO negative marking",
+     "Paper-II (30 minutes): General Awareness 25 questions / 75 marks and English Language 25 questions / 75 marks, 3 marks per correct answer, minus 1 per wrong answer",
+     "Paper-III (1 hour): Concerned Subject, 50 questions, 150 marks, 3 marks per correct answer, minus 1 per wrong answer",
+     "Paper-II and Paper-III are evaluated only if Paper-I clears the threshold, and the final merit list is prepared from Paper-II and Paper-III marks only",
+     "There is no interview for this advertisement"
     ],
     "title": "CSIR recruitment listing",
     "url": "https://www.csir.res.in/career-opportunities/recruitment"
@@ -9049,7 +9107,14 @@ window.AVSAR_DATA = {
    "pastPapersPage": "https://www.csir.res.in/career-opportunities/recruitment",
    "answerKeys": [],
    "answerKeysPage": "https://www.csir.res.in/career-opportunities/recruitment",
-   "mockTests": []
+   "mockTests": [],
+   "extraNotifications": [
+    {
+     "title": "Advertisement R&A/01/2026 — Hindi version",
+     "date": null,
+     "url": "https://www.csir.res.in/sites/default/files/2026-08/gr_ii_advertisement-hindi.pdf"
+    }
+   ]
   },
   {
    "id": "aiims-norcet",

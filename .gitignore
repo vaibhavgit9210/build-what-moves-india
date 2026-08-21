@@ -1,0 +1,5 @@
+# wrangler's local cache records the Cloudflare account id and login email; this repo is public
+.wrangler/
+node_modules/
+# the internal build brief is not part of the product
+Avsar.md
