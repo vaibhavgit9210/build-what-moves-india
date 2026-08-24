@@ -1,7 +1,31 @@
 {
- "checkedAt": "2026-08-21T12:24:16Z",
+ "checkedAt": "2026-08-24T04:27:21Z",
  "urlsChecked": 517,
  "badLinks": [
+  {
+   "id": "jee-main",
+   "kind": "resource",
+   "url": "https://josaa.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "jee-advanced",
+   "kind": "resource",
+   "url": "https://josaa.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "gate",
+   "kind": "official",
+   "url": "https://gate2027.iitm.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "kcet",
+   "kind": "official",
+   "url": "https://cetonline.karnataka.gov.in",
+   "note": "URLError"
+  },
   {
    "id": "kcet",
    "kind": "resource",
@@ -9,21 +33,615 @@
    "note": "URLError"
   },
   {
-   "id": "great-scholarships-india",
+   "id": "ap-eapcet",
    "kind": "resource",
-   "url": "https://www.britishcouncil.in/study-uk/scholarships/great-scholarships",
-   "note": "timeout"
-  },
-  {
-   "id": "ndli",
-   "kind": "official",
-   "url": "https://ndl.iitkgp.ac.in",
+   "url": "https://apsche.ap.gov.in",
    "note": "URLError"
   },
   {
-   "id": "diksha",
+   "id": "tg-eapcet",
+   "kind": "official",
+   "url": "https://eapcet.tgche.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cse",
+   "kind": "official",
+   "url": "https://upsc.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cse",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-ese",
+   "kind": "official",
+   "url": "https://upsc.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-ese",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cds",
+   "kind": "official",
+   "url": "https://upsc.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cds",
    "kind": "resource",
-   "url": "https://ndl.iitkgp.ac.in",
+   "url": "https://joinindianarmy.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cds",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-nda",
+   "kind": "official",
+   "url": "https://upsc.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-nda",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-capf-ac",
+   "kind": "official",
+   "url": "https://upsc.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-capf-ac",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "official",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "resource",
+   "url": "https://www.rrbapply.gov.in",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "resource",
+   "url": "https://indianrailways.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "officialWebsite",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "officialExamPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "pastPapersPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "answerKeysPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "notification",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1762325548056Detailed_CEN_06_2025_English_com_(1).pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "application",
+   "url": "https://www.rrbapply.gov.in/",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "syllabus",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1762325548056Detailed_CEN_06_2025_English_com_(1).pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "examPattern",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1762325548056Detailed_CEN_06_2025_English_com_(1).pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "official",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "resource",
+   "url": "https://www.rrbapply.gov.in",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "resource",
+   "url": "https://indianrailways.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "officialWebsite",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "officialExamPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "pastPapersPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "answerKeysPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "notification",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1785986914371examsDocuments.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "notification-extra",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1770185990944FAQ_ENGLISH_092025.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "notification-extra",
+   "url": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "application",
+   "url": "https://www.rrbapply.gov.in/",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "syllabus",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1785986914371examsDocuments.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "examPattern",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1785986914371examsDocuments.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "expected-source",
+   "url": "https://rrb.indianrailways.gov.in/getdata?cennum=08/2024&loc=chandigarh&category=Notification",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "official",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "resource",
+   "url": "https://www.rrbapply.gov.in",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "resource",
+   "url": "https://indianrailways.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "officialWebsite",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "officialExamPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "pastPapersPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "answerKeysPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "application",
+   "url": "https://www.rrbapply.gov.in/",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "expected-source",
+   "url": "https://rrb.indianrailways.gov.in/getdata?cennum=01/2026&loc=chandigarh&category=Notification",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "official",
+   "url": "https://joinindianarmy.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "resource",
+   "url": "https://joinindianarmy.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "officialWebsite",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "officialExamPage",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "pastPapersPage",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "answerKeysPage",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "application",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "syllabus",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "examPattern",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-army",
+   "kind": "expected-source",
+   "url": "https://joinindianarmy.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "official",
+   "url": "https://agnipathvayu.cdac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "resource",
+   "url": "https://agnipathvayu.cdac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "officialWebsite",
+   "url": "https://agnipathvayu.cdac.in/AV/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "officialExamPage",
+   "url": "https://agnipathvayu.cdac.in/AV/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "pastPapersPage",
+   "url": "https://agnipathvayu.cdac.in/AV/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "answerKeysPage",
+   "url": "https://agnipathvayu.cdac.in/AV/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "application",
+   "url": "https://agnipathvayu.cdac.in/AV/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "syllabus",
+   "url": "https://agnipathvayu.cdac.in/AV/eligibilityCriteria",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "examPattern",
+   "url": "https://agnipathvayu.cdac.in/AV/eligibilityCriteria",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "expected-source",
+   "url": "https://agnipathvayu.cdac.in/AV/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-airforce",
+   "kind": "past-paper",
+   "url": "https://agnipathvayu.cdac.in/AV/img/rally/AV_Musician_MODEL_QP.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "official",
+   "url": "https://www.joinindiannavy.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "resource",
+   "url": "https://www.joinindiannavy.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "officialWebsite",
+   "url": "https://www.joinindiannavy.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "officialExamPage",
+   "url": "https://www.joinindiannavy.gov.in/en/page/agniveer-ways-to-join.html",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "pastPapersPage",
+   "url": "https://www.joinindiannavy.gov.in/en/page/agniveer-ways-to-join.html",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "answerKeysPage",
+   "url": "https://www.joinindiannavy.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "application",
+   "url": "https://agniveer.navydmpr.in/sailorscycle5/signUp",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "syllabus",
+   "url": "https://www.joinindiannavy.gov.in/en/page/agniveer-ssr.html",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "examPattern",
+   "url": "https://www.joinindiannavy.gov.in/en/page/selection-procedure-agniveer-ssr-and-agniveer-mr.html",
+   "note": "URLError"
+  },
+  {
+   "id": "agniveer-navy",
+   "kind": "expected-source",
+   "url": "https://www.joinindiannavy.gov.in/en/page/agniveer-ways-to-join.html",
+   "note": "URLError"
+  },
+  {
+   "id": "isro-icrb",
+   "kind": "resource",
+   "url": "https://gate2027.iitm.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "pastPapersPage",
+   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "answerKeysPage",
+   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "note": "URLError"
+  },
+  {
+   "id": "ugc-net",
+   "kind": "resource",
+   "url": "https://epgp.inflibnet.ac.in",
+   "note": "http 401"
+  },
+  {
+   "id": "post-matric-sc",
+   "kind": "resource",
+   "url": "https://socialjustice.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "post-matric-minorities",
+   "kind": "resource",
+   "url": "https://www.minorityaffairs.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "aicte-pragati",
+   "kind": "official",
+   "url": "https://www.aicte-india.org",
+   "note": "URLError"
+  },
+  {
+   "id": "aicte-pragati",
+   "kind": "resource",
+   "url": "https://www.aicte-india.org",
+   "note": "URLError"
+  },
+  {
+   "id": "aicte-saksham",
+   "kind": "official",
+   "url": "https://www.aicte-india.org",
+   "note": "URLError"
+  },
+  {
+   "id": "aicte-saksham",
+   "kind": "resource",
+   "url": "https://www.aicte-india.org",
+   "note": "URLError"
+  },
+  {
+   "id": "pm-yasasvi",
+   "kind": "resource",
+   "url": "https://socialjustice.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "inspire-she",
+   "kind": "resource",
+   "url": "https://dst.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "inspire-fellowship",
+   "kind": "resource",
+   "url": "https://dst.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "national-overseas-scholarship",
+   "kind": "official",
+   "url": "https://nosmsje.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "national-overseas-scholarship",
+   "kind": "resource",
+   "url": "https://socialjustice.gov.in/schemes/28",
+   "note": "URLError"
+  },
+  {
+   "id": "pm-scholarship-scheme-capf-esm",
+   "kind": "resource",
+   "url": "https://ksb.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "great-scholarships-india",
+   "kind": "resource",
+   "url": "https://www.britishcouncil.in/study-uk/scholarships/great-scholarships",
+   "note": "TimeoutError"
+  },
+  {
+   "id": "pm-internship-scheme",
+   "kind": "official",
+   "url": "https://pminternship.mca.gov.in/",
+   "note": "http 404"
+  },
+  {
+   "id": "pm-internship-scheme",
+   "kind": "resource",
+   "url": "https://pminternship.mca.gov.in/",
+   "note": "http 404"
+  },
+  {
+   "id": "nta-portal",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in/Download",
+   "note": "URLError"
+  },
+  {
+   "id": "apprenticeship-india",
+   "kind": "resource",
+   "url": "https://nats.education.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "nats-portal",
+   "kind": "official",
+   "url": "https://nats.education.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "afcat",
+   "kind": "resource",
+   "url": "https://indianairforce.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "afcat",
+   "kind": "officialWebsite",
+   "url": "https://indianairforce.nic.in/",
    "note": "URLError"
   },
   {
@@ -31,8 +649,349 @@
    "kind": "resource",
    "url": "https://icaiexam.icai.org/",
    "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "official",
+   "url": "https://www.nabard.org/",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "resource",
+   "url": "https://www.nabard.org/",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "officialWebsite",
+   "url": "https://www.nabard.org/",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "officialExamPage",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "pastPapersPage",
+   "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "answerKeysPage",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=680&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "application",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=672&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "syllabus",
+   "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "examPattern",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-a",
+   "kind": "expected-source",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "gpat",
+   "kind": "resource",
+   "url": "https://www.aicte-india.org/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cms",
+   "kind": "official",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cms",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-ifos",
+   "kind": "official",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-ifos",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-ies-iss",
+   "kind": "official",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-ies-iss",
+   "kind": "officialWebsite",
+   "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "official",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "officialWebsite",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "officialExamPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "pastPapersPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "answerKeysPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "notification-extra",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1783081420531FAQ_CEN_022026.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "application",
+   "url": "https://www.rrbapply.gov.in/",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "official",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "officialWebsite",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "officialExamPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "pastPapersPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "answerKeysPage",
+   "url": "https://rrb.indianrailways.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "notification",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1787058904504CEN_04_2026_JE_DMS_English.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "notification-extra",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1787147535897FAQs_CEN_04_2026__JE_DMS_English.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "application",
+   "url": "https://www.rrbapply.gov.in/",
+   "note": "http 404"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "syllabus",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1787058904504CEN_04_2026_JE_DMS_English.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "examPattern",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1787058904504CEN_04_2026_JE_DMS_English.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "expected-source",
+   "url": "https://rrb.indianrailways.gov.in/getdata?cennum=05/2025&loc=chandigarh&category=Notification",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "official",
+   "url": "https://www.nabard.org/",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "officialWebsite",
+   "url": "https://www.nabard.org/",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "officialExamPage",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=676&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "pastPapersPage",
+   "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "answerKeysPage",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=680&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "application",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=676&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "syllabus",
+   "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "examPattern",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "nabard-grade-b",
+   "kind": "expected-source",
+   "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "official",
+   "url": "https://rac.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "officialWebsite",
+   "url": "https://rac.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "officialExamPage",
+   "url": "https://rac.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "pastPapersPage",
+   "url": "https://rac.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "answerKeysPage",
+   "url": "https://rac.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "notification",
+   "url": "https://rac.gov.in/download/advt_157.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "notification-extra",
+   "url": "https://rac.gov.in/download/advt_157_brief.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "notification-extra",
+   "url": "https://rac.gov.in/drdo/public/advt_157_faq_technical.pdf?ver=1",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "application",
+   "url": "https://rac.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "syllabus",
+   "url": "https://rac.gov.in/download/advt_157.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "examPattern",
+   "url": "https://rac.gov.in/download/advt_157.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "drdo-rac-scientist",
+   "kind": "expected-source",
+   "url": "https://rac.gov.in/",
+   "note": "URLError"
   }
  ],
  "staleWindows": [],
- "dataIssues": []
+ "dataIssues": [
+  {
+   "id": "ibps-clerk",
+   "problem": "status is open but closing date 2026-08-21 has passed"
+  }
+ ]
 }
