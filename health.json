@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-08-24T04:27:21Z",
+ "checkedAt": "2026-08-31T10:05:48Z",
  "urlsChecked": 517,
  "badLinks": [
   {
@@ -9,15 +9,45 @@
    "note": "URLError"
   },
   {
+   "id": "jee-main",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
+   "note": "URLError"
+  },
+  {
    "id": "jee-advanced",
    "kind": "resource",
    "url": "https://josaa.nic.in",
    "note": "URLError"
   },
   {
+   "id": "neet-ug",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "cuet-ug",
+   "kind": "official",
+   "url": "https://cuet.nta.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "cuet-ug",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
+   "note": "URLError"
+  },
+  {
    "id": "gate",
    "kind": "official",
    "url": "https://gate2027.iitm.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "iiser-iat",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
    "note": "URLError"
   },
   {
@@ -30,6 +60,12 @@
    "id": "kcet",
    "kind": "resource",
    "url": "https://kea.kar.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "wbjee",
+   "kind": "official",
+   "url": "https://wbjeeb.nic.in",
    "note": "URLError"
   },
   {
@@ -48,6 +84,12 @@
    "id": "upsc-cse",
    "kind": "official",
    "url": "https://upsc.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-cse",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
    "note": "URLError"
   },
   {
@@ -90,6 +132,12 @@
    "id": "upsc-nda",
    "kind": "official",
    "url": "https://upsc.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "upsc-nda",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
    "note": "URLError"
   },
   {
@@ -160,6 +208,12 @@
   },
   {
    "id": "rrb-ntpc",
+   "kind": "notification-extra",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1762325939510Detailed_CEN_07_2025_NTPC_Under_Graduate_English.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
    "kind": "application",
    "url": "https://www.rrbapply.gov.in/",
    "note": "http 404"
@@ -174,6 +228,12 @@
    "id": "rrb-ntpc",
    "kind": "examPattern",
    "url": "https://rrb.indianrailways.gov.in/-/image/1762325548056Detailed_CEN_06_2025_English_com_(1).pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "expected-source",
+   "url": "https://rrb.indianrailways.gov.in/getdata?cennum=06/2025&loc=chandigarh&category=Notification",
    "note": "URLError"
   },
   {
@@ -304,9 +364,27 @@
   },
   {
    "id": "rrb-alp",
+   "kind": "notification",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1780467818641detail_cen_01_2026_eng.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
    "kind": "application",
    "url": "https://www.rrbapply.gov.in/",
    "note": "http 404"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "syllabus",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1780467818641detail_cen_01_2026_eng.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "examPattern",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1780467818641detail_cen_01_2026_eng.pdf/examsDocuments",
+   "note": "URLError"
   },
   {
    "id": "rrb-alp",
@@ -508,14 +586,8 @@
   },
   {
    "id": "ctet",
-   "kind": "pastPapersPage",
-   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "answerKeysPage",
-   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
    "note": "URLError"
   },
   {
@@ -523,6 +595,12 @@
    "kind": "resource",
    "url": "https://epgp.inflibnet.ac.in",
    "note": "http 401"
+  },
+  {
+   "id": "uppsc-pcs",
+   "kind": "resource",
+   "url": "https://ncert.nic.in",
+   "note": "URLError"
   },
   {
    "id": "post-matric-sc",
@@ -567,18 +645,6 @@
    "note": "URLError"
   },
   {
-   "id": "inspire-she",
-   "kind": "resource",
-   "url": "https://dst.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "inspire-fellowship",
-   "kind": "resource",
-   "url": "https://dst.gov.in",
-   "note": "URLError"
-  },
-  {
    "id": "national-overseas-scholarship",
    "kind": "official",
    "url": "https://nosmsje.gov.in",
@@ -594,6 +660,18 @@
    "id": "pm-scholarship-scheme-capf-esm",
    "kind": "resource",
    "url": "https://ksb.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "daad-epos",
+   "kind": "official",
+   "url": "https://www.daad.de/en/",
+   "note": "URLError"
+  },
+  {
+   "id": "daad-epos",
+   "kind": "resource",
+   "url": "https://www.daad.in",
    "note": "URLError"
   },
   {
@@ -613,12 +691,6 @@
    "kind": "resource",
    "url": "https://pminternship.mca.gov.in/",
    "note": "http 404"
-  },
-  {
-   "id": "nta-portal",
-   "kind": "resource",
-   "url": "https://www.nta.ac.in/Download",
-   "note": "URLError"
   },
   {
    "id": "apprenticeship-india",
@@ -784,6 +856,12 @@
   },
   {
    "id": "rrb-technician",
+   "kind": "notification",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1783081193700Detailed_CEN_02_20262.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
    "kind": "notification-extra",
    "url": "https://rrb.indianrailways.gov.in/-/image/1783081420531FAQ_CEN_022026.pdf/examsDocuments",
    "note": "URLError"
@@ -793,6 +871,24 @@
    "kind": "application",
    "url": "https://www.rrbapply.gov.in/",
    "note": "http 404"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "syllabus",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1783081193700Detailed_CEN_02_20262.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "examPattern",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1783081193700Detailed_CEN_02_20262.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-technician",
+   "kind": "expected-source",
+   "url": "https://rrb.indianrailways.gov.in/getdata?cennum=02/2026&loc=chandigarh&category=Notification",
+   "note": "URLError"
   },
   {
    "id": "rrb-je",
@@ -833,7 +929,19 @@
   {
    "id": "rrb-je",
    "kind": "notification-extra",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1787108023956Corrigendum_1_CEN_04-2026.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "notification-extra",
    "url": "https://rrb.indianrailways.gov.in/-/image/1787147535897FAQs_CEN_04_2026__JE_DMS_English.pdf/examsDocuments",
+   "note": "URLError"
+  },
+  {
+   "id": "rrb-je",
+   "kind": "notification-extra",
+   "url": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments",
    "note": "URLError"
   },
   {
@@ -992,6 +1100,10 @@
   {
    "id": "ibps-clerk",
    "problem": "status is open but closing date 2026-08-21 has passed"
+  },
+  {
+   "id": "sbi-so",
+   "problem": "status is open but closing date 2026-08-27 has passed"
   }
  ]
 }
