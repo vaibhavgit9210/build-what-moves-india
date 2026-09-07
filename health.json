@@ -1,53 +1,11 @@
 {
- "checkedAt": "2026-08-31T10:05:48Z",
+ "checkedAt": "2026-09-07T08:41:44Z",
  "urlsChecked": 517,
  "badLinks": [
-  {
-   "id": "jee-main",
-   "kind": "resource",
-   "url": "https://josaa.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "jee-main",
-   "kind": "resource",
-   "url": "https://ncert.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "jee-advanced",
-   "kind": "resource",
-   "url": "https://josaa.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "neet-ug",
-   "kind": "resource",
-   "url": "https://ncert.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "cuet-ug",
-   "kind": "official",
-   "url": "https://cuet.nta.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "cuet-ug",
-   "kind": "resource",
-   "url": "https://ncert.nic.in",
-   "note": "URLError"
-  },
   {
    "id": "gate",
    "kind": "official",
    "url": "https://gate2027.iitm.ac.in",
-   "note": "URLError"
-  },
-  {
-   "id": "iiser-iat",
-   "kind": "resource",
-   "url": "https://ncert.nic.in",
    "note": "URLError"
   },
   {
@@ -60,12 +18,6 @@
    "id": "kcet",
    "kind": "resource",
    "url": "https://kea.kar.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "wbjee",
-   "kind": "official",
-   "url": "https://wbjeeb.nic.in",
    "note": "URLError"
   },
   {
@@ -84,12 +36,6 @@
    "id": "upsc-cse",
    "kind": "official",
    "url": "https://upsc.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-cse",
-   "kind": "resource",
-   "url": "https://ncert.nic.in",
    "note": "URLError"
   },
   {
@@ -132,12 +78,6 @@
    "id": "upsc-nda",
    "kind": "official",
    "url": "https://upsc.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-nda",
-   "kind": "resource",
-   "url": "https://ncert.nic.in",
    "note": "URLError"
   },
   {
@@ -586,8 +526,26 @@
   },
   {
    "id": "ctet",
+   "kind": "official",
+   "url": "https://ctet.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
    "kind": "resource",
-   "url": "https://ncert.nic.in",
+   "url": "https://ctet.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "pastPapersPage",
+   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "answerKeysPage",
+   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
    "note": "URLError"
   },
   {
@@ -595,12 +553,6 @@
    "kind": "resource",
    "url": "https://epgp.inflibnet.ac.in",
    "note": "http 401"
-  },
-  {
-   "id": "uppsc-pcs",
-   "kind": "resource",
-   "url": "https://ncert.nic.in",
-   "note": "URLError"
   },
   {
    "id": "post-matric-sc",
@@ -657,21 +609,15 @@
    "note": "URLError"
   },
   {
+   "id": "national-overseas-scholarship",
+   "kind": "resource",
+   "url": "https://overseas.tribal.gov.in",
+   "note": "URLError"
+  },
+  {
    "id": "pm-scholarship-scheme-capf-esm",
    "kind": "resource",
    "url": "https://ksb.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "daad-epos",
-   "kind": "official",
-   "url": "https://www.daad.de/en/",
-   "note": "URLError"
-  },
-  {
-   "id": "daad-epos",
-   "kind": "resource",
-   "url": "https://www.daad.in",
    "note": "URLError"
   },
   {
@@ -1095,11 +1041,22 @@
    "note": "URLError"
   }
  ],
- "staleWindows": [],
+ "staleWindows": [
+  "rrb-ntpc",
+  "lic-aao",
+  "pm-yasasvi",
+  "hdfc-parivartan-ecss",
+  "mlh-fellowship",
+  "teach-for-india"
+ ],
  "dataIssues": [
   {
    "id": "ibps-clerk",
    "problem": "status is open but closing date 2026-08-21 has passed"
+  },
+  {
+   "id": "sbi-clerk",
+   "problem": "status is open but closing date 2026-08-31 has passed"
   },
   {
    "id": "sbi-so",
