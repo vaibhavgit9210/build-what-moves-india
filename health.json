@@ -1,11 +1,23 @@
 {
- "checkedAt": "2026-09-07T08:41:44Z",
+ "checkedAt": "2026-09-14T09:20:24Z",
  "urlsChecked": 517,
  "badLinks": [
   {
-   "id": "gate",
+   "id": "jee-main",
+   "kind": "resource",
+   "url": "https://josaa.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "jee-advanced",
+   "kind": "resource",
+   "url": "https://josaa.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "cuet-ug",
    "kind": "official",
-   "url": "https://gate2027.iitm.ac.in",
+   "url": "https://cuet.nta.nic.in",
    "note": "URLError"
   },
   {
@@ -18,6 +30,12 @@
    "id": "kcet",
    "kind": "resource",
    "url": "https://kea.kar.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "wbjee",
+   "kind": "official",
+   "url": "https://wbjeeb.nic.in",
    "note": "URLError"
   },
   {
@@ -96,6 +114,24 @@
    "id": "upsc-capf-ac",
    "kind": "officialWebsite",
    "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "sbi-po",
+   "kind": "notification",
+   "url": "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1?t=1781759726353",
+   "note": "URLError"
+  },
+  {
+   "id": "sbi-po",
+   "kind": "syllabus",
+   "url": "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1?t=1781759726353",
+   "note": "URLError"
+  },
+  {
+   "id": "sbi-po",
+   "kind": "examPattern",
+   "url": "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1?t=1781759726353",
    "note": "URLError"
   },
   {
@@ -519,21 +555,15 @@
    "note": "URLError"
   },
   {
-   "id": "isro-icrb",
-   "kind": "resource",
-   "url": "https://gate2027.iitm.ac.in",
+   "id": "ctet",
+   "kind": "officialWebsite",
+   "url": "https://ctet.nic.in/",
    "note": "URLError"
   },
   {
    "id": "ctet",
-   "kind": "official",
-   "url": "https://ctet.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "resource",
-   "url": "https://ctet.nic.in",
+   "kind": "officialExamPage",
+   "url": "https://ctet.nic.in/",
    "note": "URLError"
   },
   {
@@ -546,6 +576,18 @@
    "id": "ctet",
    "kind": "answerKeysPage",
    "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "application",
+   "url": "https://ctet.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "expected-source",
+   "url": "https://ctet.nic.in/",
    "note": "URLError"
   },
   {
@@ -609,12 +651,6 @@
    "note": "URLError"
   },
   {
-   "id": "national-overseas-scholarship",
-   "kind": "resource",
-   "url": "https://overseas.tribal.gov.in",
-   "note": "URLError"
-  },
-  {
    "id": "pm-scholarship-scheme-capf-esm",
    "kind": "resource",
    "url": "https://ksb.gov.in",
@@ -667,6 +703,12 @@
    "kind": "resource",
    "url": "https://icaiexam.icai.org/",
    "note": "URLError"
+  },
+  {
+   "id": "pmkvy-4",
+   "kind": "official",
+   "url": "https://www.skillindiadigital.gov.in/",
+   "note": "http 404"
   },
   {
    "id": "nabard-grade-a",
@@ -1057,6 +1099,10 @@
   {
    "id": "sbi-clerk",
    "problem": "status is open but closing date 2026-08-31 has passed"
+  },
+  {
+   "id": "rrb-je",
+   "problem": "status is open but closing date 2026-09-13 has passed"
   },
   {
    "id": "sbi-so",
