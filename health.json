@@ -1,25 +1,7 @@
 {
- "checkedAt": "2026-09-14T09:20:24Z",
+ "checkedAt": "2026-09-21T09:22:19Z",
  "urlsChecked": 517,
  "badLinks": [
-  {
-   "id": "jee-main",
-   "kind": "resource",
-   "url": "https://josaa.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "jee-advanced",
-   "kind": "resource",
-   "url": "https://josaa.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "cuet-ug",
-   "kind": "official",
-   "url": "https://cuet.nta.nic.in",
-   "note": "URLError"
-  },
   {
    "id": "kcet",
    "kind": "official",
@@ -30,12 +12,6 @@
    "id": "kcet",
    "kind": "resource",
    "url": "https://kea.kar.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "wbjee",
-   "kind": "official",
-   "url": "https://wbjeeb.nic.in",
    "note": "URLError"
   },
   {
@@ -114,6 +90,204 @@
    "id": "upsc-capf-ac",
    "kind": "officialWebsite",
    "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "official",
+   "url": "https://www.ibps.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "resource",
+   "url": "https://www.ibps.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "officialExamPage",
+   "url": "https://www.ibps.in/index.php/management-trainees/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "notification",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "application",
+   "url": "https://www.ibps.in/index.php/management-trainees-xvi/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "syllabus",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "examPattern",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "expected-source",
+   "url": "https://www.ibps.in/index.php/crp-updates",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "official",
+   "url": "https://www.ibps.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "resource",
+   "url": "https://www.ibps.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "officialExamPage",
+   "url": "https://www.ibps.in/index.php/clerical-cadre/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "notification",
+   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "application",
+   "url": "https://www.ibps.in/index.php/clerical-cadre-xvi/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "syllabus",
+   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "examPattern",
+   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "expected-source",
+   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "official",
+   "url": "https://www.ibps.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "resource",
+   "url": "https://www.ibps.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "officialExamPage",
+   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "notification",
+   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "application",
+   "url": "https://www.ibps.in/index.php/rural-bank-xiv/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "syllabus",
+   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "examPattern",
+   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "expected-source",
+   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
    "note": "URLError"
   },
   {
@@ -556,6 +730,18 @@
   },
   {
    "id": "ctet",
+   "kind": "official",
+   "url": "https://ctet.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "resource",
+   "url": "https://ctet.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
    "kind": "officialWebsite",
    "url": "https://ctet.nic.in/",
    "note": "URLError"
@@ -564,18 +750,6 @@
    "id": "ctet",
    "kind": "officialExamPage",
    "url": "https://ctet.nic.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "pastPapersPage",
-   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "answerKeysPage",
-   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
    "note": "URLError"
   },
   {
@@ -705,12 +879,6 @@
    "note": "URLError"
   },
   {
-   "id": "pmkvy-4",
-   "kind": "official",
-   "url": "https://www.skillindiadigital.gov.in/",
-   "note": "http 404"
-  },
-  {
    "id": "nabard-grade-a",
    "kind": "official",
    "url": "https://www.nabard.org/",
@@ -768,6 +936,12 @@
    "id": "nabard-grade-a",
    "kind": "expected-source",
    "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "note": "URLError"
+  },
+  {
+   "id": "bpsc-cce",
+   "kind": "resource",
+   "url": "https://bpsconline.bihar.gov.in/",
    "note": "URLError"
   },
   {
@@ -957,6 +1131,126 @@
    "note": "URLError"
   },
   {
+   "id": "ibps-so",
+   "kind": "official",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "officialExamPage",
+   "url": "https://www.ibps.in/index.php/specialist-officers/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "notification",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "application",
+   "url": "https://www.ibps.in/index.php/specialist-officers-xvi/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "syllabus",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "examPattern",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "expected-source",
+   "url": "https://www.ibps.in/index.php/crp-updates",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "official",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "officialExamPage",
+   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "notification",
+   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "application",
+   "url": "https://www.ibps.in/index.php/rural-bank-xiv/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "syllabus",
+   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "examPattern",
+   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "expected-source",
+   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
+   "note": "URLError"
+  },
+  {
    "id": "nabard-grade-b",
    "kind": "official",
    "url": "https://www.nabard.org/",
@@ -1093,6 +1387,10 @@
  ],
  "dataIssues": [
   {
+   "id": "upsc-ese",
+   "problem": "expected.notificationDate 2026-09-16 is in the past \u2014 refresh the forecast"
+  },
+  {
    "id": "ibps-clerk",
    "problem": "status is open but closing date 2026-08-21 has passed"
   },
@@ -1107,6 +1405,10 @@
   {
    "id": "sbi-so",
    "problem": "status is open but closing date 2026-08-27 has passed"
+  },
+  {
+   "id": "csir-recruitment",
+   "problem": "status is open but closing date 2026-09-17 has passed"
   }
  ]
 }
