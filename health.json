@@ -1,7 +1,19 @@
 {
- "checkedAt": "2026-09-21T09:22:19Z",
+ "checkedAt": "2026-09-28T10:12:02Z",
  "urlsChecked": 517,
  "badLinks": [
+  {
+   "id": "jee-main",
+   "kind": "resource",
+   "url": "https://josaa.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "jee-advanced",
+   "kind": "resource",
+   "url": "https://josaa.nic.in",
+   "note": "URLError"
+  },
   {
    "id": "kcet",
    "kind": "official",
@@ -12,6 +24,12 @@
    "id": "kcet",
    "kind": "resource",
    "url": "https://kea.kar.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "wbjee",
+   "kind": "official",
+   "url": "https://wbjeeb.nic.in",
    "note": "URLError"
   },
   {
@@ -105,60 +123,6 @@
    "note": "URLError"
   },
   {
-   "id": "ibps-po",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "officialExamPage",
-   "url": "https://www.ibps.in/index.php/management-trainees/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "notification",
-   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/management-trainees-xvi/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "syllabus",
-   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "examPattern",
-   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "expected-source",
-   "url": "https://www.ibps.in/index.php/crp-updates",
-   "note": "URLError"
-  },
-  {
    "id": "ibps-clerk",
    "kind": "official",
    "url": "https://www.ibps.in",
@@ -171,60 +135,6 @@
    "note": "URLError"
   },
   {
-   "id": "ibps-clerk",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "officialExamPage",
-   "url": "https://www.ibps.in/index.php/clerical-cadre/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "notification",
-   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/clerical-cadre-xvi/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "syllabus",
-   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "examPattern",
-   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "expected-source",
-   "url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
-   "note": "URLError"
-  },
-  {
    "id": "ibps-rrb",
    "kind": "official",
    "url": "https://www.ibps.in",
@@ -234,60 +144,6 @@
    "id": "ibps-rrb",
    "kind": "resource",
    "url": "https://www.ibps.in",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "officialExamPage",
-   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "notification",
-   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/rural-bank-xiv/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "syllabus",
-   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "examPattern",
-   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "expected-source",
-   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
    "note": "URLError"
   },
   {
@@ -729,52 +585,10 @@
    "note": "URLError"
   },
   {
-   "id": "ctet",
-   "kind": "official",
-   "url": "https://ctet.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "resource",
-   "url": "https://ctet.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "officialWebsite",
-   "url": "https://ctet.nic.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "officialExamPage",
-   "url": "https://ctet.nic.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "application",
-   "url": "https://ctet.nic.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "expected-source",
-   "url": "https://ctet.nic.in/",
-   "note": "URLError"
-  },
-  {
    "id": "ugc-net",
    "kind": "resource",
    "url": "https://epgp.inflibnet.ac.in",
    "note": "http 401"
-  },
-  {
-   "id": "post-matric-sc",
-   "kind": "resource",
-   "url": "https://socialjustice.gov.in",
-   "note": "URLError"
   },
   {
    "id": "post-matric-minorities",
@@ -807,21 +621,9 @@
    "note": "URLError"
   },
   {
-   "id": "pm-yasasvi",
-   "kind": "resource",
-   "url": "https://socialjustice.gov.in",
-   "note": "URLError"
-  },
-  {
    "id": "national-overseas-scholarship",
    "kind": "official",
    "url": "https://nosmsje.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "national-overseas-scholarship",
-   "kind": "resource",
-   "url": "https://socialjustice.gov.in/schemes/28",
    "note": "URLError"
   },
   {
@@ -936,12 +738,6 @@
    "id": "nabard-grade-a",
    "kind": "expected-source",
    "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
-   "note": "URLError"
-  },
-  {
-   "id": "bpsc-cce",
-   "kind": "resource",
-   "url": "https://bpsconline.bihar.gov.in/",
    "note": "URLError"
   },
   {
@@ -1128,126 +924,6 @@
    "id": "rrb-je",
    "kind": "expected-source",
    "url": "https://rrb.indianrailways.gov.in/getdata?cennum=05/2025&loc=chandigarh&category=Notification",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "official",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "officialExamPage",
-   "url": "https://www.ibps.in/index.php/specialist-officers/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "notification",
-   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/specialist-officers-xvi/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "syllabus",
-   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "examPattern",
-   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "expected-source",
-   "url": "https://www.ibps.in/index.php/crp-updates",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "official",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "officialExamPage",
-   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "notification",
-   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/rural-bank-xiv/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "syllabus",
-   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "examPattern",
-   "url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XIV_Final_AD_1.9.25.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "expected-source",
-   "url": "https://www.ibps.in/index.php/regional-rural-bank/",
    "note": "URLError"
   },
   {
