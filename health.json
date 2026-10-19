@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-12T11:22:07Z",
+ "checkedAt": "2026-10-19T09:20:16Z",
  "urlsChecked": 517,
  "badLinks": [
   {
@@ -12,12 +12,6 @@
    "id": "kcet",
    "kind": "resource",
    "url": "https://kea.kar.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "wbjee",
-   "kind": "official",
-   "url": "https://wbjeeb.nic.in",
    "note": "URLError"
   },
   {
@@ -537,6 +531,18 @@
    "note": "URLError"
   },
   {
+   "id": "ctet",
+   "kind": "pastPapersPage",
+   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "note": "URLError"
+  },
+  {
+   "id": "ctet",
+   "kind": "answerKeysPage",
+   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "note": "URLError"
+  },
+  {
    "id": "ugc-net",
    "kind": "resource",
    "url": "https://epgp.inflibnet.ac.in",
@@ -585,18 +591,6 @@
    "note": "URLError"
   },
   {
-   "id": "aditya-birla-scholarship",
-   "kind": "official",
-   "url": "https://www.adityabirlascholars.net",
-   "note": "http 504"
-  },
-  {
-   "id": "aditya-birla-scholarship",
-   "kind": "resource",
-   "url": "https://www.adityabirlascholars.net",
-   "note": "http 504"
-  },
-  {
    "id": "great-scholarships-india",
    "kind": "resource",
    "url": "https://www.britishcouncil.in/study-uk/scholarships/great-scholarships",
@@ -613,12 +607,6 @@
    "kind": "resource",
    "url": "https://pminternship.mca.gov.in/",
    "note": "http 404"
-  },
-  {
-   "id": "cm-fellowship-maharashtra",
-   "kind": "official",
-   "url": "https://mahades.maharashtra.gov.in/FELLOWSHIP/",
-   "note": "URLError"
   },
   {
    "id": "apprenticeship-india",
@@ -642,24 +630,6 @@
    "id": "afcat",
    "kind": "officialWebsite",
    "url": "https://indianairforce.nic.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "afcat",
-   "kind": "notification",
-   "url": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2026/Notification%20for%20AFCAT%20Cycle%2002-2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "afcat",
-   "kind": "syllabus",
-   "url": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2026/Notification%20for%20AFCAT%20Cycle%2002-2026.pdf",
-   "note": "URLError"
-  },
-  {
-   "id": "afcat",
-   "kind": "examPattern",
-   "url": "https://afcat.edcil.co.in/assets/images/news/AFCAT_02_2026/Notification%20for%20AFCAT%20Cycle%2002-2026.pdf",
    "note": "URLError"
   },
   {
@@ -915,12 +885,6 @@
    "note": "URLError"
   },
   {
-   "id": "ibps-so",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/specialist-officers-xvi/",
-   "note": "URLError"
-  },
-  {
    "id": "nabard-grade-b",
    "kind": "official",
    "url": "https://www.nabard.org/",
@@ -973,48 +937,6 @@
    "kind": "expected-source",
    "url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
    "note": "URLError"
-  },
-  {
-   "id": "gic-assistant-manager",
-   "kind": "official",
-   "url": "https://www.gicre.in/",
-   "note": "TimeoutError"
-  },
-  {
-   "id": "gic-assistant-manager",
-   "kind": "officialWebsite",
-   "url": "https://www.gicre.in/",
-   "note": "TimeoutError"
-  },
-  {
-   "id": "gic-assistant-manager",
-   "kind": "officialExamPage",
-   "url": "https://www.gicre.in/en/people-resources/career-en",
-   "note": "TimeoutError"
-  },
-  {
-   "id": "gic-assistant-manager",
-   "kind": "pastPapersPage",
-   "url": "https://www.gicre.in/en/people-resources/career-en",
-   "note": "TimeoutError"
-  },
-  {
-   "id": "gic-assistant-manager",
-   "kind": "answerKeysPage",
-   "url": "https://www.gicre.in/en/people-resources/career-en",
-   "note": "TimeoutError"
-  },
-  {
-   "id": "gic-assistant-manager",
-   "kind": "application",
-   "url": "https://www.gicre.in/en/people-resources/career-en",
-   "note": "TimeoutError"
-  },
-  {
-   "id": "gic-assistant-manager",
-   "kind": "expected-source",
-   "url": "https://www.gicre.in/en/people-resources/career-en",
-   "note": "TimeoutError"
   },
   {
    "id": "drdo-rac-scientist",
