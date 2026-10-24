@@ -13,14 +13,14 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1000,
    "benefit": null,
-   "window": "typically Oct–Nov (Session 1) and Jan–Feb (Session 2)",
+   "window": "typically Oct-Nov (Session 1) and Jan-Feb (Session 2)",
    "windowMonths": [
     10,
     11,
     1,
     2
    ],
-   "nextExpected": "Oct–Nov 2026 (expected, 2027 Session 1)",
+   "nextExpected": "Oct-Nov 2026 (expected, 2027 Session 1)",
    "frequency": "biannual",
    "official": "https://jeemain.nta.nic.in",
    "resources": [
@@ -55,12 +55,12 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 3200,
    "benefit": null,
-   "window": "typically late Apr–May",
+   "window": "typically late Apr-May",
    "windowMonths": [
     4,
     5
    ],
-   "nextExpected": "Apr–May 2027 (expected)",
+   "nextExpected": "Apr-May 2027 (expected)",
    "frequency": "annual",
    "official": "https://jeeadv.ac.in",
    "resources": [
@@ -90,12 +90,12 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1700,
    "benefit": null,
-   "window": "typically Feb–Mar",
+   "window": "typically Feb-Mar",
    "windowMonths": [
     2,
     3
    ],
-   "nextExpected": "Feb–Mar 2027 (expected)",
+   "nextExpected": "Feb-Mar 2027 (expected)",
    "frequency": "annual",
    "official": "https://neet.nta.nic.in",
    "resources": [
@@ -125,7 +125,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 3500,
    "benefit": null,
-   "window": "varies year to year; Apr–Jul in recent cycles (2026: Jul 1–21)",
+   "window": "varies year to year; Apr-Jul in recent cycles (2026: Jul 1-21)",
    "windowMonths": [
     4,
     5,
@@ -158,13 +158,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1000,
    "benefit": null,
-   "window": "typically Jan–Mar (exam in May)",
+   "window": "typically Jan-Mar (exam in May)",
    "windowMonths": [
     1,
     2,
     3
    ],
-   "nextExpected": "Jan–Mar 2027 (expected)",
+   "nextExpected": "Jan-Mar 2027 (expected)",
    "frequency": "annual",
    "official": "https://cuet.nta.nic.in",
    "resources": [
@@ -196,12 +196,12 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 1400,
    "benefit": null,
-   "window": "typically Jan–Feb",
+   "window": "typically Jan-Feb",
    "windowMonths": [
     1,
     2
    ],
-   "nextExpected": "Jan–Feb 2027 (expected)",
+   "nextExpected": "Jan-Feb 2027 (expected)",
    "frequency": "annual",
    "official": "https://exams.nta.nic.in/cuet-pg/",
    "resources": [
@@ -228,7 +228,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 2000,
    "benefit": "Rs 12,400/mo M.Tech stipend if admitted",
-   "window": "typically late Aug–Sep (late fee into early Oct)",
+   "window": "typically late Aug-Sep (late fee into early Oct)",
    "windowMonths": [
     8,
     9,
@@ -265,12 +265,12 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 2700,
    "benefit": null,
-   "window": "typically Aug–mid Sep",
+   "window": "typically Aug-mid Sep",
    "windowMonths": [
     8,
     9
    ],
-   "nextExpected": "Open now: 3 Aug – 15 Sep 2026 (exam 29 Nov 2026)",
+   "nextExpected": "Open now: 3 Aug - 15 Sep 2026 (exam 29 Nov 2026)",
    "frequency": "annual",
    "official": "https://iimcat.ac.in",
    "resources": [
@@ -296,7 +296,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 2200,
    "benefit": null,
-   "window": "typically Jul–Nov (sometimes into early Dec)",
+   "window": "typically Jul-Nov (sometimes into early Dec)",
    "windowMonths": [
     7,
     8,
@@ -304,7 +304,7 @@ window.AVSAR_DATA = {
     10,
     11
    ],
-   "nextExpected": "Jul–Nov 2026 (expected, XAT 2027)",
+   "nextExpected": "Jul-Nov 2026 (expected, XAT 2027)",
    "frequency": "annual",
    "official": "https://xatonline.in",
    "resources": [
@@ -329,12 +329,12 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 2500,
    "benefit": null,
-   "window": "typically Oct–Nov (exam in Jan)",
+   "window": "typically Oct-Nov (exam in Jan)",
    "windowMonths": [
     10,
     11
    ],
-   "nextExpected": "Oct–Nov 2026 (expected)",
+   "nextExpected": "Oct-Nov 2026 (expected)",
    "frequency": "annual",
    "official": "https://cmat.nta.nic.in",
    "resources": [
@@ -360,13 +360,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 4000,
    "benefit": null,
-   "window": "typically Aug–Oct (exam in Dec)",
+   "window": "typically Aug-Oct (exam in Dec)",
    "windowMonths": [
     8,
     9,
     10
    ],
-   "nextExpected": "Open now: 3 Aug – 31 Oct 2026 (CLAT 2027, exam 6 Dec 2026)",
+   "nextExpected": "Open now: 3 Aug - 31 Oct 2026 (CLAT 2027, exam 6 Dec 2026)",
    "frequency": "annual",
    "official": "https://consortiumofnlus.ac.in",
    "resources": [
@@ -392,14 +392,14 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 3500,
    "benefit": null,
-   "window": "typically Aug–Nov (exam in Dec)",
+   "window": "typically Aug-Nov (exam in Dec)",
    "windowMonths": [
     8,
     9,
     10,
     11
    ],
-   "nextExpected": "Aug–Nov 2026 (expected)",
+   "nextExpected": "Aug-Nov 2026 (expected)",
    "frequency": "annual",
    "official": "https://nationallawuniversitydelhi.in",
    "resources": [
@@ -425,7 +425,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1750,
    "benefit": null,
-   "window": "typically Mar–Jun, multiple test sessions (fee is per attempt)",
+   "window": "typically Mar-Jun, multiple test sessions (fee is per attempt)",
    "windowMonths": [
     3,
     4,
@@ -457,13 +457,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 3000,
    "benefit": null,
-   "window": "typically Sep–Nov (Prelims in Dec–Jan)",
+   "window": "typically Sep-Nov (Prelims in Dec-Jan)",
    "windowMonths": [
     9,
     10,
     11
    ],
-   "nextExpected": "Sep–Nov 2026 (expected)",
+   "nextExpected": "Sep-Nov 2026 (expected)",
    "frequency": "annual",
    "official": "https://admissions.nid.edu",
    "resources": [
@@ -488,13 +488,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 3000,
    "benefit": null,
-   "window": "typically Nov–Jan (exam in Feb)",
+   "window": "typically Nov-Jan (exam in Feb)",
    "windowMonths": [
     11,
     12,
     1
    ],
-   "nextExpected": "Nov 2026 – Jan 2027 (expected)",
+   "nextExpected": "Nov 2026 - Jan 2027 (expected)",
    "frequency": "annual",
    "official": "https://www.nift.ac.in",
    "resources": [
@@ -520,12 +520,12 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 4000,
    "benefit": null,
-   "window": "typically Oct–Nov (exam in Jan)",
+   "window": "typically Oct-Nov (exam in Jan)",
    "windowMonths": [
     10,
     11
    ],
-   "nextExpected": "Oct–Nov 2026 (expected)",
+   "nextExpected": "Oct-Nov 2026 (expected)",
    "frequency": "annual",
    "official": "https://www.uceed.iitb.ac.in",
    "resources": [
@@ -551,7 +551,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 3600,
    "benefit": null,
-   "window": "typically Jan–Mar (Session 1) and Apr–May (Session 2)",
+   "window": "typically Jan-Mar (Session 1) and Apr-May (Session 2)",
    "windowMonths": [
     1,
     2,
@@ -559,7 +559,7 @@ window.AVSAR_DATA = {
     4,
     5
    ],
-   "nextExpected": "Jan–Mar 2027 (expected)",
+   "nextExpected": "Jan-Mar 2027 (expected)",
    "frequency": "biannual",
    "official": "https://www.bitsadmission.com",
    "resources": [
@@ -584,7 +584,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1350,
    "benefit": null,
-   "window": "typically Nov–Mar (exam in Apr)",
+   "window": "typically Nov-Mar (exam in Apr)",
    "windowMonths": [
     11,
     12,
@@ -617,7 +617,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1400,
    "benefit": null,
-   "window": "typically Nov–Apr across multiple phases",
+   "window": "typically Nov-Apr across multiple phases",
    "windowMonths": [
     11,
     12,
@@ -651,12 +651,12 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 2000,
    "benefit": null,
-   "window": "typically Mar–Apr (exam in May–Jun)",
+   "window": "typically Mar-Apr (exam in May-Jun)",
    "windowMonths": [
     3,
     4
    ],
-   "nextExpected": "Mar–Apr 2027 (expected)",
+   "nextExpected": "Mar-Apr 2027 (expected)",
    "frequency": "annual",
    "official": "https://www.iiseradmission.in",
    "resources": [
@@ -682,14 +682,14 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1400,
    "benefit": "Rs 60,000/yr INSPIRE scholarship if admitted",
-   "window": "typically Feb–May (exam in Jun)",
+   "window": "typically Feb-May (exam in Jun)",
    "windowMonths": [
     2,
     3,
     4,
     5
    ],
-   "nextExpected": "Feb–May 2027 (expected)",
+   "nextExpected": "Feb-May 2027 (expected)",
    "frequency": "annual",
    "official": "https://www.nestexam.in",
    "resources": [
@@ -715,12 +715,12 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": null,
    "benefit": null,
-   "window": "typically May–Jun (exam in Jul)",
+   "window": "typically May-Jun (exam in Jul)",
    "windowMonths": [
     5,
     6
    ],
-   "nextExpected": "May–Jun 2027 (expected)",
+   "nextExpected": "May-Jun 2027 (expected)",
    "frequency": "annual",
    "official": "https://exams.nta.nic.in/icar/",
    "resources": [
@@ -747,13 +747,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1000,
    "benefit": null,
-   "window": "typically Dec–Feb (exam in Apr–May)",
+   "window": "typically Dec-Feb (exam in Apr-May)",
    "windowMonths": [
     12,
     1,
     2
    ],
-   "nextExpected": "Dec 2026 – Feb 2027 (expected)",
+   "nextExpected": "Dec 2026 - Feb 2027 (expected)",
    "frequency": "annual",
    "official": "https://cetcell.mahacet.org",
    "resources": [
@@ -779,12 +779,12 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 500,
    "benefit": null,
-   "window": "typically Jan–Feb (exam in Apr)",
+   "window": "typically Jan-Feb (exam in Apr)",
    "windowMonths": [
     1,
     2
    ],
-   "nextExpected": "Jan–Feb 2027 (expected)",
+   "nextExpected": "Jan-Feb 2027 (expected)",
    "frequency": "annual",
    "official": "https://cetonline.karnataka.gov.in",
    "resources": [
@@ -814,12 +814,12 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1950,
    "benefit": null,
-   "window": "typically Feb–Mar (exam in May)",
+   "window": "typically Feb-Mar (exam in May)",
    "windowMonths": [
     2,
     3
    ],
-   "nextExpected": "Feb–Mar 2027 (expected)",
+   "nextExpected": "Feb-Mar 2027 (expected)",
    "frequency": "annual",
    "official": "https://www.comedk.org",
    "resources": [
@@ -845,13 +845,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 500,
    "benefit": null,
-   "window": "typically Dec–Feb (exam in Apr)",
+   "window": "typically Dec-Feb (exam in Apr)",
    "windowMonths": [
     12,
     1,
     2
    ],
-   "nextExpected": "Dec 2026 – Feb 2027 (expected)",
+   "nextExpected": "Dec 2026 - Feb 2027 (expected)",
    "frequency": "annual",
    "official": "https://wbjeeb.nic.in",
    "resources": [
@@ -877,12 +877,12 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 600,
    "benefit": null,
-   "window": "typically Mar–Apr (exam in May)",
+   "window": "typically Mar-Apr (exam in May)",
    "windowMonths": [
     3,
     4
    ],
-   "nextExpected": "Mar–Apr 2027 (expected)",
+   "nextExpected": "Mar-Apr 2027 (expected)",
    "frequency": "annual",
    "official": "https://cets.apsche.ap.gov.in",
    "resources": [
@@ -909,13 +909,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 900,
    "benefit": null,
-   "window": "typically Feb–Apr (exam in May)",
+   "window": "typically Feb-Apr (exam in May)",
    "windowMonths": [
     2,
     3,
     4
    ],
-   "nextExpected": "Feb–Apr 2027 (expected)",
+   "nextExpected": "Feb-Apr 2027 (expected)",
    "frequency": "annual",
    "official": "https://eapcet.tgche.ac.in",
    "resources": [
@@ -942,7 +942,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 100,
    "benefit": "Rs 56,100 starting basic (Level 10) plus allowances",
-   "window": "typically Jan–Feb (notification mid-Jan, ~3 weeks to apply)",
+   "window": "typically Jan-Feb (notification mid-Jan, ~3 weeks to apply)",
    "windowMonths": [
     1,
     2
@@ -986,7 +986,7 @@ window.AVSAR_DATA = {
    "status": "upcoming",
    "statusNote": "CSE 2026 is over (applications closed February 2026). The next notification, for CSE 2027, is scheduled for 13 January 2027 in the official UPSC Annual Calendar 2027.",
    "notification": {
-    "title": "Civil Services Examination, 2026 — notification",
+    "title": "Civil Services Examination, 2026: notification",
     "date": "2026-02-04",
     "cycle": "2026",
     "current": false,
@@ -1027,7 +1027,7 @@ window.AVSAR_DATA = {
     "title": "Scheme of examination (inside the official notification)",
     "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf"
    },
-   "pastPapersNote": "UPSC's official archive covers 2023 onward. Optional-subject Main papers are not listed here — the full set is on the UPSC archive page.",
+   "pastPapersNote": "UPSC's official archive covers 2023 onward. Optional-subject Main papers are not listed here; the full set is on the UPSC archive page.",
    "pastPapersPage": "https://www.upsc.gov.in/examinations/previous-question-papers",
    "answerKeys": [],
    "answerKeysNote": "UPSC publishes answer keys only for some recent examinations; none are currently listed for CSE.",
@@ -1150,7 +1150,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 200,
    "benefit": "Rs 56,100 starting basic (Level 10) plus allowances",
-   "window": "typically Sep–Oct (notification ~Sep for next year's exam)",
+   "window": "typically Sep-Oct (notification ~Sep for next year's exam)",
    "windowMonths": [
     9,
     10
@@ -1191,7 +1191,7 @@ window.AVSAR_DATA = {
    "status": "upcoming",
    "statusNote": "The ESE 2027 notification is scheduled for 16 September 2026 in the official UPSC Annual Calendar 2027, with applications closing 6 October 2026.",
    "notification": {
-    "title": "Engineering Services (Preliminary) Examination, 2026 — notification",
+    "title": "Engineering Services (Preliminary) Examination, 2026: notification",
     "date": "2025-09-26",
     "cycle": "2026",
     "current": false,
@@ -1420,7 +1420,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 200,
    "benefit": "Rs 56,100 basic on commissioning as Lieutenant (stipend during training)",
-   "window": "twice a year: typically Dec–Jan (CDS I) and May–Jun (CDS II)",
+   "window": "twice a year: typically Dec-Jan (CDS I) and May-Jun (CDS II)",
    "windowMonths": [
     12,
     1,
@@ -1460,12 +1460,12 @@ window.AVSAR_DATA = {
     "Air Force Academy, Hyderabad (Air Force officer)",
     "Officers Training Academy, Chennai (Short Service Commission)"
    ],
-   "description": "The graduate route to a commission as an officer in the Army, Navy or Air Force. Held twice a year — CDS (I) and CDS (II).",
+   "description": "The graduate route to a commission as an officer in the Army, Navy or Air Force. Held twice a year: CDS (I) and CDS (II).",
    "officialExamPage": "https://www.upsc.gov.in/examinations/Combined%20Defence%20Services%20Examination%20%28II%29%2C%202026",
    "status": "closed",
    "statusNote": "Applications for CDS (II) 2026 have closed; the written examination follows. The next notification, for CDS (I) 2027, is scheduled for 2 December 2026 in the official UPSC Annual Calendar 2027.",
    "notification": {
-    "title": "Combined Defence Services Examination (II), 2026 — notification",
+    "title": "Combined Defence Services Examination (II), 2026: notification",
     "date": "2026-05-20",
     "cycle": "CDS (II) 2026",
     "current": true,
@@ -1499,8 +1499,8 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "IMA / INA / AFA: 3 objective papers — English, General Knowledge, Elementary Mathematics (100 marks each, 2 hours each)",
-     "OTA: 2 objective papers — English and General Knowledge (100 marks each)",
+     "IMA / INA / AFA: 3 objective papers; English, General Knowledge, Elementary Mathematics (100 marks each, 2 hours each)",
+     "OTA: 2 objective papers; English and General Knowledge (100 marks each)",
      "Then SSB interview and personality test"
     ],
     "title": "Scheme of examination (inside the official notification)",
@@ -1510,17 +1510,17 @@ window.AVSAR_DATA = {
    "answerKeys": [
     {
      "year": 2025,
-     "title": "CDS (II) 2025 — English",
+     "title": "CDS (II) 2025: English",
      "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CDS-II-Examination-2025-ENGLISH-130826.pdf"
     },
     {
      "year": 2025,
-     "title": "CDS (II) 2025 — Elementary Mathematics",
+     "title": "CDS (II) 2025: Elementary Mathematics",
      "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CDS-II-Examination-2025-ElemMath-130826.pdf"
     },
     {
      "year": 2025,
-     "title": "CDS (II) 2025 — General Knowledge",
+     "title": "CDS (II) 2025: General Knowledge",
      "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CDS-II-Examination-2025-GK-130826.pdf"
     }
    ],
@@ -1531,15 +1531,15 @@ window.AVSAR_DATA = {
      "year": 2026,
      "papers": [
       {
-       "name": "English — Exam (I)",
+       "name": "English, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDS-I-26-ENGLISH-130426.pdf"
       },
       {
-       "name": "General Knowledge — Exam (I)",
+       "name": "General Knowledge, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDS-I-26-GENERAL-KNOWLEDGE-130426.pdf"
       },
       {
-       "name": "Elementary Mathematics — Exam (I)",
+       "name": "Elementary Mathematics, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDS-I-26-ELEMENTARY-MATHEMATICS-130426.pdf"
       }
      ]
@@ -1548,27 +1548,27 @@ window.AVSAR_DATA = {
      "year": 2025,
      "papers": [
       {
-       "name": "English — Exam (II)",
+       "name": "English, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-25-ENGLISH-150925.pdf"
       },
       {
-       "name": "General Knowledge — Exam (II)",
+       "name": "General Knowledge, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-25-GENERAL-KNOWLEDGE-150925.pdf"
       },
       {
-       "name": "Elementary Mathematics — Exam (II)",
+       "name": "Elementary Mathematics, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-25-ELEMENTARY-MATHEMATICS-150925.pdf"
       },
       {
-       "name": "English — Exam (I)",
+       "name": "English, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-I-25-ENGLISH-150425.pdf"
       },
       {
-       "name": "General Knowledge — Exam (I)",
+       "name": "General Knowledge, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-I-25-GENERAL-KNOWLEDGE-150425.pdf"
       },
       {
-       "name": "Elementary Mathematics — Exam (I)",
+       "name": "Elementary Mathematics, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-I-25-ELEMENTARY-MATHEMATICS-150425.pdf"
       }
      ]
@@ -1577,27 +1577,27 @@ window.AVSAR_DATA = {
      "year": 2024,
      "papers": [
       {
-       "name": "English — Exam (II)",
+       "name": "English, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-24-ENGLISH-020924.pdf"
       },
       {
-       "name": "General Knowledge — Exam (II)",
+       "name": "General Knowledge, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-24-GENERAL-KNOWLEDGE-020924.pdf"
       },
       {
-       "name": "Elementary Mathematics — Exam (II)",
+       "name": "Elementary Mathematics, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-24-ELEMENTARY-MATHEMATICS-020924.pdf"
       },
       {
-       "name": "Elementary Mathematics — Exam (I)",
+       "name": "Elementary Mathematics, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP_CDSI2024_ELEMENTARY-MATHEMATICS_22042024.pdf"
       },
       {
-       "name": "English — Exam (I)",
+       "name": "English, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP_CDSI2024_ENGLISH_22042024.pdf"
       },
       {
-       "name": "General Knowledge — Exam (I)",
+       "name": "General Knowledge, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP_CDSI2024_GENERAL-KNOWLEDGE_22042024.pdf"
       }
      ]
@@ -1606,15 +1606,15 @@ window.AVSAR_DATA = {
      "year": 2023,
      "papers": [
       {
-       "name": "Elementary Mathematics — Exam (II)",
+       "name": "Elementary Mathematics, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-2023-EleMath-04092023.pdf"
       },
       {
-       "name": "English — Exam (II)",
+       "name": "English, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-2023-Eng-04092023.pdf"
       },
       {
-       "name": "General Knowledge — Exam (II)",
+       "name": "General Knowledge, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-CDSE-II-2023-GK-04092023.pdf"
       }
      ]
@@ -1631,7 +1631,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 100,
    "benefit": "Full training with degree; Rs 56,100 basic on commissioning",
-   "window": "twice a year: typically Dec–Jan (NDA I) and May–Jun (NDA II)",
+   "window": "twice a year: typically Dec-Jan (NDA I) and May-Jun (NDA II)",
    "windowMonths": [
     12,
     1,
@@ -1667,14 +1667,14 @@ window.AVSAR_DATA = {
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
     "National Defence Academy, Khadakwasla (Army, Navy, Air Force cadet)",
-    "Indian Naval Academy — 10+2 Cadet Entry Scheme"
+    "Indian Naval Academy: 10+2 Cadet Entry Scheme"
    ],
    "description": "The route into the armed forces straight after class 12. Cadets train at the National Defence Academy or the Naval Academy and are commissioned as officers. Held twice a year.",
    "officialExamPage": "https://www.upsc.gov.in/examinations/National%20Defence%20Academy%20and%20Naval%20Academy%20Examination%20%28II%29%2C%202026",
    "status": "closed",
    "statusNote": "Applications for NDA & NA (II) 2026 have closed; the written examination follows. The next notification, for NDA & NA (I) 2027, is scheduled for 2 December 2026 in the official UPSC Annual Calendar 2027.",
    "notification": {
-    "title": "National Defence Academy and Naval Academy Examination (II), 2026 — notification",
+    "title": "National Defence Academy and Naval Academy Examination (II), 2026: notification",
     "date": "2026-05-20",
     "cycle": "NDA & NA (II) 2026",
     "current": true,
@@ -1696,7 +1696,7 @@ window.AVSAR_DATA = {
    },
    "eligibility": {
     "education": "Class 12 pass (or appearing) for the Army wing; class 12 with Physics, Chemistry and Mathematics for the Air Force, Navy and Naval Academy",
-    "age": "Broadly 16.5 to 19.5 years — the exact birth-date window is in the notification",
+    "age": "Broadly 16.5 to 19.5 years; the exact birth-date window is in the notification",
     "other": "Unmarried candidates only. Both men and women are eligible."
    },
    "fee": "₹100, non-refundable (women, SC and ST candidates are exempt, as are wards of serving or ex JCOs/NCOs/ORs who are studying in a Sainik School or Military School; OBC and EWS candidates pay in full)",
@@ -1708,8 +1708,8 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Paper I: Mathematics — 300 marks, 2.5 hours, objective",
-     "Paper II: General Ability Test — 600 marks, 2.5 hours, objective",
+     "Paper I: Mathematics, 300 marks, 2.5 hours, objective",
+     "Paper II: General Ability Test, 600 marks, 2.5 hours, objective",
      "Then SSB interview and personality test (900 marks)"
     ],
     "title": "Scheme of examination (inside the official notification)",
@@ -1724,11 +1724,11 @@ window.AVSAR_DATA = {
      "year": 2026,
      "papers": [
       {
-       "name": "Mathematics — Exam (I)",
+       "name": "Mathematics, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-26-MATHEMATICS-130426.pdf"
       },
       {
-       "name": "General Ability Test — Exam (I)",
+       "name": "General Ability Test, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-26-GENERAL-ABILITY-TEST-130426.pdf"
       }
      ]
@@ -1737,19 +1737,19 @@ window.AVSAR_DATA = {
      "year": 2025,
      "papers": [
       {
-       "name": "General Ability Test — Exam (II)",
+       "name": "General Ability Test, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-25-GENERAL-ABILITY-TEST-150925.pdf"
       },
       {
-       "name": "Mathematics — Exam (II)",
+       "name": "Mathematics, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-25-MATHEMATICS-150925.pdf"
       },
       {
-       "name": "Mathematics — Exam (I)",
+       "name": "Mathematics, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-25-MATHEMATICS-150425.pdf"
       },
       {
-       "name": "General Ability Test — Exam (I)",
+       "name": "General Ability Test, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-I-25-GENERAL-ABILITY-TEST-150425.pdf"
       }
      ]
@@ -1758,19 +1758,19 @@ window.AVSAR_DATA = {
      "year": 2024,
      "papers": [
       {
-       "name": "General Ability Test — Exam (II)",
+       "name": "General Ability Test, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-II-24-GENERAL-ABILITY-TEST-020924.pdf"
       },
       {
-       "name": "Mathematics — Exam (II)",
+       "name": "Mathematics, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDA-NA-II-24-MATHEMATICS-020924.pdf"
       },
       {
-       "name": "General Ability Test — Exam (I)",
+       "name": "General Ability Test, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP_NDANAI2024_GENERAL-ABILITY-TEST_22042024.pdf"
       },
       {
-       "name": "Mathematics — Exam (I)",
+       "name": "Mathematics, Exam (I)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP_NDANAI2024_MATHEMATICS_22042024.pdf"
       }
      ]
@@ -1779,11 +1779,11 @@ window.AVSAR_DATA = {
      "year": 2023,
      "papers": [
       {
-       "name": "General Ability Test — Exam (II)",
+       "name": "General Ability Test, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-2023-GAT-04092023.pdf"
       },
       {
-       "name": "Mathematics — Exam (II)",
+       "name": "Mathematics, Exam (II)",
        "url": "https://www.upsc.gov.in/sites/default/files/QP-NDANA-II-2023-Maths-04092023.pdf"
       }
      ]
@@ -1830,12 +1830,12 @@ window.AVSAR_DATA = {
    "typicalJobs": [
     "Assistant Commandant in BSF, CRPF, CISF, ITBP and SSB"
    ],
-   "description": "Recruits graduates directly as Assistant Commandant — a gazetted officer rank — in the five Central Armed Police Forces. Written exam, then physical tests and an interview.",
+   "description": "Recruits graduates directly as Assistant Commandant, a gazetted officer rank, in the five Central Armed Police Forces. Written exam, then physical tests and an interview.",
    "officialExamPage": "https://www.upsc.gov.in/examinations/Central%20Armed%20Police%20Forces%20%28ACs%29%20Examination%2C%202026",
    "status": "upcoming",
    "statusNote": "CAPF (AC) 2026 is over. The next notification, for 2027, is scheduled for 17 February 2027 in the official UPSC Annual Calendar 2027.",
    "notification": {
-    "title": "Central Armed Police Forces (ACs) Examination, 2026 — notification",
+    "title": "Central Armed Police Forces (ACs) Examination, 2026: notification",
     "date": "2026-02-20",
     "cycle": "2026",
     "current": false,
@@ -1869,8 +1869,8 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Paper I: General Ability and Intelligence — 250 marks, objective, 2 hours",
-     "Paper II: General Studies, Essay and Comprehension — 200 marks, descriptive, 3 hours",
+     "Paper I: General Ability and Intelligence, 250 marks, objective, 2 hours",
+     "Paper II: General Studies, Essay and Comprehension; 200 marks, descriptive, 3 hours",
      "Then Physical Standards / Efficiency Tests, medical, and an interview of 150 marks"
     ],
     "title": "Scheme of examination (inside the official notification)",
@@ -1880,7 +1880,7 @@ window.AVSAR_DATA = {
    "answerKeys": [
     {
      "year": 2025,
-     "title": "CAPF (AC) 2025 — General Ability and Intelligence",
+     "title": "CAPF (AC) 2025: General Ability and Intelligence",
      "url": "https://www.upsc.gov.in/sites/default/files/AnsKey-CAPFACs-Exam-2025-GAI-110826.pdf"
     }
    ],
@@ -1937,8 +1937,8 @@ window.AVSAR_DATA = {
    "ageMax": 32,
    "minEducation": "ug",
    "feeINR": 100,
-   "benefit": "Rs 25,500–47,600 starting basic depending on post (Level 4–8)",
-   "window": "typically May–Jun (2026: 21 May–25 Jun per SSC calendar)",
+   "benefit": "Rs 25,500-47,600 starting basic depending on post (Level 4-8)",
+   "window": "typically May-Jun (2026: 21 May-25 Jun per SSC calendar)",
    "windowMonths": [
     5,
     6
@@ -1982,7 +1982,7 @@ window.AVSAR_DATA = {
    "description": "The biggest graduate-level recruitment for central government office jobs. Two computer-based tiers, then document verification. Notified once a year.",
    "officialExamPage": "https://ssc.gov.in/",
    "status": "closed",
-   "statusNote": "Applications for CGL 2026 closed on 25 June 2026, after SSC re-opened the window for two days by a notice dated 23 June 2026 (https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/CGLE_Reopen_23062026.pdf); the fee-payment last date was 26 June 2026. Tier-I was scheduled for August–September 2026 and Tier-II for December 2026 in the official notice.",
+   "statusNote": "Applications for CGL 2026 closed on 25 June 2026, after SSC re-opened the window for two days by a notice dated 23 June 2026 (https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/CGLE_Reopen_23062026.pdf); the fee-payment last date was 26 June 2026. Tier-I was scheduled for August-September 2026 and Tier-II for December 2026 in the official notice.",
    "notification": {
     "title": "Notice of Combined Graduate Level Examination, 2026",
     "date": "2026-05-21",
@@ -2018,7 +2018,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Tier-I: 4 sections of 25 questions each — 200 marks, 1 hour, negative marking of 0.50 per wrong answer",
+     "Tier-I: 4 sections of 25 questions each, 200 marks, 1 hour, negative marking of 0.50 per wrong answer",
      "Tier-II: Paper I in two sessions (Mathematical Abilities, Reasoning, English, General Awareness, Computer Knowledge, Data Entry Speed); Papers II and III only for specific posts",
      "Both tiers are computer-based"
     ],
@@ -2042,8 +2042,8 @@ window.AVSAR_DATA = {
    "ageMax": 27,
    "minEducation": "12th",
    "feeINR": 100,
-   "benefit": "Rs 19,900–29,200 starting basic depending on post (Level 2–5)",
-   "window": "per SSC calendar Apr–May; 2026 cycle running late",
+   "benefit": "Rs 19,900-29,200 starting basic depending on post (Level 2-5)",
+   "window": "per SSC calendar Apr-May; 2026 cycle running late",
    "windowMonths": [
     4,
     5
@@ -2133,7 +2133,7 @@ window.AVSAR_DATA = {
      ]
     }
    ],
-   "pastPapersNote": "This is the only question paper SSC publishes openly — an official model paper. Actual previous papers are released to each candidate in the login area.",
+   "pastPapersNote": "This is the only question paper SSC publishes openly: an official model paper. Actual previous papers are released to each candidate in the login area.",
    "pastPapersPage": "https://ssc.gov.in/for-candidates/previous-year-question-paper",
    "answerKeys": [],
    "answerKeysNote": "SSC releases answer keys inside the candidate login area.",
@@ -2150,7 +2150,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 100,
    "benefit": "Rs 18,000 starting basic (Level 1) plus allowances",
-   "window": "typically Jun–Jul (2026: 30 Jun–31 Jul)",
+   "window": "typically Jun-Jul (2026: 30 Jun-31 Jul)",
    "windowMonths": [
     6,
     7
@@ -2250,7 +2250,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 100,
    "benefit": "Rs 21,700 starting basic (Level 3) plus force allowances",
-   "window": "typically Sep–Oct (2026 notification due Sep per SSC calendar)",
+   "window": "typically Sep-Oct (2026 notification due Sep per SSC calendar)",
    "windowMonths": [
     9,
     10
@@ -2321,7 +2321,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "One objective computer-based paper: 80 questions of 2 marks each — 160 marks, 60 minutes, with negative marking of 0.25 marks per wrong answer",
+     "One objective computer-based paper: 80 questions of 2 marks each, 160 marks, 60 minutes, with negative marking of 0.25 marks per wrong answer",
      "Four parts: General Intelligence & Reasoning, General Knowledge & Awareness, Elementary Mathematics, English/Hindi (20 questions each)",
      "Offered in English, Hindi and 13 regional languages",
      "Then Physical Efficiency Test, Physical Standard Test and a medical examination"
@@ -2352,7 +2352,7 @@ window.AVSAR_DATA = {
    "minEducation": "diploma",
    "feeINR": 100,
    "benefit": "Rs 35,400 starting basic (Level 6)",
-   "window": "per SSC calendar Mar–Apr (upper age 30 or 32 depending on post)",
+   "window": "per SSC calendar Mar-Apr (upper age 30 or 32 depending on post)",
    "windowMonths": [
     3,
     4
@@ -2414,7 +2414,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://ssc.gov.in/for-candidates/examination-calendar"
    },
    "eligibility": {
-    "education": "Diploma or degree in the relevant engineering branch; some posts require experience — the notice lists the requirement post by post",
+    "education": "Diploma or degree in the relevant engineering branch; some posts require experience: the notice lists the requirement post by post",
     "age": "Up to 30 or 32 years depending on the post, with relaxations for reserved categories",
     "other": "Indian citizen."
    },
@@ -2427,7 +2427,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Paper I: objective — General Intelligence & Reasoning, General Awareness, and the branch subject",
+     "Paper I: objective; General Intelligence & Reasoning, General Awareness, and the branch subject",
      "Paper II: the branch subject in more depth",
      "Both papers are computer-based"
     ],
@@ -2451,8 +2451,8 @@ window.AVSAR_DATA = {
    "ageMax": 30,
    "minEducation": "ug",
    "feeINR": 850,
-   "benefit": "Rs 48,480 starting basic; roughly Rs 80,000–1,00,000/month gross",
-   "window": "typically Jun–Jul (2026: 30 Jun–26 Jul)",
+   "benefit": "Rs 48,480 starting basic; roughly Rs 80,000-1,00,000/month gross",
+   "window": "typically Jun-Jul (2026: 30 Jun-26 Jul)",
    "windowMonths": [
     6,
     7
@@ -2521,8 +2521,8 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Preliminary: 100 questions, 100 marks, 1 hour — English, Quantitative Aptitude, Reasoning Ability (sectional timing)",
-     "Main: 170 questions, 200 marks, 160 minutes — Reasoning (40 q, 60 marks), General/Economy/Banking Awareness (50 q, 60 marks), English (40 q, 20 marks), Data Analysis & Interpretation (40 q, 60 marks) — plus a 2-question 25-mark descriptive paper in 30 minutes",
+     "Preliminary: 100 questions, 100 marks, 1 hour; English, Quantitative Aptitude, Reasoning Ability (sectional timing)",
+     "Main: 170 questions, 200 marks, 160 minutes; Reasoning (40 q, 60 marks), General/Economy/Banking Awareness (50 q, 60 marks), English (40 q, 20 marks), Data Analysis & Interpretation (40 q, 60 marks); plus a 2-question 25-mark descriptive paper in 30 minutes",
      "Then an interview of 100 marks; final merit is 80:20 between the main exam and interview"
     ],
     "title": "Structure of examination (inside the official notification)",
@@ -2579,7 +2579,7 @@ window.AVSAR_DATA = {
    "typicalJobs": [
     "Customer Service Associate (clerical cadre) in public sector banks"
    ],
-   "description": "The common recruitment process for clerical-cadre bank jobs — front-desk and back-office work in public sector banks. Preliminary and main online exams, and a local language proficiency test; no interview.",
+   "description": "The common recruitment process for clerical-cadre bank jobs: front-desk and back-office work in public sector banks. Preliminary and main online exams, and a local language proficiency test; no interview.",
    "officialExamPage": "https://www.ibps.in/index.php/clerical-cadre/",
    "status": "open",
    "statusNote": "Registration for CRP CSA-XVI is open from 1 August 2026 to 21 August 2026.",
@@ -2618,8 +2618,8 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability (sectional timing)",
-     "Main: 160 questions, 200 marks, 125 minutes — General/Financial Awareness (40 q, 50 marks), General English (40 q, 40 marks), Reasoning Ability (40 q, 60 marks), Quantitative Aptitude (40 q, 50 marks), each separately timed",
+     "Preliminary: 100 questions, 100 marks, 1 hour; English, Numerical Ability, Reasoning Ability (sectional timing)",
+     "Main: 160 questions, 200 marks, 125 minutes; General/Financial Awareness (40 q, 50 marks), General English (40 q, 40 marks), Reasoning Ability (40 q, 60 marks), Quantitative Aptitude (40 q, 50 marks), each separately timed",
      "Then a Local Language Proficiency Test. There is no interview."
     ],
     "title": "Structure of examination (inside the official notification)",
@@ -2647,7 +2647,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 850,
    "benefit": "Officer Scale-I starts around Rs 57,000/month gross; Office Assistant lower",
-   "window": "typically Jun–Jul",
+   "window": "typically Jun-Jul",
    "windowMonths": [
     6,
     7
@@ -2746,7 +2746,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 750,
    "benefit": "Rs 48,480 starting basic with advance increments; among the best-paying PSU bank jobs",
-   "window": "recently Jun–Jul (2026: 18 Jun–8 Jul); has moved around in past years",
+   "window": "recently Jun-Jul (2026: 18 Jun-8 Jul); has moved around in past years",
    "windowMonths": [
     6,
     7
@@ -2780,7 +2780,7 @@ window.AVSAR_DATA = {
    "status": "closed",
    "statusNote": "Registration for advertisement CRPD/PO/2026-27/09 (1,500 vacancies) ran from 18 June to 8 July 2026 and has closed. The preliminary examination call letters have been issued.",
    "notification": {
-    "title": "Recruitment of Probationary Officers — advertisement CRPD/PO/2026-27/09",
+    "title": "Recruitment of Probationary Officers, advertisement CRPD/PO/2026-27/09",
     "date": "2026-06-18",
     "cycle": "2026-27",
     "current": true,
@@ -2814,7 +2814,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Preliminary: 100 questions, 100 marks, 1 hour — English, Quantitative Aptitude, Reasoning Ability",
+     "Preliminary: 100 questions, 100 marks, 1 hour; English, Quantitative Aptitude, Reasoning Ability",
      "Main: objective test of 170 questions and 200 marks in 3 hours (Reasoning & Computer Aptitude 40 q/60, Data Analysis & Interpretation 30 q/60, General Awareness-Economy-Banking 60 q/60, English 40 q/20), plus a 3-question descriptive Communication Skills paper of 30 marks in 30 minutes",
      "Then a psychometric test, group exercise and interview"
     ],
@@ -2839,7 +2839,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 750,
    "benefit": "Rs 26,730 starting basic (Rs 24,050 plus two advance increments admissible to graduates); total starting emoluments around Rs 46,000/month at a metro like Mumbai, varying with place of posting",
-   "window": "recently Dec–Jan",
+   "window": "recently Dec-Jan",
    "windowMonths": [
     12,
     1
@@ -2867,14 +2867,14 @@ window.AVSAR_DATA = {
    "source": "official",
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
-    "Junior Associate (Customer Support & Sales) — clerical cadre in State Bank of India"
+    "Junior Associate (Customer Support & Sales), clerical cadre in State Bank of India"
    ],
    "description": "SBI's clerical-cadre recruitment, done state by state (you apply for a specific circle and must know its local language). Preliminary exam, main exam, and a local language test.",
    "officialExamPage": "https://sbi.bank.in/web/careers/current-openings",
    "status": "open",
-   "statusNote": "Advertisement CRPD/CR/2026-27/17 is open — apply online from 11 August 2026 to 31 August 2026.",
+   "statusNote": "Advertisement CRPD/CR/2026-27/17 is open; apply online from 11 August 2026 to 31 August 2026.",
    "notification": {
-    "title": "Recruitment of Junior Associates (Customer Support & Sales) — advertisement CRPD/CR/2026-27/17",
+    "title": "Recruitment of Junior Associates (Customer Support & Sales), advertisement CRPD/CR/2026-27/17",
     "date": "2026-08-11",
     "cycle": "2026-27",
     "current": true,
@@ -2908,7 +2908,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability",
+     "Preliminary: 100 questions, 100 marks, 1 hour; English, Numerical Ability, Reasoning Ability",
      "Main: 190 questions, 200 marks, 2 hours 40 minutes",
      "Then a local language test. There is no interview."
     ],
@@ -2932,7 +2932,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 850,
    "benefit": "Rs 78,450 starting basic; around Rs 1,54,936/month gross (without HRA)",
-   "window": "varies: Apr–May in 2026, Jul in earlier years",
+   "window": "varies: Apr-May in 2026, Jul in earlier years",
    "windowMonths": [
     4,
     5,
@@ -2961,16 +2961,16 @@ window.AVSAR_DATA = {
    "source": "official",
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
-    "Officer in Grade B (Direct Recruit) — General cadre",
-    "Officer in Grade B — DEPR (economic research)",
-    "Officer in Grade B — DSIM (statistics)"
+    "Officer in Grade B (Direct Recruit), General cadre",
+    "Officer in Grade B, DEPR (economic research)",
+    "Officer in Grade B, DSIM (statistics)"
    ],
    "description": "The entry-level officer post at India's central bank, and one of the most competitive banking exams. Three phases: an objective screening test, descriptive papers, and an interview.",
    "officialExamPage": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
    "status": "closed",
    "statusNote": "Advertisement RBISB/DA/01/2026-27 (Panel Year 2026) closed for applications on 20 May 2026.",
    "notification": {
-    "title": "Direct Recruitment for Officers in Grade 'B' (DR) — advertisement RBISB/DA/01/2026-27",
+    "title": "Direct Recruitment for Officers in Grade 'B' (DR), advertisement RBISB/DA/01/2026-27",
     "date": "2026-04-29",
     "cycle": "Panel Year 2026",
     "current": true,
@@ -3006,7 +3006,7 @@ window.AVSAR_DATA = {
    "examPattern": {
     "summary": [
      "Phase I: objective screening test of 200 marks (General cadre)",
-     "Phase II: three papers — Economic & Social Issues, English (descriptive), Finance & Management",
+     "Phase II: three papers; Economic & Social Issues, English (descriptive), Finance & Management",
      "Then an interview of 75 marks"
     ],
     "title": "Scheme of selection (inside the official advertisement)",
@@ -3030,7 +3030,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 450,
    "benefit": "Rs 29,000 starting basic; around Rs 58,514/month gross (without HRA)",
-   "window": "irregular; 2026 cycle ran 16 Feb–8 Mar",
+   "window": "irregular; 2026 cycle ran 16 Feb-8 Mar",
    "windowMonths": [
     2,
     3
@@ -3064,7 +3064,7 @@ window.AVSAR_DATA = {
    "status": "closed",
    "statusNote": "The advertisement for Assistant (Panel Year 2025, 650 posts) was published on 16 February 2026 and closed for applications on 8 March 2026.",
    "notification": {
-    "title": "Recruitment for the Post of Assistant — Panel Year 2025",
+    "title": "Recruitment for the Post of Assistant, Panel Year 2025",
     "date": "2026-02-16",
     "cycle": "Panel Year 2025",
     "current": true,
@@ -3099,7 +3099,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Preliminary: 100 questions, 100 marks, 1 hour — English, Numerical Ability, Reasoning Ability",
+     "Preliminary: 100 questions, 100 marks, 1 hour; English, Numerical Ability, Reasoning Ability",
      "Main: 200 questions, 200 marks, 135 minutes, adding General Awareness and Computer Knowledge",
      "Then a Language Proficiency Test",
      "1/4 mark is deducted for every wrong answer in both the Preliminary and the Main objective tests, and you must qualify in each section separately"
@@ -3123,8 +3123,8 @@ window.AVSAR_DATA = {
    "ageMax": 33,
    "minEducation": "12th",
    "feeINR": 500,
-   "benefit": "Rs 19,900–35,400 starting basic depending on post (Rs 400 of fee refunded on appearing)",
-   "window": "next CEN proposed Aug 2026 in RRB annual calendar (2024 cycle was Sep–Oct)",
+   "benefit": "Rs 19,900-35,400 starting basic depending on post (Rs 400 of fee refunded on appearing)",
+   "window": "next CEN proposed Aug 2026 in RRB annual calendar (2024 cycle was Sep-Oct)",
    "windowMonths": [
     8,
     9
@@ -3163,12 +3163,12 @@ window.AVSAR_DATA = {
     "Accounts Clerk cum Typist",
     "Trains Clerk"
    ],
-   "description": "The Railways' big non-technical recruitment. It runs as two separate Centralised Employment Notifications — one for graduate-level posts and one for undergraduate (class 12) posts. Multiple computer-based stages, then a typing or aptitude test depending on the post.",
+   "description": "The Railways' big non-technical recruitment. It runs as two separate Centralised Employment Notifications: one for graduate-level posts and one for undergraduate (class 12) posts. Multiple computer-based stages, then a typing or aptitude test depending on the post.",
    "officialExamPage": "https://rrb.indianrailways.gov.in/",
    "status": "not-announced",
    "statusNote": "The application windows for the current graduate CEN 06/2025 and undergraduate CEN 07/2025 have closed. No newer NTPC CEN has been published.",
    "notification": {
-    "title": "CEN 06/2025 — Detailed Centralised Employment Notification, NTPC (Graduate posts)",
+    "title": "CEN 06/2025: Detailed Centralised Employment Notification, NTPC (Graduate posts)",
     "date": "2025-10-21",
     "cycle": "CEN 06/2025",
     "current": false,
@@ -3177,7 +3177,7 @@ window.AVSAR_DATA = {
    },
    "extraNotifications": [
     {
-     "title": "CEN 07/2025 — Detailed CEN, NTPC (Undergraduate posts)",
+     "title": "CEN 07/2025: Detailed CEN, NTPC (Undergraduate posts)",
      "date": "2025-10-28",
      "url": "https://rrb.indianrailways.gov.in/-/image/1762325939510Detailed_CEN_07_2025_NTPC_Under_Graduate_English.pdf/examsDocuments"
     }
@@ -3209,7 +3209,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "CBT-1: 100 questions, 90 minutes — Mathematics, General Intelligence & Reasoning, General Awareness",
+     "CBT-1: 100 questions, 90 minutes; Mathematics, General Intelligence & Reasoning, General Awareness",
      "CBT-2: 120 questions, 90 minutes, on the same subject areas at greater depth",
      "Then a Typing Skill Test or Computer Based Aptitude Test depending on the post",
      "Negative marking of 1/3 mark per wrong answer"
@@ -3224,7 +3224,7 @@ window.AVSAR_DATA = {
    "answerKeysNote": "Answer keys are released per CEN through the candidate login and objection tracker.",
    "answerKeysPage": "https://rrb.indianrailways.gov.in/",
    "mockTests": [],
-   "mockTestNote": "RRBs publish an official mock test link for each CEN once the examination is scheduled — look for 'Mock Test Link' under the CEN."
+   "mockTestNote": "RRBs publish an official mock test link for each CEN once the examination is scheduled; look for 'Mock Test Link' under the CEN."
   },
   {
    "id": "rrb-group-d",
@@ -3236,7 +3236,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 500,
    "benefit": "Rs 18,000 starting basic (Level 1); Rs 400 of fee refunded on appearing",
-   "window": "varies by CEN (CEN 09/2025: 31 Jan–2 Mar 2026)",
+   "window": "varies by CEN (CEN 09/2025: 31 Jan-2 Mar 2026)",
    "windowMonths": [
     1,
     2,
@@ -3273,12 +3273,12 @@ window.AVSAR_DATA = {
     "Assistant (Loco Shed, Workshop, Bridge, Signal & Telecom)",
     "Assistant Operations (Electrical)"
    ],
-   "description": "Class-10-level recruitment for Level 1 posts across the Railways — the largest single government recruitment by number of vacancies. One computer-based test, then a physical efficiency test and a medical examination.",
+   "description": "Class-10-level recruitment for Level 1 posts across the Railways, the largest single government recruitment by number of vacancies. One computer-based test, then a physical efficiency test and a medical examination.",
    "officialExamPage": "https://rrb.indianrailways.gov.in/",
    "status": "closed",
    "statusNote": "Applications for CEN 09/2025 (Level 1, 22,195 vacancies) ran from 31 January to 2 March 2026 and have closed; the computer-based test is in progress. No newer Level 1 CEN has been published.",
    "notification": {
-    "title": "CEN 09/2025 — Detailed Centralised Employment Notice, Level 1 posts (22,195 vacancies)",
+    "title": "CEN 09/2025: Detailed Centralised Employment Notice, Level 1 posts (22,195 vacancies)",
     "date": "2026-01-31",
     "cycle": "CEN 09/2025",
     "current": true,
@@ -3328,12 +3328,12 @@ window.AVSAR_DATA = {
    "mockTests": [],
    "extraNotifications": [
     {
-     "title": "CEN 09/2025 — official FAQ",
+     "title": "CEN 09/2025: official FAQ",
      "date": "2026-02-04",
      "url": "https://rrb.indianrailways.gov.in/-/image/1770185990944FAQ_ENGLISH_092025.pdf/examsDocuments"
     },
     {
-     "title": "CEN 08/2024 — the previous Level 1 notice",
+     "title": "CEN 08/2024: the previous Level 1 notice",
      "date": "2025-01-22",
      "url": "https://rrb.indianrailways.gov.in/-/image/176232099530801_Detailed_CEN_08_2024.pdf/examsDocuments"
     }
@@ -3349,7 +3349,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 500,
    "benefit": "Rs 19,900 starting basic (Level 2) plus running allowances",
-   "window": "recent CENs opened Feb–Apr; next per RRB annual calendar",
+   "window": "recent CENs opened Feb-Apr; next per RRB annual calendar",
    "windowMonths": [
     2,
     3,
@@ -3389,7 +3389,7 @@ window.AVSAR_DATA = {
    "status": "closed",
    "statusNote": "Applications for CEN 01/2026 closed on 14 June 2026. The examination schedule has not been announced yet.",
    "notification": {
-    "title": "CEN 01/2026 — Detailed Centralised Employment Notification, Assistant Loco Pilot",
+    "title": "CEN 01/2026: Detailed Centralised Employment Notification, Assistant Loco Pilot",
     "date": "2026-05-14",
     "cycle": "CEN 01/2026",
     "current": true,
@@ -3412,7 +3412,7 @@ window.AVSAR_DATA = {
    "eligibility": {
     "education": "Class 10 plus an ITI certificate in a notified trade, or a diploma or degree in Mechanical, Electrical, Electronics or Automobile engineering",
     "age": "18 to 30 years in CEN 01/2026, with relaxations for reserved categories",
-    "other": "Indian citizen. Medical standard A-1 — the strictest vision standard in the Railways."
+    "other": "Indian citizen. Medical standard A-1, the strictest vision standard in the Railways."
    },
    "fee": "₹500, of which ₹400 is refunded (less bank charges) after appearing for CBT-1; ₹250 for SC, ST, ex-servicemen, women, transgender, minority and Economically Backward Class candidates, refunded in full (less bank charges) on appearing for CBT-1",
    "syllabus": {
@@ -3423,7 +3423,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "CBT-1: 75 questions, 60 minutes — screening only",
+     "CBT-1: 75 questions, 60 minutes; screening only",
      "CBT-2: two parts (Part A 100 questions/90 min, Part B 75 questions/60 min on the trade)",
      "Computer Based Aptitude Test (no negative marking, minimum 42 marks in each battery)",
      "Then document verification and medical examination"
@@ -3448,7 +3448,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 700,
    "benefit": "Rs 88,635 starting basic; around Rs 1.25 lakh/month gross in metro cities",
-   "window": "recently Aug–Sep (2025: 16 Aug–9 Sep); cycles not strictly annual",
+   "window": "recently Aug-Sep (2025: 16 Aug-9 Sep); cycles not strictly annual",
    "windowMonths": [
     8,
     9
@@ -3484,7 +3484,7 @@ window.AVSAR_DATA = {
    "status": "closed",
    "statusNote": "The AAO 2025 recruitment closed for applications on 8 September 2025. The preliminary examination was held on 3 October 2025 and the main examination on 8 November 2025.",
    "notification": {
-    "title": "Recruitment of AAO (Generalist) 2025 — official notification",
+    "title": "Recruitment of AAO (Generalist) 2025: official notification",
     "date": "2025-08-16",
     "cycle": "2025",
     "current": false,
@@ -3493,7 +3493,7 @@ window.AVSAR_DATA = {
    },
    "extraNotifications": [
     {
-     "title": "AAO (Specialists / Assistant Engineers) 2025 — official notification",
+     "title": "AAO (Specialists / Assistant Engineers) 2025: official notification",
      "date": "2025-08-16",
      "url": "https://licindia.in/documents/d/guest/aao-specialist-notification-2025-final"
     }
@@ -3525,7 +3525,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Preliminary: objective online test — Reasoning Ability, Quantitative Aptitude, English (qualifying)",
+     "Preliminary: objective online test; Reasoning Ability, Quantitative Aptitude, English (qualifying)",
      "Main: objective online test plus a descriptive English paper",
      "Then an interview and a pre-recruitment medical examination",
      "There is no negative marking in either examination, but you must qualify in each section separately. In the Preliminary only 70 of the 100 marks count (the English section is qualifying only), and the final merit list uses only the Main examination and interview marks"
@@ -3550,7 +3550,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 250,
    "benefit": "Rs 30,000/month first-year package plus Rs 10.04 lakh Seva Nidhi on exit",
-   "window": "typically Feb–Apr (2026: 13 Feb–10 Apr)",
+   "window": "typically Feb-Apr (2026: 13 Feb-10 Apr)",
    "windowMonths": [
     2,
     3,
@@ -3642,7 +3642,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 550,
    "benefit": "Rs 30,000/month first-year package plus Rs 10.04 lakh Seva Nidhi on exit",
-   "window": "twice a year, typically Jan and Jul (Intake 02/2027 ran 6–26 Jul 2026)",
+   "window": "twice a year, typically Jan and Jul (Intake 02/2027 ran 6-26 Jul 2026)",
    "windowMonths": [
     1,
     7
@@ -3720,7 +3720,7 @@ window.AVSAR_DATA = {
      "year": 2026,
      "papers": [
       {
-       "name": "Agniveervayu (Musician) — official model question paper",
+       "name": "Agniveervayu (Musician): official model question paper",
        "url": "https://agnipathvayu.cdac.in/AV/img/rally/AV_Musician_MODEL_QP.pdf"
       }
      ]
@@ -3743,7 +3743,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 550,
    "benefit": "Rs 30,000/month first-year package plus Rs 10.04 lakh Seva Nidhi on exit",
-   "window": "recently one Mar–Apr window covering both yearly batches (2026: 14 Mar–6 Apr)",
+   "window": "recently one Mar-Apr window covering both yearly batches (2026: 14 Mar-6 Apr)",
    "windowMonths": [
     3,
     4
@@ -3772,7 +3772,7 @@ window.AVSAR_DATA = {
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
     "Agniveer SSR (Senior Secondary Recruit)",
-    "Agniveer MR (Matric Recruit — chef, steward, hygienist)",
+    "Agniveer MR (Matric Recruit: chef, steward, hygienist)",
     "Agniveer (Apprentice)"
    ],
    "description": "Enrolment into the Navy under the Agnipath scheme through the Indian Navy Entrance Test (INET), followed by written, physical and medical stages. The Navy notifies SSR, MR and Apprentice entries separately.",
@@ -3812,7 +3812,7 @@ window.AVSAR_DATA = {
      "Stage II: Written Examination, Physical Fitness Test and Recruitment Medical",
      "Then induction and a final Recruitment Medical at INS Chilka, Odisha, followed by ab-initio training there and then at professional schools"
     ],
-    "title": "Selection procedure — Agniveer SSR and MR",
+    "title": "Selection procedure: Agniveer SSR and MR",
     "url": "https://www.joinindiannavy.gov.in/en/page/selection-procedure-agniveer-ssr-and-agniveer-mr.html"
    },
    "pastPapers": [],
@@ -3832,7 +3832,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 250,
    "benefit": "Rs 56,100 minimum basic pay per month (Level 10 of the Pay Matrix) plus DA, HRA and Transport Allowance; second-class or sleeper-class rail fare is reimbursed for attending the interview",
-   "window": "irregular, watch ISRO careers (2026 cycle: 28 Jul–17 Aug)",
+   "window": "irregular, watch ISRO careers (2026 cycle: 28 Jul-17 Aug)",
    "windowMonths": [
     7,
     8
@@ -3871,7 +3871,7 @@ window.AVSAR_DATA = {
    "status": "closed",
    "statusNote": "Advertisement ISRO:ICRB:02(EMC-CEPO):2026 for Scientist/Engineer 'SC' was open from 28 July to 17 August 2026 and has closed.",
    "notification": {
-    "title": "Recruitment to the post of Scientist/Engineer 'SC' — Advertisement ISRO:ICRB:02(EMC-CEPO):2026",
+    "title": "Recruitment to the post of Scientist/Engineer 'SC', Advertisement ISRO:ICRB:02(EMC-CEPO):2026",
     "date": "2026-07-28",
     "cycle": "ICRB:02:2026",
     "current": true,
@@ -3913,7 +3913,7 @@ window.AVSAR_DATA = {
    "examPattern": {
     "summary": [
      "Shortlisting for interview is in a 1:7 ratio on GATE Score (not GATE marks or GATE rank); a valid GATE 2025 or GATE 2026 score in the specified paper is mandatory",
-     "There is no written test in this advertisement — only a personal interview, marked out of 100: Technical (Academic) Knowledge 40, General Awareness in the specialisation 20, Presentation/Communication 20, Comprehension 10, Academic Achievements 10",
+     "There is no written test in this advertisement; only a personal interview, marked out of 100: Technical (Academic) Knowledge 40, General Awareness in the specialisation 20, Presentation/Communication 20, Comprehension 10, Academic Achievements 10",
      "Qualifying marks: 50% in GATE and 50% in the interview with a 60% aggregate for UR and EWS; 40% / 40% / 50% for SC, ST, OBC and PwBD where posts are reserved",
      "The final panel weights GATE Score 50% and interview marks 50%"
     ],
@@ -3925,7 +3925,7 @@ window.AVSAR_DATA = {
      "year": 2023,
      "papers": [
       {
-       "name": "ISRO Assistant 2023 — official previous question paper",
+       "name": "ISRO Assistant 2023: official previous question paper",
        "url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/August/Assistant_2023_QP_11082026.pdf"
       }
      ]
@@ -3948,7 +3948,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 1000,
    "benefit": null,
-   "window": "recently Nov–Dec (Feb 2026 exam applied 27 Nov–18 Dec 2025)",
+   "window": "recently Nov-Dec (Feb 2026 exam applied 27 Nov-18 Dec 2025)",
    "windowMonths": [
     11,
     12
@@ -3982,12 +3982,12 @@ window.AVSAR_DATA = {
    "typicalJobs": [
     "Eligibility to apply for teacher posts in KVS, NVS, central government schools and many state and private schools"
    ],
-   "description": "CTET is an eligibility test, not a job. Clearing it makes you eligible to apply for teaching posts — the actual recruitment is done separately by KVS, NVS, state governments and schools. Paper I is for classes 1 to 5 and Paper II for classes 6 to 8. The certificate is valid for life.",
+   "description": "CTET is an eligibility test, not a job. Clearing it makes you eligible to apply for teaching posts; the actual recruitment is done separately by KVS, NVS, state governments and schools. Paper I is for classes 1 to 5 and Paper II for classes 6 to 8. The certificate is valid for life.",
    "officialExamPage": "https://ctet.nic.in/",
    "status": "closed",
-   "statusNote": "Applications for CTET September 2026 closed on 10 June 2026. The examination is on 6 September 2026 — Paper II in the morning shift (09:30 to 12:00) and Paper I in the evening shift (14:30 to 17:00). CBSE warns that if the number of candidates increases the examination may also be held on 5 September 2026 (Saturday). Results are expected by the end of October 2026.",
+   "statusNote": "Applications for CTET September 2026 closed on 10 June 2026. The examination is on 6 September 2026: Paper II in the morning shift (09:30 to 12:00) and Paper I in the evening shift (14:30 to 17:00). CBSE warns that if the number of candidates increases the examination may also be held on 5 September 2026 (Saturday). Results are expected by the end of October 2026.",
    "notification": {
-    "title": "CTET September 2026 — Information Bulletin",
+    "title": "CTET September 2026: Information Bulletin",
     "date": "2026-05-11",
     "cycle": "September 2026",
     "current": true,
@@ -3996,12 +3996,12 @@ window.AVSAR_DATA = {
    },
    "extraNotifications": [
     {
-     "title": "Public Notice — CTET September 2026",
+     "title": "Public Notice: CTET September 2026",
      "date": "2026-05-11",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/2026051163782266.pdf"
     },
     {
-     "title": "Public Notice — CTET September 2026 correction window",
+     "title": "Public Notice: CTET September 2026 correction window",
      "date": "2026-06-15",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/06/202606151389616278.pdf"
     }
@@ -4047,42 +4047,42 @@ window.AVSAR_DATA = {
    "answerKeys": [
     {
      "year": 2026,
-     "title": "CTET February 2026 — Paper I final answer key (7 Feb 2026)",
+     "title": "CTET February 2026: Paper I final answer key (7 Feb 2026)",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/20260401145739613.pdf"
     },
     {
      "year": 2026,
-     "title": "CTET February 2026 — Paper II final answer key (7 Feb 2026)",
+     "title": "CTET February 2026: Paper II final answer key (7 Feb 2026)",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/202604011258134140.pdf"
     },
     {
      "year": 2026,
-     "title": "CTET February 2026 — Paper I final answer key (8 Feb 2026)",
+     "title": "CTET February 2026: Paper I final answer key (8 Feb 2026)",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/20260401449979389.pdf"
     },
     {
      "year": 2026,
-     "title": "CTET February 2026 — Paper II final answer key (8 Feb 2026)",
+     "title": "CTET February 2026: Paper II final answer key (8 Feb 2026)",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/04/20260401628564007.pdf"
     },
     {
      "year": 2024,
-     "title": "CTET December 2024 — Paper I final answer key",
+     "title": "CTET December 2024: Paper I final answer key",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/01/2025012321.pdf"
     },
     {
      "year": 2024,
-     "title": "CTET December 2024 — Paper II final answer key",
+     "title": "CTET December 2024: Paper II final answer key",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/01/2025012315.pdf"
     },
     {
      "year": 2024,
-     "title": "CTET July 2024 — Paper I final answer key",
+     "title": "CTET July 2024: Paper I final answer key",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/08/2024080797.pdf"
     },
     {
      "year": 2024,
-     "title": "CTET July 2024 — Paper II final answer key",
+     "title": "CTET July 2024: Paper II final answer key",
      "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/08/2024080769.pdf"
     }
    ],
@@ -4099,7 +4099,7 @@ window.AVSAR_DATA = {
    "minEducation": "pg",
    "feeINR": 1150,
    "benefit": "JRF: Rs 37,000/month fellowship for 2 years (then Rs 42,000 as SRF)",
-   "window": "twice a year: roughly Mar–Apr (June cycle) and Oct–Nov (Dec cycle)",
+   "window": "twice a year: roughly Mar-Apr (June cycle) and Oct-Nov (Dec cycle)",
    "windowMonths": [
     3,
     4,
@@ -4137,7 +4137,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 125,
    "benefit": "Rs 56,100 starting basic (Level 10) for SDM/DSP-tier posts",
-   "window": "varies by year (2026: 25 Jun–3 Aug)",
+   "window": "varies by year (2026: 25 Jun-3 Aug)",
    "windowMonths": [
     6,
     7,
@@ -4175,7 +4175,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 0,
    "benefit": "Rs 12,000/yr (UG yrs 1-3), Rs 20,000/yr after",
-   "window": "typically Jun–Oct (NSP fresh + renewal window)",
+   "window": "typically Jun-Oct (NSP fresh + renewal window)",
    "windowMonths": [
     6,
     7,
@@ -4183,7 +4183,7 @@ window.AVSAR_DATA = {
     9,
     10
    ],
-   "nextExpected": "open Jun–Oct 2026 (expected)",
+   "nextExpected": "open Jun-Oct 2026 (expected)",
    "frequency": "annual",
    "official": "https://scholarships.gov.in",
    "resources": [
@@ -4219,14 +4219,14 @@ window.AVSAR_DATA = {
    "minEducation": "any",
    "feeINR": 0,
    "benefit": "Rs 12,000/yr for classes 9-12",
-   "window": "typically Aug–Nov (state exam registration; renewals on NSP)",
+   "window": "typically Aug-Nov (state exam registration; renewals on NSP)",
    "windowMonths": [
     8,
     9,
     10,
     11
    ],
-   "nextExpected": "Aug–Nov 2026 (state windows, expected)",
+   "nextExpected": "Aug-Nov 2026 (state windows, expected)",
    "frequency": "annual",
    "official": "https://scholarships.gov.in",
    "resources": [
@@ -4258,19 +4258,19 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "full fee reimbursement + Rs 2,300-13,500/yr allowance",
-   "window": "typically Jul–Oct (NSP / state scholarship portals)",
+   "window": "typically Jul-Oct (NSP / state scholarship portals)",
    "windowMonths": [
     7,
     8,
     9,
     10
    ],
-   "nextExpected": "Jul–Oct 2026 (expected)",
+   "nextExpected": "Jul-Oct 2026 (expected)",
    "frequency": "annual",
    "official": "https://scholarships.gov.in",
    "resources": [
     {
-     "label": "Dept of Social Justice — scheme page",
+     "label": "Dept of Social Justice: scheme page",
      "url": "https://socialjustice.gov.in"
     },
     {
@@ -4298,7 +4298,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "course fee up to Rs 7,000/yr + maintenance allowance",
-   "window": "typically Jun–Oct (NSP)",
+   "window": "typically Jun-Oct (NSP)",
    "windowMonths": [
     6,
     7,
@@ -4306,7 +4306,7 @@ window.AVSAR_DATA = {
     9,
     10
    ],
-   "nextExpected": "Jun–Oct 2026 (expected)",
+   "nextExpected": "Jun-Oct 2026 (expected)",
    "frequency": "annual",
    "official": "https://scholarships.gov.in",
    "resources": [
@@ -4339,7 +4339,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "Rs 50,000/yr",
-   "window": "typically Jun–Oct (NSP)",
+   "window": "typically Jun-Oct (NSP)",
    "windowMonths": [
     6,
     7,
@@ -4347,7 +4347,7 @@ window.AVSAR_DATA = {
     9,
     10
    ],
-   "nextExpected": "Jun–Oct 2026 (expected)",
+   "nextExpected": "Jun-Oct 2026 (expected)",
    "frequency": "annual",
    "official": "https://www.aicte-india.org",
    "resources": [
@@ -4379,7 +4379,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "Rs 50,000/yr",
-   "window": "typically Jun–Oct (NSP)",
+   "window": "typically Jun-Oct (NSP)",
    "windowMonths": [
     6,
     7,
@@ -4387,7 +4387,7 @@ window.AVSAR_DATA = {
     9,
     10
    ],
-   "nextExpected": "Jun–Oct 2026 (expected)",
+   "nextExpected": "Jun-Oct 2026 (expected)",
    "frequency": "annual",
    "official": "https://www.aicte-india.org",
    "resources": [
@@ -4419,7 +4419,7 @@ window.AVSAR_DATA = {
    "minEducation": "any",
    "feeINR": 0,
    "benefit": "up to Rs 1.25 lakh/yr (top-class schools, classes 11-12)",
-   "window": "typically Jun–Aug (NSP)",
+   "window": "typically Jun-Aug (NSP)",
    "windowMonths": [
     6,
     7,
@@ -4430,7 +4430,7 @@ window.AVSAR_DATA = {
    "official": "https://scholarships.gov.in",
    "resources": [
     {
-     "label": "Dept of Social Justice — YASASVI",
+     "label": "Dept of Social Justice: YASASVI",
      "url": "https://socialjustice.gov.in"
     },
     {
@@ -4458,14 +4458,14 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 0,
    "benefit": "Rs 80,000/yr (Rs 60,000 scholarship + Rs 20,000 mentorship)",
-   "window": "typically Aug–Nov",
+   "window": "typically Aug-Nov",
    "windowMonths": [
     8,
     9,
     10,
     11
    ],
-   "nextExpected": "Aug–Nov 2026 (expected)",
+   "nextExpected": "Aug-Nov 2026 (expected)",
    "frequency": "annual",
    "official": "https://online-inspire.gov.in",
    "resources": [
@@ -4496,13 +4496,13 @@ window.AVSAR_DATA = {
    "minEducation": "pg",
    "feeINR": 0,
    "benefit": "~Rs 37,000/mo stipend + contingency, 5 years",
-   "window": "typically Oct–Dec",
+   "window": "typically Oct-Dec",
    "windowMonths": [
     10,
     11,
     12
    ],
-   "nextExpected": "Oct–Dec 2026 (expected)",
+   "nextExpected": "Oct-Dec 2026 (expected)",
    "frequency": "annual",
    "official": "https://online-inspire.gov.in",
    "resources": [
@@ -4534,7 +4534,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": null,
    "benefit": "Rs 70,000-80,000/mo + Rs 2 lakh/yr research grant",
-   "window": "two cycles a year, typically May and Nov–Dec",
+   "window": "two cycles a year, typically May and Nov-Dec",
    "windowMonths": [
     5,
     11,
@@ -4572,18 +4572,18 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "full tuition + ~US$15,400/yr maintenance + airfare",
-   "window": "typically Apr–Jun",
+   "window": "typically Apr-Jun",
    "windowMonths": [
     4,
     5,
     6
    ],
-   "nextExpected": "Apr–Jun 2027 (expected; 2026 round closed)",
+   "nextExpected": "Apr-Jun 2027 (expected; 2026 round closed)",
    "frequency": "annual",
    "official": "https://nosmsje.gov.in",
    "resources": [
     {
-     "label": "Dept of Social Justice — NOS",
+     "label": "Dept of Social Justice: NOS",
      "url": "https://socialjustice.gov.in/schemes/28"
     },
     {
@@ -4611,7 +4611,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 0,
    "benefit": "Rs 5,400-7,800/mo through the UG course",
-   "window": "typically Jun–Oct (NSP)",
+   "window": "typically Jun-Oct (NSP)",
    "windowMonths": [
     6,
     7,
@@ -4651,14 +4651,14 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 0,
    "benefit": "Rs 30,000/yr (boys) / Rs 36,000/yr (girls)",
-   "window": "typically Aug–Nov (NSP)",
+   "window": "typically Aug-Nov (NSP)",
    "windowMonths": [
     8,
     9,
     10,
     11
    ],
-   "nextExpected": "Aug–Nov 2026 (expected)",
+   "nextExpected": "Aug-Nov 2026 (expected)",
    "frequency": "annual",
    "official": "https://scholarships.gov.in",
    "resources": [
@@ -4690,13 +4690,13 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 0,
    "benefit": "up to Rs 2 lakh (UG) / Rs 6 lakh (PG) over the course",
-   "window": "typically Aug–Oct",
+   "window": "typically Aug-Oct",
    "windowMonths": [
     8,
     9,
     10
    ],
-   "nextExpected": "open now (Aug–Oct 2026)",
+   "nextExpected": "open now (Aug-Oct 2026)",
    "frequency": "annual",
    "official": "https://scholarships.reliancefoundation.org",
    "resources": [
@@ -4727,7 +4727,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "80% of tuition fee (course-wise caps)",
-   "window": "typically Jul–Sep (via Buddy4Study)",
+   "window": "typically Jul-Sep (via Buddy4Study)",
    "windowMonths": [
     7,
     8,
@@ -4738,7 +4738,7 @@ window.AVSAR_DATA = {
    "official": "https://www.tatacapital.com",
    "resources": [
     {
-     "label": "Buddy4Study — Pankh application & dates",
+     "label": "Buddy4Study: Pankh application & dates",
      "url": "https://www.buddy4study.com/page/tata-capital-pankh-scholarship"
     }
    ],
@@ -4760,18 +4760,18 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 0,
    "benefit": "Rs 1.5-3 lakh/yr (by stream)",
-   "window": "typically Jun–Aug (institute nomination after admissions)",
+   "window": "typically Jun-Aug (institute nomination after admissions)",
    "windowMonths": [
     6,
     7,
     8
    ],
-   "nextExpected": "Jun–Aug 2027 (expected; 2026 round closed 10 Aug)",
+   "nextExpected": "Jun-Aug 2027 (expected; 2026 round closed 10 Aug)",
    "frequency": "annual",
    "official": "https://www.adityabirlascholars.net",
    "resources": [
     {
-     "label": "Aditya Birla Scholars — how selection works",
+     "label": "Aditya Birla Scholars: how selection works",
      "url": "https://www.adityabirlascholars.net"
     }
    ],
@@ -4794,7 +4794,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "Rs 500-3,200/mo (by course level)",
-   "window": "rolling — apply anytime",
+   "window": "rolling: apply anytime",
    "windowMonths": [],
    "nextExpected": "rolling (open year-round)",
    "frequency": "rolling",
@@ -4824,7 +4824,7 @@ window.AVSAR_DATA = {
    "minEducation": "any",
    "feeINR": 0,
    "benefit": "Rs 15,000-75,000 one-time (by level)",
-   "window": "typically Jun–Aug",
+   "window": "typically Jun-Aug",
    "windowMonths": [
     6,
     7,
@@ -4862,7 +4862,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "Rs 20,000-75,000 (by track)",
-   "window": "typically Oct–Feb (via Buddy4Study)",
+   "window": "typically Oct-Feb (via Buddy4Study)",
    "windowMonths": [
     10,
     11,
@@ -4875,7 +4875,7 @@ window.AVSAR_DATA = {
    "official": "https://www.colgate.com/en-in/smile-karo-aur-shuru-ho-jao",
    "resources": [
     {
-     "label": "Buddy4Study — Keep India Smiling page",
+     "label": "Buddy4Study: Keep India Smiling page",
      "url": "https://www.buddy4study.com/page/keep-india-smiling-foundational-scholarship-programme"
     }
    ],
@@ -4898,7 +4898,7 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "Rs 25,000-50,000",
-   "window": "typically Oct–Dec",
+   "window": "typically Oct-Dec",
    "windowMonths": [
     10,
     11,
@@ -4909,7 +4909,7 @@ window.AVSAR_DATA = {
    "official": "https://www.glowandlovelycareers.in",
    "resources": [
     {
-     "label": "Buddy4Study — scheme page",
+     "label": "Buddy4Study: scheme page",
      "url": "https://www.buddy4study.com/page/glow-and-lovely-career-foundation-scholarship"
     },
     {
@@ -4936,19 +4936,19 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 0,
    "benefit": "Rs 15,000-40,000/yr (by course)",
-   "window": "typically Sep–Dec (varies by year)",
+   "window": "typically Sep-Dec (varies by year)",
    "windowMonths": [
     9,
     10,
     11,
     12
    ],
-   "nextExpected": "Sep–Dec 2026 (expected)",
+   "nextExpected": "Sep-Dec 2026 (expected)",
    "frequency": "annual",
    "official": "https://licindia.in/golden-jubilee-foundation",
    "resources": [
     {
-     "label": "Buddy4Study — LIC GJF dates & guide",
+     "label": "Buddy4Study: LIC GJF dates & guide",
      "url": "https://www.buddy4study.com/article/lic-scholarship"
     }
    ],
@@ -5124,7 +5124,7 @@ window.AVSAR_DATA = {
    "benefit": null,
    "window": "register ~5 weeks before each test date (Aug, Sep/Oct, Nov, Dec, Mar, May, Jun)",
    "windowMonths": [],
-   "nextExpected": "Registration open for Aug–Dec 2026 dates",
+   "nextExpected": "Registration open for Aug-Dec 2026 dates",
    "frequency": "multiple",
    "official": "https://satsuite.collegeboard.org",
    "resources": [
@@ -5179,7 +5179,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Fully funded US master's: tuition, living, airfare, insurance",
-   "window": "typically Feb – mid May",
+   "window": "typically Feb - mid May",
    "windowMonths": [
     2,
     3,
@@ -5213,13 +5213,13 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Fully funded 1-year UK master's: tuition, stipend, flights",
-   "window": "typically early Aug – early Oct",
+   "window": "typically early Aug - early Oct",
    "windowMonths": [
     8,
     9,
     10
    ],
-   "nextExpected": "Open now — closes 6 Oct 2026 (for 2027/28)",
+   "nextExpected": "Open now, closes 6 Oct 2026 (for 2027/28)",
    "frequency": "annual",
    "official": "https://www.chevening.org",
    "resources": [
@@ -5246,7 +5246,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Fully funded UK master's: tuition, stipend, airfare",
-   "window": "typically Sep – mid Oct",
+   "window": "typically Sep - mid Oct",
    "windowMonths": [
     9,
     10
@@ -5278,7 +5278,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Full tuition + ~€1,400/month stipend + travel",
-   "window": "varies by programme, mostly Oct – Jan for the next autumn intake",
+   "window": "varies by programme, mostly Oct - Jan for the next autumn intake",
    "windowMonths": [
     10,
     11,
@@ -5312,7 +5312,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "€992/month stipend + tuition waiver + travel + insurance",
-   "window": "varies by course, mostly Aug – Dec (apply ~1 year ahead)",
+   "window": "varies by course, mostly Aug - Dec (apply ~1 year ahead)",
    "windowMonths": [
     8,
     9,
@@ -5320,7 +5320,7 @@ window.AVSAR_DATA = {
     11,
     12
    ],
-   "nextExpected": "Aug–Dec 2026 (deadlines vary by course)",
+   "nextExpected": "Aug-Dec 2026 (deadlines vary by course)",
    "frequency": "annual",
    "official": "https://www.daad.de/en/",
    "resources": [
@@ -5347,7 +5347,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Fully funded Oxford postgrad + ~£20,000/yr stipend",
-   "window": "typically Jun – late Jul",
+   "window": "typically Jun - late Jul",
    "windowMonths": [
     6,
     7
@@ -5379,7 +5379,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Up to US$120,000: tuition, living, one-way airfare",
-   "window": "typically Jan – 31 Mar",
+   "window": "typically Jan - 31 Mar",
    "windowMonths": [
     1,
     2,
@@ -5413,7 +5413,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": null,
    "benefit": "Loan scholarship up to Rs 20 lakh + possible gift award & travel grant",
-   "window": "typically Jan – mid/late Mar",
+   "window": "typically Jan - mid/late Mar",
    "windowMonths": [
     1,
     2,
@@ -5450,7 +5450,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Interest-free loan up to Rs 10 lakh (top 3 Fellows; up to Rs 5 lakh others)",
-   "window": "typically Jan – Apr (2026 deadline was 30 Apr)",
+   "window": "typically Jan - Apr (2026 deadline was 30 Apr)",
    "windowMonths": [
     1,
     2,
@@ -5483,7 +5483,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "50% grant + 50% loan toward tuition and living costs",
-   "window": "typically Jan – 31 Mar",
+   "window": "typically Jan - 31 Mar",
    "windowMonths": [
     1,
     2,
@@ -5515,7 +5515,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Full tuition + ~¥144,000/month + round-trip airfare",
-   "window": "typically Apr – mid May (research-student route in India)",
+   "window": "typically Apr - mid May (research-student route in India)",
    "windowMonths": [
     4,
     5
@@ -5547,7 +5547,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Fully funded Tsinghua master's: tuition, room, travel, stipend",
-   "window": "typically Apr – early Sep (global round)",
+   "window": "typically Apr - early Sep (global round)",
    "windowMonths": [
     4,
     5,
@@ -5556,7 +5556,7 @@ window.AVSAR_DATA = {
     8,
     9
    ],
-   "nextExpected": "Open now — closes 9 Sep 2026 (for 2027/28)",
+   "nextExpected": "Open now, closes 9 Sep 2026 (for 2027/28)",
    "frequency": "annual",
    "official": "https://www.schwarzmanscholars.org",
    "resources": [
@@ -5583,7 +5583,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Full funding for any Stanford graduate programme + stipend + travel",
-   "window": "typically Jun – early Oct",
+   "window": "typically Jun - early Oct",
    "windowMonths": [
     6,
     7,
@@ -5591,7 +5591,7 @@ window.AVSAR_DATA = {
     9,
     10
    ],
-   "nextExpected": "Open now — closes 6 Oct 2026 (for 2027 entry)",
+   "nextExpected": "Open now, closes 6 Oct 2026 (for 2027 entry)",
    "frequency": "annual",
    "official": "https://knight-hennessy.stanford.edu",
    "resources": [
@@ -5619,14 +5619,14 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Full Cambridge costs + ~£21,000/yr stipend + airfare",
-   "window": "typically Sep – early Dec (with the Cambridge course deadline)",
+   "window": "typically Sep - early Dec (with the Cambridge course deadline)",
    "windowMonths": [
     9,
     10,
     11,
     12
    ],
-   "nextExpected": "Sep 2026 (opens; deadlines Oct–Dec 2026 for 2027/28)",
+   "nextExpected": "Sep 2026 (opens; deadlines Oct-Dec 2026 for 2027/28)",
    "frequency": "annual",
    "official": "https://www.gatescambridge.org",
    "resources": [
@@ -5654,7 +5654,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 0,
    "benefit": "Minimum £10,000 toward UK master's tuition",
-   "window": "varies by university, mostly Jan – May",
+   "window": "varies by university, mostly Jan - May",
    "windowMonths": [
     1,
     2,
@@ -5688,7 +5688,7 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 0,
    "benefit": "Tuition-free degree + monthly stipend + housing allowance + insurance",
-   "window": "typically mid Nov – 15 Jan",
+   "window": "typically mid Nov - 15 Jan",
    "windowMonths": [
     11,
     12,
@@ -6320,7 +6320,7 @@ window.AVSAR_DATA = {
    "minEducation": "any",
    "feeINR": 0,
    "benefit": "scholarships from a few thousand to Rs 1 lakh+/yr depending on scheme",
-   "window": "portal always open; most scheme windows fall Jul–Dec",
+   "window": "portal always open; most scheme windows fall Jul-Dec",
    "windowMonths": [],
    "nextExpected": null,
    "frequency": "rolling",
@@ -6567,7 +6567,7 @@ window.AVSAR_DATA = {
    "ageMax": null,
    "minEducation": "any",
    "feeINR": 0,
-   "benefit": "monthly stipend, roughly Rs 5,000–9,000 by qualification",
+   "benefit": "monthly stipend, roughly Rs 5,000-9,000 by qualification",
    "window": "always open",
    "windowMonths": [],
    "nextExpected": null,
@@ -6588,14 +6588,14 @@ window.AVSAR_DATA = {
   },
   {
    "id": "nats-portal",
-   "name": "NATS – National Apprenticeship Training Scheme",
+   "name": "NATS: National Apprenticeship Training Scheme",
    "category": "resource",
    "oneLiner": "Ministry of Education portal placing fresh engineering/diploma graduates in 1-year paid apprenticeships with PSUs and companies; a common first step into industry.",
    "ageMin": null,
    "ageMax": null,
    "minEducation": "any",
    "feeINR": 0,
-   "benefit": "monthly stipend, typically Rs 8,000–15,000",
+   "benefit": "monthly stipend, typically Rs 8,000-15,000",
    "window": "always open",
    "windowMonths": [],
    "nextExpected": null,
@@ -6790,7 +6790,7 @@ window.AVSAR_DATA = {
    "id": "diksha",
    "name": "DIKSHA",
    "category": "resource",
-   "oneLiner": "National school-education platform (NCERT/Ministry of Education): free textbooks, videos and practice for Classes 1–12 in 30+ languages, with QR-coded textbooks.",
+   "oneLiner": "National school-education platform (NCERT/Ministry of Education): free textbooks, videos and practice for Classes 1-12 in 30+ languages, with QR-coded textbooks.",
    "ageMin": null,
    "ageMax": null,
    "minEducation": "any",
@@ -6828,7 +6828,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 550,
    "benefit": "Rs 56,100/month starting basic pay + Rs 15,500 MSP as Flying Officer",
-   "window": "typically Dec–Jan (AFCAT 1) and May–Jun (AFCAT 2)",
+   "window": "typically Dec-Jan (AFCAT 1) and May-Jun (AFCAT 2)",
    "windowMonths": [
     12,
     1,
@@ -6860,14 +6860,14 @@ window.AVSAR_DATA = {
    "typicalJobs": [
     "Flying Branch officer",
     "Ground Duty (Technical) officer",
-    "Ground Duty (Non-Technical) officer — Administration, Logistics, Accounts, Education, Meteorology"
+    "Ground Duty (Non-Technical) officer: Administration, Logistics, Accounts, Education, Meteorology"
    ],
    "description": "The Indian Air Force's officer-entry test for graduates, held twice a year as AFCAT 01 and AFCAT 02. Written test, then the Air Force Selection Board process.",
    "officialExamPage": "https://afcat.edcil.co.in/",
    "status": "exam-completed",
    "statusNote": "AFCAT 02/2026 (for courses commencing July 2027) closed for applications on 21 June 2026, after the original 19 June deadline was extended, and the examination was held on 8 August 2026. The next cycle, AFCAT 01/2027, has not been notified yet.",
    "notification": {
-    "title": "Notification for AFCAT 02/2026 — Flying Branch and Ground Duty (Technical and Non-Technical)",
+    "title": "Notification for AFCAT 02/2026: Flying Branch and Ground Duty (Technical and Non-Technical)",
     "date": "2026-05-20",
     "cycle": "AFCAT 02/2026",
     "current": true,
@@ -6908,7 +6908,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "AFCAT: 100 questions, 300 marks, 2 hours — General Awareness, Verbal Ability in English, Numerical Ability and Reasoning and Military Aptitude Test",
+     "AFCAT: 100 questions, 300 marks, 2 hours; General Awareness, Verbal Ability in English, Numerical Ability and Reasoning and Military Aptitude Test",
      "3 marks for a correct answer, 1 mark deducted for a wrong answer, nothing for un-attempted; marks are normalised across shifts",
      "Ground Duty (Technical) candidates may instead apply through the GATE Score Entry, which is exempt from the AFCAT exam and goes straight to AFSB testing",
      "NCC Special Entry is also exempt from the written exam and goes straight to AFSB testing",
@@ -6936,7 +6936,7 @@ window.AVSAR_DATA = {
    "minEducation": "pg",
    "feeINR": 1150,
    "benefit": "JRF fellowship Rs 37,000/month + HRA for PhD",
-   "window": "typically May–Jun (June session) and Nov–Dec (Dec session)",
+   "window": "typically May-Jun (June session) and Nov-Dec (Dec session)",
    "windowMonths": [
     5,
     6,
@@ -6974,12 +6974,12 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 1800,
    "benefit": null,
-   "window": "typically Sep–Oct",
+   "window": "typically Sep-Oct",
    "windowMonths": [
     9,
     10
    ],
-   "nextExpected": "Sep 5 – Oct 12, 2026 (JAM 2027, IIT Kharagpur)",
+   "nextExpected": "Sep 5 - Oct 12, 2026 (JAM 2027, IIT Kharagpur)",
    "frequency": "annual",
    "official": "https://jam.iitkgp.ac.in/",
    "resources": [
@@ -7007,14 +7007,14 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 4000,
    "benefit": "PG residency stipend (~Rs 1 lakh/month at AIIMS Delhi)",
-   "window": "typically Mar–Apr (July session) and Sep–Oct (January session)",
+   "window": "typically Mar-Apr (July session) and Sep-Oct (January session)",
    "windowMonths": [
     3,
     4,
     9,
     10
    ],
-   "nextExpected": "Sep–Oct 2026 (January 2027 session, expected)",
+   "nextExpected": "Sep-Oct 2026 (January 2027 session, expected)",
    "frequency": "biannual",
    "official": "https://www.aiimsexams.ac.in/",
    "resources": [
@@ -7106,12 +7106,12 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 100,
    "benefit": "Rs 35,400 starting basic pay (Pay Level 6) as SI",
-   "window": "typically May–Jun (2026 notification delayed, revised schedule awaited)",
+   "window": "typically May-Jun (2026 notification delayed, revised schedule awaited)",
    "windowMonths": [
     5,
     6
    ],
-   "nextExpected": "revised 2026 window awaited; exam Oct–Nov 2026 (expected)",
+   "nextExpected": "revised 2026 window awaited; exam Oct-Nov 2026 (expected)",
    "frequency": "annual",
    "official": "https://ssc.gov.in/",
    "resources": [
@@ -7176,9 +7176,9 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Paper I: 4 parts of 50 questions each — 200 marks, 2 hours, computer-based",
+     "Paper I: 4 parts of 50 questions each, 200 marks, 2 hours, computer-based",
      "Then Physical Standard Test and Physical Endurance Test",
-     "Paper II: English Language and Comprehension — 200 marks",
+     "Paper II: English Language and Comprehension, 200 marks",
      "Then a detailed medical examination"
     ],
     "title": "Scheme of examination (paragraph 12 of the official notice)",
@@ -7232,13 +7232,13 @@ window.AVSAR_DATA = {
    "source": "official",
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
-    "Assistant Manager in Grade A — Rural Development Banking Service (RDBS)",
-    "Assistant Manager — Legal, Protocol & Security Services, Rajbhasha"
+    "Assistant Manager in Grade A, Rural Development Banking Service (RDBS)",
+    "Assistant Manager: Legal, Protocol & Security Services, Rajbhasha"
    ],
    "description": "Entry-level officer post at the National Bank for Agriculture and Rural Development. Preliminary and main written exams, then an interview. NABARD does not recruit every year on a fixed date.",
    "officialExamPage": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
    "status": "not-announced",
-   "statusNote": "The Grade A 2025 recruitment is complete — select and wait lists have been published. NABARD's Grade A notifications page currently shows no live notification, and NABARD does not follow a fixed annual calendar.",
+   "statusNote": "The Grade A 2025 recruitment is complete; select and wait lists have been published. NABARD's Grade A notifications page currently shows no live notification, and NABARD does not follow a fixed annual calendar.",
    "notification": null,
    "notificationNote": "No current Grade A notification is live on NABARD's career notices page.",
    "application": {
@@ -7257,11 +7257,11 @@ window.AVSAR_DATA = {
    "eligibility": {
     "education": "Bachelor's degree with the minimum marks specified in the notification, or a relevant postgraduate degree, depending on the discipline",
     "age": "21 to 30 years in recent cycles, with relaxations for reserved categories",
-    "other": "Indian citizen. Requirements differ by discipline — read the notification when it is published."
+    "other": "Indian citizen. Requirements differ by discipline; read the notification when it is published."
    },
    "fee": "Around ₹800 in recent cycles (a reduced fee applies to SC/ST/PwBD candidates); confirm in the notification",
    "syllabus": {
-    "title": "NABARD downloads — formats and syllabus",
+    "title": "NABARD downloads: formats and syllabus",
     "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
     "source": "official",
     "verifiedAt": "2026-08-21"
@@ -7292,7 +7292,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 600,
    "benefit": "Rs 56,100 starting basic (Level 10) for SDM/DSP-grade posts",
-   "window": "varies by cycle; 72nd CCE applications ran 7–31 May 2026",
+   "window": "varies by cycle; 72nd CCE applications ran 7-31 May 2026",
    "windowMonths": [
     5,
     6
@@ -7323,8 +7323,8 @@ window.AVSAR_DATA = {
    "ageMax": null,
    "minEducation": "10th",
    "feeINR": 0,
-   "benefit": "Tuition/compulsory fees reimbursed + Rs 230–1,200/month maintenance allowance",
-   "window": "typically Jun–Oct on the National Scholarship Portal (deadlines often extended)",
+   "benefit": "Tuition/compulsory fees reimbursed + Rs 230-1,200/month maintenance allowance",
+   "window": "typically Jun-Oct on the National Scholarship Portal (deadlines often extended)",
    "windowMonths": [
     6,
     7,
@@ -7363,7 +7363,7 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 3500,
    "benefit": "AICTE stipend Rs 12,400/month during M.Pharm for GPAT-qualified students",
-   "window": "typically Dec–Jan",
+   "window": "typically Dec-Jan",
    "windowMonths": [
     12,
     1
@@ -7394,7 +7394,7 @@ window.AVSAR_DATA = {
    "ageMax": null,
    "minEducation": "any",
    "feeINR": 0,
-   "benefit": "Paid internships (typical stipends Rs 5,000–20,000/month)",
+   "benefit": "Paid internships (typical stipends Rs 5,000-20,000/month)",
    "window": "open year-round",
    "windowMonths": [],
    "nextExpected": null,
@@ -7454,7 +7454,7 @@ window.AVSAR_DATA = {
    "status": "upcoming",
    "statusNote": "CMS 2026 is over. The next notification, for CMS 2027, is scheduled for 3 March 2027 in the official UPSC Annual Calendar 2027.",
    "notification": {
-    "title": "Combined Medical Services Examination, 2026 — notification",
+    "title": "Combined Medical Services Examination, 2026: notification",
     "date": "2026-03-11",
     "cycle": "2026",
     "current": false,
@@ -7475,7 +7475,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.upsc.gov.in/sites/default/files/Calendar-Year-2027-Engl-200526.pdf"
    },
    "eligibility": {
-    "education": "MBBS — candidates who have passed the written and practical parts of the final MBBS examination may apply",
+    "education": "MBBS: candidates who have passed the written and practical parts of the final MBBS examination may apply",
     "age": "Up to 32 years for most posts, with relaxations for reserved categories",
     "other": "Indian citizen."
    },
@@ -7558,7 +7558,7 @@ window.AVSAR_DATA = {
    "feeINR": 100,
    "oneLiner": "Indian Forest Service officer entry for science, agriculture and engineering graduates; screened through the Civil Services Prelims, then a separate IFoS Mains.",
    "benefit": "Rs 56,100 starting basic (Level 10) plus allowances",
-   "window": "typically Jan–Feb (same notification as Civil Services Prelims)",
+   "window": "typically Jan-Feb (same notification as Civil Services Prelims)",
    "windowMonths": [
     1,
     2
@@ -7583,12 +7583,12 @@ window.AVSAR_DATA = {
     "Assistant Conservator of Forests",
     "Indian Forest Service officer in state forest departments and central deputation"
    ],
-   "description": "Recruits science and engineering graduates into the Indian Forest Service. Important: there is no separate IFoS Preliminary exam — candidates are screened through the Civil Services (Preliminary) Examination, then sit a separate IFoS Main examination.",
+   "description": "Recruits science and engineering graduates into the Indian Forest Service. Important: there is no separate IFoS Preliminary exam; candidates are screened through the Civil Services (Preliminary) Examination, then sit a separate IFoS Main examination.",
    "officialExamPage": "https://www.upsc.gov.in/examinations/Indian%20Forest%20Service%20%28Preliminary%29%20Examination%2C%202026%20through%20CS%28P%29%20Examination%2C%202026",
    "status": "upcoming",
    "statusNote": "IFoS 2026 is over. The next notification, for IFoS 2027 (through the CSE Preliminary Examination 2027), is scheduled for 13 January 2027 in the official UPSC Annual Calendar 2027.",
    "notification": {
-    "title": "Indian Forest Service (Preliminary) Examination, 2026 through CS(P) Examination, 2026 — notification",
+    "title": "Indian Forest Service (Preliminary) Examination, 2026 through CS(P) Examination, 2026: notification",
     "date": "2026-02-04",
     "cycle": "2026",
     "current": false,
@@ -7622,7 +7622,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Screening: the Civil Services (Preliminary) Examination — the same 2 objective papers",
+     "Screening: the Civil Services (Preliminary) Examination, the same 2 objective papers",
      "Mains: 6 descriptive papers (General English, General Knowledge and 2 optional subjects of 2 papers each)",
      "Then a Personality Test of 300 marks"
     ],
@@ -7686,7 +7686,7 @@ window.AVSAR_DATA = {
    "feeINR": 200,
    "oneLiner": "Economics and statistics postgraduates enter the Indian Economic Service or Indian Statistical Service through this three-day written exam plus viva.",
    "benefit": "Rs 56,100 starting basic (Level 10) plus allowances",
-   "window": "typically Feb–Mar (notification mid-Feb, ~3 weeks to apply)",
+   "window": "typically Feb-Mar (notification mid-Feb, ~3 weeks to apply)",
    "windowMonths": [
     2,
     3
@@ -7716,7 +7716,7 @@ window.AVSAR_DATA = {
    "status": "upcoming",
    "statusNote": "IES/ISS 2026 is over. The next notification, for 2027, is scheduled for 10 February 2027 in the official UPSC Annual Calendar 2027.",
    "notification": {
-    "title": "Indian Economic Service / Indian Statistical Service Examination, 2026 — notification",
+    "title": "Indian Economic Service / Indian Statistical Service Examination, 2026: notification",
     "date": "2026-02-11",
     "cycle": "2026",
     "current": false,
@@ -7907,8 +7907,8 @@ window.AVSAR_DATA = {
    "minEducation": "12th",
    "feeINR": 100,
    "oneLiner": "Shorthand stenographer posts in central ministries for class 12 pass candidates: one computer-based test, then a shorthand skill test.",
-   "benefit": "Rs 25,500–29,200 starting basic (Level 4–6)",
-   "window": "typically Apr–May (2026: 24 Apr–15 May)",
+   "benefit": "Rs 25,500-29,200 starting basic (Level 4-6)",
+   "window": "typically Apr-May (2026: 24 Apr-15 May)",
    "windowMonths": [
     4,
     5
@@ -7936,7 +7936,7 @@ window.AVSAR_DATA = {
    "description": "Class-12-level recruitment for shorthand stenographer posts. One computer-based test, then a shorthand skill test.",
    "officialExamPage": "https://ssc.gov.in/",
    "status": "closed",
-   "statusNote": "Applications for the 2026 examination closed on 15 May 2026. SSC's notice of 12 August 2026 fixed the computer-based examination for 9–12 September 2026.",
+   "statusNote": "Applications for the 2026 examination closed on 15 May 2026. SSC's notice of 12 August 2026 fixed the computer-based examination for 9-12 September 2026.",
    "notification": {
     "title": "Notice of Stenographer Grade 'C' and 'D' Examination, 2026",
     "date": "2026-04-24",
@@ -7972,7 +7972,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Computer-based examination: General Intelligence & Reasoning, General Awareness, English Language and Comprehension — 200 marks, 2 hours",
+     "Computer-based examination: General Intelligence & Reasoning, General Awareness, English Language and Comprehension; 200 marks, 2 hours",
      "Then a shorthand Skill Test in English or Hindi"
     ],
     "title": "Scheme of examination (inside the official notice)",
@@ -7992,7 +7992,7 @@ window.AVSAR_DATA = {
    ],
    "extraNotifications": [
     {
-     "title": "SSC notice dated 12 August 2026 — approved examination schedule",
+     "title": "SSC notice dated 12 August 2026: approved examination schedule",
      "date": "2026-08-12",
      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_12082026.pdf"
     }
@@ -8007,8 +8007,8 @@ window.AVSAR_DATA = {
    "minEducation": "pg",
    "feeINR": 100,
    "oneLiner": "Junior Hindi Translator and allied translation posts across central ministries: one objective paper plus a descriptive translation paper.",
-   "benefit": "Rs 35,400–44,900 starting basic depending on post (Level 6–7)",
-   "window": "typically Apr–May (2026: 23 Apr–14 May)",
+   "benefit": "Rs 35,400-44,900 starting basic depending on post (Level 6-7)",
+   "window": "typically Apr-May (2026: 23 Apr-14 May)",
    "windowMonths": [
     4,
     5
@@ -8035,7 +8035,7 @@ window.AVSAR_DATA = {
     "Senior Hindi Translator",
     "Hindi Pradhyapak"
    ],
-   "description": "Recruits Hindi–English translators into central ministries, departments and public bodies. One computer-based paper, then a descriptive translation paper.",
+   "description": "Recruits Hindi-English translators into central ministries, departments and public bodies. One computer-based paper, then a descriptive translation paper.",
    "officialExamPage": "https://ssc.gov.in/",
    "status": "closed",
    "statusNote": "Applications for the 2026 examination closed on 14 May 2026. SSC's notice of 12 August 2026 fixed Paper-I for 8 September 2026.",
@@ -8074,7 +8074,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Paper I: objective computer-based — General Hindi and General English, 200 marks, 2 hours",
+     "Paper I: objective computer-based; General Hindi and General English, 200 marks, 2 hours",
      "Paper II: descriptive translation and essay, 200 marks, 2 hours"
     ],
     "title": "Scheme of examination (inside the official notice)",
@@ -8089,7 +8089,7 @@ window.AVSAR_DATA = {
    "mockTests": [],
    "extraNotifications": [
     {
-     "title": "SSC notice dated 12 August 2026 — approved examination schedule",
+     "title": "SSC notice dated 12 August 2026: approved examination schedule",
      "date": "2026-08-12",
      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/notice_12082026.pdf"
     }
@@ -8104,8 +8104,8 @@ window.AVSAR_DATA = {
    "minEducation": "10th",
    "feeINR": 500,
    "oneLiner": "Railway technician posts for ITI and diploma holders who maintain locomotives, coaches, signalling and electrical systems.",
-   "benefit": "Rs 19,900–29,200 starting basic (Level 2–5) plus railway allowances",
-   "window": "varies by CEN (CEN 02/2026: 30 Jun–29 Jul 2026)",
+   "benefit": "Rs 19,900-29,200 starting basic (Level 2-5) plus railway allowances",
+   "window": "varies by CEN (CEN 02/2026: 30 Jun-29 Jul 2026)",
    "windowMonths": [],
    "nextExpected": "next Technician CEN not yet announced",
    "frequency": "varies (per CEN)",
@@ -8132,7 +8132,7 @@ window.AVSAR_DATA = {
    "status": "closed",
    "statusNote": "Applications for CEN 02/2026 closed on 29 July 2026. The examination schedule has not been announced yet.",
    "notification": {
-    "title": "CEN 02/2026 — Detailed Centralised Employment Notification, Technician categories",
+    "title": "CEN 02/2026: Detailed Centralised Employment Notification, Technician categories",
     "date": "2026-06-30",
     "cycle": "CEN 02/2026",
     "current": true,
@@ -8141,7 +8141,7 @@ window.AVSAR_DATA = {
    },
    "extraNotifications": [
     {
-     "title": "CEN 02/2026 — official FAQ",
+     "title": "CEN 02/2026: official FAQ",
      "date": "2026-06-30",
      "url": "https://rrb.indianrailways.gov.in/-/image/1783081420531FAQ_CEN_022026.pdf/examsDocuments"
     }
@@ -8199,12 +8199,12 @@ window.AVSAR_DATA = {
    "feeINR": 500,
    "oneLiner": "Junior Engineer, Depot Material Superintendent and Chemical & Metallurgical Assistant posts in the Railways, for diploma and degree engineers.",
    "benefit": "Rs 35,400 starting basic (Level 6) plus railway allowances",
-   "window": "varies by CEN (CEN 04/2026: 14 Aug–13 Sep 2026)",
+   "window": "varies by CEN (CEN 04/2026: 14 Aug-13 Sep 2026)",
    "windowMonths": [
     8,
     9
    ],
-   "nextExpected": "open now — CEN 04/2026 closes 13 Sep 2026",
+   "nextExpected": "open now; CEN 04/2026 closes 13 Sep 2026",
    "frequency": "varies (per CEN)",
    "official": "https://rrb.indianrailways.gov.in/",
    "tags": [
@@ -8230,7 +8230,7 @@ window.AVSAR_DATA = {
    "status": "open",
    "statusNote": "CEN 04/2026 for Junior Engineer and Depot Material Superintendent posts is open now: applications from 14 August to 13 September 2026 (23:59), with fee payment allowed until 15 September 2026. The earlier CEN 05/2025 examination is still in progress.",
    "notification": {
-    "title": "CEN 04/2026 — Detailed Centralised Employment Notice, Junior Engineer and Depot Material Superintendent",
+    "title": "CEN 04/2026: Detailed Centralised Employment Notice, Junior Engineer and Depot Material Superintendent",
     "date": "2026-08-13",
     "cycle": "CEN 04/2026",
     "current": true,
@@ -8239,17 +8239,17 @@ window.AVSAR_DATA = {
    },
    "extraNotifications": [
     {
-     "title": "CEN 04/2026 — Corrigendum No. 1",
+     "title": "CEN 04/2026: Corrigendum No. 1",
      "date": "2026-08-18",
      "url": "https://rrb.indianrailways.gov.in/-/image/1787108023956Corrigendum_1_CEN_04-2026.pdf/examsDocuments"
     },
     {
-     "title": "CEN 04/2026 — official FAQ",
+     "title": "CEN 04/2026: official FAQ",
      "date": "2026-08-13",
      "url": "https://rrb.indianrailways.gov.in/-/image/1787147535897FAQs_CEN_04_2026__JE_DMS_English.pdf/examsDocuments"
     },
     {
-     "title": "CEN 05/2025 — the previous Junior Engineer notice (examination in progress)",
+     "title": "CEN 05/2025: the previous Junior Engineer notice (examination in progress)",
      "date": "2025-10-28",
      "url": "https://rrb.indianrailways.gov.in/-/image/1762325215428Detailed_CEN_5_2025_JE_English_28_10_2025.pdf/examsDocuments"
     }
@@ -8281,7 +8281,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "CBT-1: 100 questions, 90 minutes — screening only",
+     "CBT-1: 100 questions, 90 minutes; screening only",
      "CBT-2: 150 questions, 120 minutes, mostly on the technical subject",
      "Negative marking of 1/3 mark per wrong answer",
      "Then document verification and medical examination"
@@ -8305,8 +8305,8 @@ window.AVSAR_DATA = {
    "minEducation": "ug",
    "feeINR": 850,
    "oneLiner": "Specialist officer posts in public sector banks (IT, agriculture, law, HR, marketing, Rajbhasha) for candidates with a matching professional degree.",
-   "benefit": "Rs 48,480 starting basic; roughly Rs 80,000–1,00,000/month gross",
-   "window": "typically Jun–Jul (2026: 1 Jul–21 Jul)",
+   "benefit": "Rs 48,480 starting basic; roughly Rs 80,000-1,00,000/month gross",
+   "window": "typically Jun-Jul (2026: 1 Jul-21 Jul)",
    "windowMonths": [
     6,
     7
@@ -8335,7 +8335,7 @@ window.AVSAR_DATA = {
     "HR / Personnel Officer",
     "Marketing Officer"
    ],
-   "description": "The common recruitment process for specialist officer posts in public sector banks — for candidates with a specific professional degree rather than a general one.",
+   "description": "The common recruitment process for specialist officer posts in public sector banks, for candidates with a specific professional degree rather than a general one.",
    "officialExamPage": "https://www.ibps.in/index.php/specialist-officers/",
    "status": "closed",
    "statusNote": "Registration for CRP SPL-XVI closed on 21 July 2026. The preliminary examination was scheduled for August 2026 and the main examination for November 2026.",
@@ -8361,7 +8361,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.ibps.in/index.php/crp-updates"
    },
    "eligibility": {
-    "education": "A professional degree matching the post — for example a four-year engineering degree in IT or Computer Science for IT Officer, or a degree in Agriculture for Agricultural Field Officer",
+    "education": "A professional degree matching the post: for example a four-year engineering degree in IT or Computer Science for IT Officer, or a degree in Agriculture for Agricultural Field Officer",
     "age": "20 to 30 years as on 1 July 2026 (born between 2 July 1996 and 1 July 2006, both inclusive), with relaxations for reserved categories",
     "other": "Indian citizen. Requirements differ post by post; read the notification."
    },
@@ -8403,7 +8403,7 @@ window.AVSAR_DATA = {
    "feeINR": 850,
    "oneLiner": "Clerical-cadre Office Assistant posts in Regional Rural Banks; local language proficiency required, and no interview.",
    "benefit": "Rs 17,900 starting basic plus allowances",
-   "window": "typically Aug–Sep (CRP RRBs-XIV: 1 Sep–21 Sep 2025)",
+   "window": "typically Aug-Sep (CRP RRBs-XIV: 1 Sep-21 Sep 2025)",
    "windowMonths": [
     8,
     9
@@ -8425,7 +8425,7 @@ window.AVSAR_DATA = {
    "source": "official",
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
-    "Office Assistant (Multipurpose) — clerical cadre in Regional Rural Banks"
+    "Office Assistant (Multipurpose), clerical cadre in Regional Rural Banks"
    ],
    "description": "The clerical-cadre entry into Regional Rural Banks, recruited through the same common process as RRB officers. Preliminary and main online exams; no interview.",
    "officialExamPage": "https://www.ibps.in/index.php/regional-rural-bank/",
@@ -8466,7 +8466,7 @@ window.AVSAR_DATA = {
    },
    "examPattern": {
     "summary": [
-     "Preliminary: 80 questions, 80 marks, 45 minutes — Reasoning and Numerical Ability",
+     "Preliminary: 80 questions, 80 marks, 45 minutes; Reasoning and Numerical Ability",
      "Main: 200 marks objective test",
      "There is no interview for Office Assistant"
     ],
@@ -8493,9 +8493,9 @@ window.AVSAR_DATA = {
    "ageMax": null,
    "minEducation": "ug",
    "feeINR": 750,
-   "oneLiner": "SBI hires specialists through many separate advertisements a year (IT, law, risk, credit, marketing) — usually shortlisting and interview, not a written exam.",
+   "oneLiner": "SBI hires specialists through many separate advertisements a year (IT, law, risk, credit, marketing); usually shortlisting and interview, not a written exam.",
    "benefit": "Varies by post and grade; most posts are Scale II and above",
-   "window": "rolling — several advertisements open through the year",
+   "window": "rolling: several advertisements open through the year",
    "windowMonths": [],
    "nextExpected": "check SBI current openings; new advertisements appear most months",
    "frequency": "rolling (multiple advertisements a year)",
@@ -8518,12 +8518,12 @@ window.AVSAR_DATA = {
     "Deputy Manager and Assistant Manager in specialist streams (IT, law, risk, credit, marketing)",
     "Assistant General Manager and Chief Manager on contract or regular basis"
    ],
-   "description": "SBI hires specialists through many separate advertisements through the year rather than one annual exam. Each advertisement has its own post, eligibility, deadline and selection method — often shortlisting and interview rather than a written test.",
+   "description": "SBI hires specialists through many separate advertisements through the year rather than one annual exam. Each advertisement has its own post, eligibility, deadline and selection method, often shortlisting and interview rather than a written test.",
    "officialExamPage": "https://sbi.bank.in/web/careers/current-openings",
    "status": "open",
-   "statusNote": "Several specialist advertisements are open at once. Advertisements CRPD/SCO/2026-27/11, /12 and /13 are open for applications from 7 August 2026 to 27 August 2026. Check the current openings page for the full live list — this is not an annual cycle.",
+   "statusNote": "Several specialist advertisements are open at once. Advertisements CRPD/SCO/2026-27/11, /12 and /13 are open for applications from 7 August 2026 to 27 August 2026. Check the current openings page for the full live list; this is not an annual cycle.",
    "notification": {
-    "title": "Engagement of Specialist Cadre Officers — advertisement CRPD/SCO/2026-27/13",
+    "title": "Engagement of Specialist Cadre Officers, advertisement CRPD/SCO/2026-27/13",
     "date": "2026-08-07",
     "cycle": "CRPD/SCO/2026-27/13",
     "current": true,
@@ -8558,7 +8558,7 @@ window.AVSAR_DATA = {
    "eligibility": {
     "education": "A professional degree or qualification matching the specific post, usually with several years of relevant experience",
     "age": "Varies by post and is stated in each advertisement",
-    "other": "Each advertisement is independent — always read the one you are applying under."
+    "other": "Each advertisement is independent; always read the one you are applying under."
    },
    "fee": "₹750 for most specialist advertisements (SC/ST/PwBD candidates are exempt); confirm in the advertisement",
    "syllabus": {
@@ -8591,9 +8591,9 @@ window.AVSAR_DATA = {
    "ageMax": null,
    "minEducation": "pg",
    "feeINR": null,
-   "oneLiner": "Manager (Grade B) direct entry at NABARD. Recruited only occasionally — the last announced process was withdrawn, so there is no annual cycle.",
+   "oneLiner": "Manager (Grade B) direct entry at NABARD. Recruited only occasionally: the last announced process was withdrawn, so there is no annual cycle.",
    "benefit": "Rs 55,200 starting basic (Grade B) plus allowances",
-   "window": "no fixed window — announced only when NABARD has vacancies",
+   "window": "no fixed window: announced only when NABARD has vacancies",
    "windowMonths": [],
    "nextExpected": "not announced",
    "frequency": "occasional",
@@ -8612,9 +8612,9 @@ window.AVSAR_DATA = {
    "source": "official",
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
-    "Manager in Grade B — Rural Development Banking Service (RDBS)"
+    "Manager in Grade B, Rural Development Banking Service (RDBS)"
    ],
-   "description": "A direct-entry manager post at NABARD, one level above Grade A. It is recruited only occasionally — there is no annual cycle, and the last announced process was withdrawn.",
+   "description": "A direct-entry manager post at NABARD, one level above Grade A. It is recruited only occasionally; there is no annual cycle, and the last announced process was withdrawn.",
    "officialExamPage": "https://www.nabard.org/careers-notices1.aspx?cid=676&id=26",
    "status": "not-announced",
    "statusNote": "NABARD's Grade B notifications page shows no live notification. The most recent Manager Grade B (RDBS) recruitment process was withdrawn by NABARD. Treat any claim of an annual Grade B exam with caution.",
@@ -8634,13 +8634,13 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
    },
    "eligibility": {
-    "education": "As specified when a notification is issued — past cycles asked for a postgraduate degree or a professional qualification with relevant experience",
+    "education": "As specified when a notification is issued; past cycles asked for a postgraduate degree or a professional qualification with relevant experience",
     "age": "As specified in the notification",
     "other": "Indian citizen."
    },
    "fee": "As specified in the notification",
    "syllabus": {
-    "title": "NABARD downloads — formats and syllabus",
+    "title": "NABARD downloads: formats and syllabus",
     "url": "https://www.nabard.org/HRMDCertificates.aspx?id=26&cid=689",
     "source": "official",
     "verifiedAt": "2026-08-21"
@@ -8669,7 +8669,7 @@ window.AVSAR_DATA = {
    "feeINR": 1000,
    "oneLiner": "Officer Grade A (Assistant Manager) at India's securities market regulator, across General, Legal, IT, Research, Official Language and Engineering streams.",
    "benefit": "Rs 62,500 starting basic; gross about Rs 1,84,000/month at Mumbai without accommodation (Rs 1,43,000/month with accommodation)",
-   "window": "varies year to year (2025 cycle: 30 Oct–28 Nov)",
+   "window": "varies year to year (2025 cycle: 30 Oct-28 Nov)",
    "windowMonths": [
     10,
     11
@@ -8691,14 +8691,14 @@ window.AVSAR_DATA = {
    "source": "official",
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
-    "Assistant Manager (Officer Grade A) at the Securities and Exchange Board of India — General, Legal, IT, Research, Official Language and Engineering streams"
+    "Assistant Manager (Officer Grade A) at the Securities and Exchange Board of India: General, Legal, IT, Research, Official Language and Engineering streams"
    ],
    "description": "Entry-level officer post at India's securities market regulator. Phase I screening test, Phase II main test, then an interview.",
    "officialExamPage": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes",
    "status": "closed",
    "statusNote": "The Officer Grade A 2025 recruitment closed for applications on 28 November 2025. Phase I was held on 10 January 2026 and Phase II on 21 February 2026.",
    "notification": {
-    "title": "Recruitment of Officer Grade A (Assistant Manager) 2025 — official advertisement",
+    "title": "Recruitment of Officer Grade A (Assistant Manager) 2025: official advertisement",
     "date": "2025-10-30",
     "cycle": "2025",
     "current": false,
@@ -8719,7 +8719,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes"
    },
    "eligibility": {
-    "education": "A degree matching the stream applied for — for example any bachelor's degree plus a postgraduate qualification for the General stream, LL.B. for Legal, or an engineering degree for the IT and Engineering streams",
+    "education": "A degree matching the stream applied for: for example any bachelor's degree plus a postgraduate qualification for the General stream, LL.B. for Legal, or an engineering degree for the IT and Engineering streams",
     "age": "Up to 30 years as on 30 September 2025 (born on or after 1 October 1995), with relaxations for reserved categories (5 years SC/ST, 3 years OBC)",
     "other": "Indian citizen. Read the stream-wise table in the advertisement."
    },
@@ -8757,7 +8757,7 @@ window.AVSAR_DATA = {
    "feeINR": 1000,
    "oneLiner": "Assistant Manager (Scale I) at GIC Re, India's national reinsurer. Recruited only when vacancies arise, not on an annual calendar.",
    "benefit": "Rs 50,925 starting basic (Scale I) plus allowances",
-   "window": "no fixed window (last drive: 4 Dec–19 Dec 2024)",
+   "window": "no fixed window (last drive: 4 Dec-19 Dec 2024)",
    "windowMonths": [],
    "nextExpected": "not announced",
    "frequency": "occasional",
@@ -8776,14 +8776,14 @@ window.AVSAR_DATA = {
    "source": "official",
    "verifiedAt": "2026-08-21",
    "typicalJobs": [
-    "Assistant Manager (Scale I) at General Insurance Corporation of India — reinsurance, actuarial, IT, finance, legal and medical streams"
+    "Assistant Manager (Scale I) at General Insurance Corporation of India: reinsurance, actuarial, IT, finance, legal and medical streams"
    ],
-   "description": "Officer entry at India's national reinsurer. GIC Re recruits only when it has vacancies, not on an annual calendar — the last drive was for 110 posts and is now complete.",
+   "description": "Officer entry at India's national reinsurer. GIC Re recruits only when it has vacancies, not on an annual calendar; the last drive was for 110 posts and is now complete.",
    "officialExamPage": "https://www.gicre.in/en/people-resources/career-en",
    "status": "not-announced",
-   "statusNote": "The Assistant Manager (Scale I) recruitment of 110 posts advertised on 4 December 2024 is complete — group discussion and interview results have been published. No new Assistant Manager advertisement is live. GIC Re does not follow an annual cycle.",
+   "statusNote": "The Assistant Manager (Scale I) recruitment of 110 posts advertised on 4 December 2024 is complete; group discussion and interview results have been published. No new Assistant Manager advertisement is live. GIC Re does not follow an annual cycle.",
    "notification": {
-    "title": "Detailed Advertisement — Recruitment of Assistant Managers (Scale I), 110 posts",
+    "title": "Detailed Advertisement: Recruitment of Assistant Managers (Scale I), 110 posts",
     "date": "2024-12-04",
     "cycle": "2024",
     "current": false,
@@ -8804,7 +8804,7 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.gicre.in/en/people-resources/career-en"
    },
    "eligibility": {
-    "education": "A degree matching the stream — for example any graduate degree for the generalist stream, MBBS for medical, or a relevant professional qualification for actuarial, legal, IT and finance streams",
+    "education": "A degree matching the stream: for example any graduate degree for the generalist stream, MBBS for medical, or a relevant professional qualification for actuarial, legal, IT and finance streams",
     "age": "21 to 30 years as on 1 November 2024 in the last drive (born between 2 November 1994 and 1 November 2003), with relaxations capped so that the maximum age does not exceed 45 years",
     "other": "Indian citizen. Each advertisement sets its own stream-wise eligibility."
    },
@@ -8839,8 +8839,8 @@ window.AVSAR_DATA = {
    "ageMax": 40,
    "minEducation": "10th",
    "feeINR": 100,
-   "oneLiner": "Village-level postal jobs (Branch Postmaster, Assistant BPM, Dak Sevak) selected purely on class 10 marks — no written exam.",
-   "benefit": "Rs 12,000–14,500 time-related continuity allowance a month",
+   "oneLiner": "Village-level postal jobs (Branch Postmaster, Assistant BPM, Dak Sevak) selected purely on class 10 marks, no written exam.",
+   "benefit": "Rs 12,000-14,500 time-related continuity allowance a month",
    "window": "notified in cycles through the official GDS portal",
    "windowMonths": [],
    "nextExpected": "check the official GDS portal for the current cycle",
@@ -8865,7 +8865,7 @@ window.AVSAR_DATA = {
     "Assistant Branch Postmaster (ABPM)",
     "Dak Sevak"
    ],
-   "description": "India Post's largest direct recruitment — village-level postal staff, selected on class 10 marks with no written examination. Notified circle by circle through the official GDS portal.",
+   "description": "India Post's largest direct recruitment: village-level postal staff, selected on class 10 marks with no written examination. Notified circle by circle through the official GDS portal.",
    "officialExamPage": "https://www.indiapost.gov.in/vacancies",
    "status": "not-announced",
    "statusNote": "GDS recruitment is notified in cycles through the official GDS online portal, not on a fixed annual date. Check the portal for the current cycle. Note: Postal Assistant and Sorting Assistant posts were not part of the latest SSC CHSL notice, and India Post has no current standalone notification for them.",
@@ -8887,11 +8887,11 @@ window.AVSAR_DATA = {
    "eligibility": {
     "education": "Class 10 pass with Mathematics and English as subjects; knowledge of the local language and a basic computer training certificate",
     "age": "18 to 40 years, with relaxations for reserved categories",
-    "other": "Cycling knowledge is required. Selection is by a merit list of class 10 marks — there is no examination."
+    "other": "Cycling knowledge is required. Selection is by a merit list of class 10 marks; there is no examination."
    },
    "fee": "₹100 (women, SC/ST, PwBD and transgender candidates are exempt)",
    "syllabus": {
-    "title": "Not applicable — GDS selection has no examination",
+    "title": "Not applicable: GDS selection has no examination",
     "url": "https://www.indiapost.gov.in/vacancies/online-gds",
     "source": "official",
     "verifiedAt": "2026-08-21"
@@ -8906,7 +8906,7 @@ window.AVSAR_DATA = {
     "url": "https://www.indiapost.gov.in/vacancies/online-gds"
    },
    "pastPapers": [],
-   "pastPapersNote": "Not applicable — there is no written examination for GDS posts.",
+   "pastPapersNote": "Not applicable: there is no written examination for GDS posts.",
    "pastPapersPage": "https://www.indiapost.gov.in/vacancies",
    "answerKeys": [],
    "answerKeysPage": "https://www.indiapost.gov.in/vacancies",
@@ -8920,9 +8920,9 @@ window.AVSAR_DATA = {
    "ageMax": 45,
    "minEducation": "ug",
    "feeINR": 100,
-   "oneLiner": "Scientist posts in DRDO's Defence Research & Development Service — Scientist 'B' through GATE, senior grades through lateral recruitment with experience.",
+   "oneLiner": "Scientist posts in DRDO's Defence Research & Development Service: Scientist 'B' through GATE, senior grades through lateral recruitment with experience.",
    "benefit": "Rs 67,700 basic (Level 11) for Scientist 'C', Rs 78,800 (Level 12) for Scientist 'D' and Rs 1,23,100 (Level 13) for Scientist 'E' in Advertisement 157",
-   "window": "no fixed window (Advt 157: 30 May–19 Jun 2026)",
+   "window": "no fixed window (Advt 157: 30 May-19 Jun 2026)",
    "windowMonths": [],
    "nextExpected": "watch the RAC website; DRDO has no fixed annual date",
    "frequency": "occasional",
@@ -8948,9 +8948,9 @@ window.AVSAR_DATA = {
    "description": "DRDO recruits scientists into the Defence Research & Development Service through its Recruitment & Assessment Centre (RAC). Entry-level Scientist 'B' recruitment uses GATE scores; senior grades are advertised as lateral recruitment with experience.",
    "officialExamPage": "https://rac.gov.in/",
    "status": "closed",
-   "statusNote": "RAC Advertisement No. 157 (Scientist C, D and E lateral recruitment, 33 posts) closed for applications on 19 June 2026. Watch the RAC website for the next advertisement — DRDO does not publish on a fixed annual date.",
+   "statusNote": "RAC Advertisement No. 157 (Scientist C, D and E lateral recruitment, 33 posts) closed for applications on 19 June 2026. Watch the RAC website for the next advertisement; DRDO does not publish on a fixed annual date.",
    "notification": {
-    "title": "RAC Advertisement No. 157 — Scientist E, D and C (lateral recruitment)",
+    "title": "RAC Advertisement No. 157: Scientist E, D and C (lateral recruitment)",
     "date": "2026-05-30",
     "cycle": "Advt 157",
     "current": true,
@@ -8959,12 +8959,12 @@ window.AVSAR_DATA = {
    },
    "extraNotifications": [
     {
-     "title": "RAC Advertisement No. 157 — brief advertisement",
+     "title": "RAC Advertisement No. 157: brief advertisement",
      "date": "2026-05-30",
      "url": "https://rac.gov.in/download/advt_157_brief.pdf"
     },
     {
-     "title": "RAC Advertisement No. 157 — official FAQ (technical posts)",
+     "title": "RAC Advertisement No. 157: official FAQ (technical posts)",
      "date": "2026-05-30",
      "url": "https://rac.gov.in/drdo/public/advt_157_faq_technical.pdf?ver=1"
     }
@@ -8999,7 +8999,7 @@ window.AVSAR_DATA = {
      "Scientist 'B' (separate advertisements): shortlisting on GATE score, then a personal interview",
      "Advertisement 157 (Scientist C, D and E lateral entry): administrative screening of identity, age, qualifications and length of experience, then biodata-based Technical Screening by an independent committee",
      "If too many clear that stage, a Preliminary Online Interview of 10 to 15 minutes is held, shortlisting up to 24 candidates per post to up to 12 for the final interview",
-     "Final Personal Interview must be attended in person at RAC, Delhi — no online option — and final selection is purely on those marks",
+     "Final Personal Interview must be attended in person at RAC, Delhi; no online option; and final selection is purely on those marks",
      "A candidate must score at least 75 out of 100 in the Final Personal Interview to be considered for selection",
      "There is no written test in Advertisement 157"
     ],
@@ -9021,14 +9021,14 @@ window.AVSAR_DATA = {
    "ageMax": 28,
    "minEducation": "10th",
    "feeINR": 500,
-   "oneLiner": "CSIR has no single national exam — its 37 laboratories and headquarters advertise separately. Live now: 43 Technician posts at CSIR headquarters, open to class 10 with ITI.",
-   "benefit": "Rs 19,900–63,200 (Pay Level 2) for the Technician posts open now",
-   "window": "rolling — advertisements appear through the year (R&A/01/2026: 18 Aug–17 Sep 2026)",
+   "oneLiner": "CSIR has no single national exam: its 37 laboratories and headquarters advertise separately. Live now: 43 Technician posts at CSIR headquarters, open to class 10 with ITI.",
+   "benefit": "Rs 19,900-63,200 (Pay Level 2) for the Technician posts open now",
+   "window": "rolling: advertisements appear through the year (R&A/01/2026: 18 Aug-17 Sep 2026)",
    "windowMonths": [
     8,
     9
    ],
-   "nextExpected": "open now — Technician (1) closes 17 Sep 2026",
+   "nextExpected": "open now; Technician (1) closes 17 Sep 2026",
    "frequency": "rolling",
    "official": "https://www.csir.res.in/career-opportunities/recruitment",
    "tags": [
@@ -9054,9 +9054,9 @@ window.AVSAR_DATA = {
    "description": "CSIR does not run one nationwide annual exam. Its 37 laboratories and its headquarters advertise posts separately, each with its own notification, deadline and selection method. Watch the central recruitment listing for the live advertisements.",
    "officialExamPage": "https://www.csir.res.in/career-opportunities/recruitment",
    "status": "open",
-   "statusNote": "CSIR headquarters advertisement R&A/01/2026 is open for 43 Technician (1) posts (Group C, Pay Level 2): applications from 18 August to 17 September 2026 (17:00). CSIR has no single national exam — its 37 laboratories and its headquarters advertise separately, and other live advertisements are listed on the same page with their own deadlines.",
+   "statusNote": "CSIR headquarters advertisement R&A/01/2026 is open for 43 Technician (1) posts (Group C, Pay Level 2): applications from 18 August to 17 September 2026 (17:00). CSIR has no single national exam: its 37 laboratories and its headquarters advertise separately, and other live advertisements are listed on the same page with their own deadlines.",
    "notification": {
-    "title": "Advertisement R&A/01/2026 — Recruitment to the post of Technician (1), 43 posts at CSIR headquarters",
+    "title": "Advertisement R&A/01/2026: Recruitment to the post of Technician (1), 43 posts at CSIR headquarters",
     "date": null,
     "cycle": "R&A/01/2026",
     "current": true,
@@ -9078,11 +9078,11 @@ window.AVSAR_DATA = {
     "sourceUrl": "https://www.csir.res.in/career-opportunities/recruitment"
    },
    "eligibility": {
-    "education": "For the live advertisement R&A/01/2026 (Technician (1), 43 posts): class 10 / SSC or equivalent with Science subjects and at least 55% marks, plus an ITI certificate or National / State Trade Certificate in the relevant trade (COPA, DTPO, CH&NM, MLT, Draughtsman, Instrument Mechanic, LACP and others) — or, in place of the ITI certificate, 2 years as an apprentice trainee or 3 years of work experience in that trade in a government body",
+    "education": "For the live advertisement R&A/01/2026 (Technician (1), 43 posts): class 10 / SSC or equivalent with Science subjects and at least 55% marks, plus an ITI certificate or National / State Trade Certificate in the relevant trade (COPA, DTPO, CH&NM, MLT, Draughtsman, Instrument Mechanic, LACP and others); or, in place of the ITI certificate, 2 years as an apprentice trainee or 3 years of work experience in that trade in a government body",
     "age": "Upper age limit 28 years as on the closing date (17/09/2026) in advertisement R&A/01/2026, with relaxation of 5 years for SC/ST, 3 years for OBC (Non-Creamy Layer) and 10 years for PwBD",
     "other": "CSIR-UGC NET is a separate national test for research fellowships and lectureship, not a CSIR staff recruitment."
    },
-   "fee": "₹500, non-refundable, for the headquarters advertisement R&A/01/2026 (Technician) that is open now — women, SC, ST, PwBD and ex-servicemen candidates pay nothing. Every CSIR advertisement sets its own fee and many laboratory and project positions charge none, so check the one you are applying under.",
+   "fee": "₹500, non-refundable, for the headquarters advertisement R&A/01/2026 (Technician) that is open now; women, SC, ST, PwBD and ex-servicemen candidates pay nothing. Every CSIR advertisement sets its own fee and many laboratory and project positions charge none, so check the one you are applying under.",
    "syllabus": {
     "title": "Requirements and selection method (inside each advertisement)",
     "url": "https://www.csir.res.in/career-opportunities/recruitment",
@@ -9110,7 +9110,7 @@ window.AVSAR_DATA = {
    "mockTests": [],
    "extraNotifications": [
     {
-     "title": "Advertisement R&A/01/2026 — Hindi version",
+     "title": "Advertisement R&A/01/2026: Hindi version",
      "date": null,
      "url": "https://www.csir.res.in/sites/default/files/2026-08/gr_ii_advertisement-hindi.pdf"
     }
@@ -9126,7 +9126,7 @@ window.AVSAR_DATA = {
    "feeINR": null,
    "oneLiner": "The common national test for Nursing Officer posts at AIIMS and participating central hospitals, conducted by AIIMS New Delhi.",
    "benefit": "Rs 44,900 starting basic (Level 7) plus allowances",
-   "window": "varies by edition — check the official NORCET page",
+   "window": "varies by edition; check the official NORCET page",
    "windowMonths": [],
    "nextExpected": "not announced",
    "frequency": "varies (per edition)",
@@ -9151,7 +9151,7 @@ window.AVSAR_DATA = {
    "description": "The common national test for Nursing Officer posts at AIIMS and participating central hospitals, conducted by AIIMS New Delhi. AIIMS also advertises Group-A non-faculty, faculty and scientist posts separately on the same portal.",
    "officialExamPage": "https://www.aiimsexams.ac.in/landingpage/courses/68dbbb27b7b096817673976e",
    "status": "not-announced",
-   "statusNote": "AIIMS publishes each NORCET edition with its own prospectus and dates on the AIIMS examination portal. Check the NORCET page for the current edition — there is no fixed annual date, and AIIMS notice documents are served through time-limited links, so we point you at the official page rather than a file.",
+   "statusNote": "AIIMS publishes each NORCET edition with its own prospectus and dates on the AIIMS examination portal. Check the NORCET page for the current edition; there is no fixed annual date, and AIIMS notice documents are served through time-limited links, so we point you at the official page rather than a file.",
    "notification": null,
    "notificationNote": "AIIMS serves its notice PDFs through expiring links, so we link the official NORCET page instead of a file that would break.",
    "application": {
@@ -9170,7 +9170,7 @@ window.AVSAR_DATA = {
    "eligibility": {
     "education": "B.Sc. (Hons) Nursing, B.Sc. Nursing, or a Diploma in General Nursing & Midwifery with the experience stated in the prospectus, plus registration with a State Nursing Council",
     "age": "Up to 30 years in recent editions, with relaxations for reserved categories",
-    "other": "Read the prospectus for the current edition — eligibility and stages change between editions."
+    "other": "Read the prospectus for the current edition: eligibility and stages change between editions."
    },
    "fee": "Set in the prospectus for each edition",
    "syllabus": {
