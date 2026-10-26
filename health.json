@@ -1,7 +1,37 @@
 {
- "checkedAt": "2026-10-19T09:20:16Z",
+ "checkedAt": "2026-10-26T09:23:10Z",
  "urlsChecked": 517,
  "badLinks": [
+  {
+   "id": "jee-main",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "cuet-ug",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "cuet-pg",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "cmat",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "nift-entrance",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in",
+   "note": "URLError"
+  },
   {
    "id": "kcet",
    "kind": "official",
@@ -124,12 +154,6 @@
   },
   {
    "id": "rrb-ntpc",
-   "kind": "resource",
-   "url": "https://indianrailways.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "rrb-ntpc",
    "kind": "officialWebsite",
    "url": "https://rrb.indianrailways.gov.in/",
    "note": "URLError"
@@ -199,12 +223,6 @@
    "kind": "resource",
    "url": "https://www.rrbapply.gov.in",
    "note": "http 404"
-  },
-  {
-   "id": "rrb-group-d",
-   "kind": "resource",
-   "url": "https://indianrailways.gov.in",
-   "note": "URLError"
   },
   {
    "id": "rrb-group-d",
@@ -283,12 +301,6 @@
    "kind": "resource",
    "url": "https://www.rrbapply.gov.in",
    "note": "http 404"
-  },
-  {
-   "id": "rrb-alp",
-   "kind": "resource",
-   "url": "https://indianrailways.gov.in",
-   "note": "URLError"
   },
   {
    "id": "rrb-alp",
@@ -531,15 +543,9 @@
    "note": "URLError"
   },
   {
-   "id": "ctet",
-   "kind": "pastPapersPage",
-   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
-   "note": "URLError"
-  },
-  {
-   "id": "ctet",
-   "kind": "answerKeysPage",
-   "url": "https://ctet.nic.in/previous-year-final-answer-key/",
+   "id": "ugc-net",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in",
    "note": "URLError"
   },
   {
@@ -609,6 +615,36 @@
    "note": "http 404"
   },
   {
+   "id": "national-career-service",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "employment-news",
+   "kind": "official",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ssc-portal",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "nta-portal",
+   "kind": "official",
+   "url": "https://www.nta.ac.in",
+   "note": "URLError"
+  },
+  {
+   "id": "nta-portal",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in/Download",
+   "note": "URLError"
+  },
+  {
    "id": "apprenticeship-india",
    "kind": "resource",
    "url": "https://nats.education.gov.in",
@@ -621,6 +657,18 @@
    "note": "URLError"
   },
   {
+   "id": "freejobalert",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "sarkari-result",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
    "id": "afcat",
    "kind": "resource",
    "url": "https://indianairforce.nic.in/",
@@ -630,6 +678,12 @@
    "id": "afcat",
    "kind": "officialWebsite",
    "url": "https://indianairforce.nic.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "csir-ugc-net",
+   "kind": "resource",
+   "url": "https://www.nta.ac.in/",
    "note": "URLError"
   },
   {
