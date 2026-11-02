@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-26T09:23:10Z",
+ "checkedAt": "2026-11-02T11:42:00Z",
  "urlsChecked": 517,
  "badLinks": [
   {
@@ -120,6 +120,66 @@
    "id": "upsc-capf-ac",
    "kind": "officialWebsite",
    "url": "https://upsc.gov.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "officialExamPage",
+   "url": "https://www.ibps.in/index.php/management-trainees/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-po",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-clerk",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
    "note": "URLError"
   },
   {
@@ -591,6 +651,12 @@
    "note": "URLError"
   },
   {
+   "id": "national-overseas-scholarship",
+   "kind": "resource",
+   "url": "https://socialjustice.gov.in/schemes/28",
+   "note": "http 503"
+  },
+  {
    "id": "pm-scholarship-scheme-capf-esm",
    "kind": "resource",
    "url": "https://ksb.gov.in",
@@ -600,6 +666,24 @@
    "id": "great-scholarships-india",
    "kind": "resource",
    "url": "https://www.britishcouncil.in/study-uk/scholarships/great-scholarships",
+   "note": "TimeoutError"
+  },
+  {
+   "id": "stipendium-hungaricum",
+   "kind": "official",
+   "url": "https://stipendiumhungaricum.hu",
+   "note": "http 500"
+  },
+  {
+   "id": "stipendium-hungaricum",
+   "kind": "resource",
+   "url": "https://stipendiumhungaricum.hu/country/india/",
+   "note": "http 500"
+  },
+  {
+   "id": "wipro-elite-nth",
+   "kind": "official",
+   "url": "https://careers.wipro.com/",
    "note": "TimeoutError"
   },
   {
@@ -613,24 +697,6 @@
    "kind": "resource",
    "url": "https://pminternship.mca.gov.in/",
    "note": "http 404"
-  },
-  {
-   "id": "national-career-service",
-   "kind": "resource",
-   "url": "https://employmentnews.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "employment-news",
-   "kind": "official",
-   "url": "https://employmentnews.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "ssc-portal",
-   "kind": "resource",
-   "url": "https://employmentnews.gov.in",
-   "note": "URLError"
   },
   {
    "id": "nta-portal",
@@ -654,18 +720,6 @@
    "id": "nats-portal",
    "kind": "official",
    "url": "https://nats.education.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "freejobalert",
-   "kind": "resource",
-   "url": "https://employmentnews.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "sarkari-result",
-   "kind": "resource",
-   "url": "https://employmentnews.gov.in",
    "note": "URLError"
   },
   {
@@ -939,6 +993,66 @@
    "note": "URLError"
   },
   {
+   "id": "ibps-so",
+   "kind": "official",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "officialExamPage",
+   "url": "https://www.ibps.in/index.php/specialist-officers/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-so",
+   "kind": "application",
+   "url": "https://www.ibps.in/index.php/specialist-officers-xvi/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "official",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "officialWebsite",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "pastPapersPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
+   "id": "ibps-rrb-office-assistant",
+   "kind": "answerKeysPage",
+   "url": "https://www.ibps.in/",
+   "note": "URLError"
+  },
+  {
    "id": "nabard-grade-b",
    "kind": "official",
    "url": "https://www.nabard.org/",
@@ -1070,17 +1184,34 @@
   "ssc-gd-constable",
   "rrb-ntpc",
   "lic-aao",
+  "csss-central-sector",
+  "post-matric-sc",
+  "post-matric-minorities",
+  "aicte-pragati",
+  "aicte-saksham",
   "pm-yasasvi",
+  "ishan-uday",
+  "reliance-foundation-scholarships",
   "tata-capital-pankh",
   "hdfc-parivartan-ecss",
+  "colgate-keep-india-smiling",
+  "glow-lovely-careers",
+  "chevening",
+  "commonwealth-masters",
+  "erasmus-mundus",
   "schwarzman-scholars",
+  "knight-hennessy",
   "tcs-nqt",
+  "wipro-elite-nth",
   "capgemini-exceller",
   "tcs-codevita",
   "mlh-fellowship",
   "teach-for-india",
   "young-india-fellowship",
   "isb-pgp-yl",
+  "iit-jam",
+  "bpsc-cce",
+  "post-matric-st",
   "rrb-je",
   "csir-recruitment"
  ],
