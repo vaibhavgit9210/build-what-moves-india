@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-02T11:42:00Z",
+ "checkedAt": "2026-11-09T12:06:54Z",
  "urlsChecked": 517,
  "badLinks": [
   {
@@ -42,6 +42,12 @@
    "id": "kcet",
    "kind": "resource",
    "url": "https://kea.kar.nic.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ap-eapcet",
+   "kind": "official",
+   "url": "https://cets.apsche.ap.gov.in",
    "note": "URLError"
   },
   {
@@ -124,62 +130,8 @@
   },
   {
    "id": "ibps-po",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "officialExamPage",
-   "url": "https://www.ibps.in/index.php/management-trainees/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-po",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-clerk",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
+   "kind": "application",
+   "url": "https://www.ibps.in/index.php/management-trainees-xvi/",
    "note": "URLError"
   },
   {
@@ -670,21 +622,9 @@
   },
   {
    "id": "stipendium-hungaricum",
-   "kind": "official",
-   "url": "https://stipendiumhungaricum.hu",
-   "note": "http 500"
-  },
-  {
-   "id": "stipendium-hungaricum",
    "kind": "resource",
    "url": "https://stipendiumhungaricum.hu/country/india/",
-   "note": "http 500"
-  },
-  {
-   "id": "wipro-elite-nth",
-   "kind": "official",
-   "url": "https://careers.wipro.com/",
-   "note": "TimeoutError"
+   "note": "http 404"
   },
   {
    "id": "pm-internship-scheme",
@@ -990,66 +930,6 @@
    "id": "rrb-je",
    "kind": "expected-source",
    "url": "https://rrb.indianrailways.gov.in/getdata?cennum=05/2025&loc=chandigarh&category=Notification",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "official",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "officialExamPage",
-   "url": "https://www.ibps.in/index.php/specialist-officers/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-so",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/specialist-officers-xvi/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "official",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "officialWebsite",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "pastPapersPage",
-   "url": "https://www.ibps.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "ibps-rrb-office-assistant",
-   "kind": "answerKeysPage",
-   "url": "https://www.ibps.in/",
    "note": "URLError"
   },
   {
