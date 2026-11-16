@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-09T12:06:54Z",
+ "checkedAt": "2026-11-16T12:02:46Z",
  "urlsChecked": 517,
  "badLinks": [
   {
@@ -31,6 +31,12 @@
    "kind": "resource",
    "url": "https://www.nta.ac.in",
    "note": "URLError"
+  },
+  {
+   "id": "icar-aieea-pg",
+   "kind": "resource",
+   "url": "https://icar.org.in",
+   "note": "TimeoutError"
   },
   {
    "id": "kcet",
@@ -129,12 +135,6 @@
    "note": "URLError"
   },
   {
-   "id": "ibps-po",
-   "kind": "application",
-   "url": "https://www.ibps.in/index.php/management-trainees-xvi/",
-   "note": "URLError"
-  },
-  {
    "id": "sbi-po",
    "kind": "notification",
    "url": "https://sbi.bank.in/documents/77530/57941/18062026_1_Detailed_Adv.2026.pdf/1f1a9532-8a2f-6e59-08a0-616d62a497b1?t=1781759726353",
@@ -163,6 +163,12 @@
    "kind": "resource",
    "url": "https://www.rrbapply.gov.in",
    "note": "http 404"
+  },
+  {
+   "id": "rrb-ntpc",
+   "kind": "resource",
+   "url": "https://indianrailways.gov.in",
+   "note": "URLError"
   },
   {
    "id": "rrb-ntpc",
@@ -235,6 +241,12 @@
    "kind": "resource",
    "url": "https://www.rrbapply.gov.in",
    "note": "http 404"
+  },
+  {
+   "id": "rrb-group-d",
+   "kind": "resource",
+   "url": "https://indianrailways.gov.in",
+   "note": "URLError"
   },
   {
    "id": "rrb-group-d",
@@ -313,6 +325,12 @@
    "kind": "resource",
    "url": "https://www.rrbapply.gov.in",
    "note": "http 404"
+  },
+  {
+   "id": "rrb-alp",
+   "kind": "resource",
+   "url": "https://indianrailways.gov.in",
+   "note": "URLError"
   },
   {
    "id": "rrb-alp",
