@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-16T12:02:46Z",
+ "checkedAt": "2026-11-23T13:36:22Z",
  "urlsChecked": 517,
  "badLinks": [
   {
@@ -27,6 +27,12 @@
    "note": "URLError"
   },
   {
+   "id": "nid-dat",
+   "kind": "resource",
+   "url": "https://www.nid.edu",
+   "note": "URLError"
+  },
+  {
    "id": "nift-entrance",
    "kind": "resource",
    "url": "https://www.nta.ac.in",
@@ -36,7 +42,7 @@
    "id": "icar-aieea-pg",
    "kind": "resource",
    "url": "https://icar.org.in",
-   "note": "TimeoutError"
+   "note": "URLError"
   },
   {
    "id": "kcet",
@@ -52,12 +58,6 @@
   },
   {
    "id": "ap-eapcet",
-   "kind": "official",
-   "url": "https://cets.apsche.ap.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "ap-eapcet",
    "kind": "resource",
    "url": "https://apsche.ap.gov.in",
    "note": "URLError"
@@ -69,69 +69,9 @@
    "note": "URLError"
   },
   {
-   "id": "upsc-cse",
-   "kind": "official",
-   "url": "https://upsc.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-cse",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-ese",
-   "kind": "official",
-   "url": "https://upsc.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-ese",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-cds",
-   "kind": "official",
-   "url": "https://upsc.gov.in",
-   "note": "URLError"
-  },
-  {
    "id": "upsc-cds",
    "kind": "resource",
    "url": "https://joinindianarmy.nic.in",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-cds",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-nda",
-   "kind": "official",
-   "url": "https://upsc.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-nda",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-capf-ac",
-   "kind": "official",
-   "url": "https://upsc.gov.in",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-capf-ac",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
    "note": "URLError"
   },
   {
@@ -657,6 +597,24 @@
    "note": "http 404"
   },
   {
+   "id": "national-career-service",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "employment-news",
+   "kind": "official",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "ssc-portal",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
    "id": "nta-portal",
    "kind": "official",
    "url": "https://www.nta.ac.in",
@@ -678,6 +636,18 @@
    "id": "nats-portal",
    "kind": "official",
    "url": "https://nats.education.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "freejobalert",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
+   "note": "URLError"
+  },
+  {
+   "id": "sarkari-result",
+   "kind": "resource",
+   "url": "https://employmentnews.gov.in",
    "note": "URLError"
   },
   {
@@ -703,6 +673,12 @@
    "kind": "resource",
    "url": "https://icaiexam.icai.org/",
    "note": "URLError"
+  },
+  {
+   "id": "pmkvy-4",
+   "kind": "official",
+   "url": "https://www.skillindiadigital.gov.in/",
+   "note": "http 404"
   },
   {
    "id": "nabard-grade-a",
@@ -768,42 +744,6 @@
    "id": "gpat",
    "kind": "resource",
    "url": "https://www.aicte-india.org/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-cms",
-   "kind": "official",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-cms",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-ifos",
-   "kind": "official",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-ifos",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-ies-iss",
-   "kind": "official",
-   "url": "https://upsc.gov.in/",
-   "note": "URLError"
-  },
-  {
-   "id": "upsc-ies-iss",
-   "kind": "officialWebsite",
-   "url": "https://upsc.gov.in/",
    "note": "URLError"
   },
   {
